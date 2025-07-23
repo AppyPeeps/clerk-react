@@ -56,10 +56,8 @@ const AuthenticatedRoutes = withCoreUserGuard(() => {
 export const OrganizationProfile = withCardStateProvider(_OrganizationProfile);
 
 export const OrganizationProfileModal = (props: OrganizationProfileModalProps): JSX.Element => {
-  const { customInviteMetadata, ...rest } = props;
   const organizationProfileProps: OrganizationProfileCtx = {
-    ...rest,
-    customInviteMetadata,
+    ...props,
     routing: 'virtual',
     componentName: 'OrganizationProfile',
     mode: 'modal',
