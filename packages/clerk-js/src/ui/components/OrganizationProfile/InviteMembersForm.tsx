@@ -27,10 +27,11 @@ type InviteMembersFormProps = {
   onReset?: () => void;
   primaryButtonLabel?: LocalizationKey;
   resetButtonLabel?: LocalizationKey;
+  customInviteMetadata?: Record<string, unknown>;
 };
 
 export const InviteMembersForm = (props: InviteMembersFormProps) => {
-  const { onSuccess, onReset, resetButtonLabel } = props;
+  const { onSuccess, onReset, resetButtonLabel, customInviteMetadata } = props;
   const { organization, invitations } = useOrganization({
     invitations: {
       pageSize: 10,
@@ -95,6 +96,7 @@ export const InviteMembersForm = (props: InviteMembersFormProps) => {
       .inviteMembers({
         emailAddresses: emailAddressField.value.split(','),
         role: submittedData.get('role') as string,
+        unsafeMetadata: customInviteMetadata,
       })
       .then(async () => {
         await invitations?.revalidate?.();

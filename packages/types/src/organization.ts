@@ -105,11 +105,13 @@ export interface AddMemberParams {
 export interface InviteMemberParams {
   emailAddress: string;
   role: OrganizationCustomRoleKey;
+  unsafeMetadata?: Record<string, unknown>;
 }
 
 export interface InviteMembersParams {
   emailAddresses: string[];
   role: OrganizationCustomRoleKey;
+  unsafeMetadata?: Record<string, unknown>;
 }
 
 export interface UpdateMembershipParams {
