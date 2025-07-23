@@ -1,5 +1,5 @@
 {
-  "name": "@clerk/javascript",
+  "name": "@AppyPeeps/clerk-react",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
@@ -151,6 +151,9 @@
   "engines": {
     "node": ">=18.17.0",
     "pnpm": ">=10.12.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
