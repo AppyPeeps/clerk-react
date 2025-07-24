@@ -27,7 +27,8 @@ export const InviteMembersScreen = withCardStateProvider((props: InviteMembersSc
   const wizard = useWizard({ onNextStep: () => card.setError(undefined) });
   const { organization } = useOrganization();
   //@ts-expect-error
-  const { __unstable_manageBillingUrl, __unstable_manageBillingMembersLimit } = useOrganizationProfileContext();
+  const { __unstable_manageBillingUrl, __unstable_manageBillingMembersLimit, customInviteMetadata } =
+    useOrganizationProfileContext();
 
   if (!organization) {
     return null;
@@ -53,6 +54,7 @@ export const InviteMembersScreen = withCardStateProvider((props: InviteMembersSc
         <InviteMembersForm
           onSuccess={wizard.nextStep}
           onReset={onReset}
+          customInviteMetadata={customInviteMetadata}
         />
       </FormContainer>
       <SuccessPage

@@ -1458,6 +1458,12 @@ export type OrganizationProfileProps = RoutingOptions & {
    * @experimental
    **/
   apiKeysProps?: APIKeysProps;
+
+  /**
+   * Custom metadata to be sent when inviting a user to an organization
+   * via the OrganizationProfile member management page.
+   */
+  customInviteMetadata?: Record<string, unknown>;
 };
 
 export type OrganizationProfileModalProps = WithoutRouting<OrganizationProfileProps>;
@@ -2039,11 +2045,13 @@ export type SignUpButtonProps = (SignUpButtonPropsModal | ButtonPropsRedirect) &
 export type CreateOrganizationInvitationParams = {
   emailAddress: string;
   role: OrganizationCustomRoleKey;
+  unsafeMetadata?: Record<string, unknown>;
 };
 
 export type CreateBulkOrganizationInvitationParams = {
   emailAddresses: string[];
   role: OrganizationCustomRoleKey;
+  unsafeMetadata?: Record<string, unknown>;
 };
 
 /**

@@ -5,6 +5,7 @@ import React from 'react';
 
 import { ClerkAPIResponseError } from '../../../../core/resources';
 import { render } from '../../../../testUtils';
+import { OrganizationProfileContext } from '../../../contexts';
 import { Action } from '../../../elements/Action';
 import { clearFetchCache } from '../../../hooks';
 import { bindCreateFixtures } from '../../../utils/test/createFixtures';
@@ -479,6 +480,69 @@ describe('InviteMembersPage', () => {
         expect(fixtures.clerk.organization?.inviteMembers).toHaveBeenCalledWith({
           emailAddresses: ['test+1@clerk.com'],
           role: 'admin',
+        });
+      });
+    });
+
+    it('sends invite with unsafeMetadata', async () => {
+      const { wrapper, fixtures } = await createFixtures(f => {
+        f.withOrganizations();
+        f.withUser({
+          email_addresses: ['test@clerk.com'],
+          organization_memberships: [{ name: 'Org1', role: 'admin' }],
+        });
+      });
+
+      fixtures.clerk.organization?.getRoles.mockResolvedValue({
+        total_count: 2,
+        data: [
+          {
+            pathRoot: '',
+            reload: jest.fn(),
+            id: 'member',
+            key: 'member',
+            name: 'member',
+            description: '',
+            permissions: [],
+            createdAt: new Date(),
+            updatedAt: new Date(),
+          },
+          {
+            pathRoot: '',
+            reload: jest.fn(),
+            id: 'admin',
+            key: 'admin',
+            name: 'Admin',
+            description: '',
+            permissions: [],
+            createdAt: new Date(),
+            updatedAt: new Date(),
+          },
+        ],
+      });
+
+      fixtures.clerk.organization?.inviteMembers.mockResolvedValueOnce([{}] as OrganizationInvitationResource[]);
+      const { getByRole, userEvent, getByText, getByTestId } = render(
+        <OrganizationProfileContext.Provider
+          value={{ componentName: 'OrganizationProfile', customInviteMetadata: { foo: 'bar' } } as any}
+        >
+          <Action.Root>
+            <InviteMembersScreen />
+          </Action.Root>
+        </OrganizationProfileContext.Provider>,
+        {
+          wrapper,
+        },
+      );
+      await userEvent.type(getByTestId('tag-input'), 'test+1@clerk.com,');
+      await userEvent.click(getByRole('button', { name: 'Select role' }));
+      await userEvent.click(getByText('Admin'));
+      await userEvent.click(getByRole('button', { name: 'Send invitations' }));
+      await waitFor(() => {
+        expect(fixtures.clerk.organization?.inviteMembers).toHaveBeenCalledWith({
+          emailAddresses: ['test+1@clerk.com'],
+          role: 'admin',
+          unsafeMetadata: { foo: 'bar' },
         });
       });
     });
