@@ -1,4 +1,4 @@
-import type { Clerk } from '@clerk/types';
+import type { Clerk } from '@appypeeps/clerk-types';
 
 import { $clerk } from '../stores/internal';
 import type { InternalUIComponentId } from '../types';

@@ -1,5 +1,5 @@
-import { createClerkClient } from '@clerk/backend';
-import { isTruthy } from '@clerk/shared/underscore';
+import { createClerkClient } from '@appypeeps/clerk-backend';
+import { isTruthy } from '@appypeeps/clerk-shared/underscore';
 import type { H3Event } from 'h3';
 
 // @ts-expect-error: Nitro import. Handled by Nuxt.

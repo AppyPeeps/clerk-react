@@ -1,4 +1,4 @@
-import type { __experimental_SubscriptionDetailsButtonProps } from '@clerk/types';
+import type { __experimental_SubscriptionDetailsButtonProps } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { useAuth } from '../hooks';
@@ -12,8 +12,8 @@ import { withClerk } from './withClerk';
  *
  * @example
  * ```tsx
- * import { SignedIn } from '@clerk/clerk-react';
- * import { SubscriptionDetailsButton } from '@clerk/clerk-react/experimental';
+ * import { SignedIn } from '@appypeeps/clerk-react';
+ * import { SubscriptionDetailsButton } from '@appypeeps/clerk-react/experimental';
  *
  * // Basic usage with default "Subscription details" text
  * function BasicSubscriptionDetails() {

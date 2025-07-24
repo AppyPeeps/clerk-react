@@ -1,5 +1,5 @@
-import { useOrganization } from '@clerk/shared/react';
-import type { GetRolesParams } from '@clerk/types';
+import { useOrganization } from '@appypeeps/clerk-shared/react';
+import type { GetRolesParams } from '@appypeeps/clerk-types';
 
 import { useLocalizations } from '../localization';
 import { customRoleLocalizationKey, roleLocalizationKey } from '../utils/roleLocalizationKey';

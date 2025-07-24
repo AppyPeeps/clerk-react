@@ -1,4 +1,4 @@
-import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
+import { clerkMiddleware, createRouteMatcher } from '@appypeeps/clerk-nextjs/server';
 
 const csp = `default-src 'self';
   script-src 'self' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' 'nonce-deadbeef';

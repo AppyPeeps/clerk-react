@@ -1,7 +1,7 @@
 /**
  * Re-export utilities
  */
-export { verifyToken, createClerkClient } from '@clerk/backend';
+export { verifyToken, createClerkClient } from '@appypeeps/clerk-backend';
 
 /**
  * Re-export types
@@ -29,7 +29,7 @@ export type {
   SMSMessage,
   Token,
   User,
-} from '@clerk/backend';
+} from '@appypeeps/clerk-backend';
 
 export { clerkMiddleware } from './clerk-middleware';
 export { createRouteMatcher } from './route-matcher';

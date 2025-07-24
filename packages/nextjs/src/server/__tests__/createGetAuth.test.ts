@@ -1,4 +1,4 @@
-import { AuthStatus, constants } from '@clerk/backend/internal';
+import { AuthStatus, constants } from '@appypeeps/clerk-backend/internal';
 import { NextRequest } from 'next/server';
 import { describe, expect, it } from 'vitest';
 

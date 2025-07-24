@@ -1,4 +1,4 @@
-import { SignedIn, SignedOut, UserButton } from '@clerk/react-router';
+import { SignedIn, SignedOut, UserButton } from '@appypeeps/clerk-react-router';
 import type { Route } from './+types/home';
 
 export function meta({}: Route.MetaArgs) {

@@ -1,5 +1,5 @@
-import type { AuthObject } from '@clerk/backend';
-import type { Without } from '@clerk/types';
+import type { AuthObject } from '@appypeeps/clerk-backend';
+import type { Without } from '@appypeeps/clerk-types';
 import { headers } from 'next/headers';
 import type { PropsWithChildren } from 'react';
 import React from 'react';

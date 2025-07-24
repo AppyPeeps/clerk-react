@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/consistent-type-imports */
-import type { CommerceCheckoutResource, EnvironmentResource } from '@clerk/types';
+import type { CommerceCheckoutResource, EnvironmentResource } from '@appypeeps/clerk-types';
 import type { Stripe, StripeElements } from '@stripe/stripe-js';
 import { type PropsWithChildren, ReactNode, useCallback, useEffect, useMemo, useState } from 'react';
 import React from 'react';

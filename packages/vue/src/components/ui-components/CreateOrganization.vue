@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ClerkHostRenderer } from '../ClerkHostRenderer';
 import { useClerk } from '../../composables';
-import type { CreateOrganizationProps } from '@clerk/types';
+import type { CreateOrganizationProps } from '@appypeeps/clerk-types';
 
 const clerk = useClerk();
 const props = defineProps<CreateOrganizationProps>();

@@ -1,5 +1,12 @@
-import { createCheckAuthorization, resolveAuthState } from '@clerk/shared/authorization';
-import type { Clerk, GetToken, JwtPayload, PendingSessionOptions, SignOut, UseAuthReturn } from '@clerk/types';
+import { createCheckAuthorization, resolveAuthState } from '@appypeeps/clerk-shared/authorization';
+import type {
+  Clerk,
+  GetToken,
+  JwtPayload,
+  PendingSessionOptions,
+  SignOut,
+  UseAuthReturn,
+} from '@appypeeps/clerk-types';
 import { computed, type ShallowRef, watch } from 'vue';
 
 import { errorThrower } from '../errors/errorThrower';
@@ -61,7 +68,7 @@ type UseAuth = (options?: PendingSessionOptions) => ToComputedRefs<UseAuthReturn
  *
  * @example
  * <script setup>
- * import { useAuth } from '@clerk/vue'
+ * import { useAuth } from '@appypeeps/clerk-vue'
  *
  * const { isSignedIn, sessionId, userId } = useAuth()
  * </script>

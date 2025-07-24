@@ -1,4 +1,4 @@
-import type { RoleJSON, RoleResource } from '@clerk/types';
+import type { RoleJSON, RoleResource } from '@appypeeps/clerk-types';
 
 import { unixEpochToDate } from '../../utils/date';
 import { BaseResource } from './internal';

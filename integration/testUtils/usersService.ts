@@ -1,4 +1,4 @@
-import type { APIKey, ClerkClient, Organization, User } from '@clerk/backend';
+import type { APIKey, ClerkClient, Organization, User } from '@appypeeps/clerk-backend';
 import { faker } from '@faker-js/faker';
 
 import { hash } from '../models/helpers';

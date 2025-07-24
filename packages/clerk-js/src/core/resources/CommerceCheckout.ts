@@ -1,11 +1,11 @@
-import { retry } from '@clerk/shared/retry';
+import { retry } from '@appypeeps/clerk-shared/retry';
 import type {
   CommerceCheckoutJSON,
   CommerceCheckoutResource,
   CommerceCheckoutTotals,
   CommerceSubscriptionPlanPeriod,
   ConfirmCheckoutParams,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { commerceTotalsFromJSON } from '../../utils';
 import { BaseResource, CommercePaymentSource, CommercePlan, isClerkAPIResponseError } from './internal';

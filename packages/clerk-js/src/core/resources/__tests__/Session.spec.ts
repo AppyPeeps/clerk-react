@@ -1,4 +1,4 @@
-import type { InstanceType, OrganizationJSON, SessionJSON } from '@clerk/types';
+import type { InstanceType, OrganizationJSON, SessionJSON } from '@appypeeps/clerk-types';
 import { afterEach, beforeEach, describe, expect, it, type Mock, vi } from 'vitest';
 
 import { eventBus } from '../../events';

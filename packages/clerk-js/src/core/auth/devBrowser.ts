@@ -1,6 +1,10 @@
-import { DEV_BROWSER_JWT_HEADER, extractDevBrowserJWTFromURL, setDevBrowserJWTInURL } from '@clerk/shared/devBrowser';
-import { parseErrors } from '@clerk/shared/error';
-import type { ClerkAPIErrorJSON } from '@clerk/types';
+import {
+  DEV_BROWSER_JWT_HEADER,
+  extractDevBrowserJWTFromURL,
+  setDevBrowserJWTInURL,
+} from '@appypeeps/clerk-shared/devBrowser';
+import { parseErrors } from '@appypeeps/clerk-shared/error';
+import type { ClerkAPIErrorJSON } from '@appypeeps/clerk-types';
 
 import { isDevOrStagingUrl } from '../../utils';
 import { clerkErrorDevInitFailed } from '../errors';

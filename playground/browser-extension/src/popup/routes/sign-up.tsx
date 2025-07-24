@@ -1,4 +1,4 @@
-import { SignUp } from "@clerk/chrome-extension";
+import { SignUp } from "@appypeeps/clerk-chrome-extension";
 
 export const SignUpPage = () => {
   return (

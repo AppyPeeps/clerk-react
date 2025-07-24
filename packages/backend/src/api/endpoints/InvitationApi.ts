@@ -1,4 +1,4 @@
-import type { ClerkPaginationRequest } from '@clerk/types';
+import type { ClerkPaginationRequest } from '@appypeeps/clerk-types';
 
 import { joinPaths } from '../../util/path';
 import type { PaginatedResourceResponse } from '../resources/Deserializer';
@@ -23,7 +23,7 @@ type GetInvitationListParams = ClerkPaginationRequest<{
    * @example
    * Get all revoked invitations
    * ```ts
-   * import { createClerkClient } from '@clerk/backend';
+   * import { createClerkClient } from '@appypeeps/clerk-backend';
    * const clerkClient = createClerkClient(...)
    * await clerkClient.invitations.getInvitationList({ status: 'revoked' })
    * ```
@@ -35,7 +35,7 @@ type GetInvitationListParams = ClerkPaginationRequest<{
    * @example
    * Get all invitations for a specific email address
    * ```ts
-   * import { createClerkClient } from '@clerk/backend';
+   * import { createClerkClient } from '@appypeeps/clerk-backend';
    * const clerkClient = createClerkClient(...)
    * await clerkClient.invitations.getInvitationList({ query: 'user@example.com' })
    * ```

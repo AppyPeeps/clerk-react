@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import type { UserResource } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { UserResource } from '@appypeeps/clerk-types';
 
 type UseMultipleSessionsParam = {
   user: UserResource | null | undefined;

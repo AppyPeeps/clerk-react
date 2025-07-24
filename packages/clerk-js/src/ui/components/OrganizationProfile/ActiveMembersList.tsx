@@ -1,5 +1,5 @@
-import { useOrganization, useUser } from '@clerk/shared/react';
-import type { OrganizationMembershipResource } from '@clerk/types';
+import { useOrganization, useUser } from '@appypeeps/clerk-shared/react';
+import type { OrganizationMembershipResource } from '@appypeeps/clerk-types';
 
 import { useCardState } from '@/ui/elements/contexts';
 import { ThreeDotsMenu } from '@/ui/elements/ThreeDotsMenu';

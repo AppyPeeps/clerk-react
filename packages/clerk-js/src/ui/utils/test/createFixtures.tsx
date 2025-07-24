@@ -1,4 +1,4 @@
-import type { ClerkOptions, ClientJSON, EnvironmentJSON, LoadedClerk } from '@clerk/types';
+import type { ClerkOptions, ClientJSON, EnvironmentJSON, LoadedClerk } from '@appypeeps/clerk-types';
 import { jest } from '@jest/globals';
 
 import { FlowMetadataProvider } from '@/ui/elements/contexts';

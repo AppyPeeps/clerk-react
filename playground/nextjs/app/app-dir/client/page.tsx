@@ -1,5 +1,5 @@
 'use client';
-import { SignedIn, SignedOut } from '@clerk/nextjs';
+import { SignedIn, SignedOut } from '@appypeeps/clerk-nextjs';
 
 export default function Page() {
   return (

@@ -10,7 +10,7 @@ import type {
   SignInRedirectOptions,
   SignUpRedirectOptions,
   Without,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import type React from 'react';
 
 declare global {
@@ -24,7 +24,7 @@ declare global {
 export type IsomorphicClerkOptions = Without<ClerkOptions, 'isSatellite'> & {
   Clerk?: ClerkProp;
   /**
-   * The URL that `@clerk/clerk-js` should be hot-loaded from.
+   * The URL that `@appypeeps/clerk-js` should be hot-loaded from.
    */
   clerkJSUrl?: string;
   /**
@@ -32,7 +32,7 @@ export type IsomorphicClerkOptions = Without<ClerkOptions, 'isSatellite'> & {
    */
   clerkJSVariant?: 'headless' | '';
   /**
-   * The npm version for `@clerk/clerk-js`.
+   * The npm version for `@appypeeps/clerk-js`.
    */
   clerkJSVersion?: string;
   /**
@@ -40,7 +40,7 @@ export type IsomorphicClerkOptions = Without<ClerkOptions, 'isSatellite'> & {
    */
   publishableKey: string;
   /**
-   * This nonce value will be passed through to the `@clerk/clerk-js` script tag. Use it to implement a [strict-dynamic CSP](https://clerk.com/docs/security/clerk-csp#implementing-a-strict-dynamic-csp). Requires the `dynamic` prop to also be set.
+   * This nonce value will be passed through to the `@appypeeps/clerk-js` script tag. Use it to implement a [strict-dynamic CSP](https://clerk.com/docs/security/clerk-csp#implementing-a-strict-dynamic-csp). Requires the `dynamic` prop to also be set.
    */
   nonce?: string;
 } & MultiDomainAndOrProxy;

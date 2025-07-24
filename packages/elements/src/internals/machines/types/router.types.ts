@@ -1,4 +1,4 @@
-import type { ClerkRouter } from '@clerk/shared/router';
+import type { ClerkRouter } from '@appypeeps/clerk-shared/router';
 import type {
   ClerkResource,
   EnterpriseSSOStrategy,
@@ -7,7 +7,7 @@ import type {
   SamlStrategy,
   SignInStrategy,
   Web3Strategy,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import type { ActorRefFrom } from 'xstate';
 
 import type { ClerkElementsError } from '~/internals/errors';

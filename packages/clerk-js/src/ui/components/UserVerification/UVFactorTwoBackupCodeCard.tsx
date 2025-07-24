@@ -1,4 +1,4 @@
-import { useSession } from '@clerk/shared/react';
+import { useSession } from '@appypeeps/clerk-shared/react';
 import React from 'react';
 
 import { Card } from '@/ui/elements/Card';

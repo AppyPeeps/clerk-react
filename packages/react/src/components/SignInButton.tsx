@@ -1,4 +1,4 @@
-import type { SignInButtonProps, SignInProps } from '@clerk/types';
+import type { SignInButtonProps, SignInProps } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import type { WithClerkProp } from '../types';

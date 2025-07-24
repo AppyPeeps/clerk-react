@@ -1,4 +1,4 @@
-import type { Appearance, BaseTheme } from '@clerk/types';
+import type { Appearance, BaseTheme } from '@appypeeps/clerk-types';
 
 /**
  * Extracts cssLayerName from baseTheme and moves it to appearance level.

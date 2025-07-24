@@ -1,5 +1,5 @@
-import { useSession } from '@clerk/shared/react';
-import type { SessionVerificationLevel } from '@clerk/types';
+import { useSession } from '@appypeeps/clerk-shared/react';
+import type { SessionVerificationLevel } from '@appypeeps/clerk-types';
 import { useMemo } from 'react';
 
 import { LoadingCard } from '@/ui/elements/LoadingCard';

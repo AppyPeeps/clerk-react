@@ -1,5 +1,5 @@
 import React from 'react';
-import { SignedIn, SignedOut, SignOutButton } from '@clerk/nextjs';
+import { SignedIn, SignedOut, SignOutButton } from '@appypeeps/clerk-nextjs';
 import Link from 'next/link';
 
 function Card({ children, title }: { children: React.ReactNode; title: string }) {

@@ -1,3 +1,3 @@
-import { passkeys } from '@clerk/expo-passkeys';
+import { passkeys } from '@appypeeps/clerk-expo-passkeys';
 
 export { passkeys };

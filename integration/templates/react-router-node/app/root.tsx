@@ -1,6 +1,6 @@
 import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration } from 'react-router';
-import { rootAuthLoader } from '@clerk/react-router/ssr.server';
-import { ClerkProvider } from '@clerk/react-router';
+import { rootAuthLoader } from '@appypeeps/clerk-react-router/ssr.server';
+import { ClerkProvider } from '@appypeeps/clerk-react-router';
 
 import type { Route } from './+types/root';
 

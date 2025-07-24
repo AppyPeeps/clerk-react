@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/vue",
-  "version": "1.8.19",
+  "name": "@appypeeps/clerk-vue",
+  "version": "0.0.1",
   "description": "Clerk SDK for Vue",
   "keywords": [
     "clerk",
@@ -57,8 +57,8 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@clerk/shared": "workspace:^",
-    "@clerk/types": "workspace:^"
+    "@appypeeps/clerk-shared": "workspace:^",
+    "@appypeeps/clerk-types": "workspace:^"
   },
   "devDependencies": {
     "@testing-library/vue": "^8.1.0",
@@ -75,6 +75,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

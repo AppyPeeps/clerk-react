@@ -1,5 +1,5 @@
-import { useOrganization } from '@clerk/shared/react';
-import type { OrganizationProfileModalProps, OrganizationProfileProps } from '@clerk/types';
+import { useOrganization } from '@appypeeps/clerk-shared/react';
+import type { OrganizationProfileModalProps, OrganizationProfileProps } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { withCardStateProvider } from '@/ui/elements/contexts';

@@ -1,4 +1,4 @@
-import type { DeletedObjectJSON, DeletedObjectResource } from '@clerk/types';
+import type { DeletedObjectJSON, DeletedObjectResource } from '@appypeeps/clerk-types';
 
 export class DeletedObject implements DeletedObjectResource {
   object = '';

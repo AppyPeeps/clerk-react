@@ -2,7 +2,7 @@ import type {
   __experimental_CheckoutCacheState,
   __experimental_CheckoutInstance,
   __experimental_CheckoutOptions,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import type { Clerk } from '../../clerk';
 import { type CheckoutKey, createCheckoutManager } from './manager';

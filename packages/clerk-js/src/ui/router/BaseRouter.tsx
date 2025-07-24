@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import type { NavigateOptions } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { NavigateOptions } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { getQueryParams, stringifyQueryParams, trimTrailingSlash } from '../../utils';

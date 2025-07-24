@@ -1,4 +1,4 @@
-import { eventFrameworkMetadata } from '@clerk/shared/telemetry';
+import { eventFrameworkMetadata } from '@appypeeps/clerk-shared/telemetry';
 
 import { useClerk } from '../client-boundary/hooks';
 import { usePagesRouter } from '../client-boundary/hooks/usePagesRouter';

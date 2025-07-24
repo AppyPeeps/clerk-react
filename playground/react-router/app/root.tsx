@@ -6,8 +6,8 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
-import { rootAuthLoader } from "@clerk/react-router/ssr.server";
-import { ClerkProvider, SignedIn, SignedOut, UserButton, SignInButton } from "@clerk/react-router";
+import { rootAuthLoader } from "@appypeeps/clerk-react-router/ssr.server";
+import { ClerkProvider, SignedIn, SignedOut, UserButton, SignInButton } from "@appypeeps/clerk-react-router";
 
 import type { Route } from "./+types/root";
 import stylesheet from "./app.css?url";

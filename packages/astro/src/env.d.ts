@@ -31,7 +31,7 @@ declare namespace App {
   }
 }
 
-declare module 'virtual:@clerk/astro/config' {
+declare module 'virtual:@appypeeps/clerk-astro/config' {
   import type { AstroConfig } from 'astro';
 
   export const astroConfig: AstroConfig;

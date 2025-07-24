@@ -1,4 +1,4 @@
-import { useOrganization, useOrganizationList, useUser } from '@clerk/shared/react';
+import { useOrganization, useOrganizationList, useUser } from '@appypeeps/clerk-shared/react';
 
 import { useCardState, withCardStateProvider } from '@/ui/elements/contexts';
 import { Form } from '@/ui/elements/Form';

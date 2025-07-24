@@ -1,4 +1,4 @@
-import type { ClerkPaginationRequest } from '@clerk/types';
+import type { ClerkPaginationRequest } from '@appypeeps/clerk-types';
 
 import type { PaginatedResourceResponse } from '../resources/Deserializer';
 import type { WaitlistEntryStatus } from '../resources/Enums';

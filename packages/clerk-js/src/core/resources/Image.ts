@@ -1,4 +1,4 @@
-import type { ImageJSON, ImageResource } from '@clerk/types';
+import type { ImageJSON, ImageResource } from '@appypeeps/clerk-types';
 
 import { BaseResource } from './internal';
 

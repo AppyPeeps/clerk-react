@@ -1,7 +1,7 @@
-import { isBrowserOnline } from '@clerk/shared/browser';
-import { retry } from '@clerk/shared/retry';
-import { camelToSnake } from '@clerk/shared/underscore';
-import type { ClerkAPIErrorJSON, ClientJSON, InstanceType } from '@clerk/types';
+import { isBrowserOnline } from '@appypeeps/clerk-shared/browser';
+import { retry } from '@appypeeps/clerk-shared/retry';
+import { camelToSnake } from '@appypeeps/clerk-shared/underscore';
+import type { ClerkAPIErrorJSON, ClientJSON, InstanceType } from '@appypeeps/clerk-types';
 
 import { buildEmailAddress as buildEmailAddressUtil, buildURL as buildUrlUtil, stringifyQueryParams } from '../utils';
 import { SUPPORTED_FAPI_VERSION } from './constants';
@@ -35,7 +35,7 @@ export type FapiResponse<T> = Response & {
 
 export type FapiRequestCallback<T> = (request: FapiRequestInit, response?: FapiResponse<T>) => unknown;
 
-// TODO: Move to @clerk/types
+// TODO: Move to @appypeeps/clerk-types
 export interface FapiResponseJSON<T> {
   response: T;
   client?: ClientJSON;

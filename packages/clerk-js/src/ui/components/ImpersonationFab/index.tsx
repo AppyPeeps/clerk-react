@@ -1,5 +1,5 @@
-import { useClerk, useSession, useUser } from '@clerk/shared/react';
-import type { SignedInSessionResource } from '@clerk/types';
+import { useClerk, useSession, useUser } from '@appypeeps/clerk-shared/react';
+import type { SignedInSessionResource } from '@appypeeps/clerk-types';
 import type { PointerEventHandler } from 'react';
 import React, { useEffect, useRef } from 'react';
 

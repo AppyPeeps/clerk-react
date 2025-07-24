@@ -1,4 +1,4 @@
-import { OrganizationProfile } from '@clerk/nextjs';
+import { OrganizationProfile } from '@appypeeps/clerk-nextjs';
 
 export default function Page() {
   return (

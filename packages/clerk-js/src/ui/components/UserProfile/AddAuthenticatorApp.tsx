@@ -1,6 +1,6 @@
-import { isClerkRuntimeError } from '@clerk/shared/error';
-import { useReverification, useUser } from '@clerk/shared/react';
-import type { TOTPResource } from '@clerk/types';
+import { isClerkRuntimeError } from '@appypeeps/clerk-shared/error';
+import { useReverification, useUser } from '@appypeeps/clerk-shared/react';
+import type { TOTPResource } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { ClipboardInput } from '@/ui/elements/ClipboardInput';

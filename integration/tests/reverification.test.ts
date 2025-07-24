@@ -1,4 +1,4 @@
-import type { OrganizationMembershipRole } from '@clerk/backend';
+import type { OrganizationMembershipRole } from '@appypeeps/clerk-backend';
 import { expect, test } from '@playwright/test';
 
 import { appConfigs } from '../presets';

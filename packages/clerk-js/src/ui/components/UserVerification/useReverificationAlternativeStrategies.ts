@@ -1,5 +1,5 @@
-import { isWebAuthnSupported } from '@clerk/shared/webauthn';
-import type { SignInFactor, SignInFirstFactor, SignInSecondFactor } from '@clerk/types';
+import { isWebAuthnSupported } from '@appypeeps/clerk-shared/webauthn';
+import type { SignInFactor, SignInFirstFactor, SignInSecondFactor } from '@appypeeps/clerk-types';
 import { useMemo } from 'react';
 
 import { allStrategiesButtonsComparator } from '@/ui/utils/factorSorting';

@@ -1,4 +1,4 @@
-import type { __internal_UserVerificationModalProps, __internal_UserVerificationProps } from '@clerk/types';
+import type { __internal_UserVerificationModalProps, __internal_UserVerificationProps } from '@appypeeps/clerk-types';
 import React, { useEffect } from 'react';
 
 import { UserVerificationContext, withCoreSessionSwitchGuard } from '../../contexts';

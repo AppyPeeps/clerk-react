@@ -1,4 +1,4 @@
-import { useUserContext } from '@clerk/shared/react';
+import { useUserContext } from '@appypeeps/clerk-shared/react';
 import React from 'react';
 
 export function withCoreUserGuard<P>(Component: React.ComponentType<P>): React.ComponentType<P> {

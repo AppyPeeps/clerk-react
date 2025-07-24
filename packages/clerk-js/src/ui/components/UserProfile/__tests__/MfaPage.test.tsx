@@ -4,7 +4,7 @@ import type {
   PhoneNumberResource,
   TOTPResource,
   VerificationJSON,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import { describe, it } from '@jest/globals';
 import { act, waitFor } from '@testing-library/react';
 

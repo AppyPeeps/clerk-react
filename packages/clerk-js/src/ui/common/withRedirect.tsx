@@ -1,6 +1,6 @@
-import { isDevelopmentFromPublishableKey } from '@clerk/shared/keys';
-import { useClerk } from '@clerk/shared/react';
-import type { Clerk, ClerkOptions, EnvironmentResource } from '@clerk/types';
+import { isDevelopmentFromPublishableKey } from '@appypeeps/clerk-shared/keys';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { Clerk, ClerkOptions, EnvironmentResource } from '@appypeeps/clerk-types';
 import type { ComponentType } from 'react';
 import React from 'react';
 

@@ -1830,7 +1830,7 @@
   - `ClerkPaginatedResponse` : describes pagination related props in response body
   - `ClerkPaginationParams` : describes pagination related props in api client method params
 
-- 2e4a43017: Update `@clerk/clerk-js` and `@clerk/clerk-react` to support the following examples:
+- 2e4a43017: Update `@clerk/clerk-js` and `@appypeeps/clerk-react` to support the following examples:
 
   ```typescript
   Clerk.signOut({ redirectUrl: '/' })
@@ -2160,7 +2160,7 @@
   }
   ```
 
-- Update `@clerk/clerk-js` and `@clerk/clerk-react` to support the following examples: ([#2412](https://github.com/clerk/javascript/pull/2412)) by [@dimkl](https://github.com/dimkl)
+- Update `@clerk/clerk-js` and `@appypeeps/clerk-react` to support the following examples: ([#2412](https://github.com/clerk/javascript/pull/2412)) by [@dimkl](https://github.com/dimkl)
 
   ```typescript
   Clerk.signOut({ redirectUrl: '/' })

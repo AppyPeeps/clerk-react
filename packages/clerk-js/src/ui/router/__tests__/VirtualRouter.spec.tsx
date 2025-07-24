@@ -7,7 +7,7 @@ import { Route, useRouter, VirtualRouter } from '..';
 
 const mockNavigate = vi.fn();
 
-vi.mock('@clerk/shared/react', () => ({
+vi.mock('@appypeeps/clerk-shared/react', () => ({
   useClerk: () => ({
     navigate: vi.fn(to => {
       mockNavigate(to);

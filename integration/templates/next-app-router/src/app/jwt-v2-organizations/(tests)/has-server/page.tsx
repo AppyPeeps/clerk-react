@@ -1,4 +1,4 @@
-import { auth } from '@clerk/nextjs/server';
+import { auth } from '@appypeeps/clerk-nextjs/server';
 import { Conditionals } from '../conditionals';
 
 export default async function Page() {

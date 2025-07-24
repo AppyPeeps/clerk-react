@@ -1,4 +1,4 @@
-import type { RoutingOptions, RoutingStrategy } from '@clerk/types';
+import type { RoutingOptions, RoutingStrategy } from '@appypeeps/clerk-types';
 
 import { clerkInvalidRoutingStrategy } from '../core/errors';
 

@@ -1,5 +1,5 @@
-import { apiUrlFromPublishableKey } from '@clerk/shared/apiUrlFromPublishableKey';
-import { isTruthy } from '@clerk/shared/underscore';
+import { apiUrlFromPublishableKey } from '@appypeeps/clerk-shared/apiUrlFromPublishableKey';
+import { isTruthy } from '@appypeeps/clerk-shared/underscore';
 
 export const CLERK_JS_VERSION = process.env.NEXT_PUBLIC_CLERK_JS_VERSION || '';
 export const CLERK_JS_URL = process.env.NEXT_PUBLIC_CLERK_JS_URL || '';

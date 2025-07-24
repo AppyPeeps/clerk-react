@@ -18,7 +18,7 @@ type SetupClerkTestingTokenParams = {
  * @returns A promise that resolves when the bot protection bypass is set up.
  * @throws An error if the Frontend API URL is not provided.
  * @example
- * import { setupClerkTestingToken } from '@clerk/testing/playwright';
+ * import { setupClerkTestingToken } from '@appypeeps/clerk-testing/playwright';
  *
  * test('should bypass bot protection', async ({ context }) => {
  *    await setupClerkTestingToken({ context });

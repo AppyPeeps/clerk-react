@@ -1,9 +1,9 @@
-import { createClerkRequest } from '@clerk/backend/internal';
-import { apiUrlFromPublishableKey } from '@clerk/shared/apiUrlFromPublishableKey';
-import { getEnvVariable } from '@clerk/shared/getEnvVariable';
-import { isDevelopmentFromSecretKey } from '@clerk/shared/keys';
-import { isHttpOrHttps, isProxyUrlRelative } from '@clerk/shared/proxy';
-import { handleValueOrFn } from '@clerk/shared/utils';
+import { createClerkRequest } from '@appypeeps/clerk-backend/internal';
+import { apiUrlFromPublishableKey } from '@appypeeps/clerk-shared/apiUrlFromPublishableKey';
+import { getEnvVariable } from '@appypeeps/clerk-shared/getEnvVariable';
+import { isDevelopmentFromSecretKey } from '@appypeeps/clerk-shared/keys';
+import { isHttpOrHttps, isProxyUrlRelative } from '@appypeeps/clerk-shared/proxy';
+import { handleValueOrFn } from '@appypeeps/clerk-shared/utils';
 import type { LoaderFunctionArgs } from 'react-router';
 
 import { getPublicEnvVariables } from '../utils/env';

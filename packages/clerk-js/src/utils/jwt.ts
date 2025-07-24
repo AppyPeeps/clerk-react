@@ -1,4 +1,4 @@
-import type { JWT, JwtPayload } from '@clerk/types';
+import type { JWT, JwtPayload } from '@appypeeps/clerk-types';
 
 import { urlDecodeB64 } from './encoders';
 

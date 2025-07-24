@@ -1,7 +1,7 @@
 'use client';
 
-import * as Clerk from '@clerk/elements/common';
-import * as SignIn from '@clerk/elements/sign-in';
+import * as Clerk from '@appypeeps/clerk-elements/common';
+import * as SignIn from '@appypeeps/clerk-elements/sign-in';
 import Link from 'next/link';
 import { type ComponentProps, useState } from 'react';
 

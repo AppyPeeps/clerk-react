@@ -1,5 +1,5 @@
-import { useOrganization } from '@clerk/shared/react';
-import type { OrganizationInvitationResource } from '@clerk/types';
+import { useOrganization } from '@appypeeps/clerk-shared/react';
+import type { OrganizationInvitationResource } from '@appypeeps/clerk-types';
 
 import { useCardState } from '@/ui/elements/contexts';
 import { ThreeDotsMenu } from '@/ui/elements/ThreeDotsMenu';

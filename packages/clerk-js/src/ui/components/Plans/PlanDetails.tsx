@@ -1,5 +1,9 @@
-import { useClerk } from '@clerk/shared/react';
-import type { __internal_PlanDetailsProps, CommercePlanResource, CommerceSubscriptionPlanPeriod } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type {
+  __internal_PlanDetailsProps,
+  CommercePlanResource,
+  CommerceSubscriptionPlanPeriod,
+} from '@appypeeps/clerk-types';
 import * as React from 'react';
 import { useMemo, useState } from 'react';
 import useSWR from 'swr';

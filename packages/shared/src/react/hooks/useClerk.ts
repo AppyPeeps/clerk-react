@@ -1,4 +1,4 @@
-import type { LoadedClerk } from '@clerk/types';
+import type { LoadedClerk } from '@appypeeps/clerk-types';
 
 import { useAssertWrappedByClerkProvider, useClerkInstanceContext } from '../contexts';
 
@@ -20,7 +20,7 @@ import { useAssertWrappedByClerkProvider, useClerkInstanceContext } from '../con
  * <Tab>
  *
  * ```tsx {{ filename: 'src/Home.tsx' }}
- * import { useClerk } from '@clerk/clerk-react'
+ * import { useClerk } from '@appypeeps/clerk-react'
  *
  * export default function Home() {
  *   const clerk = useClerk()

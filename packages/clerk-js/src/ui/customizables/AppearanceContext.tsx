@@ -1,4 +1,4 @@
-import { createContextAndHook, useDeepEqualMemo } from '@clerk/shared/react';
+import { createContextAndHook, useDeepEqualMemo } from '@appypeeps/clerk-shared/react';
 import React from 'react';
 
 import type { AppearanceCascade, ParsedAppearance } from './parseAppearance';

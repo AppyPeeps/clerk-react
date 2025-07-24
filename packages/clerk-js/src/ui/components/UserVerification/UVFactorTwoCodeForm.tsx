@@ -1,5 +1,5 @@
-import { useSession } from '@clerk/shared/react';
-import type { PhoneCodeFactor, SessionVerificationResource, TOTPFactor } from '@clerk/types';
+import { useSession } from '@appypeeps/clerk-shared/react';
+import type { PhoneCodeFactor, SessionVerificationResource, TOTPFactor } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { useCardState } from '@/ui/elements/contexts';

@@ -1,6 +1,10 @@
-import type { createClerkClient } from '@clerk/backend';
-import type { AuthenticateRequestOptions, SignedInAuthObject, SignedOutAuthObject } from '@clerk/backend/internal';
-import type { PendingSessionOptions } from '@clerk/types';
+import type { createClerkClient } from '@appypeeps/clerk-backend';
+import type {
+  AuthenticateRequestOptions,
+  SignedInAuthObject,
+  SignedOutAuthObject,
+} from '@appypeeps/clerk-backend/internal';
+import type { PendingSessionOptions } from '@appypeeps/clerk-types';
 import type { Request as ExpressRequest } from 'express';
 
 export type ExpressRequestWithAuth = ExpressRequest & {

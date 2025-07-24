@@ -1,6 +1,6 @@
 import { createFileRoute, redirect } from '@tanstack/react-router';
 import { createServerFn } from '@tanstack/react-start';
-import { getAuth } from '@clerk/tanstack-react-start/server';
+import { getAuth } from '@appypeeps/clerk-tanstack-react-start/server';
 import { getWebRequest } from '@tanstack/react-start/server';
 
 const fetchClerkAuth = createServerFn({ method: 'GET' }).handler(async () => {

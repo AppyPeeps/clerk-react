@@ -1,4 +1,4 @@
-import { clerk } from '@clerk/testing/playwright';
+import { clerk } from '@appypeeps/clerk-testing/playwright';
 import { expect, test } from '@playwright/test';
 
 const rootElement = '.cl-signUp-root';

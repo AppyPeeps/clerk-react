@@ -4,7 +4,7 @@ import type {
   CommerceCheckoutResource,
   CommerceSubscriptionPlanPeriod,
   ConfirmCheckoutParams,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import { describe, expectTypeOf, it } from 'vitest';
 
 import type { useCheckout } from '../useCheckout';

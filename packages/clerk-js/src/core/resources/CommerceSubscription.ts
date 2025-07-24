@@ -8,7 +8,7 @@ import type {
   CommerceSubscriptionResource,
   CommerceSubscriptionStatus,
   DeletedObjectJSON,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { unixEpochToDate } from '@/utils/date';
 

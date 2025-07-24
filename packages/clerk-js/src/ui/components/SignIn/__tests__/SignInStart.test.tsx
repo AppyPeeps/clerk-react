@@ -1,5 +1,5 @@
-import { OAUTH_PROVIDERS } from '@clerk/shared/oauth';
-import type { SignInResource } from '@clerk/types';
+import { OAUTH_PROVIDERS } from '@appypeeps/clerk-shared/oauth';
+import type { SignInResource } from '@appypeeps/clerk-types';
 import { waitFor } from '@testing-library/react';
 
 import { CardStateProvider } from '@/ui/elements/contexts';

@@ -5,7 +5,7 @@ import type {
   CommercePaymentSourceJSON,
   GetPaymentSourcesParams,
   InitializePaymentSourceParams,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { convertPageToOffsetSearchParams } from '../../../utils/convertPageToOffsetSearchParams';
 import { BaseResource, CommerceInitializedPaymentSource, CommercePaymentSource } from '../../resources/internal';

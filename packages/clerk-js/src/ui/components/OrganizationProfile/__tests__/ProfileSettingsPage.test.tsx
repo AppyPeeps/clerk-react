@@ -1,4 +1,4 @@
-import type { OrganizationResource } from '@clerk/types';
+import type { OrganizationResource } from '@appypeeps/clerk-types';
 import { describe, it } from '@jest/globals';
 
 import { render } from '../../../../testUtils';

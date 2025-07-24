@@ -1,5 +1,5 @@
 ---
-'@clerk/clerk-react': minor
+'@appypeeps/clerk-react': minor
 ---
 
-Expose `<CheckoutButton/>`, `<SubscriptionDetailsButton/>`, `<PlanDetailsButton/>` from `@clerk/clerk-react/experimental`.
+Expose `<CheckoutButton/>`, `<SubscriptionDetailsButton/>`, `<PlanDetailsButton/>` from `@appypeeps/clerk-react/experimental`.

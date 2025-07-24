@@ -1,4 +1,4 @@
-import type { PhoneCodeFactor } from '@clerk/types';
+import type { PhoneCodeFactor } from '@appypeeps/clerk-types';
 
 import { useCoreSignIn } from '../../contexts';
 import { Flow, localizationKeys } from '../../customizables';

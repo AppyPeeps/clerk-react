@@ -1,4 +1,4 @@
-import type { User } from '@clerk/backend';
+import type { User } from '@appypeeps/clerk-backend';
 import type { APIContext } from 'astro';
 
 import { clerkClient } from './clerk-client';

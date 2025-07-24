@@ -1,5 +1,5 @@
-import { logger } from '@clerk/shared/logger';
-import type { SignUpResource } from '@clerk/types';
+import { logger } from '@appypeeps/clerk-shared/logger';
+import type { SignUpResource } from '@appypeeps/clerk-types';
 import { afterAll, beforeEach, describe, expect, it, test, vi } from 'vitest';
 
 import {

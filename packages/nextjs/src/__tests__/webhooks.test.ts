@@ -10,7 +10,7 @@ const mockSuccessResponse = {
   object: 'event',
 } as any;
 
-vi.mock('@clerk/backend/webhooks', () => ({
+vi.mock('@appypeeps/clerk-backend/webhooks', () => ({
   verifyWebhook: vi.fn().mockImplementation(async (request: any) => {
     // Support both Fetch API Request and plain object
     const getHeader = (key: string) => {

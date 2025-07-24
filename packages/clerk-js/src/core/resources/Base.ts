@@ -1,6 +1,11 @@
-import { isValidBrowserOnline } from '@clerk/shared/browser';
-import { isProductionFromPublishableKey } from '@clerk/shared/keys';
-import type { ClerkAPIErrorJSON, ClerkResourceJSON, ClerkResourceReloadParams, DeletedObjectJSON } from '@clerk/types';
+import { isValidBrowserOnline } from '@appypeeps/clerk-shared/browser';
+import { isProductionFromPublishableKey } from '@appypeeps/clerk-shared/keys';
+import type {
+  ClerkAPIErrorJSON,
+  ClerkResourceJSON,
+  ClerkResourceReloadParams,
+  DeletedObjectJSON,
+} from '@appypeeps/clerk-types';
 
 import { clerkMissingFapiClientInResources } from '../errors';
 import type { FapiClient, FapiRequestInit, FapiResponse, FapiResponseJSON, HTTPMethod } from '../fapiClient';

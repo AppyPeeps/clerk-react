@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import * as Clerk from '@clerk/elements/common';
-import * as SignIn from '@clerk/elements/sign-in';
+import * as Clerk from '@appypeeps/clerk-elements/common';
+import * as SignIn from '@appypeeps/clerk-elements/sign-in';
 
 // password, phone_code, email_code, email_link, reset_password_email_code, but the rendered strategies are:
 // password, email_code, reset_password_email_code, phone_code

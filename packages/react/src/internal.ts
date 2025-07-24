@@ -7,4 +7,4 @@ export {
   clerkJsScriptUrl,
   buildClerkJsScriptAttributes,
   setClerkJsLoadingErrorPackageName,
-} from '@clerk/shared/loadClerkJsScript';
+} from '@appypeeps/clerk-shared/loadClerkJsScript';

@@ -1,6 +1,6 @@
 'use client';
 
-import type { ClerkHostRouter } from '@clerk/shared/router';
+import type { ClerkHostRouter } from '@appypeeps/clerk-shared/router';
 import { useSyncExternalStore } from 'react';
 
 const DUMMY_ORIGIN = 'https://clerk.dummy';

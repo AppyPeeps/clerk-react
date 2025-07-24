@@ -1,4 +1,4 @@
-import type { Resources, UnsubscribeCallback } from '@clerk/types';
+import type { Resources, UnsubscribeCallback } from '@appypeeps/clerk-types';
 import { afterAll, beforeAll, describe, expect, it, vi } from 'vitest';
 
 import { IsomorphicClerk } from '../isomorphicClerk';

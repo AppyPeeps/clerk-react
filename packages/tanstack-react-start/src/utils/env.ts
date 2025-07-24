@@ -1,5 +1,5 @@
-import { getEnvVariable } from '@clerk/shared/getEnvVariable';
-import { isTruthy } from '@clerk/shared/underscore';
+import { getEnvVariable } from '@appypeeps/clerk-shared/getEnvVariable';
+import { isTruthy } from '@appypeeps/clerk-shared/underscore';
 import type { H3EventContext } from '@tanstack/react-start/server';
 
 export const getPublicEnvVariables = (context?: H3EventContext) => {

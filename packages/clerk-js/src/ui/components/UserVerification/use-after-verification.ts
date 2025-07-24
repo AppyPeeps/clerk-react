@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import type { SessionVerificationResource } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { SessionVerificationResource } from '@appypeeps/clerk-types';
 import { useCallback } from 'react';
 
 import { clerkInvalidFAPIResponse } from '../../../core/errors';

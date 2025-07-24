@@ -1,4 +1,4 @@
-import { useUser } from '@clerk/react-router'
+import { useUser } from '@appypeeps/clerk-react-router'
 
 export default function UseUserPage() {
   const { isLoaded, isSignedIn, user } = useUser()

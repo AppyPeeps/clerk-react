@@ -1,7 +1,7 @@
 'use client';
-import { ClerkProvider as ReactClerkProvider } from '@clerk/clerk-react';
-import { inBrowser } from '@clerk/shared/browser';
-import { logger } from '@clerk/shared/logger';
+import { ClerkProvider as ReactClerkProvider } from '@appypeeps/clerk-react';
+import { inBrowser } from '@appypeeps/clerk-shared/browser';
+import { logger } from '@appypeeps/clerk-shared/logger';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/navigation';
 import nextPackage from 'next/package.json';
@@ -29,7 +29,7 @@ const LazyCreateKeylessApplication = dynamic(() =>
 
 const NextClientClerkProvider = (props: NextClerkProviderProps) => {
   if (isNextWithUnstableServerActions) {
-    const deprecationWarning = `Clerk:\nYour current Next.js version (${nextPackage.version}) will be deprecated in the next major release of "@clerk/nextjs". Please upgrade to next@14.1.0 or later.`;
+    const deprecationWarning = `Clerk:\nYour current Next.js version (${nextPackage.version}) will be deprecated in the next major release of "@appypeeps/clerk-nextjs". Please upgrade to next@14.1.0 or later.`;
     if (inBrowser()) {
       logger.warnOnce(deprecationWarning);
     } else {

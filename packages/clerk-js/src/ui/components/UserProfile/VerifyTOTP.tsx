@@ -1,5 +1,5 @@
-import { useUser } from '@clerk/shared/react';
-import type { TOTPResource } from '@clerk/types';
+import { useUser } from '@appypeeps/clerk-shared/react';
+import type { TOTPResource } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { useFieldOTP } from '@/ui/elements/CodeControl';

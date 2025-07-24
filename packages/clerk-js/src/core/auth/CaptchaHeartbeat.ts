@@ -1,4 +1,4 @@
-import { createWorkerTimers } from '@clerk/shared/workerTimers';
+import { createWorkerTimers } from '@appypeeps/clerk-shared/workerTimers';
 
 import { CaptchaChallenge } from '../../utils/captcha/CaptchaChallenge';
 import type { Clerk } from '../resources/internal';

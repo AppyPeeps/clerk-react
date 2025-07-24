@@ -1,5 +1,5 @@
-import type { ClerkAPIResponseError } from '@clerk/shared/error';
-import type { SignInFactor } from '@clerk/types';
+import type { ClerkAPIResponseError } from '@appypeeps/clerk-shared/error';
+import type { SignInFactor } from '@appypeeps/clerk-types';
 import type { ActorRefFrom, ErrorActorEvent } from 'xstate';
 
 import type { FormMachine } from '~/internals/machines/form';

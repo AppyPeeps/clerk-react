@@ -1,4 +1,4 @@
-import { errorToJSON, parseError } from '@clerk/shared/error';
+import { errorToJSON, parseError } from '@appypeeps/clerk-shared/error';
 import type {
   ClerkAPIError,
   PasskeyVerificationResource,
@@ -15,7 +15,7 @@ import type {
   VerificationJSONSnapshot,
   VerificationResource,
   VerificationStatus,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { unixEpochToDate } from '../../utils/date';
 import { convertJSONToPublicKeyCreateOptions } from '../../utils/passkeys';

@@ -1,5 +1,5 @@
-import type { ClerkClient, ClerkOptions } from '@clerk/backend';
-import { createClerkClient } from '@clerk/backend';
+import type { ClerkClient, ClerkOptions } from '@appypeeps/clerk-backend';
+import { createClerkClient } from '@appypeeps/clerk-backend';
 import type { APIContext } from 'astro';
 
 import { getSafeEnv } from './get-safe-env';

@@ -1,7 +1,7 @@
 'use client';
 
-import { Field, Input, Label } from '@clerk/elements/common';
-import { SignIn, Step } from '@clerk/elements/sign-in';
+import { Field, Input, Label } from '@appypeeps/clerk-elements/common';
+import { SignIn, Step } from '@appypeeps/clerk-elements/sign-in';
 import clsx from 'clsx';
 import { AnimatePresence, motion } from 'framer-motion';
 

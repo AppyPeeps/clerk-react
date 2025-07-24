@@ -1,4 +1,4 @@
-import { loadScript } from '@clerk/shared/loadScript';
+import { loadScript } from '@appypeeps/clerk-shared/loadScript';
 
 import { clerkFailedToLoadThirdPartyScript } from '../core/errors';
 

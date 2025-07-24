@@ -1,5 +1,5 @@
-import { apiUrlFromPublishableKey } from '@clerk/shared/apiUrlFromPublishableKey';
-import { getEnvVariable } from '@clerk/shared/getEnvVariable';
+import { apiUrlFromPublishableKey } from '@appypeeps/clerk-shared/apiUrlFromPublishableKey';
+import { getEnvVariable } from '@appypeeps/clerk-shared/getEnvVariable';
 
 import { getPublicEnvVariables } from '../utils/env';
 

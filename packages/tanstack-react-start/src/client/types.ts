@@ -1,5 +1,5 @@
-import type { ClerkProviderProps } from '@clerk/clerk-react';
-import type { InitialState, Without } from '@clerk/types';
+import type { ClerkProviderProps } from '@appypeeps/clerk-react';
+import type { InitialState, Without } from '@appypeeps/clerk-types';
 import type React from 'react';
 
 export type ClerkState = {

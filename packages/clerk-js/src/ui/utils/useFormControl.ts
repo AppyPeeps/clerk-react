@@ -1,4 +1,4 @@
-import type { ClerkAPIError } from '@clerk/types';
+import type { ClerkAPIError } from '@appypeeps/clerk-types';
 import type { HTMLInputTypeAttribute } from 'react';
 import { useState } from 'react';
 

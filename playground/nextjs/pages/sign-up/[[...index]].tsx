@@ -1,4 +1,4 @@
-import { SignUp } from '@clerk/nextjs';
+import { SignUp } from '@appypeeps/clerk-nextjs';
 import type { NextPage } from 'next';
 
 const SignUpPage: NextPage = () => {

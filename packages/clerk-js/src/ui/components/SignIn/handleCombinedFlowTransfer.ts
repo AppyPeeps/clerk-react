@@ -1,4 +1,10 @@
-import type { LoadedClerk, PhoneCodeChannel, PhoneCodeStrategy, SignUpModes, SignUpResource } from '@clerk/types';
+import type {
+  LoadedClerk,
+  PhoneCodeChannel,
+  PhoneCodeStrategy,
+  SignUpModes,
+  SignUpResource,
+} from '@appypeeps/clerk-types';
 
 import { SIGN_UP_MODES } from '../../../core/constants';
 import type { RouteContextValue } from '../../router/RouteContext';

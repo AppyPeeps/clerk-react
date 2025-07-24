@@ -1,5 +1,5 @@
 // import { jest } from '@jest/globals';
-import type { ClerkOptions, ClientJSON, EnvironmentJSON, LoadedClerk } from '@clerk/types';
+import type { ClerkOptions, ClientJSON, EnvironmentJSON, LoadedClerk } from '@appypeeps/clerk-types';
 import React from 'react';
 import { vi } from 'vitest';
 

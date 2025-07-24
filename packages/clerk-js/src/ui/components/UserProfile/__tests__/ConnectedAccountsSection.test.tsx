@@ -1,4 +1,4 @@
-import type { ExternalAccountResource } from '@clerk/types';
+import type { ExternalAccountResource } from '@appypeeps/clerk-types';
 import { describe, it } from '@jest/globals';
 import { act, waitFor } from '@testing-library/react';
 

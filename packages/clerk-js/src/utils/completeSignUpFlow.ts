@@ -1,4 +1,4 @@
-import type { SignUpResource } from '@clerk/types';
+import type { SignUpResource } from '@appypeeps/clerk-types';
 
 import { forwardClerkQueryParams } from './getClerkQueryParam';
 

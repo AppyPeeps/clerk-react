@@ -1,7 +1,7 @@
-import { createCheckAuthorization } from '@clerk/shared/authorization';
-import { ClerkWebAuthnError, is4xxError } from '@clerk/shared/error';
-import { retry } from '@clerk/shared/retry';
-import { isWebAuthnSupported as isWebAuthnSupportedOnWindow } from '@clerk/shared/webauthn';
+import { createCheckAuthorization } from '@appypeeps/clerk-shared/authorization';
+import { ClerkWebAuthnError, is4xxError } from '@appypeeps/clerk-shared/error';
+import { retry } from '@appypeeps/clerk-shared/retry';
+import { isWebAuthnSupported as isWebAuthnSupportedOnWindow } from '@appypeeps/clerk-shared/webauthn';
 import type {
   ActClaim,
   CheckAuthorization,
@@ -23,7 +23,7 @@ import type {
   SessionVerifyPrepareSecondFactorParams,
   TokenResource,
   UserResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { unixEpochToDate } from '../../utils/date';
 import {

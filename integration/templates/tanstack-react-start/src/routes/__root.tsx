@@ -1,7 +1,7 @@
 /// <reference types="vite/client" />
 import * as React from 'react';
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
-import { ClerkProvider } from '@clerk/tanstack-react-start';
+import { ClerkProvider } from '@appypeeps/clerk-tanstack-react-start';
 import { HeadContent, Outlet, Scripts, createRootRoute } from '@tanstack/react-router';
 import appCss from '~/styles/app.css?url';
 

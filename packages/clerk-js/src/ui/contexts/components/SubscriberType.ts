@@ -1,4 +1,4 @@
-import type { CommercePayerType } from '@clerk/types';
+import type { CommercePayerType } from '@appypeeps/clerk-types';
 import { createContext, useContext } from 'react';
 
 const DEFAUlT = 'user';

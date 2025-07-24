@@ -1,4 +1,4 @@
-import type { Clerk, SignOutOptions } from '@clerk/types';
+import type { Clerk, SignOutOptions } from '@appypeeps/clerk-types';
 import type { Page } from '@playwright/test';
 
 import type { ClerkSignInParams, SetupClerkTestingTokenOptions } from '../common';
@@ -33,7 +33,7 @@ type ClerkHelperParams = {
    * @param opts.setupClerkTestingTokenOptions - The options for the `setupClerkTestingToken` function. Optional.
    *
    * @example
-   * import { clerk } from "@clerk/testing/playwright";
+   * import { clerk } from "@appypeeps/clerk-testing/playwright";
    *
    *  test("sign in", async ({ page }) => {
    *     await page.goto("/");
@@ -52,7 +52,7 @@ type ClerkHelperParams = {
    * @param opts.page - The Playwright page object.
    *
    * @example
-   * import { clerk } from "@clerk/testing/playwright";
+   * import { clerk } from "@appypeeps/clerk-testing/playwright";
    *
    *  test("sign out", async ({ page }) => {
    *     await page.goto("/");

@@ -1,4 +1,4 @@
-import { createClerkClient } from '@clerk/backend';
+import { createClerkClient } from '@appypeeps/clerk-backend';
 import { test } from '@playwright/test';
 
 import { appConfigs } from '../presets';

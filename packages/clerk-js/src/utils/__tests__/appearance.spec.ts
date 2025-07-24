@@ -1,4 +1,4 @@
-import type { Appearance, BaseTheme } from '@clerk/types';
+import type { Appearance, BaseTheme } from '@appypeeps/clerk-types';
 import { describe, expect, it } from 'vitest';
 
 import { processCssLayerNameExtraction } from '../appearance';

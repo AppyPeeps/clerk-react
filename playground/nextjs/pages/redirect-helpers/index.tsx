@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import React, { useState } from 'react';
-import * as allExports from '@clerk/nextjs';
+import * as allExports from '@appypeeps/clerk-nextjs';
 
 const UserProfilePage: NextPage = () => {
   const controlComponents = Object.fromEntries(Object.entries(allExports).filter(e => e[0].startsWith('RedirectTo')));

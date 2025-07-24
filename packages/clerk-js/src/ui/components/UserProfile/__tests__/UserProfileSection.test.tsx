@@ -1,4 +1,4 @@
-import type { ImageResource } from '@clerk/types';
+import type { ImageResource } from '@appypeeps/clerk-types';
 import { describe, it } from '@jest/globals';
 
 import { render, screen, waitFor } from '../../../../testUtils';

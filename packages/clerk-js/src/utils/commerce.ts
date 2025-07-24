@@ -5,7 +5,7 @@ import type {
   CommerceMoneyJSON,
   CommerceStatementTotals,
   CommerceStatementTotalsJSON,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 export const commerceMoneyFromJSON = (data: CommerceMoneyJSON): CommerceMoney => {
   return {

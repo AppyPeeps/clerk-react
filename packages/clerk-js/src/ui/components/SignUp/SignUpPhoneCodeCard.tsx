@@ -1,4 +1,4 @@
-import { getAlternativePhoneCodeProviderData } from '@clerk/shared/alternativePhoneCode';
+import { getAlternativePhoneCodeProviderData } from '@appypeeps/clerk-shared/alternativePhoneCode';
 
 import { useCardState, withCardStateProvider } from '@/ui/elements/contexts';
 import { LoadingCard } from '@/ui/elements/LoadingCard';

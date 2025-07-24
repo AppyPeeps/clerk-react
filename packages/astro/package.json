@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/astro",
-  "version": "2.10.9",
+  "name": "@appypeeps/clerk-astro",
+  "version": "0.0.1",
   "description": "Clerk SDK for Astro",
   "keywords": [
     "auth",
@@ -86,9 +86,9 @@
     "publish:local": "pnpm yalc push --replace --sig"
   },
   "dependencies": {
-    "@clerk/backend": "workspace:^",
-    "@clerk/shared": "workspace:^",
-    "@clerk/types": "workspace:^",
+    "@appypeeps/clerk-backend": "workspace:^",
+    "@appypeeps/clerk-shared": "workspace:^",
+    "@appypeeps/clerk-types": "workspace:^",
     "nanoid": "5.1.5",
     "nanostores": "1.0.1"
   },
@@ -102,6 +102,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

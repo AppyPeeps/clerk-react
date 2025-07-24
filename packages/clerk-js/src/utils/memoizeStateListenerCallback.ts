@@ -7,7 +7,7 @@ import type {
   Resources,
   SessionResource,
   UserResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { Client, Session, User } from '../core/resources/internal';
 

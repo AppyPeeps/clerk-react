@@ -1,4 +1,4 @@
-import type { Clerk } from '@clerk/clerk-js';
+import type { Clerk } from '@appypeeps/clerk-js';
 
 import { AUTH_HEADER } from '../constants';
 import type { JWTHandler } from './jwt-handler';

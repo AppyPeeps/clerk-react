@@ -1,7 +1,7 @@
 import { redirect } from 'react-router';
-import { UserProfile } from '@clerk/react-router';
-import { getAuth } from '@clerk/react-router/ssr.server';
-import { createClerkClient } from '@clerk/react-router/api.server';
+import { UserProfile } from '@appypeeps/clerk-react-router';
+import { getAuth } from '@appypeeps/clerk-react-router/ssr.server';
+import { createClerkClient } from '@appypeeps/clerk-react-router/api.server';
 import type { Route } from './+types/profile';
 
 export async function loader(args: Route.LoaderArgs) {

@@ -1,5 +1,5 @@
-import type { Without } from '@clerk/types';
-import type { PluginOptions } from '@clerk/vue';
+import type { Without } from '@appypeeps/clerk-types';
+import type { PluginOptions } from '@appypeeps/clerk-vue';
 import {
   addComponent,
   addImports,
@@ -27,7 +27,7 @@ export type ModuleOptions = Without<
    *
    * ```ts
    * // server/middleware/clerk.ts
-   * import { clerkMiddleware } from '@clerk/nuxt/server'
+   * import { clerkMiddleware } from '@appypeeps/clerk-nuxt/server'
    *
    * export default clerkMiddleware((event) => {
    *   console.log('auth', event.context.auth())
@@ -88,12 +88,12 @@ export default defineNuxtModule<ModuleOptions>({
     // Handle Nuxt-specific imports (e.g #imports)
     nuxt.options.build.transpile.push(resolver.resolve('./runtime'));
 
-    // Optimize @clerk/vue to avoid missing injection Symbol key errors
+    // Optimize @appypeeps/clerk-vue to avoid missing injection Symbol key errors
     nuxt.options.vite.optimizeDeps = nuxt.options.vite.optimizeDeps || {};
     nuxt.options.vite.optimizeDeps.include = nuxt.options.vite.optimizeDeps.include || [];
-    nuxt.options.vite.optimizeDeps.include.push('@clerk/vue');
+    nuxt.options.vite.optimizeDeps.include.push('@appypeeps/clerk-vue');
 
-    // Add the `@clerk/vue` plugin
+    // Add the `@appypeeps/clerk-vue` plugin
     addPlugin(resolver.resolve('./runtime/plugin'));
 
     // Allow skipping installing the server middleware
@@ -109,7 +109,7 @@ export default defineNuxtModule<ModuleOptions>({
     addTypeTemplate(
       {
         filename: 'types/clerk.d.ts',
-        getContents: () => `import type { SessionAuthObject } from '@clerk/backend';
+        getContents: () => `import type { SessionAuthObject } from '@appypeeps/clerk-backend';
           declare module 'h3' {
             type AuthObjectHandler = SessionAuthObject & {
               (): SessionAuthObject;
@@ -138,7 +138,7 @@ export default defineNuxtModule<ModuleOptions>({
     ]);
 
     // eslint-disable-next-line @typescript-eslint/consistent-type-imports
-    const components: Array<keyof typeof import('@clerk/vue')> = [
+    const components: Array<keyof typeof import('@appypeeps/clerk-vue')> = [
       // Authentication Components
       'SignIn',
       'SignUp',
@@ -173,7 +173,7 @@ export default defineNuxtModule<ModuleOptions>({
       void addComponent({
         name: component,
         export: component,
-        filePath: '@clerk/vue',
+        filePath: '@appypeeps/clerk-vue',
       });
     });
   },

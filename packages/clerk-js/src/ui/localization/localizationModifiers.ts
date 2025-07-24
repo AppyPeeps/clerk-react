@@ -1,5 +1,5 @@
-import { normalizeDate } from '@clerk/shared/date';
-import { titleize } from '@clerk/shared/underscore';
+import { normalizeDate } from '@appypeeps/clerk-shared/date';
+import { titleize } from '@appypeeps/clerk-shared/underscore';
 
 const timeString = (val: Date | string | number, locale?: string) => {
   try {

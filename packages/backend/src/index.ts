@@ -1,6 +1,6 @@
-import type { TelemetryCollectorOptions } from '@clerk/shared/telemetry';
-import { TelemetryCollector } from '@clerk/shared/telemetry';
-import type { SDKMetadata } from '@clerk/types';
+import type { TelemetryCollectorOptions } from '@appypeeps/clerk-shared/telemetry';
+import { TelemetryCollector } from '@appypeeps/clerk-shared/telemetry';
+import type { SDKMetadata } from '@appypeeps/clerk-types';
 
 import type { ApiClient, CreateBackendApiOptions } from './api';
 import { createBackendApiClient } from './api';

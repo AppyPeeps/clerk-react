@@ -1,4 +1,4 @@
-import type { ClerkAPIResponseError, CommerceCheckoutResource } from '@clerk/types';
+import type { ClerkAPIResponseError, CommerceCheckoutResource } from '@appypeeps/clerk-types';
 import type { MockedFunction } from 'vitest';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 

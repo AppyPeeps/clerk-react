@@ -4,7 +4,7 @@ import type {
   CommerceStatementResource,
   CommerceStatementStatus,
   CommerceStatementTotals,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { commerceTotalsFromJSON } from '../../utils';
 import { unixEpochToDate } from '../../utils/date';

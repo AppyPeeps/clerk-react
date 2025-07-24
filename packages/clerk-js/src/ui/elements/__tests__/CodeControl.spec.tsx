@@ -1,4 +1,4 @@
-import { ClerkRuntimeError } from '@clerk/shared/error';
+import { ClerkRuntimeError } from '@appypeeps/clerk-shared/error';
 import { fireEvent, render, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React from 'react';

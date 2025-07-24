@@ -1,4 +1,4 @@
-import type { SignInFactor, SignInStrategy as TSignInStrategy } from '@clerk/types';
+import type { SignInFactor, SignInStrategy as TSignInStrategy } from '@appypeeps/clerk-types';
 import { Slot } from '@radix-ui/react-slot';
 import { useSelector } from '@xstate/react';
 import * as React from 'react';

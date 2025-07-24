@@ -1,7 +1,11 @@
-import { createClerkClient } from '@clerk/backend';
-import type { AuthenticatedState, AuthenticateRequestOptions, UnauthenticatedState } from '@clerk/backend/internal';
-import { AuthStatus, constants } from '@clerk/backend/internal';
-import { handleNetlifyCacheInDevInstance } from '@clerk/shared/netlifyCacheHandler';
+import { createClerkClient } from '@appypeeps/clerk-backend';
+import type {
+  AuthenticatedState,
+  AuthenticateRequestOptions,
+  UnauthenticatedState,
+} from '@appypeeps/clerk-backend/internal';
+import { AuthStatus, constants } from '@appypeeps/clerk-backend/internal';
+import { handleNetlifyCacheInDevInstance } from '@appypeeps/clerk-shared/netlifyCacheHandler';
 
 import { errorThrower } from '../utils';
 import { ClerkHandshakeRedirect } from './errors';

@@ -1,4 +1,4 @@
-import { isClerkAPIResponseError } from '@clerk/shared/error';
+import { isClerkAPIResponseError } from '@appypeeps/clerk-shared/error';
 import type {
   AttemptFirstFactorParams,
   EmailCodeAttempt,
@@ -12,7 +12,7 @@ import type {
   SignInResource,
   SignInSecondFactor,
   Web3Attempt,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import type { DoneActorEvent } from 'xstate';
 import { assign, fromPromise, log, sendTo, setup } from 'xstate';
 

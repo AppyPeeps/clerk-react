@@ -1,5 +1,5 @@
-import { SignedIn, UserProfile } from '@clerk/nextjs';
-import { getAuth } from '@clerk/nextjs/server';
+import { SignedIn, UserProfile } from '@appypeeps/clerk-nextjs';
+import { getAuth } from '@appypeeps/clerk-nextjs/server';
 import type { GetServerSideProps, NextPage } from 'next';
 import React from 'react';
 

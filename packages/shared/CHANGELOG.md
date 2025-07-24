@@ -452,8 +452,8 @@
 - This introducing changes to `useReverification`, the changes include removing the array and returning the fetcher directly and also the dropping the options `throwOnCancel` and `onCancel` in favour of always throwing the cancellation error. ([#5396](https://github.com/clerk/javascript/pull/5396)) by [@octoper](https://github.com/octoper)
 
   ```tsx {{ filename: 'src/components/MyButton.tsx' }}
-  import { useReverification } from '@clerk/clerk-react';
-  import { isReverificationCancelledError } from '@clerk/clerk-react/error';
+  import { useReverification } from '@appypeeps/clerk-react';
+  import { isReverificationCancelledError } from '@appypeeps/clerk-react/error';
 
   type MyData = {
     balance: number;
@@ -484,8 +484,8 @@
   to handle re-verification flow. When the handler is passed the default UI our AIO components provide will not be triggered so you will have to create and handle the re-verification process.
 
   ```tsx {{ filename: 'src/components/MyButtonCustom.tsx' }}
-  import { useReverification } from '@clerk/clerk-react';
-  import { isReverificationCancelledError } from '@clerk/clerk-react/error';
+  import { useReverification } from '@appypeeps/clerk-react';
+  import { isReverificationCancelledError } from '@appypeeps/clerk-react/error';
 
   type MyData = {
     balance: number;
@@ -1166,7 +1166,7 @@
 
 ### Minor Changes
 
-- Remove `@clerk/elements` reliance on `next` and `@clerk/clerk-react` directly. The host router is now provided by `@clerk/nextjs`. ([#4064](https://github.com/clerk/javascript/pull/4064)) by [@BRKalow](https://github.com/BRKalow)
+- Remove `@clerk/elements` reliance on `next` and `@appypeeps/clerk-react` directly. The host router is now provided by `@clerk/nextjs`. ([#4064](https://github.com/clerk/javascript/pull/4064)) by [@BRKalow](https://github.com/BRKalow)
 
 ### Patch Changes
 
@@ -1487,7 +1487,7 @@
 - 75ea300bc: Add `useAssertWrappedByClerkProvider` to internal code. If you use hooks like `useAuth` outside of the `<ClerkProvider />` context an error will be thrown. For example:
 
   ```shell
-  @clerk/clerk-react: useAuth can only be used within the <ClerkProvider /> component
+  @appypeeps/clerk-react: useAuth can only be used within the <ClerkProvider /> component
   ```
 
 - f5d55bb1f: Add clerkTraceId to ClerkBackendApiResponse and ClerkAPIResponseError to allow for better tracing and debugging API error responses.
@@ -1627,7 +1627,7 @@
 - Add `useAssertWrappedByClerkProvider` to internal code. If you use hooks like `useAuth` outside of the `<ClerkProvider />` context an error will be thrown. For example: ([#2299](https://github.com/clerk/javascript/pull/2299)) by [@tmilewski](https://github.com/tmilewski)
 
   ```shell
-  @clerk/clerk-react: useAuth can only be used within the <ClerkProvider /> component
+  @appypeeps/clerk-react: useAuth can only be used within the <ClerkProvider /> component
   ```
 
 ## 2.0.0-alpha-v5.5
@@ -1795,7 +1795,7 @@
 
   By using subpaths you can tell bundlers to only bundle specific parts, potentially helping with tree-shaking. It also mitigates issues where e.g. modules only relevant for React where picked up in Node.js-only environments.
 
-  If you're not using `@clerk/shared` directly (only by proxy through e.g. `@clerk/clerk-react`) you don't need to do anything. If you are relying on `@clerk/shared`, please read through the breaking changes below and change your code accordingly. You can rely on your IDE to give you hints on which exports are available at `@clerk/shared` and `@clerk/shared/<name>` subpaths.
+  If you're not using `@clerk/shared` directly (only by proxy through e.g. `@appypeeps/clerk-react`) you don't need to do anything. If you are relying on `@clerk/shared`, please read through the breaking changes below and change your code accordingly. You can rely on your IDE to give you hints on which exports are available at `@clerk/shared` and `@clerk/shared/<name>` subpaths.
 
   **Breaking Changes**
 
@@ -2038,12 +2038,12 @@
 
 ### Minor Changes
 
-- ESM/CJS support for `@clerk/clerk-react` by [@nikosdouvlis](https://github.com/nikosdouvlis)
+- ESM/CJS support for `@appypeeps/clerk-react` by [@nikosdouvlis](https://github.com/nikosdouvlis)
 
   Changes that should affect users and OS contributors:
 
-  - Better source map support for `@clerk/clerk-react`, `@clerk/shared`. This affects anyone developing in our monorepo or anyone using a debugger with Clerk installed in their app.
-  - Easier node_modules debugging as `@clerk/clerk-react`, `@clerk/shared` and `@clerk/nextjs` are no longer getting bundled as a single-file package. This also improves error logging in nextjs a lot, as nextjs usually logs the line that threw the error - a minified, single-file package, usually consists of a very long single-line module, so logging error in NextJS wasn't ideal.
+  - Better source map support for `@appypeeps/clerk-react`, `@clerk/shared`. This affects anyone developing in our monorepo or anyone using a debugger with Clerk installed in their app.
+  - Easier node_modules debugging as `@appypeeps/clerk-react`, `@clerk/shared` and `@clerk/nextjs` are no longer getting bundled as a single-file package. This also improves error logging in nextjs a lot, as nextjs usually logs the line that threw the error - a minified, single-file package, usually consists of a very long single-line module, so logging error in NextJS wasn't ideal.
   - Headless clerk-js bundle size reduced by ~10kb, normal clerk-ks by ~6kb
   - A new `clerkJSVersion` prop has been added on ClerkProvider allowing to fetch a specific clerk-js version.
 

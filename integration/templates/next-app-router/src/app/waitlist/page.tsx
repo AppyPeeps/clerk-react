@@ -1,4 +1,4 @@
-import { Waitlist } from '@clerk/nextjs';
+import { Waitlist } from '@appypeeps/clerk-nextjs';
 
 export default function Page() {
   return (

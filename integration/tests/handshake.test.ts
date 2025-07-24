@@ -38,7 +38,7 @@ test.describe('Client handshake @generic', () => {
       .clone()
       .addFile(
         'src/middleware.ts',
-        () => `import { clerkMiddleware } from '@clerk/nextjs/server';
+        () => `import { clerkMiddleware } from '@appypeeps/clerk-nextjs/server';
 
     export const middleware = (req, evt) => {
       return clerkMiddleware({
@@ -1460,7 +1460,7 @@ test.describe('Client handshake with an organization activation avoids infinite 
  */
 const startAppWithOrganizationSyncOptions = async (clerkAPIUrl: string): Promise<Application> => {
   const env = appConfigs.envs.withEmailCodes.clone().setEnvVariable('private', 'CLERK_API_URL', clerkAPIUrl);
-  const middlewareFile = `import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
+  const middlewareFile = `import { clerkMiddleware, createRouteMatcher } from '@appypeeps/clerk-nextjs/server';
 
     const isProtectedRoute = createRouteMatcher(['/organizations(.*)'])
 

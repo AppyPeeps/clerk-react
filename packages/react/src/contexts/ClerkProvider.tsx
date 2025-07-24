@@ -1,4 +1,4 @@
-import { isPublishableKey } from '@clerk/shared/keys';
+import { isPublishableKey } from '@appypeeps/clerk-shared/keys';
 import React from 'react';
 
 import { errorThrower } from '../errors/errorThrower';

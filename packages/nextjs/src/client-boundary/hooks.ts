@@ -16,7 +16,7 @@ export {
   __experimental_usePaymentElement,
   __experimental_PaymentElementProvider,
   __experimental_PaymentElement,
-} from '@clerk/clerk-react';
+} from '@appypeeps/clerk-react';
 
 export {
   isClerkAPIResponseError,
@@ -27,6 +27,6 @@ export {
   isReverificationCancelledError,
   EmailLinkErrorCode,
   EmailLinkErrorCodeStatus,
-} from '@clerk/clerk-react/errors';
+} from '@appypeeps/clerk-react/errors';
 
 export { usePromisifiedAuth as useAuth } from './PromisifiedAuthProvider';

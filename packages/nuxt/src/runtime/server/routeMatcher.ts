@@ -1,5 +1,5 @@
-import type { PathMatcherParam } from '@clerk/shared/pathMatcher';
-import { createPathMatcher } from '@clerk/shared/pathMatcher';
+import type { PathMatcherParam } from '@appypeeps/clerk-shared/pathMatcher';
+import { createPathMatcher } from '@appypeeps/clerk-shared/pathMatcher';
 import type { H3Event } from 'h3';
 import { getRequestURL } from 'h3';
 

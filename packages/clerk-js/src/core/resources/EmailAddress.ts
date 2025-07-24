@@ -1,4 +1,4 @@
-import { Poller } from '@clerk/shared/poller';
+import { Poller } from '@appypeeps/clerk-shared/poller';
 import type {
   AttemptEmailAddressVerificationParams,
   CreateEmailLinkFlowReturn,
@@ -11,7 +11,7 @@ import type {
   StartEmailLinkFlowParams,
   StartEnterpriseSSOLinkFlowParams,
   VerificationResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { BaseResource, IdentificationLink, Verification } from './internal';
 

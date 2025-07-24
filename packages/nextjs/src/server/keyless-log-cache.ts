@@ -1,5 +1,5 @@
-import type { AccountlessApplication } from '@clerk/backend';
-import { isDevelopmentEnvironment } from '@clerk/shared/utils';
+import type { AccountlessApplication } from '@appypeeps/clerk-backend';
+import { isDevelopmentEnvironment } from '@appypeeps/clerk-shared/utils';
 // 10 minutes in milliseconds
 const THROTTLE_DURATION_MS = 10 * 60 * 1000;
 

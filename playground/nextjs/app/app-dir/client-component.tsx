@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@clerk/nextjs/errors';
+import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@appypeeps/clerk-nextjs/errors';
 
 export const ClientComponent = () => {
   React.useEffect(() => {

@@ -1,5 +1,5 @@
 'use client';
-import { useAuth } from '@clerk/nextjs';
+import { useAuth } from '@appypeeps/clerk-nextjs';
 import { Conditionals } from '../conditionals';
 
 export default function Page() {

@@ -1,4 +1,4 @@
-import type { AuthObject } from '@clerk/backend';
+import type { AuthObject } from '@appypeeps/clerk-backend';
 import type {
   AuthenticatedMachineObject,
   AuthenticateRequestOptions,
@@ -6,15 +6,15 @@ import type {
   InferAuthObjectFromTokenArray,
   RedirectFun,
   SignedInAuthObject,
-} from '@clerk/backend/internal';
-import { constants, isTokenTypeAccepted, TokenType } from '@clerk/backend/internal';
+} from '@appypeeps/clerk-backend/internal';
+import { constants, isTokenTypeAccepted, TokenType } from '@appypeeps/clerk-backend/internal';
 import type {
   CheckAuthorizationFromSessionClaims,
   CheckAuthorizationParamsFromSessionClaims,
   CheckAuthorizationParamsWithCustomPermissions,
   CheckAuthorizationWithCustomPermissions,
   OrganizationCustomPermissionKey,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { constants as nextConstants } from '../constants';
 import { isNextFetcher } from './nextFetcher';

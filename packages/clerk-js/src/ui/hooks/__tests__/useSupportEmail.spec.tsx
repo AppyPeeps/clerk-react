@@ -6,7 +6,7 @@ import { useSupportEmail } from '../useSupportEmail';
 const mockUseOptions = vi.fn();
 const mockUseEnvironment = vi.fn();
 
-vi.mock('@clerk/shared/react', () => ({
+vi.mock('@appypeeps/clerk-shared/react', () => ({
   useClerk: () => ({
     publishableKey: 'pk_live_Y2xlcmsuY2xlcmsuY29tJA',
   }),

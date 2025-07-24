@@ -1,4 +1,4 @@
-import { Clerk } from '@clerk/clerk-js/headless';
+import { Clerk } from '@appypeeps/clerk-js/headless';
 
 import { createClerkInstance } from './createClerkInstance';
 
@@ -10,7 +10,7 @@ export { clerk } from './createClerkInstance';
 /**
  * Access or create a Clerk instance outside of React. If you are using it in Expo Web then it will only access the existing instance from `window.Clerk`
  * @example
- * import { ClerkProvider, getClerkInstance } from "@clerk/expo"
+ * import { ClerkProvider, getClerkInstance } from "@appypeeps/clerk-expo"
  *
  * const clerkInstance = getClerkInstance({ publishableKey: 'xxxx' })
  *

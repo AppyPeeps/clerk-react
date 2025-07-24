@@ -40,7 +40,7 @@ Development Workflow
 
 Framework-Specific Packages
 - `@clerk/nextjs` - Next.js App Router and Pages Router support
-- `@clerk/clerk-react` - React hooks and components
+- `@appypeeps/clerk-react` - React hooks and components
 - `@clerk/vue` - Vue.js composables and components
 - `@clerk/astro` - Astro integration with SSR support
 - `@clerk/nuxt` - Nuxt.js module

@@ -1,4 +1,4 @@
-import type { ActiveSessionResource, PublicUserData } from '@clerk/types';
+import type { ActiveSessionResource, PublicUserData } from '@appypeeps/clerk-types';
 import * as React from 'react';
 
 import { useActiveTags } from '../../hooks';

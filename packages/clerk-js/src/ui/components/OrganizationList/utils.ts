@@ -1,4 +1,4 @@
-import type { useOrganizationList } from '@clerk/shared/react';
+import type { useOrganizationList } from '@appypeeps/clerk-shared/react';
 
 export const organizationListParams = {
   userMemberships: {

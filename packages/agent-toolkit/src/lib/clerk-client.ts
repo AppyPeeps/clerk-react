@@ -1,6 +1,6 @@
-import { createClerkClient } from '@clerk/backend';
-import { apiUrlFromPublishableKey } from '@clerk/shared/apiUrlFromPublishableKey';
-import { getEnvVariable } from '@clerk/shared/getEnvVariable';
+import { createClerkClient } from '@appypeeps/clerk-backend';
+import { apiUrlFromPublishableKey } from '@appypeeps/clerk-shared/apiUrlFromPublishableKey';
+import { getEnvVariable } from '@appypeeps/clerk-shared/getEnvVariable';
 
 const API_VERSION = getEnvVariable('CLERK_API_VERSION') || 'v1';
 const SECRET_KEY = getEnvVariable('CLERK_SECRET_KEY') || '';

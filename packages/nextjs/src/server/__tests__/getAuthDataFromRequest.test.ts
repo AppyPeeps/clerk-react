@@ -1,6 +1,10 @@
-import type { MachineAuthObject } from '@clerk/backend';
-import type { AuthenticatedMachineObject, MachineTokenType, SignedOutAuthObject } from '@clerk/backend/internal';
-import { constants } from '@clerk/backend/internal';
+import type { MachineAuthObject } from '@appypeeps/clerk-backend';
+import type {
+  AuthenticatedMachineObject,
+  MachineTokenType,
+  SignedOutAuthObject,
+} from '@appypeeps/clerk-backend/internal';
+import { constants } from '@appypeeps/clerk-backend/internal';
 import { NextRequest } from 'next/server';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 

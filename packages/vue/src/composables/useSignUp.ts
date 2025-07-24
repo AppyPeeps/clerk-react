@@ -1,5 +1,5 @@
-import { eventMethodCalled } from '@clerk/shared/telemetry';
-import type { UseSignUpReturn } from '@clerk/types';
+import { eventMethodCalled } from '@appypeeps/clerk-shared/telemetry';
+import type { UseSignUpReturn } from '@appypeeps/clerk-types';
 import { computed, watch } from 'vue';
 
 import type { ToComputedRefs } from '../utils';
@@ -14,7 +14,7 @@ type UseSignUp = () => ToComputedRefs<UseSignUpReturn>;
  *
  * @example
  * <script setup>
- * import { useSignUp } from '@clerk/vue'
+ * import { useSignUp } from '@appypeeps/clerk-vue'
  *
  * const { isLoaded, signUp } = useSignUp()
  * </script>

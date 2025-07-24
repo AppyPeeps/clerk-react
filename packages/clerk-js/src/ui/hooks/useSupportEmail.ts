@@ -1,4 +1,4 @@
-import { useClerk } from '@clerk/shared/react';
+import { useClerk } from '@appypeeps/clerk-shared/react';
 import React from 'react';
 
 import { buildEmailAddress } from '../../utils';

@@ -1,4 +1,4 @@
-import { useAuth } from "@clerk/react-router";
+import { useAuth } from "@appypeeps/clerk-react-router";
 
 export default function UseAuthPage() {
   const { isLoaded, userId } = useAuth()

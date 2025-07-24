@@ -1,13 +1,13 @@
-import type { FapiRequestInit, FapiResponse } from '@clerk/clerk-js/dist/types/core/fapiClient';
-import { type Clerk, isClerkRuntimeError } from '@clerk/clerk-js/headless';
-import type { BrowserClerk, HeadlessBrowserClerk } from '@clerk/clerk-react';
-import { is4xxError } from '@clerk/shared/error';
+import type { FapiRequestInit, FapiResponse } from '@appypeeps/clerk-js/dist/types/core/fapiClient';
+import { type Clerk, isClerkRuntimeError } from '@appypeeps/clerk-js/headless';
+import type { BrowserClerk, HeadlessBrowserClerk } from '@appypeeps/clerk-react';
+import { is4xxError } from '@appypeeps/clerk-shared/error';
 import type {
   ClientJSONSnapshot,
   EnvironmentJSONSnapshot,
   PublicKeyCredentialCreationOptionsWithoutExtensions,
   PublicKeyCredentialRequestOptionsWithoutExtensions,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import { Platform } from 'react-native';
 
 import {

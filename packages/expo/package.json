@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/clerk-expo",
-  "version": "2.14.10",
+  "name": "@appypeeps/clerk-expo",
+  "version": "0.0.1",
   "description": "Clerk React Native/Expo library",
   "keywords": [
     "react",
@@ -77,16 +77,16 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@clerk/clerk-js": "workspace:^",
-    "@clerk/clerk-react": "workspace:^",
-    "@clerk/shared": "workspace:^",
-    "@clerk/types": "workspace:^",
+    "@appypeeps/clerk-js": "workspace:^",
+    "@appypeeps/clerk-react": "workspace:^",
+    "@appypeeps/clerk-shared": "workspace:^",
+    "@appypeeps/clerk-types": "workspace:^",
     "base-64": "^1.0.0",
     "react-native-url-polyfill": "2.0.0",
     "tslib": "catalog:repo"
   },
   "devDependencies": {
-    "@clerk/expo-passkeys": "workspace:*",
+    "@appypeeps/clerk-expo-passkeys": "workspace:*",
     "@types/base-64": "^1.0.2",
     "expo-auth-session": "^5.4.0",
     "expo-local-authentication": "^13.8.0",
@@ -95,7 +95,7 @@
     "react-native": "^0.80.1"
   },
   "peerDependencies": {
-    "@clerk/expo-passkeys": ">=0.0.6",
+    "@appypeeps/clerk-expo-passkeys": ">=0.0.6",
     "expo-auth-session": ">=5",
     "expo-local-authentication": ">=13.5.0",
     "expo-secure-store": ">=12.4.0",
@@ -105,7 +105,7 @@
     "react-native": ">=0.73"
   },
   "peerDependenciesMeta": {
-    "@clerk/expo-passkeys": {
+    "@appypeeps/clerk-expo-passkeys": {
       "optional": true
     },
     "expo-local-authentication": {
@@ -119,6 +119,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

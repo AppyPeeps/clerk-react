@@ -1,4 +1,4 @@
-import type { ClerkPaginatedResponse, ClerkResource } from '@clerk/types';
+import type { ClerkPaginatedResponse, ClerkResource } from '@appypeeps/clerk-types';
 
 import { eventMethodCalled } from '../../telemetry/events/method-called';
 import {

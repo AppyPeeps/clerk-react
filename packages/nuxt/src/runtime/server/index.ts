@@ -1,4 +1,4 @@
-export * from '@clerk/backend';
+export * from '@appypeeps/clerk-backend';
 export { clerkClient } from './clerkClient';
 export { clerkMiddleware } from './clerkMiddleware';
 export { createRouteMatcher } from './routeMatcher';

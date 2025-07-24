@@ -166,7 +166,7 @@ export interface Clerk {
 
   /**
    * If present, contains information about the SDK that the host application is using.
-   * For example, if Clerk is loaded through `@clerk/nextjs`, this would be `{ name: '@clerk/nextjs', version: '1.0.0' }`
+   * For example, if Clerk is loaded through `@appypeeps/clerk-nextjs`, this would be `{ name: '@appypeeps/clerk-nextjs', version: '1.0.0' }`
    */
   sdkMetadata: SDKMetadata | undefined;
 

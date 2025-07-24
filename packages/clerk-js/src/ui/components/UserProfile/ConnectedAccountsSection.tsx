@@ -1,5 +1,5 @@
-import { useReverification, useUser } from '@clerk/shared/react';
-import type { ExternalAccountResource, OAuthProvider, OAuthScope, OAuthStrategy } from '@clerk/types';
+import { useReverification, useUser } from '@appypeeps/clerk-shared/react';
+import type { ExternalAccountResource, OAuthProvider, OAuthScope, OAuthStrategy } from '@appypeeps/clerk-types';
 import { Fragment, useState } from 'react';
 
 import { Card } from '@/ui/elements/Card';

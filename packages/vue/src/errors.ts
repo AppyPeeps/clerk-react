@@ -5,4 +5,4 @@ export {
   isKnownError,
   isMetamaskError,
   EmailLinkErrorCodeStatus,
-} from '@clerk/shared/error';
+} from '@appypeeps/clerk-shared/error';

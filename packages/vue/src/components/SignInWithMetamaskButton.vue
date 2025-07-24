@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useAttrs, useSlots } from 'vue';
-import type { RedirectUrlProp } from '@clerk/types';
+import type { RedirectUrlProp } from '@appypeeps/clerk-types';
 import { useClerk } from '../composables/useClerk';
 import { assertSingleChild, normalizeWithDefaultValue } from '../utils';
 

@@ -14,7 +14,7 @@ const version = 'core-2';
 const semverVersion = 'v5';
 const name = 'react';
 const properName = 'React';
-const packageName = '@clerk/clerk-react';
+const packageName = '@appypeeps/clerk-react';
 const cwd = `${version}/${name}`;
 
 async function generate() {

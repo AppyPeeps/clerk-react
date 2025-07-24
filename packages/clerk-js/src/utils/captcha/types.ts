@@ -1,4 +1,4 @@
-import type { CaptchaProvider, CaptchaWidgetType } from '@clerk/types';
+import type { CaptchaProvider, CaptchaWidgetType } from '@appypeeps/clerk-types';
 
 export type CaptchaOptions = {
   action?: 'verify' | 'signup' | 'heartbeat';

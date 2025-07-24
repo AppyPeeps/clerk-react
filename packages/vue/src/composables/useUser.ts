@@ -1,4 +1,4 @@
-import type { UseUserReturn } from '@clerk/types';
+import type { UseUserReturn } from '@appypeeps/clerk-types';
 import { computed } from 'vue';
 
 import type { ToComputedRefs } from '../utils';
@@ -12,7 +12,7 @@ type UseUser = () => ToComputedRefs<UseUserReturn>;
  *
  * @example
  * <script setup>
- * import { useUser } from '@clerk/vue'
+ * import { useUser } from '@appypeeps/clerk-vue'
  *
  * const { isLoaded, isSignedIn, user } = useUser()
  * </script>

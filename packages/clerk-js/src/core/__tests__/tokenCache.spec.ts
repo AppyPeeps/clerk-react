@@ -1,4 +1,4 @@
-import type { TokenResource } from '@clerk/types';
+import type { TokenResource } from '@appypeeps/clerk-types';
 import { afterAll, afterEach, beforeAll, describe, expect, it, vi } from 'vitest';
 
 import { Token } from '../resources/internal';

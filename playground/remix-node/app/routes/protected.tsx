@@ -1,5 +1,5 @@
-import { UserButton } from '@clerk/remix';
-import { getAuth } from '@clerk/remix/ssr.server';
+import { UserButton } from '@appypeeps/clerk-remix';
+import { getAuth } from '@appypeeps/clerk-remix/ssr.server';
 import type { LoaderFunction } from '@remix-run/node';
 import { redirect } from '@remix-run/node';
 

@@ -1,5 +1,5 @@
-import type { AuthObject, Organization, Session, User } from '@clerk/backend';
-import { makeAuthObjectSerializable, stripPrivateDataFromObject } from '@clerk/backend/internal';
+import type { AuthObject, Organization, Session, User } from '@appypeeps/clerk-backend';
+import { makeAuthObjectSerializable, stripPrivateDataFromObject } from '@appypeeps/clerk-backend/internal';
 
 import { getAuthDataFromRequest } from './data/getAuthDataFromRequest';
 import type { RequestLike } from './types';
@@ -15,7 +15,7 @@ type BuildClerkProps = (req: RequestLike, authState?: BuildClerkPropsInitState) 
  * ### Basic usage
  *
  * ```tsx {{ filename: 'pages/myServerSidePage.tsx' }}
- * import { getAuth, buildClerkProps } from '@clerk/nextjs/server'
+ * import { getAuth, buildClerkProps } from '@appypeeps/clerk-nextjs/server'
  * import { GetServerSideProps } from 'next'
  *
  * export const getServerSideProps: GetServerSideProps = async (ctx) => {
@@ -36,7 +36,7 @@ type BuildClerkProps = (req: RequestLike, authState?: BuildClerkPropsInitState) 
  * The `clerkClient` allows you to access the Clerk API. You can use this to retrieve or update data.
  *
  * ```tsx {{ filename: 'pages/api/example.ts' }}
- * import { getAuth, buildClerkProps, clerkClient } from '@clerk/nextjs/server'
+ * import { getAuth, buildClerkProps, clerkClient } from '@appypeeps/clerk-nextjs/server'
  * import { GetServerSideProps } from 'next'
  *
  * export const getServerSideProps: GetServerSideProps = async (ctx) => {

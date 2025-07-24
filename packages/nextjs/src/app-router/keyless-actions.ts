@@ -1,5 +1,5 @@
 'use server';
-import type { AccountlessApplication } from '@clerk/backend';
+import type { AccountlessApplication } from '@appypeeps/clerk-backend';
 import { cookies, headers } from 'next/headers';
 import { redirect, RedirectType } from 'next/navigation';
 

@@ -1,1 +1,1 @@
-export { UserContext, useUserContext } from '@clerk/shared/react';
+export { UserContext, useUserContext } from '@appypeeps/clerk-shared/react';

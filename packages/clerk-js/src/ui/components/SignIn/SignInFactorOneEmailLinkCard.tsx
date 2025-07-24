@@ -1,6 +1,6 @@
-import { isUserLockedError } from '@clerk/shared/error';
-import { useClerk } from '@clerk/shared/react';
-import type { EmailLinkFactor, SignInResource } from '@clerk/types';
+import { isUserLockedError } from '@appypeeps/clerk-shared/error';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { EmailLinkFactor, SignInResource } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import type { VerificationCodeCardProps } from '@/ui/elements/VerificationCodeCard';

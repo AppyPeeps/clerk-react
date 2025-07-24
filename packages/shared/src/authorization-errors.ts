@@ -1,4 +1,4 @@
-import type { ReverificationConfig } from '@clerk/types';
+import type { ReverificationConfig } from '@appypeeps/clerk-types';
 
 type ClerkError<T> = {
   clerk_error: T;

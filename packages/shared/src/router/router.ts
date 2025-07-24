@@ -1,4 +1,4 @@
-import type { ClerkHostRouter, RoutingMode } from '@clerk/types';
+import type { ClerkHostRouter, RoutingMode } from '@appypeeps/clerk-types';
 
 import { isAbsoluteUrl, withLeadingSlash, withoutTrailingSlash } from '../url';
 

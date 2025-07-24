@@ -2,7 +2,7 @@ import type { HTMLInputTypeAttribute } from 'react';
 
 import type { ClerkElementsError } from '~/internals/errors';
 
-/** Extracted relevant fields from @clerk/types  */
+/** Extracted relevant fields from @appypeeps/clerk-types  */
 export type ClerkFieldId =
   | 'code'
   | 'confirmPassword'

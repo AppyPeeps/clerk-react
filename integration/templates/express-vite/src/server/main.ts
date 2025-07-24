@@ -1,7 +1,7 @@
 // Should be at the top of the file - used to load clerk secret key
 import 'dotenv/config';
 
-import { clerkMiddleware } from '@clerk/express';
+import { clerkMiddleware } from '@appypeeps/clerk-express';
 import express from 'express';
 import ViteExpress from 'vite-express';
 

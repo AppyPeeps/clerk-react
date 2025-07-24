@@ -1,4 +1,4 @@
-import type { SessionWithActivitiesResource } from '@clerk/types';
+import type { SessionWithActivitiesResource } from '@appypeeps/clerk-types';
 import { describe, it } from '@jest/globals';
 import { within } from '@testing-library/dom';
 

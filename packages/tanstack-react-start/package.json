@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/tanstack-react-start",
-  "version": "0.21.1",
+  "name": "@appypeeps/clerk-tanstack-react-start",
+  "version": "0.0.1",
   "description": "Clerk SDK for TanStack React Start",
   "keywords": [
     "clerk",
@@ -67,10 +67,10 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@clerk/backend": "workspace:^",
-    "@clerk/clerk-react": "workspace:^",
-    "@clerk/shared": "workspace:^",
-    "@clerk/types": "workspace:^",
+    "@appypeeps/clerk-backend": "workspace:^",
+    "@appypeeps/clerk-react": "workspace:^",
+    "@appypeeps/clerk-shared": "workspace:^",
+    "@appypeeps/clerk-types": "workspace:^",
     "tslib": "catalog:repo"
   },
   "devDependencies": {
@@ -88,6 +88,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

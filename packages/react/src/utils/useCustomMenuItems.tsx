@@ -1,5 +1,5 @@
-import { logErrorInDevMode } from '@clerk/shared/utils';
-import type { CustomMenuItem } from '@clerk/types';
+import { logErrorInDevMode } from '@appypeeps/clerk-shared/utils';
+import type { CustomMenuItem } from '@appypeeps/clerk-types';
 import type { ReactElement } from 'react';
 import React from 'react';
 

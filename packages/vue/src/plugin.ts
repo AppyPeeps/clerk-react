@@ -1,7 +1,14 @@
-import { inBrowser } from '@clerk/shared/browser';
-import { deriveState } from '@clerk/shared/deriveState';
-import { loadClerkJsScript, type LoadClerkJsScriptOptions } from '@clerk/shared/loadClerkJsScript';
-import type { Clerk, ClientResource, InitialState, MultiDomainAndOrProxy, Resources, Without } from '@clerk/types';
+import { inBrowser } from '@appypeeps/clerk-shared/browser';
+import { deriveState } from '@appypeeps/clerk-shared/deriveState';
+import { loadClerkJsScript, type LoadClerkJsScriptOptions } from '@appypeeps/clerk-shared/loadClerkJsScript';
+import type {
+  Clerk,
+  ClientResource,
+  InitialState,
+  MultiDomainAndOrProxy,
+  Resources,
+  Without,
+} from '@appypeeps/clerk-types';
 import type { Plugin } from 'vue';
 import { computed, ref, shallowRef, triggerRef } from 'vue';
 
@@ -24,7 +31,7 @@ const SDK_METADATA = {
  * @example
  * ```ts
  * import { createApp } from 'vue'
- * import { clerkPlugin } from '@clerk/vue'
+ * import { clerkPlugin } from '@appypeeps/clerk-vue'
  * import App from './App.vue'
  *
  * const app = createApp(App)

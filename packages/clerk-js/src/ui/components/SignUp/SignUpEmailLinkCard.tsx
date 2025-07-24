@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import type { SignUpResource } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { SignUpResource } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { VerificationLinkCard } from '@/ui/elements/VerificationLinkCard';

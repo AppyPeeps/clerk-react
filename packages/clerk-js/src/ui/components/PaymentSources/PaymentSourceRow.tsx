@@ -1,4 +1,4 @@
-import type { CommercePaymentSourceResource } from '@clerk/types';
+import type { CommercePaymentSourceResource } from '@appypeeps/clerk-types';
 
 import { Badge, descriptors, Flex, Icon, localizationKeys, Text } from '../../customizables';
 import { CreditCard, GenericPayment } from '../../icons';

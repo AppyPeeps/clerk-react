@@ -1,4 +1,4 @@
-import { stripPrivateDataFromObject } from '@clerk/backend/internal';
+import { stripPrivateDataFromObject } from '@appypeeps/clerk-backend/internal';
 
 import { noLoaderArgsPassedInGetAuth } from '../utils/errors';
 import { authenticateRequest } from './authenticateRequest';

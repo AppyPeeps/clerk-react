@@ -1,5 +1,5 @@
-import { createContextAndHook } from '@clerk/shared/react';
-import type { ClerkAPIError, ClerkRuntimeError } from '@clerk/types';
+import { createContextAndHook } from '@appypeeps/clerk-shared/react';
+import type { ClerkAPIError, ClerkRuntimeError } from '@appypeeps/clerk-types';
 import { FloatingTree, useFloatingParentNodeId } from '@floating-ui/react';
 import React from 'react';
 

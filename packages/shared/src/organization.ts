@@ -1,4 +1,4 @@
-import type { OrganizationMembershipResource } from '@clerk/types';
+import type { OrganizationMembershipResource } from '@appypeeps/clerk-types';
 
 /**
  * Finds the organization membership for a given organization ID from a list of memberships

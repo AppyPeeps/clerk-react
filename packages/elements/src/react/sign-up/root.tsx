@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import { eventComponentMounted } from '@clerk/shared/telemetry';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import { eventComponentMounted } from '@appypeeps/clerk-shared/telemetry';
 import { useSelector } from '@xstate/react';
 import { useEffect } from 'react';
 import { createActor } from 'xstate';
@@ -100,7 +100,7 @@ export type SignUpRootProps = Omit<SignUpFlowProviderProps, 'isRootPath'> & {
  * @param {string} routing - If you want to render Clerk Elements in e.g. a modal, use the `'virtual'` routing mode. Default: `'path'`
  *
  * @example
- * import * as SignUp from "@clerk/elements/sign-up"
+ * import * as SignUp from "@appypeeps/clerk-elements/sign-up"
  *
  * export default SignUpPage = () => (
  *  <SignUp.Root>

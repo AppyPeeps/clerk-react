@@ -1,5 +1,5 @@
-import { useUser } from '@clerk/shared/react';
-import type { __internal_CheckoutProps, Appearance } from '@clerk/types';
+import { useUser } from '@appypeeps/clerk-shared/react';
+import type { __internal_CheckoutProps, Appearance } from '@appypeeps/clerk-types';
 
 import { Checkout } from './components';
 import { LazyDrawerRenderer } from './providers';

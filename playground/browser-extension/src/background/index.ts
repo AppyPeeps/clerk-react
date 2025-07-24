@@ -1,4 +1,4 @@
-import { createClerkClient } from '@clerk/chrome-extension/background';
+import { createClerkClient } from '@appypeeps/clerk-chrome-extension/background';
 
 console.log('[Service Worker]: Loaded')
 

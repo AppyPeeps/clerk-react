@@ -1,7 +1,7 @@
 'use client';
 
-import * as Clerk from '@clerk/elements/common';
-import * as SignUp from '@clerk/elements/sign-up';
+import * as Clerk from '@appypeeps/clerk-elements/common';
+import * as SignUp from '@appypeeps/clerk-elements/sign-up';
 
 export default function SignUpPage() {
   return (

@@ -4,7 +4,7 @@ import type {
   PhoneNumberResource,
   UserResource,
   Web3WalletResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 type IDable = { id: string };
 

@@ -78,7 +78,7 @@ const disclaimer = `
  `;
 const initialText = (locale: string) => `
 
-import type { LocalizationResource } from '@clerk/types';
+import type { LocalizationResource } from '@appypeeps/clerk-types';
 
 export const ${locale}: LocalizationResource = `;
 

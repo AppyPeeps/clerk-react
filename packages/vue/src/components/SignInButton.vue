@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useAttrs, useSlots } from 'vue';
-import type { SignInButtonProps } from '@clerk/types';
+import type { SignInButtonProps } from '@appypeeps/clerk-types';
 import { useClerk } from '../composables/useClerk';
 import { assertSingleChild, normalizeWithDefaultValue } from '../utils';
 

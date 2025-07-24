@@ -1,4 +1,4 @@
-import { OAUTH_PROVIDERS } from '@clerk/shared/oauth';
+import { OAUTH_PROVIDERS } from '@appypeeps/clerk-shared/oauth';
 import { renderHook } from '@testing-library/react';
 
 import { bindCreateFixtures } from '../../../testUtils';

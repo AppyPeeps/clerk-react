@@ -1,4 +1,4 @@
-import type { OrganizationCustomRoleKey } from '@clerk/types';
+import type { OrganizationCustomRoleKey } from '@appypeeps/clerk-types';
 
 export type OAuthProvider =
   | 'facebook'

@@ -1,5 +1,9 @@
-import { deprecated } from '@clerk/shared/deprecated';
-import type { HandleOAuthCallbackParams, PendingSessionOptions, ProtectProps as _ProtectProps } from '@clerk/types';
+import { deprecated } from '@appypeeps/clerk-shared/deprecated';
+import type {
+  HandleOAuthCallbackParams,
+  PendingSessionOptions,
+  ProtectProps as _ProtectProps,
+} from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { useIsomorphicClerkContext } from '../contexts/IsomorphicClerkContext';

@@ -1,13 +1,13 @@
 /* eslint-disable import/export */
-import type { VerifyWebhookOptions } from '@clerk/backend/webhooks';
-import { verifyWebhook as verifyWebhookBase } from '@clerk/backend/webhooks';
+import type { VerifyWebhookOptions } from '@appypeeps/clerk-backend/webhooks';
+import { verifyWebhook as verifyWebhookBase } from '@appypeeps/clerk-backend/webhooks';
 import type { FastifyRequest } from 'fastify';
 
 import { fastifyRequestToRequest } from './utils';
 
 // Ordering of exports matter here since
 // we're overriding the base verifyWebhook
-export * from '@clerk/backend/webhooks';
+export * from '@appypeeps/clerk-backend/webhooks';
 
 /**
  * Verifies the authenticity of a webhook request using Svix.

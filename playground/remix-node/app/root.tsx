@@ -1,8 +1,8 @@
 import { defer, type DataFunctionArgs } from '@remix-run/node';
 import type { MetaFunction } from '@remix-run/react';
 import { Await, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData } from '@remix-run/react';
-import { rootAuthLoader } from '@clerk/remix/ssr.server';
-import { ClerkApp } from '@clerk/remix';
+import { rootAuthLoader } from '@appypeeps/clerk-remix/ssr.server';
+import { ClerkApp } from '@appypeeps/clerk-remix';
 import { Suspense } from 'react';
 
 export const loader = (args: DataFunctionArgs) => {

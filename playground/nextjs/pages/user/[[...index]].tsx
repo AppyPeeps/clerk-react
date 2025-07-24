@@ -1,7 +1,7 @@
-import { UserProfile } from '@clerk/nextjs';
+import { UserProfile } from '@appypeeps/clerk-nextjs';
 import type { GetServerSideProps, NextPage } from 'next';
 import React from 'react';
-import { getAuth } from '@clerk/nextjs/server';
+import { getAuth } from '@appypeeps/clerk-nextjs/server';
 
 export const getServerSideProps: GetServerSideProps = async context => {
   const auth = getAuth(context.req);

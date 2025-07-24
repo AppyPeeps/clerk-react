@@ -1,5 +1,5 @@
-import { useSession } from '@clerk/shared/react';
-import type { CheckAuthorization, OrganizationCustomRoleKey, OrganizationPermissionKey } from '@clerk/types';
+import { useSession } from '@appypeeps/clerk-shared/react';
+import type { CheckAuthorization, OrganizationCustomRoleKey, OrganizationPermissionKey } from '@appypeeps/clerk-types';
 import type { ComponentType, PropsWithChildren, ReactNode } from 'react';
 import React, { useEffect } from 'react';
 

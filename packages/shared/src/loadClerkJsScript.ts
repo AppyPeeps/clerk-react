@@ -1,4 +1,4 @@
-import type { ClerkOptions, SDKMetadata, Without } from '@clerk/types';
+import type { ClerkOptions, SDKMetadata, Without } from '@appypeeps/clerk-types';
 
 import { buildErrorThrower } from './error';
 import { createDevOrStagingUrlCache, parsePublishableKey } from './keys';
@@ -11,15 +11,15 @@ const FAILED_TO_LOAD_ERROR = 'Clerk: Failed to load Clerk';
 
 const { isDevOrStagingUrl } = createDevOrStagingUrlCache();
 
-const errorThrower = buildErrorThrower({ packageName: '@clerk/shared' });
+const errorThrower = buildErrorThrower({ packageName: '@appypeeps/clerk-shared' });
 
 /**
  * Sets the package name for error messages during ClerkJS script loading.
  *
- * @param packageName - The name of the package to use in error messages (e.g., '@clerk/clerk-react').
+ * @param packageName - The name of the package to use in error messages (e.g., '@appypeeps/clerk-react').
  * @example
  * ```typescript
- * setClerkJsLoadingErrorPackageName('@clerk/clerk-react');
+ * setClerkJsLoadingErrorPackageName('@appypeeps/clerk-react');
  * ```
  */
 export function setClerkJsLoadingErrorPackageName(packageName: string) {
@@ -174,7 +174,7 @@ const loadClerkJsScript = async (opts?: LoadClerkJsScriptOptions): Promise<HTMLS
  * @example
  * ```typescript
  * const url = clerkJsScriptUrl({ publishableKey: 'pk_test_...' });
- * // Returns: "https://example.clerk.accounts.dev/npm/@clerk/clerk-js@5/dist/clerk.browser.js"
+ * // Returns: "https://example.clerk.accounts.dev/npm/@appypeeps/clerk-js@5/dist/clerk.browser.js"
  * ```
  */
 const clerkJsScriptUrl = (opts: LoadClerkJsScriptOptions) => {
@@ -195,7 +195,7 @@ const clerkJsScriptUrl = (opts: LoadClerkJsScriptOptions) => {
 
   const variant = clerkJSVariant ? `${clerkJSVariant.replace(/\.+$/, '')}.` : '';
   const version = versionSelector(clerkJSVersion);
-  return `https://${scriptHost}/npm/@clerk/clerk-js@${version}/dist/clerk.${variant}browser.js`;
+  return `https://${scriptHost}/npm/@appypeeps/clerk-js@${version}/dist/clerk.${variant}browser.js`;
 };
 
 /**

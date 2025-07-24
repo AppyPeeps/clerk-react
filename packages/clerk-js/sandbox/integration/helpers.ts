@@ -1,4 +1,4 @@
-import { clerk } from '@clerk/testing/playwright';
+import { clerk } from '@appypeeps/clerk-testing/playwright';
 import { type Page } from '@playwright/test';
 
 /**

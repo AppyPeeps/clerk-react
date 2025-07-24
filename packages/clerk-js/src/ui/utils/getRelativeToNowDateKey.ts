@@ -1,4 +1,4 @@
-import { formatRelative } from '@clerk/shared/date';
+import { formatRelative } from '@appypeeps/clerk-shared/date';
 
 import { localizationKeys } from '../localization';
 

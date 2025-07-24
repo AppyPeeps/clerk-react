@@ -1,4 +1,4 @@
-import type { ClerkAPIError, UsernameSettingsData } from '@clerk/types';
+import type { ClerkAPIError, UsernameSettingsData } from '@appypeeps/clerk-types';
 
 import { type LocalizationKey, localizationKeys } from '../localization';
 

@@ -4,7 +4,7 @@ export * from './getAuth';
 export { clerkClient } from './clerkClient';
 
 /**
- * Re-export resource types from @clerk/backend
+ * Re-export resource types from @appypeeps/clerk-backend
  */
 export type {
   OrganizationMembershipRole,
@@ -29,4 +29,4 @@ export type {
   SMSMessage,
   Token,
   User,
-} from '@clerk/backend';
+} from '@appypeeps/clerk-backend';

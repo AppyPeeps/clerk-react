@@ -1,4 +1,4 @@
-import { useAssertWrappedByClerkProvider as useSharedAssertWrappedByClerkProvider } from '@clerk/shared/react';
+import { useAssertWrappedByClerkProvider as useSharedAssertWrappedByClerkProvider } from '@appypeeps/clerk-shared/react';
 
 import { errorThrower } from '../errors/errorThrower';
 

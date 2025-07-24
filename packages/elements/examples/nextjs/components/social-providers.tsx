@@ -1,6 +1,6 @@
 'use client';
 
-import { ProviderIcon as ClerkElementsProviderIcon } from '@clerk/elements/common';
+import { ProviderIcon as ClerkElementsProviderIcon } from '@appypeeps/clerk-elements/common';
 import Image from 'next/image';
 import type { ComponentProps } from 'react';
 

@@ -28,4 +28,4 @@ export {
   SignOutButton,
   SignInWithMetamaskButton,
   PricingTable,
-} from '@clerk/vue';
+} from '@appypeeps/clerk-vue';

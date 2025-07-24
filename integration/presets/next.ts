@@ -14,9 +14,9 @@ const appRouter = applicationConfig()
   .addDependency('next', constants.E2E_NEXTJS_VERSION)
   .addDependency('react', constants.E2E_REACT_VERSION)
   .addDependency('react-dom', constants.E2E_REACT_DOM_VERSION)
-  .addDependency('@clerk/nextjs', constants.E2E_CLERK_VERSION || linkPackage('nextjs'))
-  .addDependency('@clerk/shared', linkPackage('shared'))
-  .addDependency('@clerk/types', linkPackage('types'));
+  .addDependency('@appypeeps/clerk-nextjs', constants.E2E_CLERK_VERSION || linkPackage('nextjs'))
+  .addDependency('@appypeeps/clerk-shared', linkPackage('shared'))
+  .addDependency('@appypeeps/clerk-types', linkPackage('types'));
 
 const appRouterTurbo = appRouter.clone().setName('next-app-router-turbopack').addScript('dev', 'pnpm dev');
 
@@ -30,10 +30,10 @@ const appRouterAPWithClerkNextLatest = appRouterQuickstart.clone().setName('next
 const appRouterAPWithClerkNextV4 = appRouterQuickstart
   .clone()
   .setName('next-app-router-ap-clerk-next-v4')
-  .addDependency('@clerk/nextjs', '4')
+  .addDependency('@appypeeps/clerk-nextjs', '4')
   .addFile(
     'src/middleware.ts',
-    () => `import { authMiddleware } from '@clerk/nextjs';
+    () => `import { authMiddleware } from '@appypeeps/clerk-nextjs';
 
     export default authMiddleware({
       publicRoutes: ['/']

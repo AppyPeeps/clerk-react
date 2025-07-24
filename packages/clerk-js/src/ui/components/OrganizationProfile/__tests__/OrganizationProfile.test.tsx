@@ -1,4 +1,4 @@
-import type { CustomPage } from '@clerk/types';
+import type { CustomPage } from '@appypeeps/clerk-types';
 import { describe, it } from '@jest/globals';
 import React from 'react';
 

@@ -1,4 +1,4 @@
-import { constants } from '@clerk/backend/internal';
+import { constants } from '@appypeeps/clerk-backend/internal';
 
 /**
  * Valid CSP directives according to the CSP Level 3 specification

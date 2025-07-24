@@ -1,5 +1,5 @@
-import { useClerk, useOrganization } from '@clerk/shared/react';
-import type { CommercePaymentSourceResource } from '@clerk/types';
+import { useClerk, useOrganization } from '@appypeeps/clerk-shared/react';
+import type { CommercePaymentSourceResource } from '@appypeeps/clerk-types';
 import { Fragment, useMemo, useRef } from 'react';
 
 import { useCardState, withCardStateProvider } from '@/ui/elements/contexts';

@@ -1,4 +1,4 @@
-import { useOrganization } from '@clerk/shared/react';
+import { useOrganization } from '@appypeeps/clerk-shared/react';
 import React, { useRef } from 'react';
 
 import { useFieldOTP } from '@/ui/elements/CodeControl';

@@ -1,5 +1,5 @@
-import { useClerk, useReverification, useUser } from '@clerk/shared/react';
-import type { PasskeyResource } from '@clerk/types';
+import { useClerk, useReverification, useUser } from '@appypeeps/clerk-shared/react';
+import type { PasskeyResource } from '@appypeeps/clerk-types';
 import React, { Fragment, useState } from 'react';
 
 import { useCardState, withCardStateProvider } from '@/ui/elements/contexts';

@@ -17,7 +17,7 @@ test.describe('user profile @generic', () => {
       .addFile(
         'src/app/provider.tsx',
         () => `'use client'
-import { ClerkProvider } from "@clerk/nextjs";
+import { ClerkProvider } from "@appypeeps/clerk-nextjs";
 
 export function Provider({ children }: { children: any }) {
   return (
@@ -53,7 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       .addFile(
         'src/app/hash/user/page.tsx',
         () => `
-import { UserProfile, UserButton } from '@clerk/nextjs';
+import { UserProfile, UserButton } from '@appypeeps/clerk-nextjs';
 
 export default function Page() {
   return (

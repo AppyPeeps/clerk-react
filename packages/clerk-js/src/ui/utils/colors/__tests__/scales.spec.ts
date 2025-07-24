@@ -1,4 +1,4 @@
-import type { ColorScale } from '@clerk/types';
+import type { ColorScale } from '@appypeeps/clerk-types';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 import { cssSupports } from '../../cssSupports';

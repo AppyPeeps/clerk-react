@@ -1,4 +1,4 @@
-import type { ClerkOptions, SessionTask } from '@clerk/types';
+import type { ClerkOptions, SessionTask } from '@appypeeps/clerk-types';
 
 import { INTERNAL_SESSION_TASK_ROUTE_BY_KEY } from '../../core/sessionTasks';
 import { buildURL } from '../../utils/url';

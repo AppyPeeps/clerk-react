@@ -1,7 +1,7 @@
-import { setClerkJsLoadingErrorPackageName } from '@clerk/shared/loadClerkJsScript';
-import type { InitialState } from '@clerk/types';
-import { clerkPlugin } from '@clerk/vue';
-import { setErrorThrowerOptions } from '@clerk/vue/internal';
+import { setClerkJsLoadingErrorPackageName } from '@appypeeps/clerk-shared/loadClerkJsScript';
+import type { InitialState } from '@appypeeps/clerk-types';
+import { clerkPlugin } from '@appypeeps/clerk-vue';
+import { setErrorThrowerOptions } from '@appypeeps/clerk-vue/internal';
 import { defineNuxtPlugin, navigateTo, useRuntimeConfig, useState } from 'nuxt/app';
 
 setErrorThrowerOptions({ packageName: PACKAGE_NAME });

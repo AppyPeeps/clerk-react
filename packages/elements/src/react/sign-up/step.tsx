@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import { eventComponentMounted } from '@clerk/shared/telemetry';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import { eventComponentMounted } from '@appypeeps/clerk-shared/telemetry';
 
 import { ClerkElementsRuntimeError } from '~/internals/errors';
 

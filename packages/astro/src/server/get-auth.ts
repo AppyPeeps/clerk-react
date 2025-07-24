@@ -1,7 +1,7 @@
-import type { SignedInAuthObject, SignedOutAuthObject } from '@clerk/backend/internal';
-import { AuthStatus, getAuthObjectFromJwt, signedOutAuthObject } from '@clerk/backend/internal';
-import { decodeJwt } from '@clerk/backend/jwt';
-import type { PendingSessionOptions } from '@clerk/types';
+import type { SignedInAuthObject, SignedOutAuthObject } from '@appypeeps/clerk-backend/internal';
+import { AuthStatus, getAuthObjectFromJwt, signedOutAuthObject } from '@appypeeps/clerk-backend/internal';
+import { decodeJwt } from '@appypeeps/clerk-backend/jwt';
+import type { PendingSessionOptions } from '@appypeeps/clerk-types';
 import type { APIContext } from 'astro';
 
 import { getSafeEnv } from './get-safe-env';

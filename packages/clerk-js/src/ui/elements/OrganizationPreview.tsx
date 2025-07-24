@@ -1,4 +1,4 @@
-import type { OrganizationPreviewId, UserOrganizationInvitationResource, UserResource } from '@clerk/types';
+import type { OrganizationPreviewId, UserOrganizationInvitationResource, UserResource } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { descriptors, Flex, Text } from '../customizables';

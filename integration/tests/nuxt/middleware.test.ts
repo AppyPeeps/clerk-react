@@ -15,7 +15,7 @@ test.describe('custom middleware @nuxt', () => {
       .addFile(
         'nuxt.config.js',
         () => `export default defineNuxtConfig({
-          modules: ['@clerk/nuxt'],
+          modules: ['@appypeeps/clerk-nuxt'],
           devtools: { enabled: false },
           clerk: {
             skipServerMiddleware: true
@@ -24,7 +24,7 @@ test.describe('custom middleware @nuxt', () => {
       )
       .addFile(
         'server/middleware/clerk.js',
-        () => `import { clerkMiddleware, createRouteMatcher, getAuth } from '@clerk/nuxt/server';
+        () => `import { clerkMiddleware, createRouteMatcher, getAuth } from '@appypeeps/clerk-nuxt/server';
 
         export default clerkMiddleware((event) => {
           const { userId } = getAuth(event);

@@ -1,4 +1,4 @@
-import { useUser } from '@clerk/shared/react';
+import { useUser } from '@appypeeps/clerk-shared/react';
 import { forwardRef } from 'react';
 
 import { UserAvatar } from '@/ui/elements/UserAvatar';

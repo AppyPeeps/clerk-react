@@ -1,4 +1,4 @@
-import type { CommercePaymentResource, GetPaymentAttemptsParams } from '@clerk/types';
+import type { CommercePaymentResource, GetPaymentAttemptsParams } from '@appypeeps/clerk-types';
 
 import { useClerkInstanceContext } from '../contexts';
 import { createCommercePaginatedHook } from './createCommerceHook';

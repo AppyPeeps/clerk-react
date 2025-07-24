@@ -14,8 +14,8 @@ test.describe('appearance prop', () => {
       .addFile(
         'src/App.tsx',
         ({ tsx }) => tsx`
-            import { SignIn, SignUp } from '@clerk/clerk-react';
-            import { dark, neobrutalism, shadesOfPurple } from '@clerk/themes';
+            import { SignIn, SignUp } from '@appypeeps/clerk-react';
+            import { dark, neobrutalism, shadesOfPurple } from '@appypeeps/clerk-themes';
             const themes = { shadesOfPurple, neobrutalism, dark };
 
             export default function App() {
@@ -44,7 +44,7 @@ test.describe('appearance prop', () => {
     await app.teardown();
   });
 
-  test('all @clerk/themes render', async ({ page }) => {
+  test('all @appypeeps/clerk-themes render', async ({ page }) => {
     const u = createTestUtils({ app, page });
     await u.page.goToAppHome();
     await u.po.signIn.waitForMounted();

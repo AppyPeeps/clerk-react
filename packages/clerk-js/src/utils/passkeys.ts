@@ -1,5 +1,5 @@
-import type { ClerkRuntimeError } from '@clerk/shared/error';
-import { ClerkWebAuthnError } from '@clerk/shared/error';
+import type { ClerkRuntimeError } from '@appypeeps/clerk-shared/error';
+import { ClerkWebAuthnError } from '@appypeeps/clerk-shared/error';
 import type {
   CredentialReturn,
   PublicKeyCredentialCreationOptionsJSON,
@@ -8,7 +8,7 @@ import type {
   PublicKeyCredentialRequestOptionsWithoutExtensions,
   PublicKeyCredentialWithAuthenticatorAssertionResponse,
   PublicKeyCredentialWithAuthenticatorAttestationResponse,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 type WebAuthnCreateCredentialReturn = CredentialReturn<PublicKeyCredentialWithAuthenticatorAttestationResponse>;
 type WebAuthnGetCredentialReturn = CredentialReturn<PublicKeyCredentialWithAuthenticatorAssertionResponse>;

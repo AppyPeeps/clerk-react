@@ -2,9 +2,9 @@ const createClerkClientMock = jest.fn(() => {
   return 'clerkClient';
 });
 
-jest.mock('@clerk/backend', () => {
+jest.mock('@appypeeps/clerk-backend', () => {
   return {
-    ...jest.requireActual('@clerk/backend'),
+    ...jest.requireActual('@appypeeps/clerk-backend'),
     createClerkClient: createClerkClientMock,
   };
 });

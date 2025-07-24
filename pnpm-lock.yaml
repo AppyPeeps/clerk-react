@@ -55,6 +55,15 @@ importers:
       '@actions/core':
         specifier: ^1.11.1
         version: 1.11.1
+      '@appypeeps/clerk-backend':
+        specifier: workspace:*
+        version: link:packages/backend
+      '@appypeeps/clerk-shared':
+        specifier: workspace:*
+        version: link:packages/shared
+      '@appypeeps/clerk-testing':
+        specifier: workspace:*
+        version: link:packages/testing
       '@arethetypeswrong/cli':
         specifier: 0.17.4
         version: 0.17.4
@@ -64,15 +73,6 @@ importers:
       '@changesets/get-github-info':
         specifier: ^0.6.0
         version: 0.6.0
-      '@clerk/backend':
-        specifier: workspace:*
-        version: link:packages/backend
-      '@clerk/shared':
-        specifier: workspace:*
-        version: link:packages/shared
-      '@clerk/testing':
-        specifier: workspace:*
-        version: link:packages/testing
       '@commitlint/cli':
         specifier: ^19.8.0
         version: 19.8.0(@types/node@22.16.4)(typescript@5.8.3)
@@ -316,13 +316,13 @@ importers:
 
   packages/agent-toolkit:
     dependencies:
-      '@clerk/backend':
+      '@appypeeps/clerk-backend':
         specifier: workspace:^
         version: link:../backend
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       '@langchain/core':
@@ -347,13 +347,13 @@ importers:
 
   packages/astro:
     dependencies:
-      '@clerk/backend':
+      '@appypeeps/clerk-backend':
         specifier: workspace:^
         version: link:../backend
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       nanoid:
@@ -369,10 +369,10 @@ importers:
 
   packages/backend:
     dependencies:
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       cookie:
@@ -403,13 +403,13 @@ importers:
 
   packages/chrome-extension:
     dependencies:
-      '@clerk/clerk-js':
+      '@appypeeps/clerk-js':
         specifier: workspace:^
         version: link:../clerk-js
-      '@clerk/clerk-react':
+      '@appypeeps/clerk-react':
         specifier: workspace:^
         version: link:../react
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
       react:
@@ -434,13 +434,13 @@ importers:
 
   packages/clerk-js:
     dependencies:
-      '@clerk/localizations':
+      '@appypeeps/clerk-localizations':
         specifier: workspace:^
         version: link:../localizations
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       '@coinbase/wallet-sdk':
@@ -504,7 +504,7 @@ importers:
         specifier: 2.3.4
         version: 2.3.4(react@18.3.1)
     devDependencies:
-      '@clerk/testing':
+      '@appypeeps/clerk-testing':
         specifier: workspace:^
         version: link:../testing
       '@emotion/jest':
@@ -564,13 +564,13 @@ importers:
 
   packages/elements:
     dependencies:
-      '@clerk/clerk-react':
+      '@appypeeps/clerk-react':
         specifier: workspace:^
         version: link:../react
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       '@radix-ui/primitive':
@@ -616,16 +616,16 @@ importers:
 
   packages/expo:
     dependencies:
-      '@clerk/clerk-js':
+      '@appypeeps/clerk-js':
         specifier: workspace:^
         version: link:../clerk-js
-      '@clerk/clerk-react':
+      '@appypeeps/clerk-react':
         specifier: workspace:^
         version: link:../react
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       base-64:
@@ -644,7 +644,7 @@ importers:
         specifier: catalog:repo
         version: 2.8.1
     devDependencies:
-      '@clerk/expo-passkeys':
+      '@appypeeps/clerk-expo-passkeys':
         specifier: workspace:*
         version: link:../expo-passkeys
       '@types/base-64':
@@ -668,10 +668,10 @@ importers:
 
   packages/expo-passkeys:
     dependencies:
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       react:
@@ -687,13 +687,13 @@ importers:
 
   packages/express:
     dependencies:
-      '@clerk/backend':
+      '@appypeeps/clerk-backend':
         specifier: workspace:^
         version: link:../backend
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       tslib:
@@ -715,13 +715,13 @@ importers:
 
   packages/fastify:
     dependencies:
-      '@clerk/backend':
+      '@appypeeps/clerk-backend':
         specifier: workspace:^
         version: link:../backend
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       cookies:
@@ -737,22 +737,22 @@ importers:
 
   packages/localizations:
     dependencies:
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
 
   packages/nextjs:
     dependencies:
-      '@clerk/backend':
+      '@appypeeps/clerk-backend':
         specifier: workspace:^
         version: link:../backend
-      '@clerk/clerk-react':
+      '@appypeeps/clerk-react':
         specifier: workspace:^
         version: link:../react
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       react:
@@ -777,16 +777,16 @@ importers:
 
   packages/nuxt:
     dependencies:
-      '@clerk/backend':
+      '@appypeeps/clerk-backend':
         specifier: workspace:^
         version: link:../backend
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
-      '@clerk/vue':
+      '@appypeeps/clerk-vue':
         specifier: workspace:^
         version: link:../vue
       '@nuxt/kit':
@@ -808,10 +808,10 @@ importers:
 
   packages/react:
     dependencies:
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       react:
@@ -824,10 +824,10 @@ importers:
         specifier: catalog:repo
         version: 2.8.1
     devDependencies:
-      '@clerk/localizations':
+      '@appypeeps/clerk-localizations':
         specifier: workspace:*
         version: link:../localizations
-      '@clerk/themes':
+      '@appypeeps/clerk-themes':
         specifier: workspace:*
         version: link:../themes
       '@types/semver':
@@ -836,16 +836,16 @@ importers:
 
   packages/react-router:
     dependencies:
-      '@clerk/backend':
+      '@appypeeps/clerk-backend':
         specifier: workspace:^
         version: link:../backend
-      '@clerk/clerk-react':
+      '@appypeeps/clerk-react':
         specifier: workspace:^
         version: link:../react
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       cookie:
@@ -873,16 +873,16 @@ importers:
 
   packages/remix:
     dependencies:
-      '@clerk/backend':
+      '@appypeeps/clerk-backend':
         specifier: workspace:^
         version: link:../backend
-      '@clerk/clerk-react':
+      '@appypeeps/clerk-react':
         specifier: workspace:^
         version: link:../react
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       cookie:
@@ -910,7 +910,7 @@ importers:
 
   packages/shared:
     dependencies:
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       dequal:
@@ -956,16 +956,16 @@ importers:
 
   packages/tanstack-react-start:
     dependencies:
-      '@clerk/backend':
+      '@appypeeps/clerk-backend':
         specifier: workspace:^
         version: link:../backend
-      '@clerk/clerk-react':
+      '@appypeeps/clerk-react':
         specifier: workspace:^
         version: link:../react
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       react:
@@ -990,13 +990,13 @@ importers:
 
   packages/testing:
     dependencies:
-      '@clerk/backend':
+      '@appypeeps/clerk-backend':
         specifier: workspace:^
         version: link:../backend
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       dotenv:
@@ -1012,7 +1012,7 @@ importers:
 
   packages/themes:
     dependencies:
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
       tslib:
@@ -1094,10 +1094,10 @@ importers:
 
   packages/vue:
     dependencies:
-      '@clerk/shared':
+      '@appypeeps/clerk-shared':
         specifier: workspace:^
         version: link:../shared
-      '@clerk/types':
+      '@appypeeps/clerk-types':
         specifier: workspace:^
         version: link:../types
     devDependencies:
@@ -2894,7 +2894,7 @@ packages:
 
   '@expo/bunyan@4.0.1':
     resolution: {integrity: sha512-+Lla7nYSiHZirgK+U/uYzsLv/X+HaJienbD5AKX1UQZHYfWaP+9uuQluRB4GrEVWF0GZ7vEVp/jzaOT9k/SQlg==}
-    engines: {node: '>=0.10.0'}
+    engines: {'0': node >=0.10.0}
 
   '@expo/cli@0.22.26':
     resolution: {integrity: sha512-I689wc8Fn/AX7aUGiwrh3HnssiORMJtR2fpksX+JIe8Cj/EDleblYMSwRPd0025wrwOV9UN1KM/RuEt/QjCS3Q==}

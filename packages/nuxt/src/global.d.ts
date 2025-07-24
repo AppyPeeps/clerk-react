@@ -1,4 +1,4 @@
-import type { PluginOptions } from '@clerk/vue';
+import type { PluginOptions } from '@appypeeps/clerk-vue';
 
 declare global {
   const PACKAGE_NAME: string;

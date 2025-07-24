@@ -1,11 +1,11 @@
-import { createContextAndHook } from '@clerk/shared/react';
+import { createContextAndHook } from '@appypeeps/clerk-shared/react';
 import type {
   ActClaim,
   JwtPayload,
   OrganizationCustomPermissionKey,
   OrganizationCustomRoleKey,
   SessionStatusClaim,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 export type AuthContextValue = {
   userId: string | null | undefined;

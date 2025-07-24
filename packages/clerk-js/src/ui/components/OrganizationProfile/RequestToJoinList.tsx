@@ -1,5 +1,5 @@
-import { useOrganization } from '@clerk/shared/react';
-import type { OrganizationMembershipRequestResource } from '@clerk/types';
+import { useOrganization } from '@appypeeps/clerk-shared/react';
+import type { OrganizationMembershipRequestResource } from '@appypeeps/clerk-types';
 
 import { useCardState, withCardStateProvider } from '@/ui/elements/contexts';
 import { UserPreview } from '@/ui/elements/UserPreview';

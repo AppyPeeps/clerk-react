@@ -1,1 +1,1 @@
-export * from '@clerk/backend';
+export * from '@appypeeps/clerk-backend';

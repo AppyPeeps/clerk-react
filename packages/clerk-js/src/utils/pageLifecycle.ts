@@ -1,5 +1,5 @@
-import { inBrowser } from '@clerk/shared/browser';
-import { noop } from '@clerk/shared/utils';
+import { inBrowser } from '@appypeeps/clerk-shared/browser';
+import { noop } from '@appypeeps/clerk-shared/utils';
 
 /**
  * Abstracts native browser event listener registration.

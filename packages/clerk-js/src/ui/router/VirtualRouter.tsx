@@ -1,4 +1,4 @@
-import { useClerk } from '@clerk/shared/react';
+import { useClerk } from '@appypeeps/clerk-shared/react';
 import React, { useEffect } from 'react';
 
 import { useClerkModalStateParams } from '../hooks';

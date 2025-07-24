@@ -1,4 +1,4 @@
-import { iconImageUrl } from '@clerk/shared/constants';
+import { iconImageUrl } from '@appypeeps/clerk-shared/constants';
 import React from 'react';
 
 import { Button, descriptors, Flex, Icon, Text } from '../customizables';

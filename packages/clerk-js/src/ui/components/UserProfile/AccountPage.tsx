@@ -1,4 +1,4 @@
-import { useUser } from '@clerk/shared/react';
+import { useUser } from '@appypeeps/clerk-shared/react';
 
 import { Card } from '@/ui/elements/Card';
 import { useCardState, withCardStateProvider } from '@/ui/elements/contexts';

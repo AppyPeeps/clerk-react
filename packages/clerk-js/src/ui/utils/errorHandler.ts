@@ -1,5 +1,5 @@
-import { snakeToCamel } from '@clerk/shared/underscore';
-import type { ClerkAPIError, ClerkRuntimeError } from '@clerk/types';
+import { snakeToCamel } from '@appypeeps/clerk-shared/underscore';
+import type { ClerkAPIError, ClerkRuntimeError } from '@appypeeps/clerk-types';
 
 import {
   isClerkAPIResponseError,

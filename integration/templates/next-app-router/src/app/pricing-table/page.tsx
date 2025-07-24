@@ -1,4 +1,4 @@
-import { PricingTable, Protect } from '@clerk/nextjs';
+import { PricingTable, Protect } from '@appypeeps/clerk-nextjs';
 
 export default async function PricingTablePage({
   searchParams,

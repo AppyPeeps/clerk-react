@@ -1,4 +1,4 @@
-import type { Clerk, LoadedClerk } from '@clerk/types';
+import type { Clerk, LoadedClerk } from '@appypeeps/clerk-types';
 import type { EventObject } from 'xstate';
 import { fromCallback } from 'xstate';
 
@@ -10,7 +10,7 @@ export const clerkLoader = fromCallback<EventObject, Clerk | LoadedClerk>(({ sen
   if (clerk.loaded) {
     reportLoaded();
   } else if ('addOnLoaded' in clerk) {
-    // @ts-expect-error - Expects `addOnLoaded` from @clerk/shared/react's IsomorphicClerk.
+    // @ts-expect-error - Expects `addOnLoaded` from @appypeeps/clerk-shared/react's IsomorphicClerk.
     clerk.addOnLoaded(reportLoaded);
   } else {
     sendBack({ type: 'ERROR', message: 'Clerk client could not be loaded' });

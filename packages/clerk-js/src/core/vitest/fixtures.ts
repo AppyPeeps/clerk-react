@@ -12,7 +12,7 @@ import type {
   SignInJSON,
   SignUpJSON,
   UserJSON,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import { vi } from 'vitest';
 
 export const mockJwt =

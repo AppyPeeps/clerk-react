@@ -1,6 +1,6 @@
 // There is no need to execute the complete authenticateRequest to test clerkMiddleware
 // This mock SHOULD exist before the import of authenticateRequest
-import { AuthStatus, constants, TokenType } from '@clerk/backend/internal';
+import { AuthStatus, constants, TokenType } from '@appypeeps/clerk-backend/internal';
 // used to assert the mock
 import assert from 'assert';
 import type { NextFetchEvent } from 'next/server';

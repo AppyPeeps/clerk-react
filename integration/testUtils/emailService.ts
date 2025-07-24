@@ -1,4 +1,4 @@
-import { runWithExponentialBackOff } from '@clerk/shared/utils';
+import { runWithExponentialBackOff } from '@appypeeps/clerk-shared/utils';
 
 type Message = {
   _id: string;

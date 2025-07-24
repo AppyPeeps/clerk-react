@@ -1,10 +1,10 @@
-import { useClerk, useOrganization } from '@clerk/shared/react';
+import { useClerk, useOrganization } from '@appypeeps/clerk-shared/react';
 import type {
   __internal_CheckoutProps,
   __internal_SubscriptionDetailsProps,
   CommercePlanResource,
   CommerceSubscriptionItemResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import * as React from 'react';
 import { useCallback, useContext, useState } from 'react';
 

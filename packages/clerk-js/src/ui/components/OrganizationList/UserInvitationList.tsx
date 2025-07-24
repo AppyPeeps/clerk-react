@@ -1,5 +1,5 @@
-import { useClerk, useOrganizationList } from '@clerk/shared/react';
-import type { OrganizationResource, UserOrganizationInvitationResource } from '@clerk/types';
+import { useClerk, useOrganizationList } from '@appypeeps/clerk-shared/react';
+import type { OrganizationResource, UserOrganizationInvitationResource } from '@appypeeps/clerk-types';
 import { useState } from 'react';
 
 import { useCardState, withCardStateProvider } from '@/ui/elements/contexts';

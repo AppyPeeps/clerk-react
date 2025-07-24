@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import type { SignedInSessionResource, UserButtonProps, UserResource } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { SignedInSessionResource, UserButtonProps, UserResource } from '@appypeeps/clerk-types';
 
 import { useCardState } from '@/ui/elements/contexts';
 import { sleep } from '@/ui/utils/sleep';

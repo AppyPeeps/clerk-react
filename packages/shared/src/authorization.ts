@@ -12,7 +12,7 @@ import type {
   SessionVerificationTypes,
   SignOut,
   UseAuthReturn,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 type TypesToConfig = Record<SessionVerificationTypes, Exclude<ReverificationConfig, SessionVerificationTypes>>;
 type AuthorizationOptions = {

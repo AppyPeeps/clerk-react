@@ -1,4 +1,4 @@
-import { Clerk } from '@clerk/clerk-js/no-rhc';
+import { Clerk } from '@appypeeps/clerk-js/no-rhc';
 
 import {
   createClerkClient as _createClerkClient,

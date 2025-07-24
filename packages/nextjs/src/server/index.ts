@@ -3,7 +3,7 @@
  */
 export { createRouteMatcher } from './routeMatcher';
 
-export { verifyToken, createClerkClient } from '@clerk/backend';
+export { verifyToken, createClerkClient } from '@appypeeps/clerk-backend';
 export { clerkClient } from './clerkClient';
 
 /**
@@ -34,7 +34,7 @@ export type {
   SessionWebhookEvent,
   SMSWebhookEvent,
   WaitlistEntryWebhookEvent,
-} from '@clerk/backend';
+} from '@appypeeps/clerk-backend';
 
 /**
  * NextJS-specific exports
@@ -52,7 +52,7 @@ export type {
 } from './clerkMiddleware';
 
 /**
- * Re-export resource types from @clerk/backend
+ * Re-export resource types from @appypeeps/clerk-backend
  */
 export type {
   OrganizationMembershipRole,
@@ -73,9 +73,9 @@ export type {
   SMSMessage,
   Token,
   User,
-} from '@clerk/backend';
+} from '@appypeeps/clerk-backend';
 
 /**
  * Utilities for reverification
  */
-export { reverificationErrorResponse, reverificationError } from '@clerk/backend/internal';
+export { reverificationErrorResponse, reverificationError } from '@appypeeps/clerk-backend/internal';

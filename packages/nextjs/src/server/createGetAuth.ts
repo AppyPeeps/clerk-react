@@ -1,7 +1,7 @@
-import type { AuthObject } from '@clerk/backend';
-import { constants, type SignedInAuthObject, type SignedOutAuthObject } from '@clerk/backend/internal';
-import { isTruthy } from '@clerk/shared/underscore';
-import type { PendingSessionOptions } from '@clerk/types';
+import type { AuthObject } from '@appypeeps/clerk-backend';
+import { constants, type SignedInAuthObject, type SignedOutAuthObject } from '@appypeeps/clerk-backend/internal';
+import { isTruthy } from '@appypeeps/clerk-shared/underscore';
+import type { PendingSessionOptions } from '@appypeeps/clerk-types';
 
 import { withLogger } from '../utils/debugLogger';
 import { isNextWithUnstableServerActions } from '../utils/sdk-versions';
@@ -110,7 +110,7 @@ export const createSyncGetAuth = ({
  * The following example demonstrates how to protect an API route by checking if the `userId` is present in the `getAuth()` response.
  *
  * ```tsx {{ filename: 'app/api/example/route.ts' }}
- * import { getAuth } from '@clerk/nextjs/server'
+ * import { getAuth } from '@appypeeps/clerk-nextjs/server'
  * import type { NextApiRequest, NextApiResponse } from 'next'
  *
  * export default async function handler(req: NextApiRequest, res: NextApiResponse) {
@@ -132,7 +132,7 @@ export const createSyncGetAuth = ({
  * `getAuth()` returns [`getToken()`](https://clerk.com/docs/references/backend/types/auth-object#get-token), which is a method that returns the current user's session token or a custom JWT template.
  *
  * ```tsx {{ filename: 'app/api/example/route.ts' }}
- * import { getAuth } from '@clerk/nextjs/server'
+ * import { getAuth } from '@appypeeps/clerk-nextjs/server'
  * import type { NextApiRequest, NextApiResponse } from 'next'
  *
  * export default async function handler(req: NextApiRequest, res: NextApiResponse) {
@@ -153,7 +153,7 @@ export const createSyncGetAuth = ({
  * `clerkClient` is used to access the [Backend SDK](https://clerk.com/docs/references/backend/overview), which exposes Clerk's Backend API resources. You can use `getAuth()` to pass authentication information that many of the Backend SDK methods require, like the user's ID.
  *
  * ```tsx {{ filename: 'app/api/example/route.ts' }}
- * import { clerkClient, getAuth } from '@clerk/nextjs/server'
+ * import { clerkClient, getAuth } from '@appypeeps/clerk-nextjs/server'
  * import type { NextApiRequest, NextApiResponse } from 'next'
  *
  * export default async function handler(req: NextApiRequest, res: NextApiResponse) {

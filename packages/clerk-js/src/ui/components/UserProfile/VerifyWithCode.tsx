@@ -1,4 +1,4 @@
-import type { EmailAddressResource, PhoneNumberResource } from '@clerk/types';
+import type { EmailAddressResource, PhoneNumberResource } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { useFieldOTP } from '@/ui/elements/CodeControl';

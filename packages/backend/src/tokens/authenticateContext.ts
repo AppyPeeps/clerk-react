@@ -1,4 +1,4 @@
-import type { Jwt } from '@clerk/types';
+import type { Jwt } from '@appypeeps/clerk-types';
 
 import { constants } from '../constants';
 import { decodeJwt } from '../jwt/verifyJwt';

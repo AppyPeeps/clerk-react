@@ -1,4 +1,4 @@
-import type { UserOrganizationInvitationResource } from '@clerk/types';
+import type { UserOrganizationInvitationResource } from '@appypeeps/clerk-types';
 import type { PropsWithChildren } from 'react';
 import { forwardRef } from 'react';
 

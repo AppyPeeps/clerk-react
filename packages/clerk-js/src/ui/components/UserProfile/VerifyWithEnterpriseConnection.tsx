@@ -1,4 +1,4 @@
-import type { EmailAddressResource } from '@clerk/types';
+import type { EmailAddressResource } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { useCardState } from '@/ui/elements/contexts';

@@ -1,4 +1,4 @@
-import type { ClerkOptions } from '@clerk/types';
+import type { ClerkOptions } from '@appypeeps/clerk-types';
 import React from 'react';
 
 export const OptionsContext = React.createContext<ClerkOptions>({});

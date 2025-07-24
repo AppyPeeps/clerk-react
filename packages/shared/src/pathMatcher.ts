@@ -1,4 +1,4 @@
-import type { Autocomplete } from '@clerk/types';
+import type { Autocomplete } from '@appypeeps/clerk-types';
 
 import { pathToRegexp } from './pathToRegexp';
 

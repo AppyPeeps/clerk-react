@@ -3,8 +3,8 @@ import type {
   GetAuthFn,
   SignedInAuthObject,
   SignedOutAuthObject,
-} from '@clerk/backend/internal';
-import { getAuthObjectForAcceptedToken } from '@clerk/backend/internal';
+} from '@appypeeps/clerk-backend/internal';
+import { getAuthObjectForAcceptedToken } from '@appypeeps/clerk-backend/internal';
 import type { FastifyRequest } from 'fastify';
 
 import { pluginRegistrationRequired } from './errors';

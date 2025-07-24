@@ -9,7 +9,7 @@ import type {
   UserButtonProps,
   UserProfileProps,
   WaitlistProps,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { withClerk, type WithClerkProp } from './utils';

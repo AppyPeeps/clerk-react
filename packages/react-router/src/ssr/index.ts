@@ -2,7 +2,7 @@ export * from './rootAuthLoader';
 export * from './getAuth';
 
 /**
- * Re-export resource types from @clerk/backend
+ * Re-export resource types from @appypeeps/clerk-backend
  */
 export type {
   OrganizationMembershipRole,
@@ -27,4 +27,4 @@ export type {
   SMSMessage,
   Token,
   User,
-} from '@clerk/backend';
+} from '@appypeeps/clerk-backend';

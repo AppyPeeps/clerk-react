@@ -1,5 +1,5 @@
-import { OAUTH_PROVIDERS } from '@clerk/shared/oauth';
-import type { SignUpResource } from '@clerk/types';
+import { OAUTH_PROVIDERS } from '@appypeeps/clerk-shared/oauth';
+import type { SignUpResource } from '@appypeeps/clerk-types';
 import { describe, expect, it, vi } from 'vitest';
 
 import { CardStateProvider } from '@/ui/elements/contexts';

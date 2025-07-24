@@ -1,4 +1,4 @@
-import type { UseSessionListReturn } from '@clerk/types';
+import type { UseSessionListReturn } from '@appypeeps/clerk-types';
 import { computed } from 'vue';
 
 import type { ToComputedRefs } from '../utils';
@@ -13,7 +13,7 @@ type UseSessionList = () => ToComputedRefs<UseSessionListReturn>;
  *
  * @example
  * <script setup>
- * import { useSessionList } from '@clerk/vue'
+ * import { useSessionList } from '@appypeeps/clerk-vue'
  *
  * const { isLoaded, sessions } = useSessionList()
  * </script>

@@ -1,4 +1,4 @@
-import type { JoinWaitlistParams, WaitlistJSON, WaitlistResource } from '@clerk/types';
+import type { JoinWaitlistParams, WaitlistJSON, WaitlistResource } from '@appypeeps/clerk-types';
 
 import { unixEpochToDate } from '../../utils/date';
 import { BaseResource } from './internal';

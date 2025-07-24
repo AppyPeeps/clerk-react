@@ -6,7 +6,7 @@ import type {
   CommercePaymentSourceResource,
   CommercePaymentStatus,
   CommerceSubscriptionItemResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { commerceMoneyFromJSON } from '../../utils';
 import { unixEpochToDate } from '../../utils/date';

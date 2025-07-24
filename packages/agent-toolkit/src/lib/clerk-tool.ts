@@ -1,4 +1,4 @@
-import type { ClerkClient } from '@clerk/backend';
+import type { ClerkClient } from '@appypeeps/clerk-backend';
 import type { ZodObject } from 'zod';
 import { z } from 'zod';
 

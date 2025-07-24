@@ -16,7 +16,7 @@ test.describe('Waitlist mode', () => {
       .addFile(
         'src/app/provider.tsx',
         () => `'use client'
-    import { ClerkProvider } from "@clerk/nextjs";
+    import { ClerkProvider } from "@appypeeps/clerk-nextjs";
     
     export function Provider({ children }: { children: any }) {
       return (
@@ -52,7 +52,7 @@ test.describe('Waitlist mode', () => {
       .addFile(
         'src/app/hash/user/page.tsx',
         () => `
-    import { UserProfile, UserButton } from '@clerk/nextjs';
+    import { UserProfile, UserButton } from '@appypeeps/clerk-nextjs';
     
     export default function Page() {
       return (
@@ -66,7 +66,7 @@ test.describe('Waitlist mode', () => {
       .addFile(
         'src/app/waitlist/page.tsx',
         () => `
-    import { Waitlist } from '@clerk/nextjs';
+    import { Waitlist } from '@appypeeps/clerk-nextjs';
     
     export default function Page() {
       return (

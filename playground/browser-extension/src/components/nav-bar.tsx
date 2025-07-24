@@ -1,4 +1,4 @@
-import { SignedIn, SignedOut, UserButton } from "@clerk/chrome-extension"
+import { SignedIn, SignedOut, UserButton } from "@appypeeps/clerk-chrome-extension"
 import { Link } from "react-router-dom"
 import { Button } from "./ui/button"
 

@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/themes",
-  "version": "2.4.0",
+  "name": "@appypeeps/clerk-themes",
+  "version": "0.0.1",
   "description": "Themes for the Clerk auth components",
   "keywords": [
     "react",
@@ -38,7 +38,7 @@
     "lint:attw": "attw --pack . --profile node16"
   },
   "dependencies": {
-    "@clerk/types": "workspace:^",
+    "@appypeeps/clerk-types": "workspace:^",
     "tslib": "catalog:repo"
   },
   "devDependencies": {},
@@ -46,6 +46,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

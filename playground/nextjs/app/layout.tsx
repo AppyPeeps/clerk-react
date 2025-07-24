@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import React from 'react';
-import { ClerkProvider } from '@clerk/nextjs';
+import { ClerkProvider } from '@appypeeps/clerk-nextjs';
 
 export const metadata: Metadata = {
   title: 'Next.js 13 with Clerk',

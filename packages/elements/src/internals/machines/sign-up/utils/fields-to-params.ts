@@ -1,4 +1,4 @@
-import type { SignUpCreateParams, SignUpUpdateParams } from '@clerk/types';
+import type { SignUpCreateParams, SignUpUpdateParams } from '@appypeeps/clerk-types';
 
 import type { FormFields } from '~/internals/machines/form';
 

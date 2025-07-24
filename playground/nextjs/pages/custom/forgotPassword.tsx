@@ -1,5 +1,5 @@
 import React, { SyntheticEvent, useState } from 'react';
-import { useSignIn } from '@clerk/nextjs';
+import { useSignIn } from '@appypeeps/clerk-nextjs';
 import type { NextPage } from 'next';
 
 type PasswordState = 'neutral' | 'success' | 'warn' | 'fail';

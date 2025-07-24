@@ -1,4 +1,4 @@
-import type { OrganizationInvitationResource } from '@clerk/types';
+import type { OrganizationInvitationResource } from '@appypeeps/clerk-types';
 import { describe } from '@jest/globals';
 import { waitFor } from '@testing-library/dom';
 import React from 'react';

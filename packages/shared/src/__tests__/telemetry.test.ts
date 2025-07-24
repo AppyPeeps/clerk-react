@@ -1,6 +1,6 @@
 import 'cross-fetch/polyfill';
 
-import type { TelemetryEvent } from '@clerk/types';
+import type { TelemetryEvent } from '@appypeeps/clerk-types';
 // @ts-ignore
 import assert from 'assert';
 

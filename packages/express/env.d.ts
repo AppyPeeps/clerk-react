@@ -1,5 +1,5 @@
-import type { AuthObject } from '@clerk/backend';
-import type { PendingSessionOptions } from '@clerk/types';
+import type { AuthObject } from '@appypeeps/clerk-backend';
+import type { PendingSessionOptions } from '@appypeeps/clerk-types';
 
 declare global {
   namespace Express {

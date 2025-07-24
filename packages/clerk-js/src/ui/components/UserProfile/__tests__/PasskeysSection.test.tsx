@@ -1,4 +1,4 @@
-import type { PasskeyJSON, PasskeyResource } from '@clerk/types';
+import type { PasskeyJSON, PasskeyResource } from '@appypeeps/clerk-types';
 import { describe, it } from '@jest/globals';
 import { act } from '@testing-library/react';
 

@@ -4,9 +4,9 @@ import {
   SignIn as BaseSignIn,
   SignUp as BaseSignUp,
   UserProfile as BaseUserProfile,
-} from '@clerk/clerk-react';
-import { useRoutingProps } from '@clerk/clerk-react/internal';
-import type { OrganizationProfileProps, SignInProps, SignUpProps, UserProfileProps } from '@clerk/types';
+} from '@appypeeps/clerk-react';
+import { useRoutingProps } from '@appypeeps/clerk-react/internal';
+import type { OrganizationProfileProps, SignInProps, SignUpProps, UserProfileProps } from '@appypeeps/clerk-types';
 import { useLocation, useParams } from '@tanstack/react-router';
 
 const usePathnameWithoutSplatRouteParams = () => {

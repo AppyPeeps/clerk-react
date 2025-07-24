@@ -1,5 +1,5 @@
-import { buildAccountsBaseUrl } from '@clerk/shared/buildAccountsBaseUrl';
-import type { AuthenticateWithPopupParams, AuthenticateWithRedirectParams } from '@clerk/types';
+import { buildAccountsBaseUrl } from '@appypeeps/clerk-shared/buildAccountsBaseUrl';
+import type { AuthenticateWithPopupParams, AuthenticateWithRedirectParams } from '@appypeeps/clerk-types';
 
 import type { Clerk } from '../core/clerk';
 

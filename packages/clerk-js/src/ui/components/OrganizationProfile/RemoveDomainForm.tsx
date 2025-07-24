@@ -1,5 +1,5 @@
-import { useOrganization } from '@clerk/shared/react';
-import type { OrganizationDomainResource } from '@clerk/types';
+import { useOrganization } from '@appypeeps/clerk-shared/react';
+import type { OrganizationDomainResource } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import type { FormProps } from '@/ui/elements/FormContainer';

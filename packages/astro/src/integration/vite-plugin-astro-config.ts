@@ -10,7 +10,7 @@ type VitePlugin = Required<AstroConfig['vite']>['plugins'][number];
  * @returns {VitePlugin} A Vite plugin
  */
 export function vitePluginAstroConfig(astroConfig: AstroConfig): VitePlugin {
-  const virtualModuleId = 'virtual:@clerk/astro/config';
+  const virtualModuleId = 'virtual:@appypeeps/clerk-astro/config';
   const resolvedVirtualModuleId = '\0' + virtualModuleId;
 
   return {
@@ -23,9 +23,9 @@ export function vitePluginAstroConfig(astroConfig: AstroConfig): VitePlugin {
     config(config) {
       // While Astro processes <script> tags by default, our control components
       // which uses <script> tags and imports nanostores will not be processed by Astro.
-      // This ensures @clerk/astro/client is properly processed and bundled,
+      // This ensures @appypeeps/clerk-astro/client is properly processed and bundled,
       // resolving runtime import issues in these components.
-      config.optimizeDeps?.include?.push('@clerk/astro/client');
+      config.optimizeDeps?.include?.push('@appypeeps/clerk-astro/client');
       // Let astro vite plugin handle this.
       config.optimizeDeps?.exclude?.push('astro:transitions/client');
     },

@@ -1,4 +1,4 @@
-import { clerkJsScriptUrl } from '@clerk/shared/loadClerkJsScript';
+import { clerkJsScriptUrl } from '@appypeeps/clerk-shared/loadClerkJsScript';
 import type { APIContext } from 'astro';
 
 import { getSafeEnv } from './get-safe-env';

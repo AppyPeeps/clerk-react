@@ -1,4 +1,4 @@
-import { createClerkClient } from '@clerk/backend';
+import { createClerkClient } from '@appypeeps/clerk-backend';
 
 import {
   API_URL,

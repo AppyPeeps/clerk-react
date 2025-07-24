@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import { isAbsoluteUrl } from '@clerk/shared/url';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import { isAbsoluteUrl } from '@appypeeps/clerk-shared/url';
 import { createContext, useContext, useMemo } from 'react';
 
 import { SIGN_UP_INITIAL_VALUE_KEYS } from '../../../core/constants';

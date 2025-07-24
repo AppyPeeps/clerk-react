@@ -1,5 +1,5 @@
-import type { useOrganizationList } from '@clerk/shared/react';
-import type { ClerkPaginatedResponse } from '@clerk/types';
+import type { useOrganizationList } from '@appypeeps/clerk-shared/react';
+import type { ClerkPaginatedResponse } from '@appypeeps/clerk-types';
 
 export const organizationListParams = {
   userMemberships: {

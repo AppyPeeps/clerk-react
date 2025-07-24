@@ -1,5 +1,5 @@
-import type { MatchFunction } from '@clerk/shared/pathToRegexp';
-import { match } from '@clerk/shared/pathToRegexp';
+import type { MatchFunction } from '@appypeeps/clerk-shared/pathToRegexp';
+import { match } from '@appypeeps/clerk-shared/pathToRegexp';
 
 import type { OrganizationSyncOptions, OrganizationSyncTarget } from './types';
 

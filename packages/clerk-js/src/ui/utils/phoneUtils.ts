@@ -1,4 +1,4 @@
-import type { PhoneCodeChannel } from '@clerk/types';
+import type { PhoneCodeChannel } from '@appypeeps/clerk-types';
 
 import type { CountryEntry, CountryIso } from '../elements/PhoneInput/countryCodeData';
 import { CodeToCountriesMap, IsoToCountryMap, SubAreaCodeSets } from '../elements/PhoneInput/countryCodeData';

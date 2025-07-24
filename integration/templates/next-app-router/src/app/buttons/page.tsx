@@ -1,4 +1,4 @@
-import { SignInButton, SignUpButton } from '@clerk/nextjs';
+import { SignInButton, SignUpButton } from '@appypeeps/clerk-nextjs';
 
 export default function Home() {
   return (

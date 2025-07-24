@@ -3,7 +3,7 @@ import type {
   ClerkOptions,
   EnvironmentResource,
   SessionTask,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { buildURL } from '../utils';
 

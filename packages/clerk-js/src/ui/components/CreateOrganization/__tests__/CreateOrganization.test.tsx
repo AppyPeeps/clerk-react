@@ -1,4 +1,4 @@
-import type { OrganizationResource } from '@clerk/types';
+import type { OrganizationResource } from '@appypeeps/clerk-types';
 import { describe, jest } from '@jest/globals';
 import { waitFor } from '@testing-library/dom';
 

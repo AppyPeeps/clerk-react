@@ -1,4 +1,4 @@
-import type { CustomPage } from '@clerk/types';
+import type { CustomPage } from '@appypeeps/clerk-types';
 
 import {
   createOrganizationProfileCustomPages as cOPCP,

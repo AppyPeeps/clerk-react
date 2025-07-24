@@ -1,19 +1,24 @@
-import { inBrowser as inClientSide, isValidBrowserOnline } from '@clerk/shared/browser';
-import { clerkEvents, createClerkEventBus } from '@clerk/shared/clerkEventBus';
-import { deprecated } from '@clerk/shared/deprecated';
-import { ClerkRuntimeError, EmailLinkErrorCodeStatus, is4xxError, isClerkAPIResponseError } from '@clerk/shared/error';
-import { parsePublishableKey } from '@clerk/shared/keys';
-import { LocalStorageBroadcastChannel } from '@clerk/shared/localStorageBroadcastChannel';
-import { logger } from '@clerk/shared/logger';
-import { CLERK_NETLIFY_CACHE_BUST_PARAM } from '@clerk/shared/netlifyCacheHandler';
-import { isHttpOrHttps, isValidProxyUrl, proxyUrlToAbsoluteURL } from '@clerk/shared/proxy';
+import { inBrowser as inClientSide, isValidBrowserOnline } from '@appypeeps/clerk-shared/browser';
+import { clerkEvents, createClerkEventBus } from '@appypeeps/clerk-shared/clerkEventBus';
+import { deprecated } from '@appypeeps/clerk-shared/deprecated';
+import {
+  ClerkRuntimeError,
+  EmailLinkErrorCodeStatus,
+  is4xxError,
+  isClerkAPIResponseError,
+} from '@appypeeps/clerk-shared/error';
+import { parsePublishableKey } from '@appypeeps/clerk-shared/keys';
+import { LocalStorageBroadcastChannel } from '@appypeeps/clerk-shared/localStorageBroadcastChannel';
+import { logger } from '@appypeeps/clerk-shared/logger';
+import { CLERK_NETLIFY_CACHE_BUST_PARAM } from '@appypeeps/clerk-shared/netlifyCacheHandler';
+import { isHttpOrHttps, isValidProxyUrl, proxyUrlToAbsoluteURL } from '@appypeeps/clerk-shared/proxy';
 import {
   eventPrebuiltComponentMounted,
   eventPrebuiltComponentOpened,
   TelemetryCollector,
-} from '@clerk/shared/telemetry';
-import { addClerkPrefix, isAbsoluteUrl, stripScheme } from '@clerk/shared/url';
-import { allSettled, handleValueOrFn, noop } from '@clerk/shared/utils';
+} from '@appypeeps/clerk-shared/telemetry';
+import { addClerkPrefix, isAbsoluteUrl, stripScheme } from '@appypeeps/clerk-shared/url';
+import { allSettled, handleValueOrFn, noop } from '@appypeeps/clerk-shared/utils';
 import type {
   __experimental_CheckoutInstance,
   __experimental_CheckoutOptions,
@@ -83,7 +88,7 @@ import type {
   WaitlistProps,
   WaitlistResource,
   Web3Provider,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import type { MountComponentRenderer } from '../ui/Components';
 import {
@@ -510,7 +515,7 @@ export class Clerk implements ClerkInterface {
     };
 
     /**
-     * Clears the router cache for `@clerk/nextjs` on all routes except the current one.
+     * Clears the router cache for `@appypeeps/clerk-nextjs` on all routes except the current one.
      * Note: Calling `onBeforeSetActive` before signing out, allows for new RSC prefetch requests to render as signed in.
      * Since we are calling `onBeforeSetActive` before signing out, we should NOT pass `"sign-out"`.
      */

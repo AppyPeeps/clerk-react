@@ -1,3 +1,3 @@
-import { createDevOrStagingUrlCache } from '@clerk/shared/keys';
+import { createDevOrStagingUrlCache } from '@appypeeps/clerk-shared/keys';
 const { isDevOrStagingUrl } = createDevOrStagingUrlCache();
 export { isDevOrStagingUrl };

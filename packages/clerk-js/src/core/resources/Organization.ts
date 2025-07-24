@@ -27,7 +27,7 @@ import type {
   SetOrganizationLogoParams,
   UpdateMembershipParams,
   UpdateOrganizationParams,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { convertPageToOffsetSearchParams } from '../../utils/convertPageToOffsetSearchParams';
 import { unixEpochToDate } from '../../utils/date';

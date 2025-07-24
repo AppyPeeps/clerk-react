@@ -1,4 +1,4 @@
-import { Protect, SignedIn, SignedOut, SignIn, UserButton } from '@clerk/nextjs';
+import { Protect, SignedIn, SignedOut, SignIn, UserButton } from '@appypeeps/clerk-nextjs';
 import Link from 'next/link';
 import { ClientId } from './client-id';
 

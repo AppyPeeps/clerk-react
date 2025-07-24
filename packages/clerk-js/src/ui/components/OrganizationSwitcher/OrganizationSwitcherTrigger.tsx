@@ -1,4 +1,4 @@
-import { useOrganization, useOrganizationList, useUser } from '@clerk/shared/react';
+import { useOrganization, useOrganizationList, useUser } from '@appypeeps/clerk-shared/react';
 import { forwardRef } from 'react';
 
 import { OrganizationPreview } from '@/ui/elements/OrganizationPreview';

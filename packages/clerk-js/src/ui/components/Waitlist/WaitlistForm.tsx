@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import type { JoinWaitlistParams } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { JoinWaitlistParams } from '@appypeeps/clerk-types';
 
 import { Card } from '@/ui/elements/Card';
 import { useCardState } from '@/ui/elements/contexts';

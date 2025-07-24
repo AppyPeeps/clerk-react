@@ -1,4 +1,4 @@
-import type { PhoneCodeChannel } from '@clerk/types';
+import type { PhoneCodeChannel } from '@appypeeps/clerk-types';
 
 import {
   extractDigits,

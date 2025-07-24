@@ -1,8 +1,8 @@
 // c.f. vendor/clerk-js/src/ui/hooks/useEnabledThirdPartyProviders.tsx [Modified]
 
-import { iconImageUrl } from '@clerk/shared/constants';
-import { OAUTH_PROVIDERS } from '@clerk/shared/oauth';
-import { WEB3_PROVIDERS } from '@clerk/shared/web3';
+import { iconImageUrl } from '@appypeeps/clerk-shared/constants';
+import { OAUTH_PROVIDERS } from '@appypeeps/clerk-shared/oauth';
+import { WEB3_PROVIDERS } from '@appypeeps/clerk-shared/web3';
 import type {
   EnterpriseSSOStrategy,
   EnvironmentResource,
@@ -11,7 +11,7 @@ import type {
   SamlStrategy,
   Web3Provider,
   Web3Strategy,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { fromEntries } from './clerk-js';
 

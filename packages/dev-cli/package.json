@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/dev-cli",
-  "version": "0.0.12",
+  "name": "@appypeeps/clerk-dev-cli",
+  "version": "0.0.1",
   "description": "CLI tool designed to simplify the process of iterating on packages within the clerk/javascript repository",
   "homepage": "https://clerk.com/",
   "bugs": {
@@ -33,6 +33,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

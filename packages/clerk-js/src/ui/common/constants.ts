@@ -1,4 +1,4 @@
-import type { Attribute } from '@clerk/types';
+import type { Attribute } from '@appypeeps/clerk-types';
 
 import type { LocalizationKey } from '../localization/localizationKeys';
 import { localizationKeys } from '../localization/localizationKeys';

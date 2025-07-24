@@ -1,5 +1,5 @@
-import { useClerk, useSession } from '@clerk/shared/react';
-import type { CommercePlanResource, CommerceSubscriptionPlanPeriod, PricingTableProps } from '@clerk/types';
+import { useClerk, useSession } from '@appypeeps/clerk-shared/react';
+import type { CommercePlanResource, CommerceSubscriptionPlanPeriod, PricingTableProps } from '@appypeeps/clerk-types';
 import * as React from 'react';
 
 import { Switch } from '@/ui/elements/Switch';

@@ -1,4 +1,4 @@
-import type { InitialState, Resources } from '@clerk/types';
+import type { InitialState, Resources } from '@appypeeps/clerk-types';
 
 import { deriveState } from '../deriveState';
 

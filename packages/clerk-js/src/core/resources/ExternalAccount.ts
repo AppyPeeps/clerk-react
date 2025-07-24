@@ -1,4 +1,4 @@
-import { titleize } from '@clerk/shared/underscore';
+import { titleize } from '@appypeeps/clerk-shared/underscore';
 import type {
   ExternalAccountJSON,
   ExternalAccountJSONSnapshot,
@@ -6,7 +6,7 @@ import type {
   OAuthProvider,
   ReauthorizeExternalAccountParams,
   VerificationResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { BaseResource } from './Base';
 import { Verification } from './Verification';

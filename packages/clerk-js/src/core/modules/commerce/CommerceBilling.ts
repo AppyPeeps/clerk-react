@@ -18,7 +18,7 @@ import type {
   GetStatementsParams,
   GetSubscriptionParams,
   GetSubscriptionsParams,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { convertPageToOffsetSearchParams } from '../../../utils/convertPageToOffsetSearchParams';
 import {

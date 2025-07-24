@@ -10,7 +10,7 @@
  * =====================================================================================
  */
 
-import type { LocalizationResource } from '@clerk/types';
+import type { LocalizationResource } from '@appypeeps/clerk-types';
 
 export const csCZ: LocalizationResource = {
   locale: 'cs-CZ',

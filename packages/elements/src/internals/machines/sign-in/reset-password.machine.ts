@@ -1,4 +1,4 @@
-import type { SignInResource } from '@clerk/types';
+import type { SignInResource } from '@appypeeps/clerk-types';
 import type { DoneActorEvent } from 'xstate';
 import { fromPromise, sendTo, setup } from 'xstate';
 

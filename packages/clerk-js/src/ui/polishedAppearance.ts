@@ -1,4 +1,4 @@
-import type { Appearance, Elements } from '@clerk/types';
+import type { Appearance, Elements } from '@appypeeps/clerk-types';
 
 import type { InternalTheme } from './foundations';
 

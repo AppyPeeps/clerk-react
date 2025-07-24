@@ -1,4 +1,4 @@
-import { UserProfile } from "@clerk/chrome-extension";
+import { UserProfile } from "@appypeeps/clerk-chrome-extension";
 
 export const Settings = () => {
   return (

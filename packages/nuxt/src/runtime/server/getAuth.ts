@@ -1,4 +1,4 @@
-import type { SignedInAuthObject, SignedOutAuthObject } from '@clerk/backend/internal';
+import type { SignedInAuthObject, SignedOutAuthObject } from '@appypeeps/clerk-backend/internal';
 import type { H3Event } from 'h3';
 
 import { moduleRegistrationRequired } from './errors';

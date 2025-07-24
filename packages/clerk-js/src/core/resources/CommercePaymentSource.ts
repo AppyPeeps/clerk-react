@@ -7,7 +7,7 @@ import type {
   DeletedObjectJSON,
   MakeDefaultPaymentSourceParams,
   RemovePaymentSourceParams,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { BaseResource, DeletedObject } from './internal';
 

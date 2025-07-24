@@ -1,6 +1,6 @@
-import { useClerk } from '@clerk/shared/react';
-import { noop } from '@clerk/shared/utils';
-import type { PasswordSettingsData, PasswordValidation } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import { noop } from '@appypeeps/clerk-shared/utils';
+import type { PasswordSettingsData, PasswordValidation } from '@appypeeps/clerk-types';
 import * as React from 'react';
 
 import type { ErrorCodeOrTuple } from '../utils/generate-password-error-text';

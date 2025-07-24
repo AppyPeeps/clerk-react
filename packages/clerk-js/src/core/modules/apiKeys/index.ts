@@ -5,7 +5,7 @@ import type {
   CreateAPIKeyParams,
   GetAPIKeysParams,
   RevokeAPIKeyParams,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import type { FapiRequestInit } from '@/core/fapiClient';
 

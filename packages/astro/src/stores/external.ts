@@ -1,5 +1,5 @@
-import { deriveState } from '@clerk/shared/deriveState';
-import { eventMethodCalled } from '@clerk/shared/telemetry';
+import { deriveState } from '@appypeeps/clerk-shared/deriveState';
+import { eventMethodCalled } from '@appypeeps/clerk-shared/telemetry';
 import { batched, computed, onMount, type Store } from 'nanostores';
 
 import { $clerk, $csrState, $initialState } from './internal';

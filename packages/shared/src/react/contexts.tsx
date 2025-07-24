@@ -8,7 +8,7 @@ import type {
   OrganizationResource,
   SignedInSessionResource,
   UserResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import type { PropsWithChildren } from 'react';
 import React from 'react';
 
@@ -94,7 +94,7 @@ function useAssertWrappedByClerkProvider(displayNameOrFn: string | (() => void))
 
 Possible fixes:
 1. Ensure that the <ClerkProvider /> is correctly wrapping your application where this component is used.
-2. Check for multiple versions of the \`@clerk/shared\` package in your project. Use a tool like \`npm ls @clerk/shared\` to identify multiple versions, and update your dependencies to only rely on one.
+2. Check for multiple versions of the \`@appypeeps/clerk-shared\` package in your project. Use a tool like \`npm ls @appypeeps/clerk-shared\` to identify multiple versions, and update your dependencies to only rely on one.
 
 Learn more: https://clerk.com/docs/components/clerk-provider`.trim(),
     );

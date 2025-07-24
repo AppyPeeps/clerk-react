@@ -9,7 +9,7 @@ import { getMajorVersion } from '../versionSelector';
 
 jest.mock('../loadScript');
 
-setClerkJsLoadingErrorPackageName('@clerk/clerk-react');
+setClerkJsLoadingErrorPackageName('@appypeeps/clerk-react');
 const jsPackageMajorVersion = getMajorVersion(JS_PACKAGE_VERSION);
 
 const mockClerk = {
@@ -37,7 +37,7 @@ describe('loadClerkJsScript(options)', () => {
 
   test('throws error when publishableKey is missing', async () => {
     await expect(loadClerkJsScript({} as any)).rejects.toThrow(
-      '@clerk/clerk-react: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.',
+      '@appypeeps/clerk-react: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.',
     );
   });
 
@@ -64,7 +64,7 @@ describe('loadClerkJsScript(options)', () => {
     expect(result).toBeNull();
     expect(loadScript).toHaveBeenCalledWith(
       expect.stringContaining(
-        `https://foo-bar-13.clerk.accounts.dev/npm/@clerk/clerk-js@${jsPackageMajorVersion}/dist/clerk.browser.js`,
+        `https://foo-bar-13.clerk.accounts.dev/npm/@appypeeps/clerk-js@${jsPackageMajorVersion}/dist/clerk.browser.js`,
       ),
       expect.objectContaining({
         async: true,
@@ -158,27 +158,27 @@ describe('clerkJsScriptUrl()', () => {
   test('constructs URL correctly for development key', () => {
     const result = clerkJsScriptUrl({ publishableKey: mockDevPublishableKey });
     expect(result).toBe(
-      `https://foo-bar-13.clerk.accounts.dev/npm/@clerk/clerk-js@${jsPackageMajorVersion}/dist/clerk.browser.js`,
+      `https://foo-bar-13.clerk.accounts.dev/npm/@appypeeps/clerk-js@${jsPackageMajorVersion}/dist/clerk.browser.js`,
     );
   });
 
   test('constructs URL correctly for production key', () => {
     const result = clerkJsScriptUrl({ publishableKey: mockProdPublishableKey });
     expect(result).toBe(
-      `https://example.clerk.accounts.dev/npm/@clerk/clerk-js@${jsPackageMajorVersion}/dist/clerk.browser.js`,
+      `https://example.clerk.accounts.dev/npm/@appypeeps/clerk-js@${jsPackageMajorVersion}/dist/clerk.browser.js`,
     );
   });
 
   test('includes clerkJSVariant in URL when provided', () => {
     const result = clerkJsScriptUrl({ publishableKey: mockProdPublishableKey, clerkJSVariant: 'headless' });
     expect(result).toBe(
-      `https://example.clerk.accounts.dev/npm/@clerk/clerk-js@${jsPackageMajorVersion}/dist/clerk.headless.browser.js`,
+      `https://example.clerk.accounts.dev/npm/@appypeeps/clerk-js@${jsPackageMajorVersion}/dist/clerk.headless.browser.js`,
     );
   });
 
   test('uses provided clerkJSVersion', () => {
     const result = clerkJsScriptUrl({ publishableKey: mockDevPublishableKey, clerkJSVersion: '6' });
-    expect(result).toContain('/npm/@clerk/clerk-js@6/');
+    expect(result).toContain('/npm/@appypeeps/clerk-js@6/');
   });
 });
 

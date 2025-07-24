@@ -1,4 +1,4 @@
-import { createClerkClient } from '@clerk/backend';
+import { createClerkClient } from '@appypeeps/clerk-backend';
 
 import { API_URL, API_VERSION, JWT_KEY, SDK_METADATA, SECRET_KEY } from './constants';
 

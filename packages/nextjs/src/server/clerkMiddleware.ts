@@ -1,4 +1,4 @@
-import type { AuthObject, ClerkClient } from '@clerk/backend';
+import type { AuthObject, ClerkClient } from '@appypeeps/clerk-backend';
 import type {
   AuthenticateRequestOptions,
   ClerkRequest,
@@ -6,7 +6,7 @@ import type {
   RequestState,
   SignedInAuthObject,
   SignedOutAuthObject,
-} from '@clerk/backend/internal';
+} from '@appypeeps/clerk-backend/internal';
 import {
   AuthStatus,
   constants,
@@ -17,8 +17,8 @@ import {
   isTokenTypeAccepted,
   makeAuthObjectSerializable,
   TokenType,
-} from '@clerk/backend/internal';
-import { parsePublishableKey } from '@clerk/shared/keys';
+} from '@appypeeps/clerk-backend/internal';
+import { parsePublishableKey } from '@appypeeps/clerk-shared/keys';
 import { notFound as nextjsNotFound } from 'next/navigation';
 import type { NextMiddleware, NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';

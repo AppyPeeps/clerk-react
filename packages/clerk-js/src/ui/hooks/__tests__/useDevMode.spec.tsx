@@ -1,4 +1,4 @@
-import type { EnvironmentResource } from '@clerk/types';
+import type { EnvironmentResource } from '@appypeeps/clerk-types';
 import { renderHook } from '@testing-library/react';
 import { describe, expect, test, vi } from 'vitest';
 

@@ -1,6 +1,6 @@
-import { createCheckAuthorization } from '@clerk/shared/authorization';
-import { ClerkInstanceContext } from '@clerk/shared/react';
-import type { LoadedClerk, UseAuthReturn } from '@clerk/types';
+import { createCheckAuthorization } from '@appypeeps/clerk-shared/authorization';
+import { ClerkInstanceContext } from '@appypeeps/clerk-shared/react';
+import type { LoadedClerk, UseAuthReturn } from '@appypeeps/clerk-types';
 import { render, renderHook } from '@testing-library/react';
 import React from 'react';
 import { afterAll, beforeAll, beforeEach, describe, expect, expectTypeOf, it, test, vi } from 'vitest';
@@ -10,8 +10,8 @@ import { errorThrower } from '../../errors/errorThrower';
 import { invalidStateError } from '../../errors/messages';
 import { useAuth, useDerivedAuth } from '../useAuth';
 
-vi.mock('@clerk/shared/authorization', async () => ({
-  ...(await vi.importActual('@clerk/shared/authorization')),
+vi.mock('@appypeeps/clerk-shared/authorization', async () => ({
+  ...(await vi.importActual('@appypeeps/clerk-shared/authorization')),
   createCheckAuthorization: vi.fn().mockReturnValue(vi.fn().mockReturnValue(true)),
 }));
 

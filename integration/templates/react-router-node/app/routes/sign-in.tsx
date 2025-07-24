@@ -1,4 +1,4 @@
-import { SignIn } from '@clerk/react-router';
+import { SignIn } from '@appypeeps/clerk-react-router';
 
 export default function SignInPage() {
   return (

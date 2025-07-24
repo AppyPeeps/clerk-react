@@ -1,10 +1,10 @@
-import type { __experimental_useCheckout as useCheckout } from '@clerk/shared/react';
+import type { __experimental_useCheckout as useCheckout } from '@appypeeps/clerk-shared/react';
 import {
   __experimental_PaymentElement as PaymentElement,
   __experimental_PaymentElementProvider as PaymentElementProvider,
   __experimental_usePaymentElement as usePaymentElement,
   createContextAndHook,
-} from '@clerk/shared/react';
+} from '@appypeeps/clerk-shared/react';
 import type { PropsWithChildren } from 'react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 

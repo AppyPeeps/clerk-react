@@ -1,6 +1,6 @@
 import * as path from 'node:path';
 
-import type { AccountlessApplication } from '@clerk/backend';
+import type { AccountlessApplication } from '@appypeeps/clerk-backend';
 
 import { constants } from '../constants';
 import { createLogger, fs } from '../scripts';

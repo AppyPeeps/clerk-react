@@ -1,4 +1,4 @@
-import { AuthStatus } from '@clerk/backend/internal';
+import { AuthStatus } from '@appypeeps/clerk-backend/internal';
 import type { FastifyReply, FastifyRequest } from 'fastify';
 
 import { clerkClient } from './clerkClient';

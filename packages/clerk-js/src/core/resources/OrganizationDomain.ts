@@ -6,7 +6,7 @@ import type {
   OrganizationEnrollmentMode,
   PrepareAffiliationVerificationParams,
   UpdateEnrollmentModeParams,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { unixEpochToDate } from '../../utils/date';
 import { BaseResource } from './Base';

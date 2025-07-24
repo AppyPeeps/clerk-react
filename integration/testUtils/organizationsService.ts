@@ -1,4 +1,4 @@
-import type { ClerkClient, Organization } from '@clerk/backend';
+import type { ClerkClient, Organization } from '@appypeeps/clerk-backend';
 import { faker } from '@faker-js/faker';
 
 export type FakeOrganization = Pick<Organization, 'slug' | 'name'>;

@@ -1,5 +1,5 @@
-import { constants } from '@clerk/backend/internal';
-import { apiUrlFromPublishableKey } from '@clerk/shared/apiUrlFromPublishableKey';
+import { constants } from '@appypeeps/clerk-backend/internal';
+import { apiUrlFromPublishableKey } from '@appypeeps/clerk-shared/apiUrlFromPublishableKey';
 
 export const API_VERSION = process.env.CLERK_API_VERSION || 'v1';
 export const SECRET_KEY = process.env.CLERK_SECRET_KEY || '';

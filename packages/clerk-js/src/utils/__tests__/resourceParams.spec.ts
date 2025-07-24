@@ -1,4 +1,4 @@
-import type { UpdateUserParams } from '@clerk/types';
+import type { UpdateUserParams } from '@appypeeps/clerk-types';
 import { describe, expect, it } from 'vitest';
 
 import { normalizeUnsafeMetadata } from '../resourceParams';

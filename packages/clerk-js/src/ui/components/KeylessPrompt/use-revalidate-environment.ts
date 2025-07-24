@@ -1,4 +1,4 @@
-import { useClerk } from '@clerk/shared/react';
+import { useClerk } from '@appypeeps/clerk-shared/react';
 import { useEffect, useReducer, useRef } from 'react';
 
 import type { Clerk } from '../../../core/clerk';

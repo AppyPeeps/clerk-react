@@ -1,4 +1,4 @@
-import { Poller } from '@clerk/shared/poller';
+import { Poller } from '@appypeeps/clerk-shared/poller';
 import type {
   AttemptVerificationParams,
   Attribute,
@@ -7,7 +7,7 @@ import type {
   SignUpVerifiableField,
   SignUpVerificationsResource,
   VerificationStrategy,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import type { Writable } from 'type-fest';
 import { and, assign, enqueueActions, fromCallback, fromPromise, log, raise, sendParent, sendTo, setup } from 'xstate';
 

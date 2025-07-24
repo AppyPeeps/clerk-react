@@ -17,7 +17,7 @@ export const SignUpVerificationCtx = createContextFromActorRef<TSignUpVerificati
 /**
  * Renders its children when the user is in the verification step of the sign-up flow. This happens after the user has signed up but before their account is active & verified.
  * @example
- * import { SignUp, Step, Strategy } from "@clerk/elements/sign-up"
+ * import { SignUp, Step, Strategy } from "@appypeeps/clerk-elements/sign-up"
  *
  * export default SignUpPage = () => (
  *  <SignUp>
@@ -75,7 +75,7 @@ export function SignUpStrategy({ children, name: tag }: SignUpStrategyProps) {
 
   if (!ref) {
     throw new Error(
-      '<Strategy> used outside of <SignUp>. Did you mean to `import { Strategy } from "@clerk/elements/sign-in"` instead?',
+      '<Strategy> used outside of <SignUp>. Did you mean to `import { Strategy } from "@appypeeps/clerk-elements/sign-in"` instead?',
     );
   }
 

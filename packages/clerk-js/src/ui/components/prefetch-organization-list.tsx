@@ -1,4 +1,4 @@
-import { useOrganizationList } from '@clerk/shared/react';
+import { useOrganizationList } from '@appypeeps/clerk-shared/react';
 
 import { organizationListParams } from './OrganizationSwitcher/utils';
 

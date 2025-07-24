@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/shared",
-  "version": "3.14.0",
+  "name": "@appypeeps/clerk-shared",
+  "version": "0.0.1",
   "description": "Internal package utils used by the Clerk SDKs",
   "repository": {
     "type": "git",
@@ -142,7 +142,7 @@
     "test:coverage": "jest --collectCoverage && open coverage/lcov-report/index.html"
   },
   "dependencies": {
-    "@clerk/types": "workspace:^",
+    "@appypeeps/clerk-types": "workspace:^",
     "dequal": "2.0.3",
     "glob-to-regexp": "0.4.1",
     "js-cookie": "3.0.5",
@@ -173,6 +173,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

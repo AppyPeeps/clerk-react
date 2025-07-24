@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ClerkHostRenderer } from '../ClerkHostRenderer';
-import type { PricingTableProps } from '@clerk/types';
+import type { PricingTableProps } from '@appypeeps/clerk-types';
 import { useClerk } from '../../composables';
 
 const clerk = useClerk();

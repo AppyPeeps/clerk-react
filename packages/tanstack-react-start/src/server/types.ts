@@ -1,4 +1,4 @@
-import type { VerifyTokenOptions } from '@clerk/backend';
+import type { VerifyTokenOptions } from '@appypeeps/clerk-backend';
 import type {
   LegacyRedirectProps,
   MultiDomainAndOrProxy,
@@ -6,7 +6,7 @@ import type {
   SignInForceRedirectUrl,
   SignUpFallbackRedirectUrl,
   SignUpForceRedirectUrl,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 export type LoaderOptions = {
   publishableKey?: string;

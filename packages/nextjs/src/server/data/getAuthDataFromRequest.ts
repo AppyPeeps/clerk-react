@@ -1,10 +1,10 @@
-import type { AuthObject, MachineAuthObject } from '@clerk/backend';
+import type { AuthObject, MachineAuthObject } from '@appypeeps/clerk-backend';
 import type {
   AuthenticateRequestOptions,
   MachineTokenType,
   SignedInAuthObject,
   SignedOutAuthObject,
-} from '@clerk/backend/internal';
+} from '@appypeeps/clerk-backend/internal';
 import {
   AuthStatus,
   constants,
@@ -15,9 +15,9 @@ import {
   isTokenTypeAccepted,
   signedOutAuthObject,
   TokenType,
-} from '@clerk/backend/internal';
-import { decodeJwt } from '@clerk/backend/jwt';
-import type { PendingSessionOptions } from '@clerk/types';
+} from '@appypeeps/clerk-backend/internal';
+import { decodeJwt } from '@appypeeps/clerk-backend/jwt';
+import type { PendingSessionOptions } from '@appypeeps/clerk-types';
 
 import type { LoggerNoCommit } from '../../utils/debugLogger';
 import { API_URL, API_VERSION, PUBLISHABLE_KEY, SECRET_KEY } from '../constants';

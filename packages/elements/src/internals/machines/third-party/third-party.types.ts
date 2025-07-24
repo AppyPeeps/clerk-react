@@ -1,4 +1,4 @@
-import type { AuthenticateWithRedirectParams } from '@clerk/types';
+import type { AuthenticateWithRedirectParams } from '@appypeeps/clerk-types';
 import type { SetOptional } from 'type-fest';
 import type { ActorRefFrom, AnyActorRef } from 'xstate';
 

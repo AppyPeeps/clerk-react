@@ -1,4 +1,4 @@
-import type { CommercePaymentSourceResource, GetPaymentSourcesParams } from '@clerk/types';
+import type { CommercePaymentSourceResource, GetPaymentSourcesParams } from '@appypeeps/clerk-types';
 
 import { useOrganizationContext, useUserContext } from '../contexts';
 import { createCommercePaginatedHook } from './createCommerceHook';

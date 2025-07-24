@@ -1,6 +1,6 @@
-import { isUserLockedError } from '@clerk/shared/error';
-import { useClerk } from '@clerk/shared/react';
-import type { SignInResource } from '@clerk/types';
+import { isUserLockedError } from '@appypeeps/clerk-shared/error';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { SignInResource } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { Card } from '@/ui/elements/Card';

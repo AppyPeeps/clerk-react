@@ -1,4 +1,4 @@
-import { ClerkInstanceContext, useClerkInstanceContext } from '@clerk/shared/react';
+import { ClerkInstanceContext, useClerkInstanceContext } from '@appypeeps/clerk-shared/react';
 
 import type { IsomorphicClerk } from '../isomorphicClerk';
 

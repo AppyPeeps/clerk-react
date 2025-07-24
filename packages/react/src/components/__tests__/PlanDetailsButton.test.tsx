@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom/vitest';
 
-import type { CommercePayerType, CommercePlanResource, Theme } from '@clerk/types';
+import type { CommercePayerType, CommercePlanResource, Theme } from '@appypeeps/clerk-types';
 import { render, screen, waitFor } from '@testing-library/react';
 import { userEvent } from '@testing-library/user-event';
 import React from 'react';

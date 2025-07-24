@@ -6,7 +6,7 @@ import { MenuAction, MenuItems, MenuLink } from '../../components/uiComponents';
 import { useUserButtonCustomMenuItems } from '../useCustomMenuItems';
 
 // Mock the logErrorInDevMode function
-vi.mock('@clerk/shared', () => ({
+vi.mock('@appypeeps/clerk-shared', () => ({
   logErrorInDevMode: vi.fn(),
 }));
 

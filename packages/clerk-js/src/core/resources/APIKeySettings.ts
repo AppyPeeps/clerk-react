@@ -1,4 +1,4 @@
-import type { APIKeysSettingsJSON, APIKeysSettingsJSONSnapshot, APIKeysSettingsResource } from '@clerk/types';
+import type { APIKeysSettingsJSON, APIKeysSettingsJSONSnapshot, APIKeysSettingsResource } from '@appypeeps/clerk-types';
 
 import { BaseResource } from './internal';
 

@@ -1,13 +1,13 @@
 /* eslint-disable import/export */
-import type { VerifyWebhookOptions } from '@clerk/backend/webhooks';
-import { verifyWebhook as verifyWebhookBase } from '@clerk/backend/webhooks';
+import type { VerifyWebhookOptions } from '@appypeeps/clerk-backend/webhooks';
+import { verifyWebhook as verifyWebhookBase } from '@appypeeps/clerk-backend/webhooks';
 import type { Request as ExpressRequest } from 'express';
 
 import { incomingMessageToRequest } from './utils';
 
 // Ordering of exports matter here since
 // we're overriding the base verifyWebhook
-export * from '@clerk/backend/webhooks';
+export * from '@appypeeps/clerk-backend/webhooks';
 
 /**
  * Verifies the authenticity of a webhook request using Svix.
@@ -20,7 +20,7 @@ export * from '@clerk/backend/webhooks';
  *
  * @example
  * ```typescript
- * import { verifyWebhook } from '@clerk/express/webhooks';
+ * import { verifyWebhook } from '@appypeeps/clerk-express/webhooks';
  *
  * app.post('/api/webhooks', async (req, res) => {
  *   try {

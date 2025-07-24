@@ -13,7 +13,7 @@ test.describe('dynamic keys @nextjs', () => {
       .clone()
       .addFile(
         'src/middleware.ts',
-        () => `import { clerkClient, clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
+        () => `import { clerkClient, clerkMiddleware, createRouteMatcher } from '@appypeeps/clerk-nextjs/server';
         import { NextResponse } from 'next/server';
 
         const isProtectedRoute = createRouteMatcher(['/protected']);
@@ -44,7 +44,7 @@ test.describe('dynamic keys @nextjs', () => {
       )
       .addFile(
         'src/app/users-count/page.tsx',
-        () => `import { clerkClient } from '@clerk/nextjs/server'
+        () => `import { clerkClient } from '@appypeeps/clerk-nextjs/server'
 
         export default async function Page(){
           const count = await clerkClient().users?.getCount() ?? 0;

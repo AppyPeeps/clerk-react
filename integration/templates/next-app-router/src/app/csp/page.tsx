@@ -1,5 +1,5 @@
 import { headers } from 'next/headers';
-import { ClerkLoaded } from '@clerk/nextjs';
+import { ClerkLoaded } from '@appypeeps/clerk-nextjs';
 
 export default async function CSPPage() {
   const cspHeader = (await headers()).get('Content-Security-Policy');

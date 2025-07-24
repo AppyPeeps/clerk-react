@@ -1,1 +1,1 @@
-export { OrganizationProvider, useOrganizationContext } from '@clerk/shared/react';
+export { OrganizationProvider, useOrganizationContext } from '@appypeeps/clerk-shared/react';

@@ -3,7 +3,7 @@ import type {
   OrganizationCustomPermissionKey,
   OrganizationCustomRoleKey,
   SharedSignedInAuthObjectProperties,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { splitByScope } from './authorization';
 

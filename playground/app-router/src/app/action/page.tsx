@@ -1,4 +1,4 @@
-import { auth, currentUser } from '@clerk/nextjs/server';
+import { auth, currentUser } from '@appypeeps/clerk-nextjs/server';
 
 export default function AddToCart() {
   async function addItem(data: any) {

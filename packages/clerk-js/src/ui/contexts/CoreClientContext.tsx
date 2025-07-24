@@ -1,5 +1,5 @@
-import { assertContextExists, ClientContext, useClientContext } from '@clerk/shared/react';
-import type { SignInResource, SignUpResource } from '@clerk/types';
+import { assertContextExists, ClientContext, useClientContext } from '@appypeeps/clerk-shared/react';
+import type { SignInResource, SignUpResource } from '@appypeeps/clerk-types';
 
 export function useCoreSignIn(): SignInResource {
   const ctx = useClientContext();

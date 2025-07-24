@@ -1,5 +1,5 @@
-import { OrganizationSwitcher, SignedIn, SignedOut, SignIn, UserButton } from '@clerk/nextjs';
-import { auth, clerkClient, currentUser } from '@clerk/nextjs/server';
+import { OrganizationSwitcher, SignedIn, SignedOut, SignIn, UserButton } from '@appypeeps/clerk-nextjs';
+import { auth, clerkClient, currentUser } from '@appypeeps/clerk-nextjs/server';
 import Link from 'next/link';
 
 export default async function Page() {

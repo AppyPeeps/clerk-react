@@ -1,4 +1,8 @@
-import type { IdentificationLinkJSON, IdentificationLinkJSONSnapshot, IdentificationLinkResource } from '@clerk/types';
+import type {
+  IdentificationLinkJSON,
+  IdentificationLinkJSONSnapshot,
+  IdentificationLinkResource,
+} from '@appypeeps/clerk-types';
 
 import { BaseResource } from './Base';
 

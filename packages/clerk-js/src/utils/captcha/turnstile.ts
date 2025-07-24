@@ -1,6 +1,6 @@
-import { waitForElement } from '@clerk/shared/dom';
-import { loadScript } from '@clerk/shared/loadScript';
-import type { CaptchaAppearanceOptions, CaptchaWidgetType } from '@clerk/types';
+import { waitForElement } from '@appypeeps/clerk-shared/dom';
+import { loadScript } from '@appypeeps/clerk-shared/loadScript';
+import type { CaptchaAppearanceOptions, CaptchaWidgetType } from '@appypeeps/clerk-types';
 
 import { CAPTCHA_ELEMENT_ID, CAPTCHA_INVISIBLE_CLASSNAME } from './constants';
 import type { CaptchaOptions } from './types';

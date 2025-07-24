@@ -1,4 +1,4 @@
-import type { PasswordSettingsData, ZxcvbnResult } from '@clerk/types';
+import type { PasswordSettingsData, ZxcvbnResult } from '@appypeeps/clerk-types';
 
 import type { zxcvbnFN } from '../zxcvbn';
 

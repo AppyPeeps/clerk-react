@@ -1,5 +1,5 @@
-import { createCheckAuthorization, resolveAuthState } from '@clerk/shared/authorization';
-import { deriveState } from '@clerk/shared/deriveState';
+import { createCheckAuthorization, resolveAuthState } from '@appypeeps/clerk-shared/authorization';
+import { deriveState } from '@appypeeps/clerk-shared/deriveState';
 import type {
   CheckAuthorizationWithCustomPermissions,
   Clerk,
@@ -9,7 +9,7 @@ import type {
   PendingSessionOptions,
   SignOut,
   UseAuthReturn,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import type { Store, StoreValue } from 'nanostores';
 import { useCallback, useSyncExternalStore } from 'react';
 

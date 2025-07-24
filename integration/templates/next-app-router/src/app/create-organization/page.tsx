@@ -1,4 +1,4 @@
-import { CreateOrganization } from '@clerk/nextjs';
+import { CreateOrganization } from '@appypeeps/clerk-nextjs';
 
 export default function Page() {
   return (

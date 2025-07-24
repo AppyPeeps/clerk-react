@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import type { CommercePlanResource, CommerceSubscriptionPlanPeriod, PricingTableProps } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { CommercePlanResource, CommerceSubscriptionPlanPeriod, PricingTableProps } from '@appypeeps/clerk-types';
 import { useEffect, useMemo, useState } from 'react';
 
 import { Flow } from '@/ui/customizables/Flow';

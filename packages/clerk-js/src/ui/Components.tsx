@@ -1,4 +1,4 @@
-import { createDeferredPromise } from '@clerk/shared/utils';
+import { createDeferredPromise } from '@appypeeps/clerk-shared/utils';
 import type {
   __internal_CheckoutProps,
   __internal_PlanDetailsProps,
@@ -15,7 +15,7 @@ import type {
   SignUpProps,
   UserProfileProps,
   WaitlistProps,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import React, { Suspense } from 'react';
 
 import { clerkUIErrorDOMElementNotFound } from '../core/errors';
@@ -49,7 +49,7 @@ import {
 import type { AvailableComponentProps } from './types';
 
 /**
- * Avoid importing from `@clerk/shared/react` to prevent extra dependencies being added to the bundle.
+ * Avoid importing from `@appypeeps/clerk-shared/react` to prevent extra dependencies being added to the bundle.
  */
 export const useSafeLayoutEffect = typeof window !== 'undefined' ? React.useLayoutEffect : React.useEffect;
 

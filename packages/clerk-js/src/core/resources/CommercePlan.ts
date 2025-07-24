@@ -1,4 +1,9 @@
-import type { CommercePayerType, CommercePlanJSON, CommercePlanJSONSnapshot, CommercePlanResource } from '@clerk/types';
+import type {
+  CommercePayerType,
+  CommercePlanJSON,
+  CommercePlanJSONSnapshot,
+  CommercePlanResource,
+} from '@appypeeps/clerk-types';
 
 import { BaseResource, CommerceFeature } from './internal';
 

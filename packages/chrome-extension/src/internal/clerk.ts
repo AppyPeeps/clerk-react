@@ -1,6 +1,6 @@
-import { Clerk } from '@clerk/clerk-js/no-rhc';
-import { DEV_BROWSER_JWT_KEY } from '@clerk/shared/devBrowser';
-import { parsePublishableKey } from '@clerk/shared/keys';
+import { Clerk } from '@appypeeps/clerk-js/no-rhc';
+import { DEV_BROWSER_JWT_KEY } from '@appypeeps/clerk-shared/devBrowser';
+import { parsePublishableKey } from '@appypeeps/clerk-shared/keys';
 import browser from 'webextension-polyfill';
 
 import { SCOPE, type Scope } from '../types';

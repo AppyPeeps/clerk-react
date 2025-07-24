@@ -1,8 +1,8 @@
 'use client';
 
-import { useAuth } from '@clerk/clerk-react';
-import { useDerivedAuth } from '@clerk/clerk-react/internal';
-import type { InitialState } from '@clerk/types';
+import { useAuth } from '@appypeeps/clerk-react';
+import { useDerivedAuth } from '@appypeeps/clerk-react/internal';
+import type { InitialState } from '@appypeeps/clerk-types';
 import { useRouter } from 'next/compat/router';
 import React from 'react';
 
@@ -30,7 +30,7 @@ export function PromisifiedAuthProvider({
  * simply by using the `ClerkProvider`.
  *
  * @example
- * import { useAuth } from '@clerk/nextjs'
+ * import { useAuth } from '@appypeeps/clerk-nextjs'
  *
  * function Hello() {
  *   const { isSignedIn, sessionId, userId } = useAuth();
@@ -45,7 +45,7 @@ export function PromisifiedAuthProvider({
  * This page will be fully rendered during SSR.
  *
  * ```tsx
- * import { useAuth } from '@clerk/nextjs'
+ * import { useAuth } from '@appypeeps/clerk-nextjs'
  *
  * export HelloPage = () => {
  *   const { isSignedIn, sessionId, userId } = useAuth();

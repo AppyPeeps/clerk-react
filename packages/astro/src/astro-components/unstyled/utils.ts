@@ -15,7 +15,7 @@ export function logAsPropUsageDeprecation() {
   }
 
   console.warn(
-    `[@clerk/astro] The 'as' prop is deprecated and will be removed in a future version. ` +
+    `[@appypeeps/clerk-astro] The 'as' prop is deprecated and will be removed in a future version. ` +
       `Use the default slot with the 'asChild' prop instead. `,
   );
 }

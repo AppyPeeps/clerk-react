@@ -1,4 +1,4 @@
-import type { EnterpriseAccountJSON } from '@clerk/types';
+import type { EnterpriseAccountJSON } from '@appypeeps/clerk-types';
 import { describe, it } from '@jest/globals';
 
 import { render, screen, waitFor } from '../../../../testUtils';

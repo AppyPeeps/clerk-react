@@ -1,4 +1,4 @@
-import { createPathMatcher, type PathMatcherParam } from '@clerk/shared/pathMatcher';
+import { createPathMatcher, type PathMatcherParam } from '@appypeeps/clerk-shared/pathMatcher';
 import type { RouteMiddleware } from 'nuxt/app';
 
 type RouteLocation = Parameters<RouteMiddleware>[0];

@@ -1,5 +1,5 @@
 import type {  NextPage } from 'next';
-import { Waitlist, useClerk } from '@clerk/nextjs';
+import { Waitlist, useClerk } from '@appypeeps/clerk-nextjs';
 
 const WaitlistPage: NextPage = () => {
   const clerk = useClerk();

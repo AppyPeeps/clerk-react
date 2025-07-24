@@ -1,5 +1,5 @@
-import type { ClerkClient } from '@clerk/backend';
-import { createClerkClient } from '@clerk/backend';
+import type { ClerkClient } from '@appypeeps/clerk-backend';
+import { createClerkClient } from '@appypeeps/clerk-backend';
 
 import { loadApiEnv, loadClientEnv } from './utils';
 

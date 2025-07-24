@@ -1,5 +1,5 @@
-import { useReverification, useSession, useUser } from '@clerk/shared/react';
-import type { SessionWithActivitiesResource, SignedInSessionResource } from '@clerk/types';
+import { useReverification, useSession, useUser } from '@appypeeps/clerk-shared/react';
+import type { SessionWithActivitiesResource, SignedInSessionResource } from '@appypeeps/clerk-types';
 
 import { FullHeightLoader } from '@/ui/elements/FullHeightLoader';
 import { ProfileSection } from '@/ui/elements/Section';

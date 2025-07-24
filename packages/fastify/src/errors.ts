@@ -11,7 +11,7 @@ export const pluginRegistrationRequired =
   createErrorMessage(`The "clerkPlugin" should be registered before using the "getAuth".
 Example:
 
-import { clerkPlugin } from '@clerk/fastify';
+import { clerkPlugin } from '@appypeeps/clerk-fastify';
 
 const server: FastifyInstance = Fastify({ logger: true });
 server.register(clerkPlugin);

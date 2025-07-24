@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import type { SignUpModalProps, SignUpProps } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { SignUpModalProps, SignUpProps } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { SessionTasks as LazySessionTasks } from '../../../ui/lazyModules/components';

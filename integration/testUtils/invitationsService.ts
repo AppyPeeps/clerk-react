@@ -1,4 +1,4 @@
-import type { ClerkClient, Invitation } from '@clerk/backend';
+import type { ClerkClient, Invitation } from '@appypeeps/clerk-backend';
 
 export type InvitationService = {
   createBapiInvitation: (emailAddress: string) => Promise<Invitation>;

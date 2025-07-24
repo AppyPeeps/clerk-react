@@ -1,4 +1,4 @@
-import { createPathMatcher, type PathMatcherParam } from '@clerk/shared/pathMatcher';
+import { createPathMatcher, type PathMatcherParam } from '@appypeeps/clerk-shared/pathMatcher';
 
 export type RouteMatcherParam = PathMatcherParam;
 

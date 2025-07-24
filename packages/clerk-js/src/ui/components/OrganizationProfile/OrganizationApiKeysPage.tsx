@@ -1,4 +1,4 @@
-import { useOrganization } from '@clerk/shared/react';
+import { useOrganization } from '@appypeeps/clerk-shared/react';
 
 import { ApiKeysContext, useOrganizationProfileContext } from '@/ui/contexts';
 import { Col, localizationKeys } from '@/ui/customizables';

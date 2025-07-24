@@ -1,4 +1,4 @@
-import { CreateOrganization } from '@clerk/clerk-react';
+import { CreateOrganization } from '@appypeeps/clerk-react';
 
 export default function Page() {
   return (

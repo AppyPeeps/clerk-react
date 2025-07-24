@@ -1,4 +1,4 @@
-import { enUS } from '@clerk/localizations';
-import type { DeepRequired } from '@clerk/types';
+import { enUS } from '@appypeeps/clerk-localizations';
+import type { DeepRequired } from '@appypeeps/clerk-types';
 
 export const defaultResource = enUS as DeepRequired<typeof enUS>;

@@ -1,7 +1,7 @@
 'use client';
 
-import type { OTPInputSegmentStatus } from '@clerk/elements/common';
-import { Field as ElementsField, FieldError, FieldState, Input, Label } from '@clerk/elements/common';
+import type { OTPInputSegmentStatus } from '@appypeeps/clerk-elements/common';
+import { Field as ElementsField, FieldError, FieldState, Input, Label } from '@appypeeps/clerk-elements/common';
 import clsx from 'clsx';
 import * as React from 'react';
 

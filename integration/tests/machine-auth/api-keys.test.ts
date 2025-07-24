@@ -1,5 +1,5 @@
-import type { User } from '@clerk/backend';
-import { TokenType } from '@clerk/backend/internal';
+import type { User } from '@appypeeps/clerk-backend';
+import { TokenType } from '@appypeeps/clerk-backend/internal';
 import { expect, test } from '@playwright/test';
 
 import type { Application } from '../../models/application';
@@ -20,7 +20,7 @@ test.describe('Next.js API key auth within clerkMiddleware() @nextjs', () => {
       .addFile(
         `src/middleware.ts`,
         () => `
-        import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
+        import { clerkMiddleware, createRouteMatcher } from '@appypeeps/clerk-nextjs/server';
 
         const isProtectedRoute = createRouteMatcher(['/api(.*)']);
 
@@ -42,7 +42,7 @@ test.describe('Next.js API key auth within clerkMiddleware() @nextjs', () => {
       .addFile(
         'src/app/api/me/route.ts',
         () => `
-        import { auth } from '@clerk/nextjs/server';
+        import { auth } from '@appypeeps/clerk-nextjs/server';
 
         export async function GET() {
           const { userId, tokenType } = await auth({ acceptsToken: 'api_key' });
@@ -110,7 +110,7 @@ test.describe('Next.js API key auth within routes @nextjs', () => {
       .addFile(
         'src/app/api/me/route.ts',
         () => `
-        import { auth } from '@clerk/nextjs/server';
+        import { auth } from '@appypeeps/clerk-nextjs/server';
 
         export async function GET() {
           const { userId, tokenType } = await auth({ acceptsToken: 'api_key' });

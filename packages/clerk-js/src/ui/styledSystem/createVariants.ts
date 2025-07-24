@@ -1,4 +1,4 @@
-import { fastDeepMergeAndReplace } from '@clerk/shared/utils';
+import { fastDeepMergeAndReplace } from '@appypeeps/clerk-shared/utils';
 
 import { createInfiniteAccessProxy } from '../utils/createInfiniteAccessProxy';
 import type { InternalTheme, StyleRule } from './types';

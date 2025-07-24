@@ -1,4 +1,4 @@
-import { isTruthy } from '@clerk/shared/underscore';
+import { isTruthy } from '@appypeeps/clerk-shared/underscore';
 
 import { SDK_METADATA } from '../server/constants';
 import type { NextClerkProviderProps } from '../types';

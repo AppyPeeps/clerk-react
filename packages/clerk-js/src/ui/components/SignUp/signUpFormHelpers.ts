@@ -1,5 +1,5 @@
-import { camelToSnake } from '@clerk/shared/underscore';
-import type { Attributes, SignUpResource, UserSettingsResource } from '@clerk/types';
+import { camelToSnake } from '@appypeeps/clerk-shared/underscore';
+import type { Attributes, SignUpResource, UserSettingsResource } from '@appypeeps/clerk-types';
 
 import type { FieldState } from '../../common';
 

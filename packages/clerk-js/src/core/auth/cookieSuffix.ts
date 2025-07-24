@@ -1,5 +1,5 @@
-import { getCookieSuffix as getSharedCookieSuffix } from '@clerk/shared/keys';
-import { logger } from '@clerk/shared/logger';
+import { getCookieSuffix as getSharedCookieSuffix } from '@appypeeps/clerk-shared/keys';
+import { logger } from '@appypeeps/clerk-shared/logger';
 
 export async function getCookieSuffix(publishableKey: string) {
   let cookieSuffix;

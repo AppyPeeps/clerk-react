@@ -10,5 +10,5 @@ export {
   isKnownError,
   isMetamaskError,
   isUserLockedError,
-} from '@clerk/shared/error';
-export type { MetamaskError } from '@clerk/shared/error';
+} from '@appypeeps/clerk-shared/error';
+export type { MetamaskError } from '@appypeeps/clerk-shared/error';

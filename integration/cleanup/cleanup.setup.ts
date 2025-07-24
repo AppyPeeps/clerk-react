@@ -1,6 +1,6 @@
-import { createClerkClient } from '@clerk/backend';
-import { parsePublishableKey } from '@clerk/shared/keys';
-import { isStaging } from '@clerk/shared/utils';
+import { createClerkClient } from '@appypeeps/clerk-backend';
+import { parsePublishableKey } from '@appypeeps/clerk-shared/keys';
+import { isStaging } from '@appypeeps/clerk-shared/utils';
 import { test as setup } from '@playwright/test';
 
 import { appConfigs } from '../presets/';

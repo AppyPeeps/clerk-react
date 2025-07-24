@@ -1,4 +1,4 @@
-import type { ClerkClient } from '@clerk/backend';
+import type { ClerkClient } from '@appypeeps/clerk-backend';
 import type {
   AuthenticateRequestOptions,
   ClerkRequest,
@@ -6,13 +6,13 @@ import type {
   RequestState,
   SignedInAuthObject,
   SignedOutAuthObject,
-} from '@clerk/backend/internal';
-import { AuthStatus, constants, createClerkRequest, createRedirect } from '@clerk/backend/internal';
-import { isDevelopmentFromSecretKey } from '@clerk/shared/keys';
-import { handleNetlifyCacheInDevInstance } from '@clerk/shared/netlifyCacheHandler';
-import { isHttpOrHttps } from '@clerk/shared/proxy';
-import { handleValueOrFn } from '@clerk/shared/utils';
-import type { PendingSessionOptions } from '@clerk/types';
+} from '@appypeeps/clerk-backend/internal';
+import { AuthStatus, constants, createClerkRequest, createRedirect } from '@appypeeps/clerk-backend/internal';
+import { isDevelopmentFromSecretKey } from '@appypeeps/clerk-shared/keys';
+import { handleNetlifyCacheInDevInstance } from '@appypeeps/clerk-shared/netlifyCacheHandler';
+import { isHttpOrHttps } from '@appypeeps/clerk-shared/proxy';
+import { handleValueOrFn } from '@appypeeps/clerk-shared/utils';
+import type { PendingSessionOptions } from '@appypeeps/clerk-types';
 import type { APIContext } from 'astro';
 
 import { authAsyncStorage } from '#async-local-storage';
@@ -143,7 +143,7 @@ const isPrerenderedPage = (context: APIContext) => {
   );
 };
 
-// TODO-SHARED: Duplicate from '@clerk/nextjs'
+// TODO-SHARED: Duplicate from '@appypeeps/clerk-nextjs'
 const parseHandlerAndOptions = (args: unknown[]) => {
   return [
     typeof args[0] === 'function' ? args[0] : undefined,
@@ -153,7 +153,7 @@ const parseHandlerAndOptions = (args: unknown[]) => {
 
 type AuthenticateRequest = Pick<ClerkClient, 'authenticateRequest'>['authenticateRequest'];
 
-// TODO-SHARED: Duplicate from '@clerk/nextjs'
+// TODO-SHARED: Duplicate from '@appypeeps/clerk-nextjs'
 export const createAuthenticateRequestOptions = (
   clerkRequest: ClerkRequest,
   options: ClerkAstroMiddlewareOptions,
@@ -169,7 +169,7 @@ export const createAuthenticateRequestOptions = (
   };
 };
 
-// TODO-SHARED: Duplicate from '@clerk/nextjs'
+// TODO-SHARED: Duplicate from '@appypeeps/clerk-nextjs'
 export const decorateResponseWithObservabilityHeaders = (res: Response, requestState: RequestState): Response => {
   if (requestState.message) {
     res.headers.set(constants.Headers.AuthMessage, encodeURIComponent(requestState.message));
@@ -183,7 +183,7 @@ export const decorateResponseWithObservabilityHeaders = (res: Response, requestS
   return res;
 };
 
-// TODO-SHARED: Duplicate from '@clerk/nextjs'
+// TODO-SHARED: Duplicate from '@appypeeps/clerk-nextjs'
 export const handleMultiDomainAndProxy = (
   clerkRequest: ClerkRequest,
   opts: AuthenticateRequestOptions,

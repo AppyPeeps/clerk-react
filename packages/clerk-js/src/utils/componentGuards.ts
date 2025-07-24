@@ -1,4 +1,4 @@
-import type { Clerk, ClerkOptions, EnvironmentResource } from '@clerk/types';
+import type { Clerk, ClerkOptions, EnvironmentResource } from '@appypeeps/clerk-types';
 
 export type ComponentGuard = (
   clerk: Clerk,

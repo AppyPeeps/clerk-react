@@ -1,5 +1,5 @@
-import { useUser } from '@clerk/shared/react';
-import type { __internal_SubscriptionDetailsProps, Appearance } from '@clerk/types';
+import { useUser } from '@appypeeps/clerk-shared/react';
+import type { __internal_SubscriptionDetailsProps, Appearance } from '@appypeeps/clerk-types';
 
 import { SubscriptionDetails } from '../components/SubscriptionDetails';
 import { LazyDrawerRenderer } from './providers';

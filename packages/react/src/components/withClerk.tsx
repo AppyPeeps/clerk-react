@@ -1,4 +1,4 @@
-import type { LoadedClerk, Without } from '@clerk/types';
+import type { LoadedClerk, Without } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { useIsomorphicClerkContext } from '../contexts/IsomorphicClerkContext';

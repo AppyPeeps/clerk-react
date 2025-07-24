@@ -23,6 +23,6 @@ const plugin: FastifyPluginCallback<ClerkFastifyOptions> = (
 };
 
 export const clerkPlugin = fp(plugin, {
-  name: '@clerk/fastify',
+  name: '@appypeeps/clerk-fastify',
   fastify: '5.x',
 });

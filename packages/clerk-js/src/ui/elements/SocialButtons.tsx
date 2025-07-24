@@ -1,5 +1,11 @@
-import { getAlternativePhoneCodeProviderData } from '@clerk/shared/alternativePhoneCode';
-import type { OAuthProvider, OAuthStrategy, PhoneCodeChannel, Web3Provider, Web3Strategy } from '@clerk/types';
+import { getAlternativePhoneCodeProviderData } from '@appypeeps/clerk-shared/alternativePhoneCode';
+import type {
+  OAuthProvider,
+  OAuthStrategy,
+  PhoneCodeChannel,
+  Web3Provider,
+  Web3Strategy,
+} from '@appypeeps/clerk-types';
 import type { Ref } from 'react';
 import React, { forwardRef, isValidElement } from 'react';
 

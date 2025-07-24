@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { clerkClient } from '@clerk/astro/server';
+import { clerkClient } from '@appypeeps/clerk-astro/server';
 
 const empty = () => new Response(null);
 

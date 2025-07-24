@@ -1,4 +1,4 @@
-import { ClerkProvider as ReactClerkProvider } from '@clerk/clerk-react';
+import { ClerkProvider as ReactClerkProvider } from '@appypeeps/clerk-react';
 import React from 'react';
 
 import { assertValidClerkState, inSpaMode, warnForSsr } from '../utils';
@@ -6,7 +6,7 @@ import { ClerkRemixOptionsProvider } from './RemixOptionsContext';
 import type { ClerkState, RemixClerkProviderProps } from './types';
 import { useAwaitableNavigate } from './useAwaitableNavigate';
 
-export * from '@clerk/clerk-react';
+export * from '@appypeeps/clerk-react';
 
 const SDK_METADATA = {
   name: PACKAGE_NAME,

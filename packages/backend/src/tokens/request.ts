@@ -1,4 +1,4 @@
-import type { JwtPayload } from '@clerk/types';
+import type { JwtPayload } from '@appypeeps/clerk-types';
 
 import { constants } from '../constants';
 import type { TokenCarrier } from '../errors';

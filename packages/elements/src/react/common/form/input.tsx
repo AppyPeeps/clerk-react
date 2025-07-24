@@ -1,6 +1,6 @@
-import { logger } from '@clerk/shared/logger';
-import { useClerk } from '@clerk/shared/react';
-import { eventComponentMounted } from '@clerk/shared/telemetry';
+import { logger } from '@appypeeps/clerk-shared/logger';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import { eventComponentMounted } from '@appypeeps/clerk-shared/telemetry';
 import type {
   Control as RadixControl,
   FormControlProps,

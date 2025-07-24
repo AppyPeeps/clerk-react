@@ -1,4 +1,4 @@
-import { useOrganization } from '@clerk/shared/react';
+import { useOrganization } from '@appypeeps/clerk-shared/react';
 import React from 'react';
 
 import { NavBar, NavbarContextProvider } from '@/ui/elements/Navbar';

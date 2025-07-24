@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/express",
-  "version": "1.7.11",
+  "name": "@appypeeps/clerk-express",
+  "version": "0.0.1",
   "description": "Clerk server SDK for usage with Express",
   "keywords": [
     "clerk",
@@ -66,9 +66,9 @@
     "test:ci": "jest --maxWorkers=70%"
   },
   "dependencies": {
-    "@clerk/backend": "workspace:^",
-    "@clerk/shared": "workspace:^",
-    "@clerk/types": "workspace:^",
+    "@appypeeps/clerk-backend": "workspace:^",
+    "@appypeeps/clerk-shared": "workspace:^",
+    "@appypeeps/clerk-types": "workspace:^",
     "tslib": "catalog:repo"
   },
   "devDependencies": {
@@ -84,6 +84,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

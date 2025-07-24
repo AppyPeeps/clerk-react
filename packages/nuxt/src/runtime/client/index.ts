@@ -1,2 +1,2 @@
 export { createRouteMatcher } from './routeMatcher';
-export { updateClerkOptions } from '@clerk/vue';
+export { updateClerkOptions } from '@appypeeps/clerk-vue';

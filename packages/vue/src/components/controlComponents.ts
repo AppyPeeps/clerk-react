@@ -1,10 +1,10 @@
-import { deprecated } from '@clerk/shared/deprecated';
+import { deprecated } from '@appypeeps/clerk-shared/deprecated';
 import type {
   HandleOAuthCallbackParams,
   PendingSessionOptions,
   ProtectProps as _ProtectProps,
   RedirectOptions,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import { defineComponent } from 'vue';
 
 import { useAuth } from '../composables/useAuth';

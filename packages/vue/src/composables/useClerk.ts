@@ -6,7 +6,7 @@ import { useClerkContext } from './useClerkContext';
  *
  * @example
  * <script setup>
- * import { useClerk } from '@clerk/vue'
+ * import { useClerk } from '@appypeeps/clerk-vue'
  *
  * const clerk = useClerk()
  *

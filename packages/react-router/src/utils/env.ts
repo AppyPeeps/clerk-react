@@ -1,5 +1,5 @@
-import { getEnvVariable } from '@clerk/shared/getEnvVariable';
-import { isTruthy } from '@clerk/shared/underscore';
+import { getEnvVariable } from '@appypeeps/clerk-shared/getEnvVariable';
+import { isTruthy } from '@appypeeps/clerk-shared/underscore';
 import type { AppLoadContext } from 'react-router';
 
 export const getPublicEnvVariables = (context: AppLoadContext | undefined) => {

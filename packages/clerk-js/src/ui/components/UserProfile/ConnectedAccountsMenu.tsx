@@ -1,5 +1,5 @@
-import { useReverification, useUser } from '@clerk/shared/react';
-import type { OAuthProvider, OAuthStrategy } from '@clerk/types';
+import { useReverification, useUser } from '@appypeeps/clerk-shared/react';
+import type { OAuthProvider, OAuthStrategy } from '@appypeeps/clerk-types';
 
 import { useCardState } from '@/ui/elements/contexts';
 import { ProfileSection } from '@/ui/elements/Section';

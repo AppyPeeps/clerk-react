@@ -1,4 +1,4 @@
-import { updateClerkOptions } from '@clerk/astro/client';
+import { updateClerkOptions } from '@appypeeps/clerk-astro/client';
 import { type ChangeEvent } from 'react';
 
 export function LanguagePicker() {
@@ -7,7 +7,7 @@ export function LanguagePicker() {
     let localization: any;
 
     if (value === 'fr') {
-      localization = (await import('@clerk/localizations/fr-FR')).frFR;
+      localization = (await import('@appypeeps/clerk-localizations/fr-FR')).frFR;
     } else {
       localization = undefined;
     }

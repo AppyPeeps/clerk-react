@@ -1,4 +1,4 @@
-import type { InitialState, Without } from '@clerk/types';
+import type { InitialState, Without } from '@appypeeps/clerk-types';
 import { headers } from 'next/headers';
 import type { ReactNode } from 'react';
 import React from 'react';

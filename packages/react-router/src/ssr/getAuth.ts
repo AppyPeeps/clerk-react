@@ -2,7 +2,7 @@ import {
   type AuthenticateRequestOptions,
   type GetAuthFn,
   getAuthObjectForAcceptedToken,
-} from '@clerk/backend/internal';
+} from '@appypeeps/clerk-backend/internal';
 import type { LoaderFunctionArgs } from 'react-router';
 
 import { noLoaderArgsPassedInGetAuth } from '../utils/errors';

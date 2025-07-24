@@ -1,4 +1,4 @@
-import type { Elements, ElementState } from '@clerk/types';
+import type { Elements, ElementState } from '@appypeeps/clerk-types';
 
 import type { FlowMetadata } from '../elements/contexts';
 import type { ElementDescriptor, ElementId } from './elementDescriptors';

@@ -13,7 +13,7 @@ export type OKXWalletWeb3Provider = 'okx_wallet';
 export type Web3Provider = MetamaskWeb3Provider | CoinbaseWalletWeb3Provider | OKXWalletWeb3Provider;
 
 /**
- * @deprecated Use `import { WEB3_PROVIDERS } from "@clerk/shared/web3"` instead.
+ * @deprecated Use `import { WEB3_PROVIDERS } from "@appypeeps/clerk-shared/web3"` instead.
  *
  * @hidden
  */

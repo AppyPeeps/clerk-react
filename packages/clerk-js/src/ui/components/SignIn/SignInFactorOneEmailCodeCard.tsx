@@ -1,4 +1,4 @@
-import type { EmailCodeFactor } from '@clerk/types';
+import type { EmailCodeFactor } from '@appypeeps/clerk-types';
 
 import { Flow, localizationKeys } from '../../customizables';
 import type { SignInFactorOneCodeCard } from './SignInFactorOneCodeForm';

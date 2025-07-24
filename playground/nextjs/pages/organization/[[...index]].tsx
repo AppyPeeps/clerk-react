@@ -1,4 +1,4 @@
-import { OrganizationProfile } from '@clerk/nextjs';
+import { OrganizationProfile } from '@appypeeps/clerk-nextjs';
 import type { NextPage } from 'next';
 import React from 'react';
 

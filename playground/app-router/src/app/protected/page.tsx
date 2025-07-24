@@ -1,5 +1,5 @@
-import { ClerkLoaded, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
-import { auth } from '@clerk/nextjs/server';
+import { ClerkLoaded, SignedIn, SignedOut, UserButton } from '@appypeeps/clerk-nextjs';
+import { auth } from '@appypeeps/clerk-nextjs/server';
 import React from 'react';
 import { ClientSideWrapper } from '@/app/protected/ClientSideWrapper';
 import { header } from 'ezheaders';

@@ -1,4 +1,4 @@
-import type { AccountlessApplication } from '@clerk/backend';
+import type { AccountlessApplication } from '@appypeeps/clerk-backend';
 
 import { createClerkClientWithOptions } from './createClerkClient';
 import { nodeCwdOrThrow, nodeFsOrThrow, nodePathOrThrow } from './fs/utils';
@@ -148,7 +148,7 @@ async function createOrReadKeyless(): Promise<AccountlessApplication | null> {
     // TODO-KEYLESS: Add link to official documentation.
     const README_NOTIFICATION = `
 ## DO NOT COMMIT
-This directory is auto-generated from \`@clerk/nextjs\` because you are running in Keyless mode. Avoid committing the \`.clerk/\` directory as it includes the secret key of the unclaimed instance.
+This directory is auto-generated from \`@appypeeps/clerk-nextjs\` because you are running in Keyless mode. Avoid committing the \`.clerk/\` directory as it includes the secret key of the unclaimed instance.
   `;
 
     writeFileSync(README_PATH, README_NOTIFICATION, {

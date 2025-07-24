@@ -1,5 +1,5 @@
-import { ClerkAPIResponseError } from '@clerk/shared/error';
-import { OAUTH_PROVIDERS } from '@clerk/shared/oauth';
+import { ClerkAPIResponseError } from '@appypeeps/clerk-shared/error';
+import { OAUTH_PROVIDERS } from '@appypeeps/clerk-shared/oauth';
 import { waitFor } from '@testing-library/dom';
 import React from 'react';
 

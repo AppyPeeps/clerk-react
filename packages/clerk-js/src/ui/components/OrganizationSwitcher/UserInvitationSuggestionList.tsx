@@ -1,9 +1,9 @@
-import { useClerk, useOrganization, useOrganizationList } from '@clerk/shared/react';
+import { useClerk, useOrganization, useOrganizationList } from '@appypeeps/clerk-shared/react';
 import type {
   OrganizationResource,
   OrganizationSuggestionResource,
   UserOrganizationInvitationResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import type { PropsWithChildren } from 'react';
 
 import { Actions } from '@/ui/elements/Actions';

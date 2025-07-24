@@ -1,4 +1,4 @@
-import { useClerk } from '@clerk/shared/react';
+import { useClerk } from '@appypeeps/clerk-shared/react';
 import React, { forwardRef, memo, useEffect, useMemo, useRef } from 'react';
 
 import { mergeRefs } from '@/ui/utils/mergeRefs';

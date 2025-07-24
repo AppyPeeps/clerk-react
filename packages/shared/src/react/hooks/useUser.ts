@@ -1,4 +1,4 @@
-import type { UseUserReturn } from '@clerk/types';
+import type { UseUserReturn } from '@appypeeps/clerk-types';
 
 import { eventMethodCalled } from '../../telemetry/events/method-called';
 import { useAssertWrappedByClerkProvider, useClerkInstanceContext, useUserContext } from '../contexts';
@@ -40,7 +40,7 @@ const hookName = 'useUser';
  * <Tab>
  *
  * ```tsx {{ filename: 'src/Home.tsx' }}
- * import { useUser } from '@clerk/clerk-react'
+ * import { useUser } from '@appypeeps/clerk-react'
  *
  * export default function Home() {
  *   const { isLoaded, user } = useUser()
@@ -85,7 +85,7 @@ const hookName = 'useUser';
  * <Tab>
  *
  * ```tsx {{ filename: 'src/Home.tsx' }}
- * import { useUser } from '@clerk/clerk-react'
+ * import { useUser } from '@appypeeps/clerk-react'
  *
  * export default function Home() {
  *   const { isLoaded, user } = useUser()

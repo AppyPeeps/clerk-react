@@ -1,4 +1,4 @@
-import type { CommercePlanResource, CommerceSubscriptionPlanPeriod } from '@clerk/types';
+import type { CommercePlanResource, CommerceSubscriptionPlanPeriod } from '@appypeeps/clerk-types';
 import * as React from 'react';
 
 import { Avatar } from '@/ui/elements/Avatar';

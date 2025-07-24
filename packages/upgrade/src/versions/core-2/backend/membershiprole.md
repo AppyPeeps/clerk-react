@@ -6,7 +6,7 @@ matcher: "(?:\\.orgRole|\\.org_role)"
 The `MembershipRole` type was replaced with `OrganizationCustomRoleKey` (related to [roles and permissions](https://clerk.com/docs/organizations/roles-permissions)). An example of where this type might be found:
 
 ```js
-import { useAuth } from '@clerk/clerk-react';
+import { useAuth } from '@appypeeps/clerk-react';
 
 const { orgRole } = useAuth();
 ```

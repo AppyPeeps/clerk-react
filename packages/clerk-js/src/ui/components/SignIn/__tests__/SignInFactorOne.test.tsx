@@ -1,5 +1,5 @@
-import { parseError } from '@clerk/shared/error';
-import type { SignInResource } from '@clerk/types';
+import { parseError } from '@appypeeps/clerk-shared/error';
+import type { SignInResource } from '@appypeeps/clerk-types';
 import { describe, it, jest } from '@jest/globals';
 import { waitFor } from '@testing-library/dom';
 

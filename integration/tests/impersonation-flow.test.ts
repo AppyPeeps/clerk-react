@@ -1,4 +1,4 @@
-import type { User } from '@clerk/backend';
+import type { User } from '@appypeeps/clerk-backend';
 import { expect, test } from '@playwright/test';
 
 import { appConfigs } from '../presets';

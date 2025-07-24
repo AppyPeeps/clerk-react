@@ -813,7 +813,7 @@ export type Theme = {
    * A theme used as the base theme for the components.
    * For further customisation, you can use the {@link Theme.layout}, {@link Theme.variables} and {@link Theme.elements} props.
    * @example
-   * import { dark } from "@clerk/themes";
+   * import { dark } from "@appypeeps/clerk-themes";
    * appearance={{ baseTheme: dark }}
    */
   baseTheme?: BaseTheme | BaseTheme[];

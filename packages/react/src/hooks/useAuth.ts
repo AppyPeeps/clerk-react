@@ -1,5 +1,5 @@
-import { createCheckAuthorization, resolveAuthState } from '@clerk/shared/authorization';
-import { eventMethodCalled } from '@clerk/shared/telemetry';
+import { createCheckAuthorization, resolveAuthState } from '@appypeeps/clerk-shared/authorization';
+import { eventMethodCalled } from '@appypeeps/clerk-shared/telemetry';
 import type {
   CheckAuthorizationWithCustomPermissions,
   GetToken,
@@ -7,7 +7,7 @@ import type {
   PendingSessionOptions,
   SignOut,
   UseAuthReturn,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import { useCallback } from 'react';
 
 import { useAuthContext } from '../contexts/AuthContext';
@@ -47,7 +47,7 @@ type UseAuthOptions = Record<string, any> | PendingSessionOptions | undefined | 
  * <Tab>
  *
  * ```tsx {{ filename: 'src/pages/ExternalDataPage.tsx' }}
- * import { useAuth } from '@clerk/clerk-react'
+ * import { useAuth } from '@appypeeps/clerk-react'
  *
  * export default function ExternalDataPage() {
  *   const { userId, sessionId, getToken, isLoaded, isSignedIn } = useAuth()

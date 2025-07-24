@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { createClerkClient } from '@clerk/backend';
-import { getEnvVariable } from '@clerk/shared/getEnvVariable';
+import { createClerkClient } from '@appypeeps/clerk-backend';
+import { getEnvVariable } from '@appypeeps/clerk-shared/getEnvVariable';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { default as yargs } from 'yargs';
 import { hideBin } from 'yargs/helpers';

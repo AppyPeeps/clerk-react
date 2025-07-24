@@ -1,6 +1,6 @@
 'use client';
 
-import type { AccountlessApplication } from '@clerk/backend';
+import type { AccountlessApplication } from '@appypeeps/clerk-backend';
 import { useSelectedLayoutSegments } from 'next/navigation';
 import type { PropsWithChildren } from 'react';
 import { useEffect } from 'react';

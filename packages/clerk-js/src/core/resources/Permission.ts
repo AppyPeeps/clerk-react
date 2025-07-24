@@ -1,4 +1,4 @@
-import type { PermissionJSON, PermissionResource } from '@clerk/types';
+import type { PermissionJSON, PermissionResource } from '@appypeeps/clerk-types';
 
 import { unixEpochToDate } from '../../utils/date';
 import { BaseResource } from './internal';

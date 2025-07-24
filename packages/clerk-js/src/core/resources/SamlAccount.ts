@@ -7,7 +7,7 @@ import type {
   SamlAccountResource,
   SamlIdpSlug,
   VerificationResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { unixEpochToDate } from '../../utils/date';
 import { BaseResource } from './Base';

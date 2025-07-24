@@ -1,4 +1,4 @@
-import type { ClerkClient } from '@clerk/backend';
+import type { ClerkClient } from '@appypeeps/clerk-backend';
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 
 import type { ClerkTool } from '../lib/clerk-tool';

@@ -1,4 +1,4 @@
-import type { Serializable } from '@clerk/types';
+import type { Serializable } from '@appypeeps/clerk-types';
 
 const formatWarning = (msg: string) => {
   return `🔒 Clerk:\n${msg.trim()}\n(This notice only appears in development)`;

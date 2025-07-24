@@ -10,7 +10,7 @@ const vite = applicationConfig()
   .addScript('dev', 'pnpm dev')
   .addScript('build', 'pnpm build')
   .addScript('serve', 'pnpm start')
-  .addDependency('@clerk/express', constants.E2E_CLERK_VERSION || linkPackage('express'));
+  .addDependency('@appypeeps/clerk-express', constants.E2E_CLERK_VERSION || linkPackage('express'));
 
 export const express = {
   vite,

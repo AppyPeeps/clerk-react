@@ -10,7 +10,7 @@ const reactRouter = applicationConfig()
   .addScript('dev', 'pnpm dev')
   .addScript('build', 'pnpm build')
   .addScript('serve', 'pnpm start')
-  .addDependency('@clerk/tanstack-react-start', linkPackage('tanstack-react-start'));
+  .addDependency('@appypeeps/clerk-tanstack-react-start', linkPackage('tanstack-react-start'));
 
 const reactStart = applicationConfig()
   .setName('tanstack-react-start')
@@ -20,7 +20,7 @@ const reactStart = applicationConfig()
   .addScript('dev', 'pnpm dev')
   .addScript('build', 'pnpm build')
   .addScript('serve', 'pnpm start')
-  .addDependency('@clerk/tanstack-react-start', linkPackage('tanstack-react-start'));
+  .addDependency('@appypeeps/clerk-tanstack-react-start', linkPackage('tanstack-react-start'));
 
 export const tanstack = {
   reactStart,

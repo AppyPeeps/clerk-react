@@ -1,5 +1,5 @@
-import { useSession } from '@clerk/nextjs';
-import { PublicUserData } from '@clerk/types';
+import { useSession } from '@appypeeps/clerk-nextjs';
+import { PublicUserData } from '@appypeeps/clerk-types';
 import type { NextPage } from 'next';
 import React from 'react';
 

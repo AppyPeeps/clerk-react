@@ -1,4 +1,4 @@
-import { OrganizationSwitcher } from '@clerk/nextjs';
+import { OrganizationSwitcher } from '@appypeeps/clerk-nextjs';
 
 export default function Page() {
   return (

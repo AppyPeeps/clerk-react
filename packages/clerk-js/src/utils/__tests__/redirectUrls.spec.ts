@@ -1,5 +1,5 @@
-import { snakeToCamel } from '@clerk/shared/underscore';
-import type { RedirectOptions } from '@clerk/types';
+import { snakeToCamel } from '@appypeeps/clerk-shared/underscore';
+import type { RedirectOptions } from '@appypeeps/clerk-types';
 import { afterAll, beforeEach, describe, expect, it } from 'vitest';
 
 import { RedirectUrls } from '../redirectUrls';

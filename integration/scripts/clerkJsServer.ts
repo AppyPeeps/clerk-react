@@ -57,11 +57,11 @@ const serveFromTempDir = async () => {
 };
 
 // The location where the clerk.browser.js is served from
-// For simplicity, on CICD we install `@clerk/clerk-js` on osTemp
-// so the actual clerk.browser.file is at osTemp/clerk-js/node_modules/@clerk/clerk-js/dist
-// Locally, it's the osTemp/clerk-js/node_modules/@clerk/clerk-js/dist
+// For simplicity, on CICD we install `@appypeeps/clerk-js` on osTemp
+// so the actual clerk.browser.file is at osTemp/clerk-js/node_modules/@appypeeps/clerk-js/dist
+// Locally, it's the osTemp/clerk-js/node_modules/@appypeeps/clerk-js/dist
 // You can override it by setting the `E2E_APP_CLERK_JS_DIR` env variable
 const getClerkJsTempDir = () => {
   const osTempDir = process.env.E2E_APP_CLERK_JS_DIR || os.tmpdir();
-  return path.join(osTempDir, ...'clerk-js/node_modules/@clerk/clerk-js/dist'.split('/'));
+  return path.join(osTempDir, ...'clerk-js/node_modules/@appypeeps/clerk-js/dist'.split('/'));
 };

@@ -1,10 +1,10 @@
-import { useOrganization } from '@clerk/shared/react';
+import { useOrganization } from '@appypeeps/clerk-shared/react';
 import type {
   GetDomainsParams,
   OrganizationDomainResource,
   OrganizationDomainVerificationStatus,
   OrganizationEnrollmentMode,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import React, { useMemo } from 'react';
 
 import { ProfileSection } from '@/ui/elements/Section';

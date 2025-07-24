@@ -5,4 +5,4 @@ export {
   isKnownError,
   isMetamaskError,
   EmailLinkErrorCodeStatus,
-} from '@clerk/vue/errors';
+} from '@appypeeps/clerk-vue/errors';

@@ -5,7 +5,7 @@ import type {
   Web3WalletJSON,
   Web3WalletJSONSnapshot,
   Web3WalletResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { BaseResource, Verification } from './internal';
 

@@ -1,5 +1,5 @@
-import type { ProtectProps } from '@clerk/clerk-react';
-import type { PendingSessionOptions } from '@clerk/types';
+import type { ProtectProps } from '@appypeeps/clerk-react';
+import type { PendingSessionOptions } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { auth } from './auth';

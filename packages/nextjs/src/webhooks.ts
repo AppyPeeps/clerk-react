@@ -1,12 +1,12 @@
 /* eslint-disable import/export */
-import type { VerifyWebhookOptions } from '@clerk/backend/webhooks';
-import { verifyWebhook as verifyWebhookBase } from '@clerk/backend/webhooks';
+import type { VerifyWebhookOptions } from '@appypeeps/clerk-backend/webhooks';
+import { verifyWebhook as verifyWebhookBase } from '@appypeeps/clerk-backend/webhooks';
 
 import { getHeader, isNextRequest, isRequestWebAPI } from './server/headers-utils';
 import type { RequestLike } from './server/types';
 // Ordering of exports matter here since
 // we're overriding the base verifyWebhook
-export * from '@clerk/backend/webhooks';
+export * from '@appypeeps/clerk-backend/webhooks';
 
 const SVIX_ID_HEADER = 'svix-id';
 const SVIX_TIMESTAMP_HEADER = 'svix-timestamp';
@@ -23,7 +23,7 @@ const SVIX_SIGNATURE_HEADER = 'svix-signature';
  *
  * @example
  * ```typescript
- * import { verifyWebhook } from '@clerk/nextjs/webhooks';
+ * import { verifyWebhook } from '@appypeeps/clerk-nextjs/webhooks';
  *
  * export async function POST(req: Request) {
  *   try {

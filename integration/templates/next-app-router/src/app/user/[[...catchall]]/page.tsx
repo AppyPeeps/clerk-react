@@ -1,4 +1,4 @@
-import { UserProfile } from '@clerk/nextjs';
+import { UserProfile } from '@appypeeps/clerk-nextjs';
 
 export default function Page() {
   return (

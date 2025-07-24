@@ -3,7 +3,7 @@ import type {
   __experimental_CheckoutInstance,
   CommerceCheckoutResource,
   CommerceSubscriptionPlanPeriod,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import { useMemo, useSyncExternalStore } from 'react';
 
 import type { ClerkAPIResponseError } from '../..';

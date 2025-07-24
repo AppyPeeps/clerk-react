@@ -1,5 +1,5 @@
-import { useOrganization, useOrganizationList, useUser } from '@clerk/shared/react';
-import type { OrganizationResource } from '@clerk/types';
+import { useOrganization, useOrganizationList, useUser } from '@appypeeps/clerk-shared/react';
+import type { OrganizationResource } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { OrganizationPreview } from '@/ui/elements/OrganizationPreview';

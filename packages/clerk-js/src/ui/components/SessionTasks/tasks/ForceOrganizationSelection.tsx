@@ -1,4 +1,4 @@
-import { useOrganizationList } from '@clerk/shared/react/index';
+import { useOrganizationList } from '@appypeeps/clerk-shared/react/index';
 import type { PropsWithChildren } from 'react';
 import { useEffect, useRef, useState } from 'react';
 

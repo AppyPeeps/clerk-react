@@ -1,4 +1,4 @@
-import { useUser } from '@clerk/shared/react';
+import { useUser } from '@appypeeps/clerk-shared/react';
 
 import { ApiKeysContext, useUserProfileContext } from '@/ui/contexts';
 import { Col, descriptors, localizationKeys } from '@/ui/customizables';

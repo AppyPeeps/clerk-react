@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import type { OAuthStrategy, PhoneCodeChannel } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { OAuthStrategy, PhoneCodeChannel } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { useCardState } from '@/ui/elements/contexts';

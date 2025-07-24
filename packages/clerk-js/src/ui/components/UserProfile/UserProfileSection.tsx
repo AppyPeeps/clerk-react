@@ -1,4 +1,4 @@
-import { useUser } from '@clerk/shared/react';
+import { useUser } from '@appypeeps/clerk-shared/react';
 
 import { ProfileSection } from '@/ui/elements/Section';
 import { UserPreview } from '@/ui/elements/UserPreview';

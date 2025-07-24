@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import type { Clerk, SignOutOptions } from '@clerk/types';
+import type { Clerk, SignOutOptions } from '@appypeeps/clerk-types';
 
 import type { ClerkSignInParams } from '../common';
 import { signInHelper } from '../common';

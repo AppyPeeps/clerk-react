@@ -1,5 +1,5 @@
 import { Outlet, useNavigate } from "react-router-dom";
-import { ClerkProvider } from "@clerk/chrome-extension";
+import { ClerkProvider } from "@appypeeps/clerk-chrome-extension";
 import { NavBar } from "~components/nav-bar";
 
 const PUBLISHABLE_KEY = process.env.PLASMO_PUBLIC_CLERK_PUBLISHABLE_KEY

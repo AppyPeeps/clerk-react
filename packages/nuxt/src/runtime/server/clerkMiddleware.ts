@@ -1,7 +1,7 @@
-import type { AuthenticateRequestOptions } from '@clerk/backend/internal';
-import { AuthStatus, constants } from '@clerk/backend/internal';
-import { deprecated } from '@clerk/shared/deprecated';
-import { handleNetlifyCacheInDevInstance } from '@clerk/shared/netlifyCacheHandler';
+import type { AuthenticateRequestOptions } from '@appypeeps/clerk-backend/internal';
+import { AuthStatus, constants } from '@appypeeps/clerk-backend/internal';
+import { deprecated } from '@appypeeps/clerk-shared/deprecated';
+import { handleNetlifyCacheInDevInstance } from '@appypeeps/clerk-shared/netlifyCacheHandler';
 import type { EventHandler } from 'h3';
 import { createError, eventHandler, setResponseHeader } from 'h3';
 

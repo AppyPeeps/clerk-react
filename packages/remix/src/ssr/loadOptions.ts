@@ -1,9 +1,9 @@
-import { createClerkRequest } from '@clerk/backend/internal';
-import { apiUrlFromPublishableKey } from '@clerk/shared/apiUrlFromPublishableKey';
-import { isDevelopmentFromSecretKey } from '@clerk/shared/keys';
-import { isHttpOrHttps, isProxyUrlRelative } from '@clerk/shared/proxy';
-import { isTruthy } from '@clerk/shared/underscore';
-import { handleValueOrFn } from '@clerk/shared/utils';
+import { createClerkRequest } from '@appypeeps/clerk-backend/internal';
+import { apiUrlFromPublishableKey } from '@appypeeps/clerk-shared/apiUrlFromPublishableKey';
+import { isDevelopmentFromSecretKey } from '@appypeeps/clerk-shared/keys';
+import { isHttpOrHttps, isProxyUrlRelative } from '@appypeeps/clerk-shared/proxy';
+import { isTruthy } from '@appypeeps/clerk-shared/underscore';
+import { handleValueOrFn } from '@appypeeps/clerk-shared/utils';
 
 import { noSecretKeyError, satelliteAndMissingProxyUrlAndDomain, satelliteAndMissingSignInUrl } from '../utils/errors';
 import { getEnvVariable } from '../utils/utils';

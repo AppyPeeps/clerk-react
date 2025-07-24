@@ -1,6 +1,6 @@
 import type { Application, Request, Response, NextFunction } from 'express';
 
-import { clerkMiddleware } from '@clerk/express';
+import { clerkMiddleware } from '@appypeeps/clerk-express';
 import * as express from 'express';
 import { privateRoutes, publicRoutes } from './routes';
 

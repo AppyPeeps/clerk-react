@@ -1,4 +1,4 @@
-import type { SignInStrategy } from '@clerk/types';
+import type { SignInStrategy } from '@appypeeps/clerk-types';
 
 import type {
   SignInResetPasswordContext,

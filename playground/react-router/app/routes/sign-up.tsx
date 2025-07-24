@@ -1,4 +1,4 @@
-import { SignUp } from '@clerk/react-router'
+import { SignUp } from '@appypeeps/clerk-react-router'
 
 export default function SignUpPage() {
   return (

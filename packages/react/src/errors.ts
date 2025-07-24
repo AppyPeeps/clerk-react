@@ -7,4 +7,4 @@ export {
   isReverificationCancelledError,
   EmailLinkErrorCode,
   EmailLinkErrorCodeStatus,
-} from '@clerk/shared/error';
+} from '@appypeeps/clerk-shared/error';

@@ -1,4 +1,4 @@
-import type { __internal_CheckoutProps } from '@clerk/types';
+import type { __internal_CheckoutProps } from '@appypeeps/clerk-types';
 
 import { Drawer } from '@/ui/elements/Drawer';
 

@@ -1,4 +1,4 @@
-import type { UseSessionListReturn } from '@clerk/types';
+import type { UseSessionListReturn } from '@appypeeps/clerk-types';
 
 import { eventMethodCalled } from '../../telemetry/events/method-called';
 import { useAssertWrappedByClerkProvider, useClerkInstanceContext, useClientContext } from '../contexts';
@@ -21,7 +21,7 @@ const hookName = 'useSessionList';
  * <Tab>
  *
  * ```tsx {{ filename: 'src/Home.tsx' }}
- * import { useSessionList } from '@clerk/clerk-react'
+ * import { useSessionList } from '@appypeeps/clerk-react'
  *
  * export default function Home() {
  *   const { isLoaded, sessions } = useSessionList()

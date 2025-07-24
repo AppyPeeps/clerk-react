@@ -1,1 +1,1 @@
-export { SessionContext, useSessionContext } from '@clerk/shared/react';
+export { SessionContext, useSessionContext } from '@appypeeps/clerk-shared/react';

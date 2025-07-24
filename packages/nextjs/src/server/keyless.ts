@@ -1,4 +1,4 @@
-import type { AccountlessApplication } from '@clerk/backend';
+import type { AccountlessApplication } from '@appypeeps/clerk-backend';
 
 import { canUseKeyless } from '../utils/feature-flags';
 

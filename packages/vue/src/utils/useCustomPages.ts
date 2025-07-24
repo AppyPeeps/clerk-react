@@ -1,5 +1,5 @@
-import { logErrorInDevMode } from '@clerk/shared/utils';
-import type { CustomPage } from '@clerk/types';
+import { logErrorInDevMode } from '@appypeeps/clerk-shared/utils';
+import type { CustomPage } from '@appypeeps/clerk-types';
 import type { Component } from 'vue';
 import { ref } from 'vue';
 

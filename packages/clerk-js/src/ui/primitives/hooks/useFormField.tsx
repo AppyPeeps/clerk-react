@@ -1,5 +1,5 @@
-import { createContextAndHook } from '@clerk/shared/react';
-import type { FieldId } from '@clerk/types';
+import { createContextAndHook } from '@appypeeps/clerk-shared/react';
+import type { FieldId } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import type { useFormControl as useFormControlUtil } from '../../utils/useFormControl';

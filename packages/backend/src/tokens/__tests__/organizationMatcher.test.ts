@@ -1,4 +1,4 @@
-import { match } from '@clerk/shared/pathToRegexp';
+import { match } from '@appypeeps/clerk-shared/pathToRegexp';
 import { describe, expect, it } from 'vitest';
 
 import { OrganizationMatcher } from '../organizationMatcher';

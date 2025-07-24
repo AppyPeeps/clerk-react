@@ -1,4 +1,4 @@
-import { useSessionContext } from '@clerk/shared/react';
+import { useSessionContext } from '@appypeeps/clerk-shared/react';
 import React from 'react';
 
 export function withCoreSessionSwitchGuard<P>(Component: React.ComponentType<P>): React.ComponentType<P> {

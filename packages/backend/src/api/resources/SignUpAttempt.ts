@@ -1,4 +1,4 @@
-import type { SignUpStatus } from '@clerk/types';
+import type { SignUpStatus } from '@appypeeps/clerk-types';
 
 import type { SignUpVerificationNextAction } from './Enums';
 import type { SignUpJSON, SignUpVerificationJSON, SignUpVerificationsJSON } from './JSON';

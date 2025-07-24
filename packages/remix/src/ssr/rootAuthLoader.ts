@@ -1,4 +1,4 @@
-import { decorateObjectWithResources } from '@clerk/backend/internal';
+import { decorateObjectWithResources } from '@appypeeps/clerk-backend/internal';
 import type { defer } from '@remix-run/server-runtime';
 import { isDeferredData } from '@remix-run/server-runtime/dist/responses';
 

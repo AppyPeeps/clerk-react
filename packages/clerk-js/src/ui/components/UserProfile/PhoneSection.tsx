@@ -1,5 +1,5 @@
-import { useReverification, useUser } from '@clerk/shared/react';
-import type { PhoneNumberResource, UserResource } from '@clerk/types';
+import { useReverification, useUser } from '@appypeeps/clerk-shared/react';
+import type { PhoneNumberResource, UserResource } from '@appypeeps/clerk-types';
 import { Fragment } from 'react';
 
 import { useCardState } from '@/ui/elements/contexts';

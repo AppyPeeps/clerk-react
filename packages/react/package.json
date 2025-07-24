@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/clerk-react",
-  "version": "5.35.4",
+  "name": "@appypeeps/clerk-react",
+  "version": "0.0.1",
   "description": "Clerk React library",
   "keywords": [
     "clerk",
@@ -87,13 +87,13 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@clerk/shared": "workspace:^",
-    "@clerk/types": "workspace:^",
+    "@appypeeps/clerk-shared": "workspace:^",
+    "@appypeeps/clerk-types": "workspace:^",
     "tslib": "catalog:repo"
   },
   "devDependencies": {
-    "@clerk/localizations": "workspace:*",
-    "@clerk/themes": "workspace:*",
+    "@appypeeps/clerk-localizations": "workspace:*",
+    "@appypeeps/clerk-themes": "workspace:*",
     "@types/semver": "^7.7.0"
   },
   "peerDependencies": {
@@ -104,6 +104,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

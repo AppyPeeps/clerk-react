@@ -1,6 +1,6 @@
-import { useClerk } from '@clerk/shared/react';
-import { eventComponentMounted } from '@clerk/shared/telemetry';
-import type { EnterpriseSSOStrategy, OAuthProvider, SamlStrategy, Web3Provider } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import { eventComponentMounted } from '@appypeeps/clerk-shared/telemetry';
+import type { EnterpriseSSOStrategy, OAuthProvider, SamlStrategy, Web3Provider } from '@appypeeps/clerk-types';
 import { useSelector } from '@xstate/react';
 import * as React from 'react';
 

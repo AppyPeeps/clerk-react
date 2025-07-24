@@ -1,6 +1,6 @@
-import { useClientContext } from '@clerk/shared/react';
-import { eventMethodCalled } from '@clerk/shared/telemetry';
-import type { UseSignUpReturn } from '@clerk/types';
+import { useClientContext } from '@appypeeps/clerk-shared/react';
+import { eventMethodCalled } from '@appypeeps/clerk-shared/telemetry';
+import type { UseSignUpReturn } from '@appypeeps/clerk-types';
 
 import { useIsomorphicClerkContext } from '../contexts/IsomorphicClerkContext';
 import { useAssertWrappedByClerkProvider } from './useAssertWrappedByClerkProvider';
@@ -20,7 +20,7 @@ import { useAssertWrappedByClerkProvider } from './useAssertWrappedByClerkProvid
  * <Tab>
  *
  * ```tsx {{ filename: 'src/pages/SignUpPage.tsx' }}
- * import { useSignUp } from '@clerk/clerk-react'
+ * import { useSignUp } from '@appypeeps/clerk-react'
  *
  * export default function SignUpPage() {
  *   const { isLoaded, signUp } = useSignUp()

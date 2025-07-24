@@ -1,4 +1,4 @@
-import { SignedIn, UserButton, SignOutButton, SignedOut, SignIn } from '@clerk/tanstack-react-start';
+import { SignedIn, UserButton, SignOutButton, SignedOut, SignIn } from '@appypeeps/clerk-tanstack-react-start';
 import { createFileRoute } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/')({

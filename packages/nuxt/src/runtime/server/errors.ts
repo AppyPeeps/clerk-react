@@ -7,10 +7,10 @@ const createErrorMessage = (msg: string) => {
 };
 
 export const moduleRegistrationRequired =
-  createErrorMessage(`The "@clerk/nuxt" module should be registered before using "getAuth".
+  createErrorMessage(`The "@appypeeps/clerk-nuxt" module should be registered before using "getAuth".
 Example:
 
 export default defineNuxtConfig({
-  modules: ['@clerk/nuxt'],
+  modules: ['@appypeeps/clerk-nuxt'],
 })
 `);

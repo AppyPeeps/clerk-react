@@ -1,13 +1,13 @@
 // Middleware runs on the server side, before clerk-js is loaded, that's why we need Cookies.
-import type { AuthenticateRequestOptions, ClerkRequest } from '@clerk/backend/internal';
-import { constants } from '@clerk/backend/internal';
-import { DEV_BROWSER_JWT_KEY, setDevBrowserJWTInURL } from '@clerk/shared/devBrowser';
-import { isDevelopmentFromSecretKey } from '@clerk/shared/keys';
+import type { AuthenticateRequestOptions, ClerkRequest } from '@appypeeps/clerk-backend/internal';
+import { constants } from '@appypeeps/clerk-backend/internal';
+import { DEV_BROWSER_JWT_KEY, setDevBrowserJWTInURL } from '@appypeeps/clerk-shared/devBrowser';
+import { isDevelopmentFromSecretKey } from '@appypeeps/clerk-shared/keys';
 
 import { getSafeEnv } from './get-safe-env';
 import type { AstroMiddlewareContextParam } from './types';
 
-// TODO-SHARED: This exists in @clerk/nextjs
+// TODO-SHARED: This exists in @appypeeps/clerk-nextjs
 /**
  * Grabs the dev browser JWT from cookies and appends it to the redirect URL when redirecting to cross-origin.
  */

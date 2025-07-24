@@ -9,8 +9,8 @@ or come say hi in our discord server: https://clerk.com/discord
 const ssrExample = `Use 'rootAuthLoader' as your root loader. Then, add <ClerkProvider> to your app.
 Example:
 
-import { rootAuthLoader } from '@clerk/react-router/ssr.server'
-import { ClerkProvider } from '@clerk/react-router'
+import { rootAuthLoader } from '@appypeeps/clerk-react-router/ssr.server'
+import { ClerkProvider } from '@appypeeps/clerk-react-router'
 
 export async function loader(args: Route.LoaderArgs) {
   return rootAuthLoader(args)
@@ -73,7 +73,7 @@ export async function loader(args: Route.LoaderArgs) {
 `);
 
 export const noSecretKeyError = createErrorMessage(`
-A secretKey must be provided in order to use SSR and the exports from @clerk/react-router/api.');
+A secretKey must be provided in order to use SSR and the exports from @appypeeps/clerk-react-router/api.');
 If your runtime supports environment variables, you can add a CLERK_SECRET_KEY variable to your config.
 Otherwise, you can pass a secretKey parameter to rootAuthLoader or getAuth.
 `);

@@ -1,4 +1,4 @@
-import type { CommerceFeatureJSON, CommerceFeatureJSONSnapshot, CommerceFeatureResource } from '@clerk/types';
+import type { CommerceFeatureJSON, CommerceFeatureJSONSnapshot, CommerceFeatureResource } from '@appypeeps/clerk-types';
 
 import { BaseResource } from './internal';
 

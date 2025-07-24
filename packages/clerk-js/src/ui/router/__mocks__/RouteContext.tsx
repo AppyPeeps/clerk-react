@@ -1,4 +1,4 @@
-import { noop } from '@clerk/shared/utils';
+import { noop } from '@appypeeps/clerk-shared/utils';
 import { vi } from 'vitest';
 
 export const useRouter = () => ({

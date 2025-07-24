@@ -1,4 +1,4 @@
-import { setClerkJsLoadingErrorPackageName } from '@clerk/shared/loadClerkJsScript';
+import { setClerkJsLoadingErrorPackageName } from '@appypeeps/clerk-shared/loadClerkJsScript';
 
 import { setErrorThrowerOptions } from './errors/errorThrower';
 

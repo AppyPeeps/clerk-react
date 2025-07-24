@@ -1,4 +1,4 @@
-import type { TokenResource } from '@clerk/types';
+import type { TokenResource } from '@appypeeps/clerk-types';
 
 interface TokenCacheKeyJSON {
   audience?: string;

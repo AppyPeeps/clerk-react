@@ -21,7 +21,7 @@ import type {
   UserButtonProps,
   UserProfileProps,
   WaitlistProps,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 export type {
   GoogleOneTapProps,

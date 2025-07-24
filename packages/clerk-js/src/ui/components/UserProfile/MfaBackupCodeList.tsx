@@ -1,4 +1,4 @@
-import { useUser } from '@clerk/shared/react';
+import { useUser } from '@appypeeps/clerk-shared/react';
 
 import { getIdentifier } from '../../../utils/user';
 import { PrintableComponent, usePrintable } from '../../common';

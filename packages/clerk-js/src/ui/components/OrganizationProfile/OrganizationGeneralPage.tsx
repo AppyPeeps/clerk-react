@@ -1,4 +1,4 @@
-import { useOrganization } from '@clerk/shared/react';
+import { useOrganization } from '@appypeeps/clerk-shared/react';
 
 import { Header } from '@/ui/elements/Header';
 import { OrganizationPreview } from '@/ui/elements/OrganizationPreview';

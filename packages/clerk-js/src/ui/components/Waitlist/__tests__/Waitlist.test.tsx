@@ -1,4 +1,4 @@
-import type { WaitlistResource } from '@clerk/types';
+import type { WaitlistResource } from '@appypeeps/clerk-types';
 
 import { render, screen } from '../../../../testUtils';
 import { bindCreateFixtures } from '../../../utils/test/createFixtures';

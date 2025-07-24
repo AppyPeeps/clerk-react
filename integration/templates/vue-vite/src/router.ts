@@ -1,5 +1,5 @@
 import { createWebHistory, createRouter } from 'vue-router';
-import { useAuth } from '@clerk/vue';
+import { useAuth } from '@appypeeps/clerk-vue';
 
 import HomeView from './views/Home.vue';
 import { Ref, watch } from 'vue';

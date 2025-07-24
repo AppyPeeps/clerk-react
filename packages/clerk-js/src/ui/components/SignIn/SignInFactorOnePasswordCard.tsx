@@ -1,5 +1,5 @@
-import { isPasswordPwnedError, isUserLockedError } from '@clerk/shared/error';
-import { useClerk } from '@clerk/shared/react';
+import { isPasswordPwnedError, isUserLockedError } from '@appypeeps/clerk-shared/error';
+import { useClerk } from '@appypeeps/clerk-shared/react';
 import React from 'react';
 
 import { Card } from '@/ui/elements/Card';

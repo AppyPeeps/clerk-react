@@ -1,4 +1,4 @@
-import { OrganizationList } from '@clerk/nextjs';
+import { OrganizationList } from '@appypeeps/clerk-nextjs';
 import type { NextPage } from 'next';
 
 const OrganizationListPage: NextPage = () => {

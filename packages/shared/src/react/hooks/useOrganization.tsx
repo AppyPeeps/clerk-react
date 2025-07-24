@@ -12,7 +12,7 @@ import type {
   OrganizationMembershipRequestResource,
   OrganizationMembershipResource,
   OrganizationResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { getCurrentOrganizationMembership } from '../../organization';
 import { eventMethodCalled } from '../../telemetry/events/method-called';
@@ -210,7 +210,7 @@ const undefinedPaginatedResource = {
  * The following example demonstrates how to use the `infinite` property to fetch and append new data to the existing list. The `memberships` attribute will be populated with the first page of the organization's memberships. When the "Load more" button is clicked, the `fetchNext` helper function will be called to append the next page of memberships to the list.
  *
  * ```tsx
- * import { useOrganization } from '@clerk/clerk-react'
+ * import { useOrganization } from '@appypeeps/clerk-react'
  *
  * export default function MemberList() {
  *   const { memberships } = useOrganization({
@@ -256,7 +256,7 @@ const undefinedPaginatedResource = {
  * Notice the difference between this example's pagination and the infinite pagination example above.
  *
  * ```tsx
- * import { useOrganization } from '@clerk/clerk-react'
+ * import { useOrganization } from '@appypeeps/clerk-react'
  *
  * export default function MemberList() {
  *   const { memberships } = useOrganization({

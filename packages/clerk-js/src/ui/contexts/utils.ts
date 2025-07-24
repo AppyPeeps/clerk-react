@@ -1,5 +1,5 @@
-import { snakeToCamel } from '@clerk/shared/underscore';
-import type { Clerk } from '@clerk/types';
+import { snakeToCamel } from '@appypeeps/clerk-shared/underscore';
+import type { Clerk } from '@appypeeps/clerk-types';
 
 import { clerkCoreErrorContextProviderNotFound, clerkCoreErrorNoClerkSingleton } from '../../core/errors';
 import { createDynamicParamParser } from '../../utils';

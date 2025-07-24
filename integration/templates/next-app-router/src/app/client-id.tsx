@@ -1,5 +1,5 @@
 'use client';
-import { useClerk, useSession } from '@clerk/nextjs';
+import { useClerk, useSession } from '@appypeeps/clerk-nextjs';
 import React from 'react';
 
 export function ClientId() {

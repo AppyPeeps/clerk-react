@@ -1,8 +1,8 @@
-import { ClerkWebAuthnError } from '@clerk/shared/error';
+import { ClerkWebAuthnError } from '@appypeeps/clerk-shared/error';
 import {
   isWebAuthnPlatformAuthenticatorSupported as isWebAuthnPlatformAuthenticatorSupportedOnWindow,
   isWebAuthnSupported as isWebAuthnSupportedOnWindow,
-} from '@clerk/shared/webauthn';
+} from '@appypeeps/clerk-shared/webauthn';
 import type {
   DeletedObjectJSON,
   DeletedObjectResource,
@@ -12,7 +12,7 @@ import type {
   PasskeyVerificationResource,
   PublicKeyCredentialWithAuthenticatorAttestationResponse,
   UpdatePasskeyParams,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { unixEpochToDate } from '../../utils/date';
 import {

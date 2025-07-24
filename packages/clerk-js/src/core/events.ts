@@ -1,5 +1,5 @@
-import { createEventBus } from '@clerk/shared/eventBus';
-import type { TokenResource } from '@clerk/types';
+import { createEventBus } from '@appypeeps/clerk-shared/eventBus';
+import type { TokenResource } from '@appypeeps/clerk-types';
 
 export const events = {
   TokenUpdate: 'token:update',

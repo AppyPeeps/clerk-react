@@ -1,4 +1,4 @@
-import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/react-router';
+import { SignInButton, SignedIn, SignedOut, UserButton } from '@appypeeps/clerk-react-router';
 import './App.css';
 
 function App() {

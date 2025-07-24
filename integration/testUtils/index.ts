@@ -1,5 +1,9 @@
-import { createClerkClient as backendCreateClerkClient } from '@clerk/backend';
-import { createAppPageObject, createPageObjects, type EnhancedPage } from '@clerk/testing/playwright/unstable';
+import { createClerkClient as backendCreateClerkClient } from '@appypeeps/clerk-backend';
+import {
+  createAppPageObject,
+  createPageObjects,
+  type EnhancedPage,
+} from '@appypeeps/clerk-testing/playwright/unstable';
 import type { Browser, BrowserContext, Page } from '@playwright/test';
 
 import type { Application } from '../models/application';

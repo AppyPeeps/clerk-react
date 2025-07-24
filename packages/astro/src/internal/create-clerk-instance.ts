@@ -1,5 +1,5 @@
-import { loadClerkJsScript, setClerkJsLoadingErrorPackageName } from '@clerk/shared/loadClerkJsScript';
-import type { ClerkOptions } from '@clerk/types';
+import { loadClerkJsScript, setClerkJsLoadingErrorPackageName } from '@appypeeps/clerk-shared/loadClerkJsScript';
+import type { ClerkOptions } from '@appypeeps/clerk-types';
 
 import { $clerkStore } from '../stores/external';
 import { $clerk, $csrState } from '../stores/internal';
@@ -78,7 +78,7 @@ function updateClerkOptions(options: AstroClerkUpdateOptions) {
   if (!clerk) {
     throw new Error('Missing clerk instance');
   }
-  // `__unstable__updateProps` is not exposed as public API from `@clerk/types`
+  // `__unstable__updateProps` is not exposed as public API from `@appypeeps/clerk-types`
   void (clerk as any).__unstable__updateProps({
     options: { ...initOptions, ...options },
     appearance: { ...initOptions?.appearance, ...options.appearance },

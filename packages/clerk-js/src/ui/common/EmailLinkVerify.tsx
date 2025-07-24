@@ -1,5 +1,5 @@
-import { EmailLinkErrorCodeStatus, isEmailLinkError } from '@clerk/shared/error';
-import { useClerk } from '@clerk/shared/react';
+import { EmailLinkErrorCodeStatus, isEmailLinkError } from '@appypeeps/clerk-shared/error';
+import { useClerk } from '@appypeeps/clerk-shared/react';
 import React from 'react';
 
 import { completeSignUpFlow } from '../../utils';

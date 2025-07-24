@@ -1,4 +1,4 @@
-import type { LocalizationResource } from '@clerk/types';
+import type { LocalizationResource } from '@appypeeps/clerk-types';
 
 export const enUS: LocalizationResource = {
   locale: 'en-US',

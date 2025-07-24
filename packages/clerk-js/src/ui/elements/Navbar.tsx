@@ -1,4 +1,4 @@
-import { createContextAndHook } from '@clerk/shared/react';
+import { createContextAndHook } from '@appypeeps/clerk-shared/react';
 import React, { useCallback } from 'react';
 
 import type { LocalizationKey } from '../customizables';

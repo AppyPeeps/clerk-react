@@ -1,4 +1,4 @@
-import type { SignInStrategy } from '@clerk/types';
+import type { SignInStrategy } from '@appypeeps/clerk-types';
 import { createContext, useContext } from 'react';
 
 import { ClerkElementsRuntimeError } from '~/internals/errors';
@@ -21,7 +21,7 @@ export function useStrategy(name: SignInStrategyName) {
 
   if (!ctx) {
     throw new ClerkElementsRuntimeError(
-      'useStrategy must be used within a <SignIn.Step name="verifications"> component. Did you mean to `import { Step } from "@clerk/elements/sign-up"` instead?',
+      'useStrategy must be used within a <SignIn.Step name="verifications"> component. Did you mean to `import { Step } from "@appypeeps/clerk-elements/sign-up"` instead?',
     );
   }
 

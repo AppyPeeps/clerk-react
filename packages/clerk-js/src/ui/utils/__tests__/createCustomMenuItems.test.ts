@@ -1,4 +1,4 @@
-import type { CustomMenuItem } from '@clerk/types';
+import type { CustomMenuItem } from '@appypeeps/clerk-types';
 
 import { createUserButtonCustomMenuItems as cUBCMI } from '../createCustomMenuItems';
 

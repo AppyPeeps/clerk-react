@@ -1,5 +1,5 @@
 import type { FastifyReply, FastifyRequest, FastifyInstance } from 'fastify';
-import { clerkPlugin, getAuth } from '@clerk/fastify';
+import { clerkPlugin, getAuth } from '@appypeeps/clerk-fastify';
 
 export const privateRoutes = async (fastify: FastifyInstance, _opts: any) => {
   fastify.register(clerkPlugin);

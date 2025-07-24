@@ -1,4 +1,4 @@
-import { auth } from '@clerk/nextjs/server';
+import { auth } from '@appypeeps/clerk-nextjs/server';
 
 export default async function Home() {
   const { orgId } = await auth();

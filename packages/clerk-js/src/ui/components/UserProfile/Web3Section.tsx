@@ -1,4 +1,4 @@
-import { useReverification, useUser } from '@clerk/shared/react';
+import { useReverification, useUser } from '@appypeeps/clerk-shared/react';
 import { Fragment, useState } from 'react';
 
 import { Card } from '@/ui/elements/Card';

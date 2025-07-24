@@ -1,12 +1,12 @@
-import { createCookieHandler } from '@clerk/shared/cookie';
-import { addYears } from '@clerk/shared/date';
+import { createCookieHandler } from '@appypeeps/clerk-shared/cookie';
+import { addYears } from '@appypeeps/clerk-shared/date';
 
 import { inCrossOriginIframe } from '../../../../utils';
 import { getSecureAttribute } from '../../getSecureAttribute';
 import { createSessionCookie } from '../session';
 
-jest.mock('@clerk/shared/cookie');
-jest.mock('@clerk/shared/date');
+jest.mock('@appypeeps/clerk-shared/cookie');
+jest.mock('@appypeeps/clerk-shared/date');
 jest.mock('../../../../utils');
 jest.mock('../../getSecureAttribute');
 

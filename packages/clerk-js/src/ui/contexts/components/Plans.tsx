@@ -6,13 +6,13 @@ import {
   __experimental_useSubscription,
   useClerk,
   useSession,
-} from '@clerk/shared/react';
+} from '@appypeeps/clerk-shared/react';
 import type {
   Appearance,
   CommercePlanResource,
   CommerceSubscriptionItemResource,
   CommerceSubscriptionPlanPeriod,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import { useCallback, useMemo } from 'react';
 
 import { getClosestProfileScrollBox } from '@/ui/utils/getClosestProfileScrollBox';

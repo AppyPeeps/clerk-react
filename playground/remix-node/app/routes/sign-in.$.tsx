@@ -1,4 +1,4 @@
-import { SignIn } from '@clerk/remix';
+import { SignIn } from '@appypeeps/clerk-remix';
 
 export default function SignInPage() {
   return (

@@ -1,4 +1,4 @@
-import type { TelemetryEventRaw } from '@clerk/types';
+import type { TelemetryEventRaw } from '@appypeeps/clerk-types';
 
 const EVENT_METHOD_CALLED = 'METHOD_CALLED';
 

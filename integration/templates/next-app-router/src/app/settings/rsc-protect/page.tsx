@@ -1,4 +1,4 @@
-import { Protect } from '@clerk/nextjs';
+import { Protect } from '@appypeeps/clerk-nextjs';
 
 export default function Page() {
   return (

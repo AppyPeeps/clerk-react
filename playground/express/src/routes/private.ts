@@ -1,4 +1,4 @@
-import { getAuth, requireAuth, UnauthorizedError, ForbiddenError } from '@clerk/express';
+import { getAuth, requireAuth, UnauthorizedError, ForbiddenError } from '@appypeeps/clerk-express';
 import {
   Router,
   Request as ExpressRequest,

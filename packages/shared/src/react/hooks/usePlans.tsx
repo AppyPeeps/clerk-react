@@ -1,4 +1,4 @@
-import type { CommercePlanResource, GetPlansParams } from '@clerk/types';
+import type { CommercePlanResource, GetPlansParams } from '@appypeeps/clerk-types';
 
 import { useClerkInstanceContext } from '../contexts';
 import { createCommercePaginatedHook } from './createCommerceHook';

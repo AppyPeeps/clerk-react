@@ -1,6 +1,6 @@
-import { applyFunctionToObj, filterProps, removeUndefined } from '@clerk/shared/object';
-import { camelToSnake } from '@clerk/shared/underscore';
-import type { ClerkOptions, RedirectOptions } from '@clerk/types';
+import { applyFunctionToObj, filterProps, removeUndefined } from '@appypeeps/clerk-shared/object';
+import { camelToSnake } from '@appypeeps/clerk-shared/underscore';
+import type { ClerkOptions, RedirectOptions } from '@appypeeps/clerk-types';
 
 import { assertNoLegacyProp, warnForNewPropShadowingLegacyProp } from './assertNoLegacyProp';
 import { isAllowedRedirect, relativeToAbsoluteUrl } from './url';

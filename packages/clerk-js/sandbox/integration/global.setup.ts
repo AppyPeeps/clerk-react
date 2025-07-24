@@ -1,4 +1,4 @@
-import { clerkSetup } from '@clerk/testing/playwright';
+import { clerkSetup } from '@appypeeps/clerk-testing/playwright';
 
 import { instanceKeys } from '../../../../integration/presets/envs';
 

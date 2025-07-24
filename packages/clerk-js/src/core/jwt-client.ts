@@ -1,4 +1,4 @@
-import { __experimental_JWTPayloadToAuthObjectProperties } from '@clerk/shared/jwtPayloadParser';
+import { __experimental_JWTPayloadToAuthObjectProperties } from '@appypeeps/clerk-shared/jwtPayloadParser';
 import type {
   ClientJSON,
   OrganizationMembershipJSON,
@@ -7,7 +7,7 @@ import type {
   SessionJSON,
   TokenJSON,
   UserJSON,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { Token } from './resources';
 import { Client } from './resources/Client';

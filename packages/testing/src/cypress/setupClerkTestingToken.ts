@@ -13,7 +13,7 @@ type SetupClerkTestingTokenParams = {
  * @returns A promise that resolves when the bot protection bypass is set up.
  * @throws An error if the Frontend API URL is not provided.
  * @example
- * import { setupClerkTestingToken } from '@clerk/testing/cypress';
+ * import { setupClerkTestingToken } from '@appypeeps/clerk-testing/cypress';
  *
  * it("sign up", () => {
  *     setupClerkTestingToken();

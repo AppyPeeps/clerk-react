@@ -1,4 +1,4 @@
-import type { Autocomplete, PasswordSettingsData } from '@clerk/types';
+import type { Autocomplete, PasswordSettingsData } from '@appypeeps/clerk-types';
 
 // Copied from packages/clerk-js/src/ui/hooks/usePasswordComplexity.ts
 

@@ -1,9 +1,9 @@
-import type { RequestState } from '@clerk/backend/internal';
-import { AuthStatus, createClerkRequest } from '@clerk/backend/internal';
-import { deprecated } from '@clerk/shared/deprecated';
-import { isDevelopmentFromSecretKey } from '@clerk/shared/keys';
-import { isHttpOrHttps, isProxyUrlRelative, isValidProxyUrl } from '@clerk/shared/proxy';
-import { handleValueOrFn } from '@clerk/shared/utils';
+import type { RequestState } from '@appypeeps/clerk-backend/internal';
+import { AuthStatus, createClerkRequest } from '@appypeeps/clerk-backend/internal';
+import { deprecated } from '@appypeeps/clerk-shared/deprecated';
+import { isDevelopmentFromSecretKey } from '@appypeeps/clerk-shared/keys';
+import { isHttpOrHttps, isProxyUrlRelative, isValidProxyUrl } from '@appypeeps/clerk-shared/proxy';
+import { handleValueOrFn } from '@appypeeps/clerk-shared/utils';
 import type { RequestHandler, Response } from 'express';
 
 import { clerkClient as defaultClerkClient } from './clerkClient';

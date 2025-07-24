@@ -1,8 +1,8 @@
 'use client';
 
-import * as Clerk from '@clerk/elements/common';
-import * as SignIn from '@clerk/elements/sign-in';
-import { SignedIn, SignedOut, SignOutButton } from '@clerk/nextjs';
+import * as Clerk from '@appypeeps/clerk-elements/common';
+import * as SignIn from '@appypeeps/clerk-elements/sign-in';
+import { SignedIn, SignedOut, SignOutButton } from '@appypeeps/clerk-nextjs';
 import * as Popover from '@radix-ui/react-popover';
 import Link from 'next/link';
 import { type ComponentProps, useState } from 'react';

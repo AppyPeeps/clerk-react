@@ -1,4 +1,4 @@
-import { UserProfile } from '@clerk/clerk-react';
+import { UserProfile } from '@appypeeps/clerk-react';
 import { useContext } from 'react';
 import { PageContext, PageContextProvider } from '../PageContext.tsx';
 

@@ -1,8 +1,8 @@
 import { json, LoaderFunction, redirect } from '@remix-run/cloudflare';
 import { useLoaderData } from '@remix-run/react';
-import { getAuth } from '@clerk/remix/ssr.server';
-import { createClerkClient } from '@clerk/remix/api.server';
-import { ClerkLoaded, SignedIn, UserButton, useUser } from '@clerk/remix';
+import { getAuth } from '@appypeeps/clerk-remix/ssr.server';
+import { createClerkClient } from '@appypeeps/clerk-remix/api.server';
+import { ClerkLoaded, SignedIn, UserButton, useUser } from '@appypeeps/clerk-remix';
 
 export const loader: LoaderFunction = async args => {
   const { userId } = await getAuth(args);

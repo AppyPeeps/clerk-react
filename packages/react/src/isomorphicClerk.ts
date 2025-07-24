@@ -1,7 +1,7 @@
-import { inBrowser } from '@clerk/shared/browser';
-import { clerkEvents, createClerkEventBus } from '@clerk/shared/clerkEventBus';
-import { loadClerkJsScript } from '@clerk/shared/loadClerkJsScript';
-import { handleValueOrFn } from '@clerk/shared/utils';
+import { inBrowser } from '@appypeeps/clerk-shared/browser';
+import { clerkEvents, createClerkEventBus } from '@appypeeps/clerk-shared/clerkEventBus';
+import { loadClerkJsScript } from '@appypeeps/clerk-shared/loadClerkJsScript';
+import { handleValueOrFn } from '@appypeeps/clerk-shared/utils';
 import type {
   __internal_CheckoutProps,
   __internal_NavigateToTaskIfAvailableParams,
@@ -50,7 +50,7 @@ import type {
   WaitlistProps,
   WaitlistResource,
   Without,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { errorThrower } from './errors/errorThrower';
 import { unsupportedNonBrowserDomainOrProxyUrlFunction } from './errors/messages';

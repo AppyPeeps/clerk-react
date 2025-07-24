@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/clerk-react';
-import { buildClerkJsScriptAttributes, clerkJsScriptUrl } from '@clerk/clerk-react/internal';
+import { useClerk } from '@appypeeps/clerk-react';
+import { buildClerkJsScriptAttributes, clerkJsScriptUrl } from '@appypeeps/clerk-react/internal';
 import NextScript from 'next/script';
 import React from 'react';
 

@@ -1,4 +1,4 @@
-import type { ClerkOptions } from '@clerk/types';
+import type { ClerkOptions } from '@appypeeps/clerk-types';
 import type { AstroIntegration } from 'astro';
 import { envField } from 'astro/config';
 
@@ -35,7 +35,7 @@ function createIntegration<Params extends HotloadAstroClerkIntegrationParams>() 
     const clerkJSVersion = (params as any)?.clerkJSVersion as string | undefined;
 
     return {
-      name: '@clerk/astro/integration',
+      name: '@appypeeps/clerk-astro/integration',
       hooks: {
         'astro:config:setup': ({ config, injectScript, updateConfig, logger, command }) => {
           if (['server', 'hybrid'].includes(config.output) && !config.adapter) {
@@ -163,7 +163,7 @@ function createIntegration<Params extends HotloadAstroClerkIntegrationParams>() 
         'astro:config:done': ({ injectTypes }) => {
           injectTypes({
             filename: 'types.d.ts',
-            content: `/// <reference types="@clerk/astro/env" />`,
+            content: `/// <reference types="@appypeeps/clerk-astro/env" />`,
           });
         },
       },

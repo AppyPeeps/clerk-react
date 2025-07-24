@@ -3,7 +3,7 @@ import type {
   OrganizationSettingsJSON,
   OrganizationSettingsJSONSnapshot,
   OrganizationSettingsResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { BaseResource } from './internal';
 

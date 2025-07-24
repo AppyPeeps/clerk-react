@@ -1,10 +1,15 @@
-import type { createClerkEventBus } from '@clerk/shared/clerkEventBus';
-import { clerkEvents } from '@clerk/shared/clerkEventBus';
-import { createCookieHandler } from '@clerk/shared/cookie';
-import { setDevBrowserJWTInURL } from '@clerk/shared/devBrowser';
-import { is4xxError, isClerkAPIResponseError, isClerkRuntimeError, isNetworkError } from '@clerk/shared/error';
-import { noop } from '@clerk/shared/utils';
-import type { Clerk, InstanceType } from '@clerk/types';
+import type { createClerkEventBus } from '@appypeeps/clerk-shared/clerkEventBus';
+import { clerkEvents } from '@appypeeps/clerk-shared/clerkEventBus';
+import { createCookieHandler } from '@appypeeps/clerk-shared/cookie';
+import { setDevBrowserJWTInURL } from '@appypeeps/clerk-shared/devBrowser';
+import {
+  is4xxError,
+  isClerkAPIResponseError,
+  isClerkRuntimeError,
+  isNetworkError,
+} from '@appypeeps/clerk-shared/error';
+import { noop } from '@appypeeps/clerk-shared/utils';
+import type { Clerk, InstanceType } from '@appypeeps/clerk-types';
 
 import { clerkMissingDevBrowserJwt } from '../errors';
 import { eventBus, events } from '../events';

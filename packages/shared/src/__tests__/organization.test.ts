@@ -1,4 +1,4 @@
-import type { OrganizationMembershipResource } from '@clerk/types';
+import type { OrganizationMembershipResource } from '@appypeeps/clerk-types';
 
 import { getCurrentOrganizationMembership } from '../organization';
 

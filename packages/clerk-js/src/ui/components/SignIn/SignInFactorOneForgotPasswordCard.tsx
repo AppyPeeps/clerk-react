@@ -1,4 +1,4 @@
-import type { ResetPasswordCodeFactor } from '@clerk/types';
+import type { ResetPasswordCodeFactor } from '@appypeeps/clerk-types';
 
 import { Flow, localizationKeys } from '../../customizables';
 import type { SignInFactorOneCodeCard, SignInFactorOneCodeFormProps } from './SignInFactorOneCodeForm';

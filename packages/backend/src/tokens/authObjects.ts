@@ -1,5 +1,5 @@
-import { createCheckAuthorization } from '@clerk/shared/authorization';
-import { __experimental_JWTPayloadToAuthObjectProperties } from '@clerk/shared/jwtPayloadParser';
+import { createCheckAuthorization } from '@appypeeps/clerk-shared/authorization';
+import { __experimental_JWTPayloadToAuthObjectProperties } from '@appypeeps/clerk-shared/jwtPayloadParser';
 import type {
   CheckAuthorizationFromSessionClaims,
   Jwt,
@@ -9,7 +9,7 @@ import type {
   ServerGetTokenOptions,
   SessionStatusClaim,
   SharedSignedInAuthObjectProperties,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import type { APIKey, CreateBackendApiOptions, IdPOAuthAccessToken, MachineToken } from '../api';
 import { createBackendApiClient } from '../api';

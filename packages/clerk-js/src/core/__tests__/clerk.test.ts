@@ -5,7 +5,7 @@ import type {
   SignInJSON,
   SignUpJSON,
   TokenResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import { waitFor } from '@testing-library/dom';
 
 import { mockNativeRuntime } from '../../testUtils';

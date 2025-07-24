@@ -9,7 +9,7 @@ import type { ClerkMiddlewareOptions, ExpressRequestWithAuth } from './types';
  *
  * @example
  * // Basic usage
- * import { requireAuth } from '@clerk/express'
+ * import { requireAuth } from '@appypeeps/clerk-express'
  *
  * router.use(requireAuth())
  * //or
@@ -21,7 +21,7 @@ import type { ClerkMiddlewareOptions, ExpressRequestWithAuth } from './types';
  *
  * @example
  * // Combining with permission check
- * import { getAuth, requireAuth } from '@clerk/express'
+ * import { getAuth, requireAuth } from '@appypeeps/clerk-express'
  *
  * const hasPermission = (req, res, next) => {
  *    const auth = getAuth(req)

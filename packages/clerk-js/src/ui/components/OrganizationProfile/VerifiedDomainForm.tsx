@@ -1,9 +1,9 @@
-import { useOrganization } from '@clerk/shared/react';
+import { useOrganization } from '@appypeeps/clerk-shared/react';
 import type {
   OrganizationDomainResource,
   OrganizationEnrollmentMode,
   OrganizationSettingsResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import { useEffect } from 'react';
 
 import { useCardState, withCardStateProvider } from '@/ui/elements/contexts';

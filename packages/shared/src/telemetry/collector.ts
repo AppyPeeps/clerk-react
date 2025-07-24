@@ -16,7 +16,7 @@ import type {
   TelemetryCollector as TelemetryCollectorInterface,
   TelemetryEvent,
   TelemetryEventRaw,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { parsePublishableKey } from '../keys';
 import { isTruthy } from '../underscore';

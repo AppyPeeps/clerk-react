@@ -32,7 +32,10 @@ export function validateHeaders<
         { status: 400 },
       ) as ReturnType<HttpResponseResolver<Params, RequestBodyType, ResponseBodyType>>;
     }
-    if (!request.headers.get('User-Agent') || request.headers.get('User-Agent') !== '@clerk/backend@0.0.0-test') {
+    if (
+      !request.headers.get('User-Agent') ||
+      request.headers.get('User-Agent') !== '@appypeeps/clerk-backend@0.0.0-test'
+    ) {
       return HttpResponse.json(
         {
           error: 'Bad request',

@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import type { LoadedClerk } from '@clerk/types';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { LoadedClerk } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { pathFromFullPath, trimTrailingSlash } from '../../utils';

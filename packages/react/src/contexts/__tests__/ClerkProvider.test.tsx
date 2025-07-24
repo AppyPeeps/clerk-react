@@ -14,8 +14,8 @@ import {
   svSE,
   trTR,
   ukUA,
-} from '@clerk/localizations';
-import { dark } from '@clerk/themes';
+} from '@appypeeps/clerk-localizations';
+import { dark } from '@appypeeps/clerk-themes';
 import { describe, expectTypeOf, it } from 'vitest';
 
 import type { ClerkProvider } from '../ClerkProvider';

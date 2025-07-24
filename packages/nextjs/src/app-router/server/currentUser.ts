@@ -1,4 +1,4 @@
-import type { User } from '@clerk/backend';
+import type { User } from '@appypeeps/clerk-backend';
 
 import { clerkClient } from '../../server/clerkClient';
 import { auth } from './auth';
@@ -13,7 +13,7 @@ import { auth } from './auth';
  *
  * @example
  * ```tsx {{ filename: 'app/page.tsx' }}
- * import { currentUser } from '@clerk/nextjs/server'
+ * import { currentUser } from '@appypeeps/clerk-nextjs/server'
  *
  * export default async function Page() {
  *  const user = await currentUser()

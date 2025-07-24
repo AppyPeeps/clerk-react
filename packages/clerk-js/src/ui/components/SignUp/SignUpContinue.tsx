@@ -1,4 +1,4 @@
-import { useClerk } from '@clerk/shared/react';
+import { useClerk } from '@appypeeps/clerk-shared/react';
 import React, { useEffect, useMemo } from 'react';
 
 import { Card } from '@/ui/elements/Card';

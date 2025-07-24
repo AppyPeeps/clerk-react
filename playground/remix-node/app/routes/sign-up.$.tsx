@@ -1,4 +1,4 @@
-import { SignUp } from '@clerk/remix';
+import { SignUp } from '@appypeeps/clerk-remix';
 
 export default function SignUpPage() {
   return (

@@ -1,4 +1,4 @@
-import { Waitlist } from '@clerk/clerk-react';
+import { Waitlist } from '@appypeeps/clerk-react';
 
 export default function Page() {
   return (

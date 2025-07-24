@@ -5,7 +5,7 @@ import { isDevelopmentFromPublishableKey } from './keys';
  * Cache busting parameter for Netlify to prevent cached responses
  * during handshake flows with Clerk development instances.
  *
- * Note: This query parameter will be removed in the "@clerk/clerk-js" package.
+ * Note: This query parameter will be removed in the "@appypeeps/clerk-js" package.
  *
  * @internal
  */

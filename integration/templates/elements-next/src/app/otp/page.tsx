@@ -1,7 +1,7 @@
 'use client';
 
-import * as Clerk from '@clerk/elements/common';
-import * as SignIn from '@clerk/elements/sign-in';
+import * as Clerk from '@appypeeps/clerk-elements/common';
+import * as SignIn from '@appypeeps/clerk-elements/sign-in';
 
 function clsx(...args: (string | undefined | Record<string, boolean>)[]): string {
   const classes: string[] = [];

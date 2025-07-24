@@ -1,4 +1,4 @@
-import { isTruthy } from '@clerk/shared/underscore';
+import { isTruthy } from '@appypeeps/clerk-shared/underscore';
 import { createBrowserInspector } from '@statelyai/inspect';
 
 import { safeAccess } from '~/utils/safe-access';

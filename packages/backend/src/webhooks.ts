@@ -1,4 +1,4 @@
-import { getEnvVariable } from '@clerk/shared/getEnvVariable';
+import { getEnvVariable } from '@appypeeps/clerk-shared/getEnvVariable';
 import { errorThrower } from 'src/util/shared';
 import { Webhook } from 'standardwebhooks';
 

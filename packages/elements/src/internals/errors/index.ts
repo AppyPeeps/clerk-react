@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-restricted-imports
-import type { MetamaskError } from '@clerk/shared';
-import type { ClerkAPIError } from '@clerk/types';
+import type { MetamaskError } from '@appypeeps/clerk-shared';
+import type { ClerkAPIError } from '@appypeeps/clerk-types';
 
 export abstract class ClerkElementsErrorBase extends Error {
   clerkError = true;

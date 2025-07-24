@@ -1,5 +1,5 @@
-import { getAlternativePhoneCodeProviderData } from '@clerk/shared/alternativePhoneCode';
-import type { PhoneCodeFactor } from '@clerk/types';
+import { getAlternativePhoneCodeProviderData } from '@appypeeps/clerk-shared/alternativePhoneCode';
+import type { PhoneCodeFactor } from '@appypeeps/clerk-types';
 
 import { Flow, localizationKeys } from '../../customizables';
 import type { SignInFactorOneAlternativeChannelCodeCard } from './SignInFactorOneAlternativeChannelCodeForm';

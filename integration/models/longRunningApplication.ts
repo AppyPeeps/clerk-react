@@ -1,5 +1,5 @@
-import { parsePublishableKey } from '@clerk/shared/keys';
-import { clerkSetup } from '@clerk/testing/playwright';
+import { parsePublishableKey } from '@appypeeps/clerk-shared/keys';
+import { clerkSetup } from '@appypeeps/clerk-testing/playwright';
 
 import { awaitableTreekill, fs } from '../scripts';
 import type { Application } from './application';

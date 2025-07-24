@@ -5,9 +5,9 @@ import { clerkPlugin, getAuth } from '../index';
 
 const authenticateRequestMock = jest.fn();
 
-jest.mock('@clerk/backend', () => {
+jest.mock('@appypeeps/clerk-backend', () => {
   return {
-    ...jest.requireActual('@clerk/backend'),
+    ...jest.requireActual('@appypeeps/clerk-backend'),
     createClerkClient: () => {
       return {
         authenticateRequest: (...args: any) => authenticateRequestMock(...args),

@@ -30,7 +30,7 @@ const SIGN_IN_RESEND_NAME = 'SignInResend';
  *
  * @example
  * ```tsx
- * import { Action } from '@clerk/elements/sign-in';
+ * import { Action } from '@appypeeps/clerk-elements/sign-in';
  * <Action resend fallback={({ resendableAfter }) => <p>Resendable in: {resendableAfter}s</p>}>Resend</Action>;
  * ```
  */

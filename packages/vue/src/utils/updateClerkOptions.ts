@@ -1,4 +1,4 @@
-import type { ClerkOptions } from '@clerk/types';
+import type { ClerkOptions } from '@appypeeps/clerk-types';
 
 type ClerkUpdateOptions = Pick<ClerkOptions, 'appearance' | 'localization'>;
 
@@ -8,8 +8,8 @@ type ClerkUpdateOptions = Pick<ClerkOptions, 'appearance' | 'localization'>;
  * @param options - The Clerk options to update
  *
  * @example
- * import { frFR } from '@clerk/localizations';
- * import { dark } from '@clerk/themes';
+ * import { frFR } from '@appypeeps/clerk-localizations';
+ * import { dark } from '@appypeeps/clerk-themes';
  *
  * updateClerkOptions({
  *   appearance: { baseTheme: dark },
@@ -21,7 +21,7 @@ export function updateClerkOptions(options: ClerkUpdateOptions) {
     throw new Error('Missing Clerk instance');
   }
 
-  // @ts-expect-error - `__unstable__updateProps` is not exposed as public API from `@clerk/types`
+  // @ts-expect-error - `__unstable__updateProps` is not exposed as public API from `@appypeeps/clerk-types`
   void window.Clerk.__unstable__updateProps({
     options: {
       localization: options.localization,

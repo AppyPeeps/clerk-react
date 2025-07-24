@@ -1,5 +1,5 @@
-import { constants, debugRequestState } from '@clerk/backend/internal';
-import { isTruthy } from '@clerk/shared/underscore';
+import { constants, debugRequestState } from '@appypeeps/clerk-backend/internal';
+import { isTruthy } from '@appypeeps/clerk-shared/underscore';
 import type { AppLoadContext, defer } from '@remix-run/server-runtime';
 import { json } from '@remix-run/server-runtime';
 import { parse as parseCookie } from 'cookie';

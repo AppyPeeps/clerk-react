@@ -1,5 +1,5 @@
-import { deprecatedObjectProperty } from '@clerk/shared/deprecated';
-import { useClerk } from '@clerk/shared/react';
+import { deprecatedObjectProperty } from '@appypeeps/clerk-shared/deprecated';
+import { useClerk } from '@appypeeps/clerk-shared/react';
 import { createContext, useContext, useMemo } from 'react';
 
 import { createUserButtonCustomMenuItems } from '@/ui/utils/createCustomMenuItems';

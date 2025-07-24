@@ -1,5 +1,5 @@
-import { useSignIn, useSignUp } from '@clerk/clerk-react';
-import type { OAuthStrategy, SetActive, SignInResource, SignUpResource } from '@clerk/types';
+import { useSignIn, useSignUp } from '@appypeeps/clerk-react';
+import type { OAuthStrategy, SetActive, SignInResource, SignUpResource } from '@appypeeps/clerk-types';
 import * as AuthSession from 'expo-auth-session';
 import * as WebBrowser from 'expo-web-browser';
 

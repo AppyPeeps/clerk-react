@@ -7,7 +7,7 @@ matcherFlags: 'm'
 The `signOutCallback` prop on the [`<SignOutButton />` component](https://clerk.com/docs/components/unstyled/sign-out-button) has been removed. Instead, you can use the `redirectUrl` prop. Example below:
 
 ```diff
-  import { SignOutButton } from "@clerk/clerk-react";
+  import { SignOutButton } from "@appypeeps/clerk-react";
 
   export const Signout = () => {
     return (

@@ -1,6 +1,6 @@
-import { isClerkAPIResponseError } from '@clerk/shared/error';
-import { useClerk, useOrganization, useUser } from '@clerk/shared/react';
-import type { CreateAPIKeyParams } from '@clerk/types';
+import { isClerkAPIResponseError } from '@appypeeps/clerk-shared/error';
+import { useClerk, useOrganization, useUser } from '@appypeeps/clerk-shared/react';
+import type { CreateAPIKeyParams } from '@appypeeps/clerk-types';
 import { lazy, useState } from 'react';
 import useSWRMutation from 'swr/mutation';
 

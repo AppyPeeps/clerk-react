@@ -1,4 +1,4 @@
-import type { SessionStatusClaim } from '@clerk/types';
+import type { SessionStatusClaim } from '@appypeeps/clerk-types';
 import { describe, expect, it, vi } from 'vitest';
 
 import { createRedirect } from '../createRedirect';
@@ -28,7 +28,7 @@ describe('redirect(redirectAdapter)', () => {
       } as any);
 
       expect(() => redirectToSignIn({ returnBackUrl })).toThrowError(
-        '@clerk/backend: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.',
+        '@appypeeps/clerk-backend: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.',
       );
     });
   });
@@ -240,7 +240,7 @@ describe('redirect(redirectAdapter)', () => {
       });
 
       expect(() => redirectToSignUp({ returnBackUrl })).toThrowError(
-        '@clerk/backend: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.',
+        '@appypeeps/clerk-backend: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.',
       );
     });
 

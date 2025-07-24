@@ -1,5 +1,5 @@
-import { useUser } from '@clerk/shared/react';
-import type { EnterpriseAccountResource, OAuthProvider } from '@clerk/types';
+import { useUser } from '@appypeeps/clerk-shared/react';
+import type { EnterpriseAccountResource, OAuthProvider } from '@appypeeps/clerk-types';
 
 import { ProfileSection } from '@/ui/elements/Section';
 

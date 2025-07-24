@@ -1,6 +1,6 @@
-import { getAlternativePhoneCodeProviderData } from '@clerk/shared/alternativePhoneCode';
-import { useClerk } from '@clerk/shared/react';
-import type { PhoneCodeChannel, PhoneCodeChannelData, SignUpResource } from '@clerk/types';
+import { getAlternativePhoneCodeProviderData } from '@appypeeps/clerk-shared/alternativePhoneCode';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import type { PhoneCodeChannel, PhoneCodeChannelData, SignUpResource } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { Card } from '@/ui/elements/Card';

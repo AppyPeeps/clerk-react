@@ -1,4 +1,4 @@
-import { useReverification, useUser } from '@clerk/shared/react';
+import { useReverification, useUser } from '@appypeeps/clerk-shared/react';
 
 import { useCardState, withCardStateProvider } from '@/ui/elements/contexts';
 import { Form } from '@/ui/elements/Form';

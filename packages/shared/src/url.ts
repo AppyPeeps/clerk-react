@@ -55,7 +55,7 @@ export const getClerkJsMajorVersionOrTag = (frontendApi: string, version?: strin
 export const getScriptUrl = (frontendApi: string, { clerkJSVersion }: { clerkJSVersion?: string }) => {
   const noSchemeFrontendApi = frontendApi.replace(/http(s)?:\/\//, '');
   const major = getClerkJsMajorVersionOrTag(frontendApi, clerkJSVersion);
-  return `https://${noSchemeFrontendApi}/npm/@clerk/clerk-js@${clerkJSVersion || major}/dist/clerk.browser.js`;
+  return `https://${noSchemeFrontendApi}/npm/@appypeeps/clerk-js@${clerkJSVersion || major}/dist/clerk.browser.js`;
 };
 
 // Returns true for hosts such as:

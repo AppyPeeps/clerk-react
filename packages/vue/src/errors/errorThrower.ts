@@ -1,7 +1,7 @@
-import type { ErrorThrowerOptions } from '@clerk/shared/error';
-import { buildErrorThrower } from '@clerk/shared/error';
+import type { ErrorThrowerOptions } from '@appypeeps/clerk-shared/error';
+import { buildErrorThrower } from '@appypeeps/clerk-shared/error';
 
-const errorThrower = buildErrorThrower({ packageName: '@clerk/vue' });
+const errorThrower = buildErrorThrower({ packageName: '@appypeeps/clerk-vue' });
 
 export { errorThrower };
 

@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/testing",
-  "version": "1.10.5",
+  "name": "@appypeeps/clerk-testing",
+  "version": "0.0.1",
   "description": "Utilities to help you create E2E test suites for apps using Clerk",
   "keywords": [
     "auth",
@@ -72,9 +72,9 @@
     "lint": "eslint src"
   },
   "dependencies": {
-    "@clerk/backend": "workspace:^",
-    "@clerk/shared": "workspace:^",
-    "@clerk/types": "workspace:^",
+    "@appypeeps/clerk-backend": "workspace:^",
+    "@appypeeps/clerk-shared": "workspace:^",
+    "@appypeeps/clerk-types": "workspace:^",
     "dotenv": "17.2.0"
   },
   "devDependencies": {
@@ -97,6 +97,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

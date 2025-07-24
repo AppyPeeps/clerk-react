@@ -1,5 +1,5 @@
-import { getCurrentOrganizationMembership } from '@clerk/shared/organization';
-import type { OrganizationMembershipResource, OrganizationResource } from '@clerk/types';
+import { getCurrentOrganizationMembership } from '@appypeeps/clerk-shared/organization';
+import type { OrganizationMembershipResource, OrganizationResource } from '@appypeeps/clerk-types';
 import { computed } from 'vue';
 
 import type { ToComputedRefs } from '../utils';
@@ -32,7 +32,7 @@ type UseOrganization = () => ToComputedRefs<UseOrganizationReturn>;
  *
  * @example
  * <script setup>
- * import { useOrganization } from '@clerk/vue'
+ * import { useOrganization } from '@appypeeps/clerk-vue'
  *
  * const { isLoaded, organization, membership } = useOrganization()
  * </script>

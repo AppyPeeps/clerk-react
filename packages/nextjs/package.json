@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/nextjs",
-  "version": "6.25.5",
+  "name": "@appypeeps/clerk-nextjs",
+  "version": "0.0.1",
   "description": "Clerk SDK for NextJS",
   "keywords": [
     "clerk",
@@ -77,10 +77,10 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@clerk/backend": "workspace:^",
-    "@clerk/clerk-react": "workspace:^",
-    "@clerk/shared": "workspace:^",
-    "@clerk/types": "workspace:^",
+    "@appypeeps/clerk-backend": "workspace:^",
+    "@appypeeps/clerk-react": "workspace:^",
+    "@appypeeps/clerk-shared": "workspace:^",
+    "@appypeeps/clerk-types": "workspace:^",
     "server-only": "0.0.1",
     "tslib": "catalog:repo"
   },
@@ -97,6 +97,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

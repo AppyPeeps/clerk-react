@@ -1,5 +1,5 @@
-import type { Organization, Session, User, VerifyTokenOptions } from '@clerk/backend';
-import type { RequestState, SignedInAuthObject, SignedOutAuthObject } from '@clerk/backend/internal';
+import type { Organization, Session, User, VerifyTokenOptions } from '@appypeeps/clerk-backend';
+import type { RequestState, SignedInAuthObject, SignedOutAuthObject } from '@appypeeps/clerk-backend/internal';
 import type {
   LegacyRedirectProps,
   MultiDomainAndOrProxy,
@@ -8,7 +8,7 @@ import type {
   SignInForceRedirectUrl,
   SignUpFallbackRedirectUrl,
   SignUpForceRedirectUrl,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import type { DataFunctionArgs, LoaderFunction } from '@remix-run/server-runtime';
 
 export type GetAuthReturn = Promise<SignedInAuthObject | SignedOutAuthObject>;

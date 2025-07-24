@@ -1,5 +1,5 @@
 import type { NextRequest } from 'next/server';
-import { getAuth } from '@clerk/nextjs/server';
+import { getAuth } from '@appypeeps/clerk-nextjs/server';
 
 export const config = {
   runtime: 'edge',

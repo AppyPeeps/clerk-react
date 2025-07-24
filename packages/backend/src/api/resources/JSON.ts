@@ -1,4 +1,4 @@
-import type { SignUpStatus, VerificationStatus } from '@clerk/types';
+import type { SignUpStatus, VerificationStatus } from '@appypeeps/clerk-types';
 
 import type {
   ActorTokenStatus,

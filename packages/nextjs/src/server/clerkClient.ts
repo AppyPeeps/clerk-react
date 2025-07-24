@@ -1,4 +1,4 @@
-import { constants } from '@clerk/backend/internal';
+import { constants } from '@appypeeps/clerk-backend/internal';
 
 import { buildRequestLike, isPrerenderingBailout } from '../app-router/server/utils';
 import { createClerkClientWithOptions } from './createClerkClient';

@@ -1,4 +1,4 @@
-import type { LoadedClerk } from '@clerk/types';
+import type { LoadedClerk } from '@appypeeps/clerk-types';
 import { watch } from 'vue';
 
 import { useClerk } from '../composables';

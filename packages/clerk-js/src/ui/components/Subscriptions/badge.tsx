@@ -1,4 +1,4 @@
-import type { CommerceSubscriptionItemResource } from '@clerk/types';
+import type { CommerceSubscriptionItemResource } from '@appypeeps/clerk-types';
 
 import { Badge, localizationKeys } from '@/ui/customizables';
 import type { ElementDescriptor } from '@/ui/customizables/elementDescriptors';

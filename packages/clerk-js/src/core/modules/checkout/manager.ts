@@ -3,7 +3,7 @@ import type {
   __experimental_CheckoutInstance,
   ClerkAPIResponseError,
   CommerceCheckoutResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 type CheckoutKey = string & { readonly __tag: 'CheckoutKey' };
 

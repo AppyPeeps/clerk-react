@@ -1,4 +1,4 @@
-import type { CommerceStatementResource } from '@clerk/types';
+import type { CommerceStatementResource } from '@appypeeps/clerk-types';
 
 import { DataTable, DataTableRow } from '@/ui/elements/DataTable';
 import { formatDate } from '@/ui/utils/formatDate';

@@ -1,5 +1,5 @@
-import { ClerkAPIResponseError, parseError } from '@clerk/shared/error';
-import type { ClerkAPIError, ClerkAPIErrorJSON } from '@clerk/types';
+import { ClerkAPIResponseError, parseError } from '@appypeeps/clerk-shared/error';
+import type { ClerkAPIError, ClerkAPIErrorJSON } from '@appypeeps/clerk-types';
 import snakecaseKeys from 'snakecase-keys';
 
 import { API_URL, API_VERSION, constants, SUPPORTED_BAPI_VERSION, USER_AGENT } from '../constants';

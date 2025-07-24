@@ -1,5 +1,5 @@
-import { useClerk } from '@clerk/shared/react';
-import { eventComponentMounted } from '@clerk/shared/telemetry';
+import { useClerk } from '@appypeeps/clerk-shared/react';
+import { eventComponentMounted } from '@appypeeps/clerk-shared/telemetry';
 import { useCallback, useContext, useEffect, useRef, useState } from 'react';
 
 import { Card } from '@/ui/elements/Card';

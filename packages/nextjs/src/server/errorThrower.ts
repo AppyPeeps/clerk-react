@@ -1,3 +1,3 @@
-import { buildErrorThrower } from '@clerk/shared/error';
+import { buildErrorThrower } from '@appypeeps/clerk-shared/error';
 
-export const errorThrower = buildErrorThrower({ packageName: '@clerk/nextjs' });
+export const errorThrower = buildErrorThrower({ packageName: '@appypeeps/clerk-nextjs' });

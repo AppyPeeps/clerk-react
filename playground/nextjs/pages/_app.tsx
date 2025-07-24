@@ -9,8 +9,8 @@ import {
   SignInButton,
   SignOutButton,
   UserButton,
-} from '@clerk/nextjs';
-import { dark, experimental__simple, neobrutalism, shadesOfPurple } from '@clerk/themes';
+} from '@appypeeps/clerk-nextjs';
+import { dark, experimental__simple, neobrutalism, shadesOfPurple } from '@appypeeps/clerk-themes';
 import Link from 'next/link';
 import React, { FunctionComponent, useEffect, useState } from 'react';
 

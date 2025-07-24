@@ -2,7 +2,7 @@ import type {
   ClerkAPIError,
   ClerkAPIErrorJSON,
   ClerkAPIResponseError as ClerkAPIResponseErrorInterface,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 /**
  * Checks if the provided error object is an unauthorized error.

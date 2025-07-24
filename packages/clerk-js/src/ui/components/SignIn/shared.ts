@@ -1,5 +1,5 @@
-import { isClerkRuntimeError, isUserLockedError } from '@clerk/shared/error';
-import { useClerk } from '@clerk/shared/react';
+import { isClerkRuntimeError, isUserLockedError } from '@appypeeps/clerk-shared/error';
+import { useClerk } from '@appypeeps/clerk-shared/react';
 import { useCallback, useEffect } from 'react';
 
 import { useCardState } from '@/ui/elements/contexts';

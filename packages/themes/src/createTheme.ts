@@ -1,6 +1,6 @@
 // Temp way to import the type. We will clean this up when we extract
 // theming into its own package
-import type { Appearance, BaseTheme, DeepPartial, Elements, Theme } from '@clerk/types';
+import type { Appearance, BaseTheme, DeepPartial, Elements, Theme } from '@appypeeps/clerk-types';
 
 import type { InternalTheme } from '../../clerk-js/src/ui/foundations';
 

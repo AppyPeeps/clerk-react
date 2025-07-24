@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import React from 'react';
-import { useUser } from '@clerk/nextjs';
+import { useUser } from '@appypeeps/clerk-nextjs';
 
 function GreetingWithHook() {
   // Use the useUser hook to get the Clerk.user object

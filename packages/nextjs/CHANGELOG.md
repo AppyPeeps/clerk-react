@@ -5,7 +5,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`fecc99d`](https://github.com/clerk/javascript/commit/fecc99d43cb7db5b99863829acb234cbce0da264), [`959d63d`](https://github.com/clerk/javascript/commit/959d63de27e5bfe27b46699b441dfd4e48616bf8), [`10e1060`](https://github.com/clerk/javascript/commit/10e10605b18a58f33a93caed058159c190678e74), [`92c44dd`](https://github.com/clerk/javascript/commit/92c44dd9d51e771a928a8da7004bdb8f8bdbaf58), [`a04a8f5`](https://github.com/clerk/javascript/commit/a04a8f5f81241ee41d93cd64793beca9d6296abb), [`c61855c`](https://github.com/clerk/javascript/commit/c61855c51d9c129d48c4543da3719939ad82f623), [`43ea069`](https://github.com/clerk/javascript/commit/43ea069c570dc64503fc82356ad28a2e43689d45)]:
-  - @clerk/clerk-react@5.35.4
+  - @appypeeps/clerk-react@5.35.4
   - @clerk/types@4.69.0
   - @clerk/shared@3.14.0
   - @clerk/backend@2.5.1
@@ -15,7 +15,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`d2f6f9e`](https://github.com/clerk/javascript/commit/d2f6f9e02036a4288916fcce14f24be5d56561c4), [`a329836`](https://github.com/clerk/javascript/commit/a329836a6c64f0a551a277ccae07043456a70523), [`5fbf8df`](https://github.com/clerk/javascript/commit/5fbf8df84b6d47082a76047451274790b8579b2d), [`6041c39`](https://github.com/clerk/javascript/commit/6041c39a31e787a6065dbc3f21e1c569982a06de), [`3f1270d`](https://github.com/clerk/javascript/commit/3f1270db86a21ead0ed6f0bd4f9986485203e973), [`1d9c409`](https://github.com/clerk/javascript/commit/1d9c409d10cc88667e354664d66c5f74b8bf4ca7), [`df49349`](https://github.com/clerk/javascript/commit/df4934983ee60246cd9df217afd7384aad556387)]:
-  - @clerk/clerk-react@5.35.3
+  - @appypeeps/clerk-react@5.35.3
   - @clerk/types@4.68.0
   - @clerk/shared@3.13.0
   - @clerk/backend@2.5.0
@@ -25,7 +25,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`2a90b68`](https://github.com/clerk/javascript/commit/2a90b689550ae960496c9292ca23e0225e3425cd), [`af50905`](https://github.com/clerk/javascript/commit/af50905ea497ed3286c8c4c374498e06ca6ee82b)]:
-  - @clerk/clerk-react@5.35.2
+  - @appypeeps/clerk-react@5.35.2
   - @clerk/types@4.67.0
   - @clerk/shared@3.12.3
   - @clerk/backend@2.4.5
@@ -38,7 +38,7 @@
   - @clerk/shared@3.12.2
   - @clerk/types@4.66.1
   - @clerk/backend@2.4.4
-  - @clerk/clerk-react@5.35.1
+  - @appypeeps/clerk-react@5.35.1
 
 ## 6.25.1
 
@@ -46,7 +46,7 @@
 
 - Updated dependencies [[`025e304`](https://github.com/clerk/javascript/commit/025e304c4d6402dfd750ee51ac9c8fc2dea1f353), [`dedf487`](https://github.com/clerk/javascript/commit/dedf48703986d547d5b28155b0182a51030cffeb), [`b96114e`](https://github.com/clerk/javascript/commit/b96114e438638896ba536bb7a17b09cdadcd9407)]:
   - @clerk/types@4.66.0
-  - @clerk/clerk-react@5.35.0
+  - @appypeeps/clerk-react@5.35.0
   - @clerk/backend@2.4.3
   - @clerk/shared@3.12.1
 
@@ -61,7 +61,7 @@
 - Updated dependencies [[`2be6a53`](https://github.com/clerk/javascript/commit/2be6a53959cb8a3127c2eb5d1aeb4248872d2c24), [`f6a1c35`](https://github.com/clerk/javascript/commit/f6a1c35bd5fb4bd2a3cd45bdaf9defe6be59d4a9), [`6826d0b`](https://github.com/clerk/javascript/commit/6826d0bbd03e844d49224565878a4326684f06b4), [`f6a1c35`](https://github.com/clerk/javascript/commit/f6a1c35bd5fb4bd2a3cd45bdaf9defe6be59d4a9), [`8fdb209`](https://github.com/clerk/javascript/commit/8fdb20913b0b0f88244099f6c6a7b979e0f79327), [`97a07f7`](https://github.com/clerk/javascript/commit/97a07f78b4b0c3dc701a2610097ec7d6232f79e7), [`e3da9f4`](https://github.com/clerk/javascript/commit/e3da9f4a17a2a5f71d7e02a81b86d6002c93cc59)]:
   - @clerk/types@4.65.0
   - @clerk/shared@3.12.0
-  - @clerk/clerk-react@5.34.0
+  - @appypeeps/clerk-react@5.34.0
   - @clerk/backend@2.4.2
 
 ## 6.24.0
@@ -78,7 +78,7 @@
 
 - Updated dependencies [[`f42c4fe`](https://github.com/clerk/javascript/commit/f42c4fedfdab873129b876eba38b3677f190b460), [`ec207dc`](https://github.com/clerk/javascript/commit/ec207dcd2a13340cfa4e3b80d3d52d1b4e7d5f23), [`ec207dc`](https://github.com/clerk/javascript/commit/ec207dcd2a13340cfa4e3b80d3d52d1b4e7d5f23), [`0e0cc1f`](https://github.com/clerk/javascript/commit/0e0cc1fa85347d727a4fd3718fe45b0f0244ddd9)]:
   - @clerk/types@4.64.0
-  - @clerk/clerk-react@5.33.0
+  - @appypeeps/clerk-react@5.33.0
   - @clerk/shared@3.11.0
   - @clerk/backend@2.4.1
 
@@ -90,7 +90,7 @@
   - @clerk/backend@2.4.0
   - @clerk/shared@3.10.2
   - @clerk/types@4.63.0
-  - @clerk/clerk-react@5.32.4
+  - @appypeeps/clerk-react@5.32.4
 
 ## 6.23.2
 
@@ -98,7 +98,7 @@
 
 - Updated dependencies [[`02a1f42`](https://github.com/clerk/javascript/commit/02a1f42dfdb28ea956d6cbd3fbabe10093d2fad8), [`edc0bfd`](https://github.com/clerk/javascript/commit/edc0bfdae929dad78a99dfd6275aad947d9ddd73)]:
   - @clerk/shared@3.10.1
-  - @clerk/clerk-react@5.32.3
+  - @appypeeps/clerk-react@5.32.3
   - @clerk/types@4.62.1
   - @clerk/backend@2.3.1
 
@@ -110,7 +110,7 @@
   - @clerk/types@4.62.0
   - @clerk/backend@2.3.0
   - @clerk/shared@3.10.0
-  - @clerk/clerk-react@5.32.2
+  - @appypeeps/clerk-react@5.32.2
 
 ## 6.23.0
 
@@ -128,7 +128,7 @@
   - @clerk/types@4.61.0
   - @clerk/backend@2.2.0
   - @clerk/shared@3.9.8
-  - @clerk/clerk-react@5.32.1
+  - @appypeeps/clerk-react@5.32.1
 
 ## 6.22.0
 
@@ -147,7 +147,7 @@
 - Updated dependencies [[`19e9e11`](https://github.com/clerk/javascript/commit/19e9e11af04f13fd12975fbf7016fe0583202056), [`18bcb64`](https://github.com/clerk/javascript/commit/18bcb64a3e8b6d352d7933ed094d68214e6e80fb), [`2148166`](https://github.com/clerk/javascript/commit/214816654850272297056eebad3d846b7f8125c9), [`4319257`](https://github.com/clerk/javascript/commit/4319257dc424f121231a26bef2068cef1e78afd4), [`607d333`](https://github.com/clerk/javascript/commit/607d3331f893bc98d1a8894f57b1cb9021e71b86), [`138f733`](https://github.com/clerk/javascript/commit/138f733f13121487268a4f96e6eb2cffedc6e238), [`4118ed7`](https://github.com/clerk/javascript/commit/4118ed7c8fb13ca602401f8d663e7bcd6f6abee4), [`18bcb64`](https://github.com/clerk/javascript/commit/18bcb64a3e8b6d352d7933ed094d68214e6e80fb), [`d832d91`](https://github.com/clerk/javascript/commit/d832d9179ff615f2799c832ec5fd9f3d79c6a940), [`6842ff1`](https://github.com/clerk/javascript/commit/6842ff1c903eaa0db161f533365a2e680995ce83), [`48be55b`](https://github.com/clerk/javascript/commit/48be55b61a86e014dd407414764d24bb43fd26f3), [`183e382`](https://github.com/clerk/javascript/commit/183e3823e4ff70e856b00a347369c38a4264105a), [`2c6f805`](https://github.com/clerk/javascript/commit/2c6f805a9e6e4685990f9a8abc740b2d0859a453), [`97749d5`](https://github.com/clerk/javascript/commit/97749d570bc687c7e05cd800a50e0ae4180a371d)]:
   - @clerk/types@4.60.1
   - @clerk/backend@2.1.0
-  - @clerk/clerk-react@5.32.0
+  - @appypeeps/clerk-react@5.32.0
   - @clerk/shared@3.9.7
 
 ## 6.21.0
@@ -224,7 +224,7 @@
 - Updated dependencies [[`ea622ba`](https://github.com/clerk/javascript/commit/ea622bae90e18ae2ea8dbc6c94cad857557539c9), [`d8fa5d9`](https://github.com/clerk/javascript/commit/d8fa5d9d3d8dc575260d8d2b7c7eeeb0052d0b0d), [`be2e89c`](https://github.com/clerk/javascript/commit/be2e89ca11aa43d48f74c57a5a34e20d85b4003c), [`c656270`](https://github.com/clerk/javascript/commit/c656270f9e05fd1f44fc4c81851be0b1111cb933), [`5644d94`](https://github.com/clerk/javascript/commit/5644d94f711a0733e4970c3f15c24d56cafc8743), [`a3232c7`](https://github.com/clerk/javascript/commit/a3232c7ee8c1173d2ce70f8252fc083c7bf19374), [`b578225`](https://github.com/clerk/javascript/commit/b5782258242474c9b0987a3f8349836cd763f24b), [`918e2e0`](https://github.com/clerk/javascript/commit/918e2e085bf88c3cfaa5fcb0f1ae8c31b3f7053e), [`795d09a`](https://github.com/clerk/javascript/commit/795d09a652f791e1e409406e335e0860aceda110), [`4f93634`](https://github.com/clerk/javascript/commit/4f93634ed6bcd45f21bddcb39a33434b1cb560fe), [`8838120`](https://github.com/clerk/javascript/commit/8838120596830b88fec1c6c853371dabfec74a0d)]:
   - @clerk/backend@2.0.0
   - @clerk/types@4.60.0
-  - @clerk/clerk-react@5.31.9
+  - @appypeeps/clerk-react@5.31.9
   - @clerk/shared@3.9.6
 
 ## 6.20.2
@@ -235,7 +235,7 @@
   - @clerk/backend@1.34.0
   - @clerk/shared@3.9.5
   - @clerk/types@4.59.3
-  - @clerk/clerk-react@5.31.8
+  - @appypeeps/clerk-react@5.31.8
 
 ## 6.20.1
 
@@ -244,7 +244,7 @@
 - Updated dependencies [[`6ed3dfc`](https://github.com/clerk/javascript/commit/6ed3dfc1bc742ac9d9a2307fe8e4733411cbc0d7), [`22c3363`](https://github.com/clerk/javascript/commit/22c33631f7f54b4f2179bf16f548fee1a237976e), [`ac6b231`](https://github.com/clerk/javascript/commit/ac6b23147e5e0aa21690cc20a109ed9a8c8f6e5b)]:
   - @clerk/types@4.59.2
   - @clerk/backend@1.33.1
-  - @clerk/clerk-react@5.31.7
+  - @appypeeps/clerk-react@5.31.7
   - @clerk/shared@3.9.4
 
 ## 6.20.0
@@ -274,7 +274,7 @@
 - Updated dependencies [[`ced8912`](https://github.com/clerk/javascript/commit/ced8912e8c9fb7eb7846de6ca9a872e794d9e15d), [`f237d76`](https://github.com/clerk/javascript/commit/f237d7617e5398ca0ba981e4336cac2191505b00), [`5f1375b`](https://github.com/clerk/javascript/commit/5f1375ba7cc50cccb11d5aee03bfd4c3d1bf462f)]:
   - @clerk/backend@1.33.0
   - @clerk/shared@3.9.3
-  - @clerk/clerk-react@5.31.6
+  - @appypeeps/clerk-react@5.31.6
 
 ## 6.19.5
 
@@ -284,7 +284,7 @@
   - @clerk/types@4.59.1
   - @clerk/backend@1.32.3
   - @clerk/shared@3.9.2
-  - @clerk/clerk-react@5.31.5
+  - @appypeeps/clerk-react@5.31.5
 
 ## 6.19.4
 
@@ -293,7 +293,7 @@
 - Updated dependencies [[`b1337df`](https://github.com/clerk/javascript/commit/b1337dfeae8ccf8622efcf095e3201f9bbf1cefa), [`65f0878`](https://github.com/clerk/javascript/commit/65f08788ee5e56242eee2194c73ba90965c75c97), [`df6fefd`](https://github.com/clerk/javascript/commit/df6fefd05fd2df93f5286d97e546b48911adea7c), [`4282bfa`](https://github.com/clerk/javascript/commit/4282bfa09491225bde7d619fe9a3561062703f69), [`5491491`](https://github.com/clerk/javascript/commit/5491491711e0a8ee37828451c1f603a409de32cf)]:
   - @clerk/types@4.59.0
   - @clerk/backend@1.32.2
-  - @clerk/clerk-react@5.31.4
+  - @appypeeps/clerk-react@5.31.4
   - @clerk/shared@3.9.1
 
 ## 6.19.3
@@ -303,7 +303,7 @@
 - Updated dependencies [[`1ff6d6e`](https://github.com/clerk/javascript/commit/1ff6d6efbe838b3f7f6977b2b5215c2cafd715f6), [`fbf3cf4`](https://github.com/clerk/javascript/commit/fbf3cf4916469c4e118870bf12efca2d0f77d9d8)]:
   - @clerk/shared@3.9.0
   - @clerk/types@4.58.1
-  - @clerk/clerk-react@5.31.3
+  - @appypeeps/clerk-react@5.31.3
   - @clerk/backend@1.32.1
 
 ## 6.19.2
@@ -313,7 +313,7 @@
 - Updated dependencies [[`0769a9b`](https://github.com/clerk/javascript/commit/0769a9b4a44ec7046a3b99a3d58bddd173970990), [`0f5145e`](https://github.com/clerk/javascript/commit/0f5145e164f3d3d5faf57e58162b05e7110d2403), [`afdfd18`](https://github.com/clerk/javascript/commit/afdfd18d645608dec37e52a291a91ba5f42dcbe7), [`b7c51ba`](https://github.com/clerk/javascript/commit/b7c51baac6df1129b468274c9a7f63ca303f16ce), [`437b53b`](https://github.com/clerk/javascript/commit/437b53b67e281d076b5b3f927e11c1d64666d154), [`5217155`](https://github.com/clerk/javascript/commit/52171554250c5c58f4f497b6d3c7416e79ac77da)]:
   - @clerk/backend@1.32.0
   - @clerk/types@4.58.0
-  - @clerk/clerk-react@5.31.2
+  - @appypeeps/clerk-react@5.31.2
   - @clerk/shared@3.8.2
 
 ## 6.19.1
@@ -322,7 +322,7 @@
 
 - Updated dependencies [[`4db96e0`](https://github.com/clerk/javascript/commit/4db96e0ff2ab44c7bdd8540e09ec70b84b19d3eb), [`36fb43f`](https://github.com/clerk/javascript/commit/36fb43f8b35866bdc20680fac58020f036d30d1f), [`e5ac444`](https://github.com/clerk/javascript/commit/e5ac4447f52bb6887ad686feab308fe9daf76e33), [`4db96e0`](https://github.com/clerk/javascript/commit/4db96e0ff2ab44c7bdd8540e09ec70b84b19d3eb), [`d227805`](https://github.com/clerk/javascript/commit/d22780599a5e29545a3d8309cc411c2e8659beac)]:
   - @clerk/types@4.57.1
-  - @clerk/clerk-react@5.31.1
+  - @appypeeps/clerk-react@5.31.1
   - @clerk/backend@1.31.4
   - @clerk/shared@3.8.1
 
@@ -344,7 +344,7 @@
 
 - Updated dependencies [[`db0138f`](https://github.com/clerk/javascript/commit/db0138f3f72aea8cb68a5684a90123f733848f63), [`45e8298`](https://github.com/clerk/javascript/commit/45e829890ec9ac66f07e0d7076cd283f14c893ed), [`aa97231`](https://github.com/clerk/javascript/commit/aa97231962e3f472a46135e376159c6ddcf1157b), [`c792f37`](https://github.com/clerk/javascript/commit/c792f37129fd6475d5af95146e9ef0f1c8eff730), [`3bf08a9`](https://github.com/clerk/javascript/commit/3bf08a9e0a9e65496edac5fc3bb22ad7b561df26), [`74cf3b2`](https://github.com/clerk/javascript/commit/74cf3b28cdf622a942aaf99caabfba74b7e856fd), [`037b113`](https://github.com/clerk/javascript/commit/037b113aaedd53d4647d88f1659eb9c14cf6f275), [`c15a412`](https://github.com/clerk/javascript/commit/c15a412169058e2304a51c9e92ffaa7f6bb2a898), [`7726a03`](https://github.com/clerk/javascript/commit/7726a03a7fec4d292b6de2587b84ed4371984c23), [`ed10566`](https://github.com/clerk/javascript/commit/ed1056637624eec5bfd50333407c1e63e34c193b), [`b846a9a`](https://github.com/clerk/javascript/commit/b846a9ab96db6b1d8344a4b693051618865508a8), [`e66c800`](https://github.com/clerk/javascript/commit/e66c8002b82b2902f77e852e16482f5cfb062d2c), [`45e8298`](https://github.com/clerk/javascript/commit/45e829890ec9ac66f07e0d7076cd283f14c893ed), [`9c41091`](https://github.com/clerk/javascript/commit/9c41091eb795bce8ffeeeca0264ae841fe07b426), [`29462b4`](https://github.com/clerk/javascript/commit/29462b433eb411ce614e4768e5844cacd00c1975), [`322c43f`](https://github.com/clerk/javascript/commit/322c43f6807a932c3cfaaef1b587b472c80180d2), [`17397f9`](https://github.com/clerk/javascript/commit/17397f95b715bd4fefd7f63c1d351abcf1c8ee16), [`45e8298`](https://github.com/clerk/javascript/commit/45e829890ec9ac66f07e0d7076cd283f14c893ed)]:
   - @clerk/types@4.57.0
-  - @clerk/clerk-react@5.31.0
+  - @appypeeps/clerk-react@5.31.0
   - @clerk/shared@3.8.0
   - @clerk/backend@1.31.3
 
@@ -355,7 +355,7 @@
 - Updated dependencies [[`9ec0a73`](https://github.com/clerk/javascript/commit/9ec0a7353e9f6ea661c3d7b9542423b6eb1d29e9), [`d9222fc`](https://github.com/clerk/javascript/commit/d9222fc3c21da2bcae30b06f0b1897f526935582)]:
   - @clerk/types@4.56.3
   - @clerk/backend@1.31.2
-  - @clerk/clerk-react@5.30.4
+  - @appypeeps/clerk-react@5.30.4
   - @clerk/shared@3.7.8
 
 ## 6.18.4
@@ -365,7 +365,7 @@
 - Updated dependencies [[`225b9ca`](https://github.com/clerk/javascript/commit/225b9ca21aba44930872a85d6b112ee2a1b606b9)]:
   - @clerk/types@4.56.2
   - @clerk/backend@1.31.1
-  - @clerk/clerk-react@5.30.3
+  - @appypeeps/clerk-react@5.30.3
   - @clerk/shared@3.7.7
 
 ## 6.18.3
@@ -383,7 +383,7 @@
   - @clerk/types@4.56.1
   - @clerk/shared@3.7.6
   - @clerk/backend@1.30.2
-  - @clerk/clerk-react@5.30.2
+  - @appypeeps/clerk-react@5.30.2
 
 ## 6.18.1
 
@@ -391,7 +391,7 @@
 
 - Updated dependencies [[`b02e766`](https://github.com/clerk/javascript/commit/b02e76627e47aec314573586451fa345a089115a), [`5d78b28`](https://github.com/clerk/javascript/commit/5d78b286b63e35fbcf44aac1f7657cbeaba4d659), [`d7f4438`](https://github.com/clerk/javascript/commit/d7f4438fa4bfd04474d5cdb9212ba908568ad6d2), [`5866855`](https://github.com/clerk/javascript/commit/58668550ec91d5511cf775972c54dc485185cc58), [`0007106`](https://github.com/clerk/javascript/commit/00071065998a3676c51e396b4c0afcbf930a9898), [`462b5b2`](https://github.com/clerk/javascript/commit/462b5b271d4e120d58a85818a358b60a6b3c8100), [`447d7a9`](https://github.com/clerk/javascript/commit/447d7a9e133c2a0e7db014bd5837e6ffff08f572), [`2beea29`](https://github.com/clerk/javascript/commit/2beea2957c67bc62446fe24d36332b0a4e850d7d), [`115601d`](https://github.com/clerk/javascript/commit/115601d12fd65dbf3011c0cda368525a2b95bfeb)]:
   - @clerk/types@4.56.0
-  - @clerk/clerk-react@5.30.1
+  - @appypeeps/clerk-react@5.30.1
   - @clerk/backend@1.30.1
   - @clerk/shared@3.7.5
 
@@ -410,7 +410,7 @@
 - Updated dependencies [[`ba19465`](https://github.com/clerk/javascript/commit/ba194654b15d326bf0ab1b2bf0cab608042d20ec), [`8b25035`](https://github.com/clerk/javascript/commit/8b25035aa49382fe1cd1c6f30ec80e86bcf9d66e), [`f0f1ed7`](https://github.com/clerk/javascript/commit/f0f1ed7ef3666bfc1cbf945326e94a51e83c4646), [`25c3502`](https://github.com/clerk/javascript/commit/25c35023ee995acbf8f5c8989619ebc176a366d6)]:
   - @clerk/backend@1.30.0
   - @clerk/types@4.55.1
-  - @clerk/clerk-react@5.30.0
+  - @appypeeps/clerk-react@5.30.0
   - @clerk/shared@3.7.4
 
 ## 6.17.0
@@ -454,7 +454,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`4334598`](https://github.com/clerk/javascript/commit/4334598108ff2cfa3c25b5a46117c1c9c65b7974), [`33201bf`](https://github.com/clerk/javascript/commit/33201bf972d6a980617d47ebd776bef76f871833), [`4334598`](https://github.com/clerk/javascript/commit/4334598108ff2cfa3c25b5a46117c1c9c65b7974), [`0ae0403`](https://github.com/clerk/javascript/commit/0ae040303d239b75a3221436354a2c2ecdb85aae)]:
-  - @clerk/clerk-react@5.29.0
+  - @appypeeps/clerk-react@5.29.0
   - @clerk/types@4.55.0
   - @clerk/backend@1.29.2
   - @clerk/shared@3.7.3
@@ -473,7 +473,7 @@
   - @clerk/types@4.54.2
   - @clerk/backend@1.29.1
   - @clerk/shared@3.7.2
-  - @clerk/clerk-react@5.28.2
+  - @appypeeps/clerk-react@5.28.2
 
 ## 6.15.1
 
@@ -518,7 +518,7 @@
   - @clerk/types@4.54.1
   - @clerk/backend@1.29.0
   - @clerk/shared@3.7.1
-  - @clerk/clerk-react@5.28.1
+  - @appypeeps/clerk-react@5.28.1
 
 ## 6.15.0
 
@@ -602,7 +602,7 @@
   - @clerk/backend@1.28.0
   - @clerk/types@4.54.0
   - @clerk/shared@3.7.0
-  - @clerk/clerk-react@5.28.0
+  - @appypeeps/clerk-react@5.28.0
 
 ## 6.14.3
 
@@ -613,7 +613,7 @@
 - Updated dependencies [[`70c9db9`](https://github.com/clerk/javascript/commit/70c9db9f3b51ba034f76e0cc4cf338e7b406d9b1), [`554242e`](https://github.com/clerk/javascript/commit/554242e16e50c92a6afb6ed74c681b04b9f113b5), [`cc1f9a0`](https://github.com/clerk/javascript/commit/cc1f9a0adb7771b615b0f2994a5ac571b59889dd), [`8186cb5`](https://github.com/clerk/javascript/commit/8186cb564575ac3ce97079ec203865bf5deb05ee)]:
   - @clerk/backend@1.27.3
   - @clerk/shared@3.6.0
-  - @clerk/clerk-react@5.27.0
+  - @appypeeps/clerk-react@5.27.0
   - @clerk/types@4.53.0
 
 ## 6.14.2
@@ -624,7 +624,7 @@
   - @clerk/shared@3.5.0
   - @clerk/types@4.52.0
   - @clerk/backend@1.27.2
-  - @clerk/clerk-react@5.26.2
+  - @appypeeps/clerk-react@5.26.2
 
 ## 6.14.1
 
@@ -633,7 +633,7 @@
 - Updated dependencies [[`f6f275d`](https://github.com/clerk/javascript/commit/f6f275dac5ae83ac0c2016a85a6a0cee9513f224)]:
   - @clerk/backend@1.27.1
   - @clerk/types@4.51.1
-  - @clerk/clerk-react@5.26.1
+  - @appypeeps/clerk-react@5.26.1
   - @clerk/shared@3.4.1
 
 ## 6.14.0
@@ -687,7 +687,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`e1ec52b`](https://github.com/clerk/javascript/commit/e1ec52b93038c9cb24e030dc06e53825a384a480), [`bebb6d8`](https://github.com/clerk/javascript/commit/bebb6d8af66b2bb7a4b3bdf96f9d480e65b31ba2), [`a8180ce`](https://github.com/clerk/javascript/commit/a8180ceef447a13d84eac6a64ed7a04d791d8d64), [`d0d5203`](https://github.com/clerk/javascript/commit/d0d5203e4ee9e2e1bed5c00ef0f87f0130f1d298), [`6112420`](https://github.com/clerk/javascript/commit/6112420889f1577fb16d7bfa706aaffe1090093d), [`2cceeba`](https://github.com/clerk/javascript/commit/2cceeba177ecf5a28138da308cbba18015e3a646), [`026ad57`](https://github.com/clerk/javascript/commit/026ad5717cf661182c219fb0ffab4522083065c3), [`9b25e31`](https://github.com/clerk/javascript/commit/9b25e311cf5e15f896c7948faa42ace45df364c5)]:
-  - @clerk/clerk-react@5.26.0
+  - @appypeeps/clerk-react@5.26.0
   - @clerk/types@4.51.0
   - @clerk/backend@1.27.0
   - @clerk/shared@3.4.0
@@ -743,7 +743,7 @@
 - Updated dependencies [[`60a9a51`](https://github.com/clerk/javascript/commit/60a9a51dff7d59e7397536586cf1cfe029bc021b), [`e984494`](https://github.com/clerk/javascript/commit/e984494416dda9a6f04acaaba61f8c2683090961), [`cd6ee92`](https://github.com/clerk/javascript/commit/cd6ee92d5b427ca548216f429ca4e31c6acd263c), [`ec4521b`](https://github.com/clerk/javascript/commit/ec4521b4fe56602f524a0c6d1b09d21aef5d8bd0), [`38828ae`](https://github.com/clerk/javascript/commit/38828ae58d6d4e8e3c60945284930179b2b6bb40), [`f30fa75`](https://github.com/clerk/javascript/commit/f30fa750754f19030f932a666d2bdbdf0d86743d), [`9c68678`](https://github.com/clerk/javascript/commit/9c68678e87047e6312b708b775ebfb23a3e22f8a), [`fe065a9`](https://github.com/clerk/javascript/commit/fe065a934c583174ad4c140e04dedbe6d88fc3a0), [`619cde8`](https://github.com/clerk/javascript/commit/619cde8c532d635d910ebbc08ad6abcc025694b4)]:
   - @clerk/backend@1.26.0
   - @clerk/shared@3.3.0
-  - @clerk/clerk-react@5.25.6
+  - @appypeeps/clerk-react@5.25.6
   - @clerk/types@4.50.2
 
 ## 6.12.12
@@ -753,7 +753,7 @@
 - Updated dependencies [[`e20fb6b`](https://github.com/clerk/javascript/commit/e20fb6b397fb69c9d5af4e321267b82f12a5f127), [`77e6462`](https://github.com/clerk/javascript/commit/77e64628560cab688af214edb5922e67cd68a951)]:
   - @clerk/shared@3.2.3
   - @clerk/types@4.50.1
-  - @clerk/clerk-react@5.25.5
+  - @appypeeps/clerk-react@5.25.5
   - @clerk/backend@1.25.8
 
 ## 6.12.11
@@ -764,7 +764,7 @@
   - @clerk/types@4.50.0
   - @clerk/shared@3.2.2
   - @clerk/backend@1.25.7
-  - @clerk/clerk-react@5.25.4
+  - @appypeeps/clerk-react@5.25.4
 
 ## 6.12.10
 
@@ -773,7 +773,7 @@
 - Updated dependencies [[`27d66a5`](https://github.com/clerk/javascript/commit/27d66a5b252afd18a3491b2746ef2f2f05632f2a), [`466ed13`](https://github.com/clerk/javascript/commit/466ed136af73b59b267d92ad3296039d1c3a4fcc)]:
   - @clerk/backend@1.25.6
   - @clerk/types@4.49.2
-  - @clerk/clerk-react@5.25.3
+  - @appypeeps/clerk-react@5.25.3
   - @clerk/shared@3.2.1
 
 ## 6.12.9
@@ -791,7 +791,7 @@
 - Updated dependencies [[`892bc0e`](https://github.com/clerk/javascript/commit/892bc0eee9e0bb04d327eb84b44201fa34806483), [`892bc0e`](https://github.com/clerk/javascript/commit/892bc0eee9e0bb04d327eb84b44201fa34806483)]:
   - @clerk/backend@1.25.5
   - @clerk/shared@3.2.0
-  - @clerk/clerk-react@5.25.2
+  - @appypeeps/clerk-react@5.25.2
 
 ## 6.12.7
 
@@ -805,7 +805,7 @@
 
 - Updated dependencies [[`facefaf`](https://github.com/clerk/javascript/commit/facefafdaf6d602de0acee9218c66c61a0a9ba24), [`e513333`](https://github.com/clerk/javascript/commit/e5133330a196c5c3742634cc9c3d3233ff488b0d), [`3910ebe`](https://github.com/clerk/javascript/commit/3910ebea85817273f18fd2f3f142dd1c728e2220), [`e513333`](https://github.com/clerk/javascript/commit/e5133330a196c5c3742634cc9c3d3233ff488b0d)]:
   - @clerk/backend@1.25.4
-  - @clerk/clerk-react@5.25.1
+  - @appypeeps/clerk-react@5.25.1
   - @clerk/types@4.49.1
   - @clerk/shared@3.1.0
 
@@ -815,7 +815,7 @@
 
 - Updated dependencies [[`725918d`](https://github.com/clerk/javascript/commit/725918df2e74cea15e9b748aaf103a52df8e8500), [`10247ba`](https://github.com/clerk/javascript/commit/10247ba2d08d98d6c440b254a4b786f4f1e8967a), [`91d0f0b`](https://github.com/clerk/javascript/commit/91d0f0b0dccab7168ad4dc06c8629808938c235f), [`9572bf5`](https://github.com/clerk/javascript/commit/9572bf5bdfb7dc309ec8714989b98ab12174965b), [`39bbc51`](https://github.com/clerk/javascript/commit/39bbc5189a33dc6cebdc269ac2184dc4ffff2534), [`3dddcda`](https://github.com/clerk/javascript/commit/3dddcda191d8f8d6a9b02464f1f6374d3c6aacb9), [`7524943`](https://github.com/clerk/javascript/commit/7524943300d7e693d61cc1820b520abfadec1c64), [`150b5c8`](https://github.com/clerk/javascript/commit/150b5c89477abb0feab15e0a886179473f653cac), [`23c931e`](https://github.com/clerk/javascript/commit/23c931e9e95e6de992549ad499b477aca9a9c344), [`730262f`](https://github.com/clerk/javascript/commit/730262f0f973923c8749b09078c80c2fc966a8ec), [`5601a15`](https://github.com/clerk/javascript/commit/5601a15e69a7d5e2496dcd82541ca3e6d73b0a3f), [`0b18bb1`](https://github.com/clerk/javascript/commit/0b18bb1fe6fa3ded97547bb6b4d2c73030aad329), [`021bc5f`](https://github.com/clerk/javascript/commit/021bc5f40044d34e49956ce3c9b61d833d815b42), [`1a61390`](https://github.com/clerk/javascript/commit/1a61390d3482bd4af58508b972ad89dea56fa224)]:
   - @clerk/types@4.49.0
-  - @clerk/clerk-react@5.25.0
+  - @appypeeps/clerk-react@5.25.0
   - @clerk/backend@1.25.3
   - @clerk/shared@3.0.2
 
@@ -830,7 +830,7 @@
 - Updated dependencies [[`8182f6711e25cc4a78baa95b023a4158280b31e8`](https://github.com/clerk/javascript/commit/8182f6711e25cc4a78baa95b023a4158280b31e8), [`75879672c5805bfba1caca906ac0729497744164`](https://github.com/clerk/javascript/commit/75879672c5805bfba1caca906ac0729497744164), [`7ec95a7e59033600958aca4b86f3bcd5da947dec`](https://github.com/clerk/javascript/commit/7ec95a7e59033600958aca4b86f3bcd5da947dec), [`3c225d90227141dc62d955e76c7f8e0202524bc7`](https://github.com/clerk/javascript/commit/3c225d90227141dc62d955e76c7f8e0202524bc7), [`2a66c16af08573000bb619607346ac420cd4ce56`](https://github.com/clerk/javascript/commit/2a66c16af08573000bb619607346ac420cd4ce56)]:
   - @clerk/backend@1.25.2
   - @clerk/shared@3.0.1
-  - @clerk/clerk-react@5.24.2
+  - @appypeeps/clerk-react@5.24.2
   - @clerk/types@4.48.0
 
 ## 6.12.4
@@ -839,7 +839,7 @@
 
 - Updated dependencies [[`67f1743aa1e0705d89ee6b532007f2686929240b`](https://github.com/clerk/javascript/commit/67f1743aa1e0705d89ee6b532007f2686929240b)]:
   - @clerk/backend@1.25.1
-  - @clerk/clerk-react@5.24.1
+  - @appypeeps/clerk-react@5.24.1
 
 ## 6.12.3
 
@@ -849,7 +849,7 @@
 
 - Updated dependencies [[`4fa5e27e33d229492c77e06ca4b26d552ff3d92f`](https://github.com/clerk/javascript/commit/4fa5e27e33d229492c77e06ca4b26d552ff3d92f), [`29a44b0e5c551e52915f284545699010a87e1a48`](https://github.com/clerk/javascript/commit/29a44b0e5c551e52915f284545699010a87e1a48), [`4d7761a24af5390489653923165e55cbf69a8a6d`](https://github.com/clerk/javascript/commit/4d7761a24af5390489653923165e55cbf69a8a6d)]:
   - @clerk/backend@1.25.0
-  - @clerk/clerk-react@5.24.1
+  - @appypeeps/clerk-react@5.24.1
 
 ## 6.12.2
 
@@ -858,7 +858,7 @@
 - Adjusts logic for router cache busting in Next.js 15. Fixes an issue where a server action was getting called unnecessarily during sign out. ([#5171](https://github.com/clerk/javascript/pull/5171)) by [@brkalow](https://github.com/brkalow)
 
 - Updated dependencies [[`3d436484eb01b42e0008b6675f4be68f15d21079`](https://github.com/clerk/javascript/commit/3d436484eb01b42e0008b6675f4be68f15d21079)]:
-  - @clerk/clerk-react@5.24.1
+  - @appypeeps/clerk-react@5.24.1
 
 ## 6.12.1
 
@@ -869,7 +869,7 @@
 - Updated dependencies [[`28179323d9891bd13625e32c5682a3276e73cdae`](https://github.com/clerk/javascript/commit/28179323d9891bd13625e32c5682a3276e73cdae), [`7ae77b74326e378bf161e29886ee82e1556d9840`](https://github.com/clerk/javascript/commit/7ae77b74326e378bf161e29886ee82e1556d9840), [`c5c246ce91c01db9f1eaccbd354f646bcd24ec0a`](https://github.com/clerk/javascript/commit/c5c246ce91c01db9f1eaccbd354f646bcd24ec0a), [`b707e942bfd434ff8a3b9a9fadf9d1b694d702c8`](https://github.com/clerk/javascript/commit/b707e942bfd434ff8a3b9a9fadf9d1b694d702c8), [`bcbe5f6382ebcc70ef4fddb950d052bf6b7d693a`](https://github.com/clerk/javascript/commit/bcbe5f6382ebcc70ef4fddb950d052bf6b7d693a), [`382c30240f563e58bc4d4832557c6825da40ce7f`](https://github.com/clerk/javascript/commit/382c30240f563e58bc4d4832557c6825da40ce7f)]:
   - @clerk/types@4.47.0
   - @clerk/shared@3.0.0
-  - @clerk/clerk-react@5.24.0
+  - @appypeeps/clerk-react@5.24.0
   - @clerk/backend@1.24.3
 
 ## 6.12.0
@@ -903,7 +903,7 @@
 
 - Updated dependencies [[`d76c4699990b8477745c2584b1b98d5c92f9ace6`](https://github.com/clerk/javascript/commit/d76c4699990b8477745c2584b1b98d5c92f9ace6), [`a9b0087fca3f427f65907b358d9b5bc0c95921d8`](https://github.com/clerk/javascript/commit/a9b0087fca3f427f65907b358d9b5bc0c95921d8), [`92d17d7c087470b262fa5407cb6720fe6b17d333`](https://github.com/clerk/javascript/commit/92d17d7c087470b262fa5407cb6720fe6b17d333), [`30f6f3808e9b3778d5a9eb275780f94f9e9c7651`](https://github.com/clerk/javascript/commit/30f6f3808e9b3778d5a9eb275780f94f9e9c7651)]:
   - @clerk/shared@2.22.0
-  - @clerk/clerk-react@5.23.0
+  - @appypeeps/clerk-react@5.23.0
   - @clerk/types@4.46.1
   - @clerk/backend@1.24.2
 
@@ -912,7 +912,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`dd2cbfe9f30358b6b298901bb52fa378b0acdca3`](https://github.com/clerk/javascript/commit/dd2cbfe9f30358b6b298901bb52fa378b0acdca3), [`dd2cbfe9f30358b6b298901bb52fa378b0acdca3`](https://github.com/clerk/javascript/commit/dd2cbfe9f30358b6b298901bb52fa378b0acdca3), [`570d8386f6aa596bf7bb1659bdddb8dd4d992b1d`](https://github.com/clerk/javascript/commit/570d8386f6aa596bf7bb1659bdddb8dd4d992b1d), [`570d8386f6aa596bf7bb1659bdddb8dd4d992b1d`](https://github.com/clerk/javascript/commit/570d8386f6aa596bf7bb1659bdddb8dd4d992b1d), [`128fd8909ae083c0d274dee7c6810e8574e1ce33`](https://github.com/clerk/javascript/commit/128fd8909ae083c0d274dee7c6810e8574e1ce33)]:
-  - @clerk/clerk-react@5.22.13
+  - @appypeeps/clerk-react@5.22.13
   - @clerk/types@4.46.0
   - @clerk/backend@1.24.1
   - @clerk/shared@2.21.1
@@ -929,14 +929,14 @@
   - @clerk/backend@1.24.0
   - @clerk/shared@2.21.0
   - @clerk/types@4.45.1
-  - @clerk/clerk-react@5.22.12
+  - @appypeeps/clerk-react@5.22.12
 
 ## 6.11.1
 
 ### Patch Changes
 
 - Updated dependencies [[`0fa449cd09c9973297464a14f785895e3ddcab4d`](https://github.com/clerk/javascript/commit/0fa449cd09c9973297464a14f785895e3ddcab4d)]:
-  - @clerk/clerk-react@5.22.11
+  - @appypeeps/clerk-react@5.22.11
 
 ## 6.11.0
 
@@ -955,7 +955,7 @@
 - Updated dependencies [[`d3152be7f01fbb5ca26aeddc2437021f4b7ecc83`](https://github.com/clerk/javascript/commit/d3152be7f01fbb5ca26aeddc2437021f4b7ecc83), [`f976349243da2b75023e59e802460e6f3592ebbd`](https://github.com/clerk/javascript/commit/f976349243da2b75023e59e802460e6f3592ebbd)]:
   - @clerk/types@4.45.0
   - @clerk/backend@1.23.11
-  - @clerk/clerk-react@5.22.10
+  - @appypeeps/clerk-react@5.22.10
   - @clerk/shared@2.20.18
 
 ## 6.10.5
@@ -974,7 +974,7 @@
 
 - Updated dependencies [[`26225f2c31a22560f7ece2e02f1d0080b5b89520`](https://github.com/clerk/javascript/commit/26225f2c31a22560f7ece2e02f1d0080b5b89520), [`833693a6792b621e72162d70673e7bdfa84a69b6`](https://github.com/clerk/javascript/commit/833693a6792b621e72162d70673e7bdfa84a69b6)]:
   - @clerk/shared@2.20.17
-  - @clerk/clerk-react@5.22.9
+  - @appypeeps/clerk-react@5.22.9
   - @clerk/types@4.44.3
   - @clerk/backend@1.23.10
 
@@ -992,7 +992,7 @@
   - @clerk/shared@2.20.16
   - @clerk/backend@1.23.9
   - @clerk/types@4.44.2
-  - @clerk/clerk-react@5.22.8
+  - @appypeeps/clerk-react@5.22.8
 
 ## 6.10.3
 
@@ -1006,7 +1006,7 @@
   - @clerk/types@4.44.1
   - @clerk/shared@2.20.15
   - @clerk/backend@1.23.8
-  - @clerk/clerk-react@5.22.7
+  - @appypeeps/clerk-react@5.22.7
 
 ## 6.10.2
 
@@ -1017,7 +1017,7 @@
 - Updated dependencies [[`2179690c10a61b117e82fdd566b34939f4d28bc1`](https://github.com/clerk/javascript/commit/2179690c10a61b117e82fdd566b34939f4d28bc1), [`bdb537a9902c0f0ae58ca1d4b7590d929f28fedb`](https://github.com/clerk/javascript/commit/bdb537a9902c0f0ae58ca1d4b7590d929f28fedb)]:
   - @clerk/types@4.44.0
   - @clerk/backend@1.23.7
-  - @clerk/clerk-react@5.22.6
+  - @appypeeps/clerk-react@5.22.6
   - @clerk/shared@2.20.14
 
 ## 6.10.1
@@ -1030,7 +1030,7 @@
   - @clerk/shared@2.20.13
   - @clerk/backend@1.23.6
   - @clerk/types@4.43.0
-  - @clerk/clerk-react@5.22.5
+  - @appypeeps/clerk-react@5.22.5
 
 ## 6.10.0
 
@@ -1045,7 +1045,7 @@
 - Updated dependencies [[`fe3e49f61acefe8d7f1992405f7cb415fea2e5c8`](https://github.com/clerk/javascript/commit/fe3e49f61acefe8d7f1992405f7cb415fea2e5c8), [`4427c4702f64d4f28f7564ce5889d41e260aa519`](https://github.com/clerk/javascript/commit/4427c4702f64d4f28f7564ce5889d41e260aa519)]:
   - @clerk/types@4.42.0
   - @clerk/backend@1.23.5
-  - @clerk/clerk-react@5.22.4
+  - @appypeeps/clerk-react@5.22.4
   - @clerk/shared@2.20.12
 
 ## 6.9.15
@@ -1054,7 +1054,7 @@
 
 - Updated dependencies [[`418ec5c62c4eb600566faab07684c068a29007e3`](https://github.com/clerk/javascript/commit/418ec5c62c4eb600566faab07684c068a29007e3)]:
   - @clerk/types@4.41.2
-  - @clerk/clerk-react@5.22.3
+  - @appypeeps/clerk-react@5.22.3
   - @clerk/backend@1.23.4
   - @clerk/shared@2.20.11
 
@@ -1066,7 +1066,7 @@
 
 - Updated dependencies [[`9eef7713212378351e8e01628611eaa18de250e8`](https://github.com/clerk/javascript/commit/9eef7713212378351e8e01628611eaa18de250e8)]:
   - @clerk/shared@2.20.10
-  - @clerk/clerk-react@5.22.2
+  - @appypeeps/clerk-react@5.22.2
   - @clerk/backend@1.23.3
 
 ## 6.9.13
@@ -1076,7 +1076,7 @@
 - Updated dependencies [[`7ffc99b48977b9f6c74c0c71c500b60cb8aba65e`](https://github.com/clerk/javascript/commit/7ffc99b48977b9f6c74c0c71c500b60cb8aba65e)]:
   - @clerk/types@4.41.1
   - @clerk/backend@1.23.2
-  - @clerk/clerk-react@5.22.1
+  - @appypeeps/clerk-react@5.22.1
   - @clerk/shared@2.20.9
 
 ## 6.9.12
@@ -1085,7 +1085,7 @@
 
 - Updated dependencies [[`4af35380f18d1d06c15ad1f5745c2d5a1ab1c37d`](https://github.com/clerk/javascript/commit/4af35380f18d1d06c15ad1f5745c2d5a1ab1c37d), [`aa48b1f9e890b2402e9d05989a4820141076f7bf`](https://github.com/clerk/javascript/commit/aa48b1f9e890b2402e9d05989a4820141076f7bf), [`53bd34fff38b17498edf66cc4bc2d42d707f28dc`](https://github.com/clerk/javascript/commit/53bd34fff38b17498edf66cc4bc2d42d707f28dc)]:
   - @clerk/types@4.41.0
-  - @clerk/clerk-react@5.22.0
+  - @appypeeps/clerk-react@5.22.0
   - @clerk/backend@1.23.1
   - @clerk/shared@2.20.8
 
@@ -1100,7 +1100,7 @@
 - Updated dependencies [[`e9e8834f7bfc953c3ae66fedf65b6952689c49da`](https://github.com/clerk/javascript/commit/e9e8834f7bfc953c3ae66fedf65b6952689c49da), [`fd7a5be73db3acaa7daeb9b15af73c2ce99d03a6`](https://github.com/clerk/javascript/commit/fd7a5be73db3acaa7daeb9b15af73c2ce99d03a6), [`7182b93101518a389cc13859f8a0fe8bd6f37a06`](https://github.com/clerk/javascript/commit/7182b93101518a389cc13859f8a0fe8bd6f37a06)]:
   - @clerk/backend@1.23.0
   - @clerk/types@4.40.3
-  - @clerk/clerk-react@5.21.3
+  - @appypeeps/clerk-react@5.21.3
   - @clerk/shared@2.20.7
 
 ## 6.9.10
@@ -1131,7 +1131,7 @@
 - Updated dependencies [[`44cab6038af0a4d23869b3b292ece742fbbc4d85`](https://github.com/clerk/javascript/commit/44cab6038af0a4d23869b3b292ece742fbbc4d85)]:
   - @clerk/backend@1.21.6
   - @clerk/types@4.40.2
-  - @clerk/clerk-react@5.21.2
+  - @appypeeps/clerk-react@5.21.2
   - @clerk/shared@2.20.6
 
 ## 6.9.7
@@ -1140,7 +1140,7 @@
 
 - Updated dependencies [[`80e1117631d35834705119a79cdcf9e0ed423fdd`](https://github.com/clerk/javascript/commit/80e1117631d35834705119a79cdcf9e0ed423fdd)]:
   - @clerk/types@4.40.1
-  - @clerk/clerk-react@5.21.1
+  - @appypeeps/clerk-react@5.21.1
   - @clerk/backend@1.21.5
   - @clerk/shared@2.20.5
 
@@ -1149,7 +1149,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`b5eb15bf81d94456309d6ca44ad423a4175d50b6`](https://github.com/clerk/javascript/commit/b5eb15bf81d94456309d6ca44ad423a4175d50b6), [`b933a2ba8112aefbabd7fe3313b89e083452d2dd`](https://github.com/clerk/javascript/commit/b933a2ba8112aefbabd7fe3313b89e083452d2dd)]:
-  - @clerk/clerk-react@5.21.0
+  - @appypeeps/clerk-react@5.21.0
 
 ## 6.9.5
 
@@ -1158,7 +1158,7 @@
 - Updated dependencies [[`b3300c84a42276bd071a37addbd1ca6888ed9d7c`](https://github.com/clerk/javascript/commit/b3300c84a42276bd071a37addbd1ca6888ed9d7c), [`c9da04636ffe1ba804a1ce5e5b79027d3a2344d2`](https://github.com/clerk/javascript/commit/c9da04636ffe1ba804a1ce5e5b79027d3a2344d2)]:
   - @clerk/backend@1.21.4
   - @clerk/types@4.40.0
-  - @clerk/clerk-react@5.20.4
+  - @appypeeps/clerk-react@5.20.4
   - @clerk/shared@2.20.4
 
 ## 6.9.4
@@ -1168,7 +1168,7 @@
 - Updated dependencies [[`84ccb0049041534f111be65f7c7d4d6120069446`](https://github.com/clerk/javascript/commit/84ccb0049041534f111be65f7c7d4d6120069446)]:
   - @clerk/shared@2.20.3
   - @clerk/backend@1.21.3
-  - @clerk/clerk-react@5.20.3
+  - @appypeeps/clerk-react@5.20.3
 
 ## 6.9.3
 
@@ -1177,7 +1177,7 @@
 - Improves the error message when changing keys in development causes a subsequent request to fail. ([#4787](https://github.com/clerk/javascript/pull/4787)) by [@panteliselef](https://github.com/panteliselef)
 
 - Updated dependencies []:
-  - @clerk/clerk-react@5.20.2
+  - @appypeeps/clerk-react@5.20.2
 
 ## 6.9.2
 
@@ -1185,7 +1185,7 @@
 
 - Updated dependencies [[`aeafa7c5efd50c893d088ac99199d7eaecc04025`](https://github.com/clerk/javascript/commit/aeafa7c5efd50c893d088ac99199d7eaecc04025), [`acd9326ef2d6942b981b3ee59c4b20ddd303323d`](https://github.com/clerk/javascript/commit/acd9326ef2d6942b981b3ee59c4b20ddd303323d)]:
   - @clerk/types@4.39.4
-  - @clerk/clerk-react@5.20.2
+  - @appypeeps/clerk-react@5.20.2
   - @clerk/backend@1.21.2
   - @clerk/shared@2.20.2
 
@@ -1203,7 +1203,7 @@
 
 - Updated dependencies [[`66ad299e4b6496ea4a93799de0f1ecfad920ddad`](https://github.com/clerk/javascript/commit/66ad299e4b6496ea4a93799de0f1ecfad920ddad), [`dd3fdc7b2a96ddb90b33c6f1cefb055a60f99a9d`](https://github.com/clerk/javascript/commit/dd3fdc7b2a96ddb90b33c6f1cefb055a60f99a9d), [`e1748582d0c89462f48a482a7805871b7065fa19`](https://github.com/clerk/javascript/commit/e1748582d0c89462f48a482a7805871b7065fa19), [`7f7edcaa8228c26d19e9081979100ada7e982095`](https://github.com/clerk/javascript/commit/7f7edcaa8228c26d19e9081979100ada7e982095), [`e1748582d0c89462f48a482a7805871b7065fa19`](https://github.com/clerk/javascript/commit/e1748582d0c89462f48a482a7805871b7065fa19), [`dd3fdc7b2a96ddb90b33c6f1cefb055a60f99a9d`](https://github.com/clerk/javascript/commit/dd3fdc7b2a96ddb90b33c6f1cefb055a60f99a9d)]:
   - @clerk/shared@2.20.1
-  - @clerk/clerk-react@5.20.1
+  - @appypeeps/clerk-react@5.20.1
   - @clerk/types@4.39.3
   - @clerk/backend@1.21.1
 
@@ -1216,7 +1216,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`9d656c16bc78ac31b59b5edbd25118dfc33c4469`](https://github.com/clerk/javascript/commit/9d656c16bc78ac31b59b5edbd25118dfc33c4469), [`ffa631d2480cfe77bf08c61b1302ace308e5b630`](https://github.com/clerk/javascript/commit/ffa631d2480cfe77bf08c61b1302ace308e5b630), [`0266f6a73fc34748a86603bc89b6125d6bbb679b`](https://github.com/clerk/javascript/commit/0266f6a73fc34748a86603bc89b6125d6bbb679b)]:
-  - @clerk/clerk-react@5.20.0
+  - @appypeeps/clerk-react@5.20.0
   - @clerk/backend@1.21.0
   - @clerk/shared@2.20.0
 
@@ -1227,7 +1227,7 @@
 - Updated dependencies [[`cd72a27a75863dfd94b0a00ed5b2d03231556bc0`](https://github.com/clerk/javascript/commit/cd72a27a75863dfd94b0a00ed5b2d03231556bc0)]:
   - @clerk/types@4.39.2
   - @clerk/backend@1.20.3
-  - @clerk/clerk-react@5.19.3
+  - @appypeeps/clerk-react@5.19.3
   - @clerk/shared@2.19.4
 
 ## 6.8.2
@@ -1237,7 +1237,7 @@
 - Updated dependencies [[`fe75ced8a7d8b8a28839430444588ee173b5230a`](https://github.com/clerk/javascript/commit/fe75ced8a7d8b8a28839430444588ee173b5230a), [`1b86a1da34ce4bc309f69980ac13a691a0a633c2`](https://github.com/clerk/javascript/commit/1b86a1da34ce4bc309f69980ac13a691a0a633c2)]:
   - @clerk/backend@1.20.2
   - @clerk/types@4.39.1
-  - @clerk/clerk-react@5.19.2
+  - @appypeeps/clerk-react@5.19.2
   - @clerk/shared@2.19.3
 
 ## 6.8.1
@@ -1247,7 +1247,7 @@
 - Updated dependencies [[`4cb22548da81dd8b186a6ef1cf120aea99c85c62`](https://github.com/clerk/javascript/commit/4cb22548da81dd8b186a6ef1cf120aea99c85c62)]:
   - @clerk/shared@2.19.2
   - @clerk/backend@1.20.1
-  - @clerk/clerk-react@5.19.1
+  - @appypeeps/clerk-react@5.19.1
 
 ## 6.8.0
 
@@ -1266,7 +1266,7 @@
 
 - Updated dependencies [[`3f640805d2a4e1616aafa56f6848d6657911bb99`](https://github.com/clerk/javascript/commit/3f640805d2a4e1616aafa56f6848d6657911bb99), [`3f640805d2a4e1616aafa56f6848d6657911bb99`](https://github.com/clerk/javascript/commit/3f640805d2a4e1616aafa56f6848d6657911bb99), [`550c7e9851329688e37be29b83ea0c3b12482af7`](https://github.com/clerk/javascript/commit/550c7e9851329688e37be29b83ea0c3b12482af7), [`3f640805d2a4e1616aafa56f6848d6657911bb99`](https://github.com/clerk/javascript/commit/3f640805d2a4e1616aafa56f6848d6657911bb99)]:
   - @clerk/backend@1.20.0
-  - @clerk/clerk-react@5.19.0
+  - @appypeeps/clerk-react@5.19.0
   - @clerk/types@4.39.0
   - @clerk/shared@2.19.1
 
@@ -1278,7 +1278,7 @@
   - @clerk/shared@2.19.0
   - @clerk/types@4.38.0
   - @clerk/backend@1.19.2
-  - @clerk/clerk-react@5.18.2
+  - @appypeeps/clerk-react@5.18.2
 
 ## 6.7.0
 
@@ -1291,7 +1291,7 @@
 - Updated dependencies [[`4e5e7f463c12893a21cb3b5f9317fc3f2945879b`](https://github.com/clerk/javascript/commit/4e5e7f463c12893a21cb3b5f9317fc3f2945879b)]:
   - @clerk/types@4.37.0
   - @clerk/backend@1.19.1
-  - @clerk/clerk-react@5.18.1
+  - @appypeeps/clerk-react@5.18.1
   - @clerk/shared@2.18.1
 
 ## 6.6.0
@@ -1304,7 +1304,7 @@
 
 - Updated dependencies [[`8ee5d84995fa17532491ff96efac5738c9bcd9ef`](https://github.com/clerk/javascript/commit/8ee5d84995fa17532491ff96efac5738c9bcd9ef), [`09fedd1df155d30cc055ce701b133aa6470e9b47`](https://github.com/clerk/javascript/commit/09fedd1df155d30cc055ce701b133aa6470e9b47), [`b6aa589f75be62a89a3853d496176ed2f2c0e2c5`](https://github.com/clerk/javascript/commit/b6aa589f75be62a89a3853d496176ed2f2c0e2c5), [`235eaae4c3c9400492fca47d20a47c7081041565`](https://github.com/clerk/javascript/commit/235eaae4c3c9400492fca47d20a47c7081041565)]:
   - @clerk/types@4.36.0
-  - @clerk/clerk-react@5.18.0
+  - @appypeeps/clerk-react@5.18.0
   - @clerk/backend@1.19.0
   - @clerk/shared@2.18.0
 
@@ -1317,19 +1317,19 @@
 - Updated dependencies [[`8a28d1f403309f692d9332704f07effbf39d056d`](https://github.com/clerk/javascript/commit/8a28d1f403309f692d9332704f07effbf39d056d), [`8a28d1f403309f692d9332704f07effbf39d056d`](https://github.com/clerk/javascript/commit/8a28d1f403309f692d9332704f07effbf39d056d)]:
   - @clerk/types@4.35.1
   - @clerk/backend@1.18.1
-  - @clerk/clerk-react@5.17.2
+  - @appypeeps/clerk-react@5.17.2
   - @clerk/shared@2.17.1
 
 ## 6.5.1
 
 ### Patch Changes
 
-- - Re-export `isClerkRuntimeError` from `@clerk/clerk-react/errors`. ([#4656](https://github.com/clerk/javascript/pull/4656)) by [@panteliselef](https://github.com/panteliselef)
+- - Re-export `isClerkRuntimeError` from `@appypeeps/clerk-react/errors`. ([#4656](https://github.com/clerk/javascript/pull/4656)) by [@panteliselef](https://github.com/panteliselef)
 
   - Fixes and issue where `isClerkAPIError` would only exist in the client bundle.
 
 - Updated dependencies [[`115fd0c32443c6fc4e692c0ebdd60c092e57057e`](https://github.com/clerk/javascript/commit/115fd0c32443c6fc4e692c0ebdd60c092e57057e), [`0a1807552dcf0501a97f60b4df0280525bca9743`](https://github.com/clerk/javascript/commit/0a1807552dcf0501a97f60b4df0280525bca9743)]:
-  - @clerk/clerk-react@5.17.1
+  - @appypeeps/clerk-react@5.17.1
 
 ## 6.5.0
 
@@ -1345,7 +1345,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`4da28fa857d1e5538eb5bbe28ecc4bf9dba1ce7d`](https://github.com/clerk/javascript/commit/4da28fa857d1e5538eb5bbe28ecc4bf9dba1ce7d), [`fe9e147e366153d664af7fc325655ecb299a1f9d`](https://github.com/clerk/javascript/commit/fe9e147e366153d664af7fc325655ecb299a1f9d), [`fe9e147e366153d664af7fc325655ecb299a1f9d`](https://github.com/clerk/javascript/commit/fe9e147e366153d664af7fc325655ecb299a1f9d), [`fe9e147e366153d664af7fc325655ecb299a1f9d`](https://github.com/clerk/javascript/commit/fe9e147e366153d664af7fc325655ecb299a1f9d), [`d84d7e31235c5c7da3415981dc76db4473a71a39`](https://github.com/clerk/javascript/commit/d84d7e31235c5c7da3415981dc76db4473a71a39), [`fe9e147e366153d664af7fc325655ecb299a1f9d`](https://github.com/clerk/javascript/commit/fe9e147e366153d664af7fc325655ecb299a1f9d), [`dce4f7ffca7248c0500f0ec9a978672b1f2fad69`](https://github.com/clerk/javascript/commit/dce4f7ffca7248c0500f0ec9a978672b1f2fad69)]:
-  - @clerk/clerk-react@5.17.0
+  - @appypeeps/clerk-react@5.17.0
   - @clerk/shared@2.17.0
   - @clerk/types@4.35.0
   - @clerk/backend@1.18.0
@@ -1357,7 +1357,7 @@
 - Updated dependencies [[`c70994b5b6f92a6550dfe37547f01bbfa810c223`](https://github.com/clerk/javascript/commit/c70994b5b6f92a6550dfe37547f01bbfa810c223), [`7623a99594e7329200b6b374e483152d7679ce66`](https://github.com/clerk/javascript/commit/7623a99594e7329200b6b374e483152d7679ce66)]:
   - @clerk/types@4.34.2
   - @clerk/backend@1.17.2
-  - @clerk/clerk-react@5.16.2
+  - @appypeeps/clerk-react@5.16.2
   - @clerk/shared@2.16.1
 
 ## 6.4.1
@@ -1365,7 +1365,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`e47eb5882a7fd4a8dee25933c6644790d6ea3407`](https://github.com/clerk/javascript/commit/e47eb5882a7fd4a8dee25933c6644790d6ea3407), [`273d16cb0665d4d960838cb294dc356f41814745`](https://github.com/clerk/javascript/commit/273d16cb0665d4d960838cb294dc356f41814745), [`6b0961765e1f3d09679be4b163fa13ac7dd97191`](https://github.com/clerk/javascript/commit/6b0961765e1f3d09679be4b163fa13ac7dd97191)]:
-  - @clerk/clerk-react@5.16.1
+  - @appypeeps/clerk-react@5.16.1
   - @clerk/shared@2.16.0
   - @clerk/types@4.34.1
   - @clerk/backend@1.17.1
@@ -1385,7 +1385,7 @@
 - Updated dependencies [[`536fa996ff84a545678a3036b28409824d1c00dd`](https://github.com/clerk/javascript/commit/536fa996ff84a545678a3036b28409824d1c00dd), [`b2671affd230eed176ac03af516307898d371757`](https://github.com/clerk/javascript/commit/b2671affd230eed176ac03af516307898d371757), [`b28c5e8bc44885bf6b1533df48e872ba90c387da`](https://github.com/clerk/javascript/commit/b28c5e8bc44885bf6b1533df48e872ba90c387da), [`6c424e179850f520ae738e816bf0423a55ddf3ef`](https://github.com/clerk/javascript/commit/6c424e179850f520ae738e816bf0423a55ddf3ef)]:
   - @clerk/backend@1.17.0
   - @clerk/shared@2.15.0
-  - @clerk/clerk-react@5.16.0
+  - @appypeeps/clerk-react@5.16.0
 
 ## 6.3.4
 
@@ -1395,7 +1395,7 @@
   - @clerk/shared@2.14.0
   - @clerk/types@4.34.0
   - @clerk/backend@1.16.4
-  - @clerk/clerk-react@5.15.5
+  - @appypeeps/clerk-react@5.15.5
 
 ## 6.3.3
 
@@ -1405,7 +1405,7 @@
   - @clerk/types@4.33.0
   - @clerk/shared@2.13.0
   - @clerk/backend@1.16.3
-  - @clerk/clerk-react@5.15.4
+  - @appypeeps/clerk-react@5.15.4
 
 ## 6.3.2
 
@@ -1421,7 +1421,7 @@
 - Updated dependencies [[`7dbad4c5abd226d7b10941a626ead5d85b1a3f24`](https://github.com/clerk/javascript/commit/7dbad4c5abd226d7b10941a626ead5d85b1a3f24)]:
   - @clerk/types@4.32.0
   - @clerk/backend@1.16.1
-  - @clerk/clerk-react@5.15.3
+  - @appypeeps/clerk-react@5.15.3
   - @clerk/shared@2.12.1
 
 ## 6.3.0
@@ -1443,14 +1443,14 @@
   - @clerk/backend@1.16.0
   - @clerk/shared@2.12.0
   - @clerk/types@4.31.0
-  - @clerk/clerk-react@5.15.2
+  - @appypeeps/clerk-react@5.15.2
 
 ## 6.2.1
 
 ### Patch Changes
 
 - Updated dependencies [[`8a04ae47b8305f994b348301fd8134d5baf02943`](https://github.com/clerk/javascript/commit/8a04ae47b8305f994b348301fd8134d5baf02943)]:
-  - @clerk/clerk-react@5.15.1
+  - @appypeeps/clerk-react@5.15.1
   - @clerk/shared@2.11.5
   - @clerk/backend@1.15.7
 
@@ -1473,7 +1473,7 @@
 - Fix issue within `<ClerkProvider />` where the window object is possibly undefined. ([#4476](https://github.com/clerk/javascript/pull/4476)) by [@alexcarpenter](https://github.com/alexcarpenter)
 
 - Updated dependencies [[`d74a6a7c0f291104c6bba722a8c432814d7b336e`](https://github.com/clerk/javascript/commit/d74a6a7c0f291104c6bba722a8c432814d7b336e), [`1a0c8fe665869e732d3c800bde0f5219fce54301`](https://github.com/clerk/javascript/commit/1a0c8fe665869e732d3c800bde0f5219fce54301), [`0800fc3f1f4e1b6a1d13f5c02557001a283af6e8`](https://github.com/clerk/javascript/commit/0800fc3f1f4e1b6a1d13f5c02557001a283af6e8)]:
-  - @clerk/clerk-react@5.15.0
+  - @appypeeps/clerk-react@5.15.0
   - @clerk/types@4.30.0
   - @clerk/shared@2.11.4
   - @clerk/backend@1.15.6
@@ -1489,7 +1489,7 @@
 - Updated dependencies [[`a7726cc12a824b278f6d2a37cb1901c38c5f70dc`](https://github.com/clerk/javascript/commit/a7726cc12a824b278f6d2a37cb1901c38c5f70dc)]:
   - @clerk/shared@2.11.3
   - @clerk/backend@1.15.5
-  - @clerk/clerk-react@5.14.3
+  - @appypeeps/clerk-react@5.14.3
 
 ## 6.1.0
 
@@ -1539,7 +1539,7 @@
 - Updating peerDependencies for correct ranges ([#4436](https://github.com/clerk/javascript/pull/4436)) by [@jacekradko](https://github.com/jacekradko)
 
 - Updated dependencies [[`69c8f4f21`](https://github.com/clerk/javascript/commit/69c8f4f21410b3db95ac11a23a2b3d1277981bcf), [`f875463da`](https://github.com/clerk/javascript/commit/f875463da9692f2d173b6d5388743cf720750ae3), [`41f2ede56`](https://github.com/clerk/javascript/commit/41f2ede56c82c97df509c5a28b7637862121b935), [`5be7ca9fd`](https://github.com/clerk/javascript/commit/5be7ca9fd239c937cc88e20ce8f5bfc9f3b84f22), [`08c5a2add`](https://github.com/clerk/javascript/commit/08c5a2add6872c76e62fc0df06db723e3728452e), [`08c5a2add`](https://github.com/clerk/javascript/commit/08c5a2add6872c76e62fc0df06db723e3728452e), [`24cd77989`](https://github.com/clerk/javascript/commit/24cd77989adb45a11db12627daa3f31e8d9338e4), [`434b432f8`](https://github.com/clerk/javascript/commit/434b432f8c114825120eef0f2c278b8142ed1563)]:
-  - @clerk/clerk-react@5.14.0
+  - @appypeeps/clerk-react@5.14.0
   - @clerk/types@4.29.0
   - @clerk/shared@2.11.0
   - @clerk/backend@1.15.2
@@ -1559,7 +1559,7 @@
 - Updated dependencies [[`3fdcdbf88`](https://github.com/clerk/javascript/commit/3fdcdbf88c38facf8b82563f634ec1b6604fd8e5), [`1c7e105a3`](https://github.com/clerk/javascript/commit/1c7e105a32fd492cc175ef9fd1c1fa0428c259dc)]:
   - @clerk/types@4.28.0
   - @clerk/backend@1.15.1
-  - @clerk/clerk-react@5.13.1
+  - @appypeeps/clerk-react@5.13.1
   - @clerk/shared@2.10.1
 
 ## 6.0.0
@@ -1673,7 +1673,7 @@
   - @clerk/backend@1.15.0
   - @clerk/shared@2.10.0
   - @clerk/types@4.27.0
-  - @clerk/clerk-react@5.13.0
+  - @appypeeps/clerk-react@5.13.0
 
 ## 5.7.5
 
@@ -1687,7 +1687,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`ce40ff6f0`](https://github.com/clerk/javascript/commit/ce40ff6f0d3bc79e33375be6dd5e03f140a07000), [`e81d45b72`](https://github.com/clerk/javascript/commit/e81d45b72c81403c7c206dac5454de1fef6bec57), [`752ce9bfa`](https://github.com/clerk/javascript/commit/752ce9bfa47a8eebd38cd272eeb58ae26fea3371), [`99cdf9b67`](https://github.com/clerk/javascript/commit/99cdf9b67d1e99e66cc73d8a5bfce1f1f8df1b83), [`ce40ff6f0`](https://github.com/clerk/javascript/commit/ce40ff6f0d3bc79e33375be6dd5e03f140a07000), [`fb7ba1f34`](https://github.com/clerk/javascript/commit/fb7ba1f3485abdeac5e504cce6c2d84d3f3e4ffc), [`2102052c0`](https://github.com/clerk/javascript/commit/2102052c017065ab511339870fcebaa6719f2702)]:
-  - @clerk/clerk-react@5.12.0
+  - @appypeeps/clerk-react@5.12.0
   - @clerk/types@4.26.0
   - @clerk/shared@2.9.2
   - @clerk/backend@1.14.0
@@ -1700,7 +1700,7 @@
   - @clerk/shared@2.9.1
   - @clerk/types@4.25.1
   - @clerk/backend@1.13.10
-  - @clerk/clerk-react@5.11.1
+  - @appypeeps/clerk-react@5.11.1
 
 ## 5.7.2
 
@@ -1717,7 +1717,7 @@
 
 - Updated dependencies [[`fb932e5cf`](https://github.com/clerk/javascript/commit/fb932e5cf21315adf60bee0855b6bd5ee2ff9867)]:
   - @clerk/shared@2.9.0
-  - @clerk/clerk-react@5.11.0
+  - @appypeeps/clerk-react@5.11.0
   - @clerk/types@4.25.0
   - @clerk/backend@1.13.8
 
@@ -1736,7 +1736,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`f6fb8b53d`](https://github.com/clerk/javascript/commit/f6fb8b53d236863ad7eca576ee7a16cd33f3506b), [`4a8570590`](https://github.com/clerk/javascript/commit/4a857059059a02bb4f20893e08601e1e67babbed)]:
-  - @clerk/clerk-react@5.10.0
+  - @appypeeps/clerk-react@5.10.0
   - @clerk/types@4.24.0
   - @clerk/backend@1.13.7
   - @clerk/shared@2.8.5
@@ -1755,7 +1755,7 @@
 - Updated dependencies [[`4749ed4c5`](https://github.com/clerk/javascript/commit/4749ed4c55a5ba5810451b8d436aad0d49829050), [`f1f17eaab`](https://github.com/clerk/javascript/commit/f1f17eaabed0dc4b7de405fb77d85503cf75ad33), [`2e35ac538`](https://github.com/clerk/javascript/commit/2e35ac53885f8008779940d41d1e804fa77ebfa9)]:
   - @clerk/backend@1.13.5
   - @clerk/types@4.23.0
-  - @clerk/clerk-react@5.9.4
+  - @appypeeps/clerk-react@5.9.4
   - @clerk/shared@2.8.4
 
 ## 5.6.2
@@ -1765,7 +1765,7 @@
 - Updated dependencies [[`c9063853e`](https://github.com/clerk/javascript/commit/c9063853e538a4010f5d4e522a3da5abc80098a4), [`19d3808d4`](https://github.com/clerk/javascript/commit/19d3808d4672234944226d6709ec51214e8d6e1d), [`737bcbb0f`](https://github.com/clerk/javascript/commit/737bcbb0ffb5e2dcadbb02e8fc718fe8825c5842)]:
   - @clerk/types@4.22.0
   - @clerk/backend@1.13.4
-  - @clerk/clerk-react@5.9.3
+  - @appypeeps/clerk-react@5.9.3
   - @clerk/shared@2.8.3
 
 ## 5.6.1
@@ -1774,7 +1774,7 @@
 
 - Updated dependencies [[`cb32aaf59`](https://github.com/clerk/javascript/commit/cb32aaf59d38dcd12e959f542782f71a87adf9c1), [`2e5c550e4`](https://github.com/clerk/javascript/commit/2e5c550e4aec61150c2a17fdcd4a0e1273cb50e7), [`6275c242c`](https://github.com/clerk/javascript/commit/6275c242cd8bcb6f7766934059967e0fe775a0c1), [`418be2fdb`](https://github.com/clerk/javascript/commit/418be2fdb558bb5c85d7be491945935b44cad681), [`c59636a1a`](https://github.com/clerk/javascript/commit/c59636a1aca67be7d6732d281cec307ed456678b), [`5c18671f1`](https://github.com/clerk/javascript/commit/5c18671f158f8077f822877ce5c1fa192199aeda), [`f9faaf031`](https://github.com/clerk/javascript/commit/f9faaf03100baf679c78e6c24877fbf3b60be529), [`e0ca9dc94`](https://github.com/clerk/javascript/commit/e0ca9dc94fa68f3d3db5d2433fa6b85d800d4ca2)]:
   - @clerk/shared@2.8.2
-  - @clerk/clerk-react@5.9.2
+  - @appypeeps/clerk-react@5.9.2
   - @clerk/types@4.21.1
   - @clerk/backend@1.13.3
 
@@ -1796,7 +1796,7 @@
 - Updated dependencies [[`3743eb911`](https://github.com/clerk/javascript/commit/3743eb9114733f20ed56a863ab98fa9c363b6723)]:
   - @clerk/shared@2.8.1
   - @clerk/backend@1.13.1
-  - @clerk/clerk-react@5.9.1
+  - @appypeeps/clerk-react@5.9.1
 
 ## 5.5.4
 
@@ -1812,7 +1812,7 @@
 - Updated dependencies [[`ba19be354`](https://github.com/clerk/javascript/commit/ba19be35461f0e5c76a58d11e4252a16781322c6), [`8cecbe875`](https://github.com/clerk/javascript/commit/8cecbe8756f58879c4b14b799700a25a83c1f00a), [`248142a6d`](https://github.com/clerk/javascript/commit/248142a6ded6ca937d0df7d628197f25228aadec), [`1189f71f8`](https://github.com/clerk/javascript/commit/1189f71f872f2683c12de5add5f154aeb953ca8d), [`a5e95295b`](https://github.com/clerk/javascript/commit/a5e95295b88acc6953d07a22d818e123774aeffa)]:
   - @clerk/shared@2.8.0
   - @clerk/backend@1.12.0
-  - @clerk/clerk-react@5.9.0
+  - @appypeeps/clerk-react@5.9.0
   - @clerk/types@4.21.0
 
 ## 5.5.2
@@ -1824,7 +1824,7 @@
 - Updated dependencies [[`be3b119f8`](https://github.com/clerk/javascript/commit/be3b119f840d2ae74f4b75d717711d53ac0e5f54)]:
   - @clerk/shared@2.7.2
   - @clerk/backend@1.11.1
-  - @clerk/clerk-react@5.8.2
+  - @appypeeps/clerk-react@5.8.2
 
 ## 5.5.1
 
@@ -1832,7 +1832,7 @@
 
 - Updated dependencies [[`b97b2c1ca`](https://github.com/clerk/javascript/commit/b97b2c1cae5cb1e569708a8745c13d203beb81d9), [`8c6909d46`](https://github.com/clerk/javascript/commit/8c6909d46328c943f1d464a28f1a324a27d0f3f1)]:
   - @clerk/backend@1.11.0
-  - @clerk/clerk-react@5.8.1
+  - @appypeeps/clerk-react@5.8.1
   - @clerk/types@4.20.1
   - @clerk/shared@2.7.1
 
@@ -1840,7 +1840,7 @@
 
 ### Minor Changes
 
-- Remove `@clerk/elements` reliance on `next` and `@clerk/clerk-react` directly. The host router is now provided by `@clerk/nextjs`. ([#4064](https://github.com/clerk/javascript/pull/4064)) by [@BRKalow](https://github.com/BRKalow)
+- Remove `@clerk/elements` reliance on `next` and `@appypeeps/clerk-react` directly. The host router is now provided by `@clerk/nextjs`. ([#4064](https://github.com/clerk/javascript/pull/4064)) by [@BRKalow](https://github.com/BRKalow)
 
 ### Patch Changes
 
@@ -1848,7 +1848,7 @@
 
 - Updated dependencies [[`c63a5adf0`](https://github.com/clerk/javascript/commit/c63a5adf0ba4b99252146f168318f51b709bb5dd), [`8823c21a2`](https://github.com/clerk/javascript/commit/8823c21a26bc81cbc3ed007908b1a9ea474bd343), [`95ac67a14`](https://github.com/clerk/javascript/commit/95ac67a143c263bef0c1f589728566ab8f95768d), [`a0cb062fa`](https://github.com/clerk/javascript/commit/a0cb062faa4d23bef7a577e5cc486f4c5efe6bfa), [`746b4ed5e`](https://github.com/clerk/javascript/commit/746b4ed5e2007505d5850a2a728484809474d7bf)]:
   - @clerk/backend@1.10.0
-  - @clerk/clerk-react@5.8.0
+  - @appypeeps/clerk-react@5.8.0
   - @clerk/types@4.20.0
   - @clerk/shared@2.7.0
 
@@ -1857,7 +1857,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`8a3b9f079`](https://github.com/clerk/javascript/commit/8a3b9f0793484b32dd609a5c80a194e62151d6ea), [`e95c28196`](https://github.com/clerk/javascript/commit/e95c2819675cea7963f2404e5f71f37ebed8d5e0), [`1fe744328`](https://github.com/clerk/javascript/commit/1fe744328d126bc597e81770119796ac18e055ed)]:
-  - @clerk/clerk-react@5.7.0
+  - @appypeeps/clerk-react@5.7.0
   - @clerk/types@4.19.0
   - @clerk/backend@1.9.2
   - @clerk/shared@2.6.2
@@ -1871,7 +1871,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`afad9af89`](https://github.com/clerk/javascript/commit/afad9af893984a19d7284f0ad3b36e7891d0d733), [`82593173a`](https://github.com/clerk/javascript/commit/82593173aafbf6646e12c5779627cdcb138a1f27), [`afad9af89`](https://github.com/clerk/javascript/commit/afad9af893984a19d7284f0ad3b36e7891d0d733)]:
-  - @clerk/clerk-react@5.6.0
+  - @appypeeps/clerk-react@5.6.0
   - @clerk/types@4.18.0
   - @clerk/backend@1.9.1
   - @clerk/shared@2.6.1
@@ -1884,7 +1884,7 @@
 
 - Updated dependencies [[`c9ef59106`](https://github.com/clerk/javascript/commit/c9ef59106c4720af3012586f5656f7b54cf2e336), [`fece72014`](https://github.com/clerk/javascript/commit/fece72014e2d39c8343a7329ae677badcba56d15), [`58e6754ad`](https://github.com/clerk/javascript/commit/58e6754ad9f9a1244b023ce1f5e5f2c1c4eb20e7), [`13693018f`](https://github.com/clerk/javascript/commit/13693018f4f7ac5d224698aa730e20960896f68c), [`3aa63dc5a`](https://github.com/clerk/javascript/commit/3aa63dc5a48161cfe92d94093ef0c32efd401342), [`9d0477781`](https://github.com/clerk/javascript/commit/9d04777814bf6d86d05506838b101e7cfc7c208d), [`3304dcc0b`](https://github.com/clerk/javascript/commit/3304dcc0bc93a92a7f729f585c60ff91d2ae04f6)]:
   - @clerk/backend@1.9.0
-  - @clerk/clerk-react@5.5.0
+  - @appypeeps/clerk-react@5.5.0
   - @clerk/types@4.17.0
   - @clerk/shared@2.6.0
 
@@ -1895,7 +1895,7 @@
 - Updated dependencies [[`c1389492d`](https://github.com/clerk/javascript/commit/c1389492d8b6a9292ab04889bf776c0f45e66845)]:
   - @clerk/types@4.16.0
   - @clerk/backend@1.8.3
-  - @clerk/clerk-react@5.4.5
+  - @appypeeps/clerk-react@5.4.5
   - @clerk/shared@2.5.5
 
 ## 5.3.5
@@ -1905,7 +1905,7 @@
 - Updated dependencies [[`0158c774a`](https://github.com/clerk/javascript/commit/0158c774af2243a2cd13b55c4d6fae877178c961), [`8be1a7abc`](https://github.com/clerk/javascript/commit/8be1a7abc8849d7d59552011bd6b25bc917d51f5)]:
   - @clerk/types@4.15.1
   - @clerk/backend@1.8.2
-  - @clerk/clerk-react@5.4.4
+  - @appypeeps/clerk-react@5.4.4
   - @clerk/shared@2.5.4
 
 ## 5.3.4
@@ -1913,7 +1913,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`96234ce3d`](https://github.com/clerk/javascript/commit/96234ce3d44ec6f262c07cc7416171f4cb82e07b), [`247b3fd75`](https://github.com/clerk/javascript/commit/247b3fd75042365dc9f950db056b76f9fadfdcf6)]:
-  - @clerk/clerk-react@5.4.3
+  - @appypeeps/clerk-react@5.4.3
   - @clerk/types@4.15.0
   - @clerk/backend@1.8.1
   - @clerk/shared@2.5.3
@@ -1934,7 +1934,7 @@
 - Updated dependencies [[`dc0e1c33d`](https://github.com/clerk/javascript/commit/dc0e1c33d6844b028cb1ee11c3359b886d609f3c), [`dc94c0834`](https://github.com/clerk/javascript/commit/dc94c08341c883fa5bf891f880fb34c4569ea820)]:
   - @clerk/types@4.14.0
   - @clerk/backend@1.7.0
-  - @clerk/clerk-react@5.4.2
+  - @appypeeps/clerk-react@5.4.2
   - @clerk/shared@2.5.2
 
 ## 5.3.1
@@ -1945,7 +1945,7 @@
 
 - Updated dependencies [[`7e0ced3da`](https://github.com/clerk/javascript/commit/7e0ced3da94f41056bc4445d163d3b615afb6ab1), [`b6f0613dc`](https://github.com/clerk/javascript/commit/b6f0613dc9d8b0bab41cfabbaa8621b126e3bdf5)]:
   - @clerk/shared@2.5.1
-  - @clerk/clerk-react@5.4.1
+  - @appypeeps/clerk-react@5.4.1
   - @clerk/types@4.13.1
   - @clerk/backend@1.6.3
 
@@ -1959,7 +1959,7 @@
 
 - Updated dependencies [[`59d5f19d3`](https://github.com/clerk/javascript/commit/59d5f19d333bf4a35c244886e93b4368e215225c), [`4e6c94e3f`](https://github.com/clerk/javascript/commit/4e6c94e3f4cc92cbba8bddcd2b90fcc9cfb83763)]:
   - @clerk/shared@2.5.0
-  - @clerk/clerk-react@5.4.0
+  - @appypeeps/clerk-react@5.4.0
   - @clerk/types@4.13.0
   - @clerk/backend@1.6.2
 
@@ -1972,7 +1972,7 @@
 - Updated dependencies [[`d7bf0f87c`](https://github.com/clerk/javascript/commit/d7bf0f87c4c50bc19d2796bca32bd694046a23b0), [`9b2aeacb3`](https://github.com/clerk/javascript/commit/9b2aeacb32fff7c300bda458636a1cc81a42ee7b)]:
   - @clerk/backend@1.6.1
   - @clerk/types@4.12.1
-  - @clerk/clerk-react@5.3.3
+  - @appypeeps/clerk-react@5.3.3
   - @clerk/shared@2.4.5
 
 ## 5.2.13
@@ -1982,7 +1982,7 @@
 - Updated dependencies [[`7e94fcf0f`](https://github.com/clerk/javascript/commit/7e94fcf0fcbee8842a54f7931c45190370aa870d)]:
   - @clerk/backend@1.6.0
   - @clerk/types@4.12.0
-  - @clerk/clerk-react@5.3.2
+  - @appypeeps/clerk-react@5.3.2
   - @clerk/shared@2.4.4
 
 ## 5.2.12
@@ -1992,7 +1992,7 @@
 - Updated dependencies [[`568186cad`](https://github.com/clerk/javascript/commit/568186cad29acaf0b084a9f86ccb9d29bd23fcf4), [`407195270`](https://github.com/clerk/javascript/commit/407195270ed8aab6eef18c64a4918e3870fef471)]:
   - @clerk/types@4.11.0
   - @clerk/backend@1.5.2
-  - @clerk/clerk-react@5.3.1
+  - @appypeeps/clerk-react@5.3.1
   - @clerk/shared@2.4.3
 
 ## 5.2.11
@@ -2014,7 +2014,7 @@
 
 - Updated dependencies [[`fde5b5e7e`](https://github.com/clerk/javascript/commit/fde5b5e7e6fb5faa4267e06d82a38a176165b4f4), [`aa06f3ba7`](https://github.com/clerk/javascript/commit/aa06f3ba7e725071c90d4a1d6840060236da3c23), [`80e647731`](https://github.com/clerk/javascript/commit/80e64773135865434cf0e6c220e287397aa07937)]:
   - @clerk/backend@1.5.0
-  - @clerk/clerk-react@5.3.0
+  - @appypeeps/clerk-react@5.3.0
   - @clerk/types@4.10.0
   - @clerk/shared@2.4.2
 
@@ -2025,7 +2025,7 @@
 - Updated dependencies [[`b48689705`](https://github.com/clerk/javascript/commit/b48689705f9fc2251d2f24addec7a0d0b1da0fe1)]:
   - @clerk/types@4.9.1
   - @clerk/backend@1.4.3
-  - @clerk/clerk-react@5.2.10
+  - @appypeeps/clerk-react@5.2.10
   - @clerk/shared@2.4.1
 
 ## 5.2.7
@@ -2056,7 +2056,7 @@
   - @clerk/backend@1.4.0
   - @clerk/shared@2.4.0
   - @clerk/types@4.9.0
-  - @clerk/clerk-react@5.2.9
+  - @appypeeps/clerk-react@5.2.9
 
 ## 5.2.4
 
@@ -2065,7 +2065,7 @@
 - Updated dependencies [[`df7d856d5`](https://github.com/clerk/javascript/commit/df7d856d56bc3b1dcbdbf9155b4ef1b1ea5971f7)]:
   - @clerk/types@4.8.0
   - @clerk/backend@1.3.2
-  - @clerk/clerk-react@5.2.8
+  - @appypeeps/clerk-react@5.2.8
   - @clerk/shared@2.3.3
 
 ## 5.2.3
@@ -2088,7 +2088,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`427fcdeaa`](https://github.com/clerk/javascript/commit/427fcdeaaba4e77273be29b4d7cca43f9aa18693)]:
-  - @clerk/clerk-react@5.2.7
+  - @appypeeps/clerk-react@5.2.7
 
 ## 5.2.0
 
@@ -2113,7 +2113,7 @@
 - Updated dependencies [[`d6b5006c4`](https://github.com/clerk/javascript/commit/d6b5006c4cc1b6f07bb3a6832b4ec6e65ea15814)]:
   - @clerk/types@4.7.0
   - @clerk/backend@1.2.5
-  - @clerk/clerk-react@5.2.6
+  - @appypeeps/clerk-react@5.2.6
   - @clerk/shared@2.3.2
 
 ## 5.1.6
@@ -2125,7 +2125,7 @@
 - Updated dependencies [[`1273b04ec`](https://github.com/clerk/javascript/commit/1273b04ecf1866b59ef59a74abe31dbcc726da2c)]:
   - @clerk/types@4.6.1
   - @clerk/backend@1.2.4
-  - @clerk/clerk-react@5.2.5
+  - @appypeeps/clerk-react@5.2.5
   - @clerk/shared@2.3.1
 
 ## 5.1.5
@@ -2139,7 +2139,7 @@
 - Updated dependencies [[`4ec3f63e2`](https://github.com/clerk/javascript/commit/4ec3f63e26d8d3725a7ba9bbf988a7776fe893ff)]:
   - @clerk/shared@2.3.0
   - @clerk/backend@1.2.3
-  - @clerk/clerk-react@5.2.4
+  - @appypeeps/clerk-react@5.2.4
 
 ## 5.1.4
 
@@ -2159,7 +2159,7 @@
 
 - Updated dependencies [[`86a27f693`](https://github.com/clerk/javascript/commit/86a27f6933de50c99b6bc354bf87ff5c2cfcaf38), [`35a0015f5`](https://github.com/clerk/javascript/commit/35a0015f5dd3419f126950b3bfb51ccf51e54cda), [`02bed2e00`](https://github.com/clerk/javascript/commit/02bed2e00d3e0a4e1bb1698b13267faf6aeb31b3), [`73e5d61e2`](https://github.com/clerk/javascript/commit/73e5d61e21ab3f77f3c8343bc63da0626466c7ac), [`b8e46328d`](https://github.com/clerk/javascript/commit/b8e46328da874859c4928f19f924219cd6520b11)]:
   - @clerk/shared@2.2.2
-  - @clerk/clerk-react@5.2.3
+  - @appypeeps/clerk-react@5.2.3
   - @clerk/backend@1.2.2
   - @clerk/types@4.6.0
 
@@ -2168,7 +2168,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @clerk/clerk-react@5.2.2
+  - @appypeeps/clerk-react@5.2.2
 
 ## 5.1.2
 
@@ -2186,7 +2186,7 @@
 
 - Updated dependencies [[`ff31f7255`](https://github.com/clerk/javascript/commit/ff31f725541d82caaa9c13cf42cf15f8ce3992f4), [`0e48fc210`](https://github.com/clerk/javascript/commit/0e48fc210cf0b5852052a21494a05f6e723101f5)]:
   - @clerk/shared@2.2.1
-  - @clerk/clerk-react@5.2.1
+  - @appypeeps/clerk-react@5.2.1
   - @clerk/backend@1.2.1
 
 ## 5.1.0
@@ -2254,7 +2254,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`d6a9b3f5d`](https://github.com/clerk/javascript/commit/d6a9b3f5dd8c64b1bd49f74c3707eb01dcd6aff4), [`456b06849`](https://github.com/clerk/javascript/commit/456b068493b8679e1772819eea24d49aa1bc6556), [`6888594cc`](https://github.com/clerk/javascript/commit/6888594cc5d0f922d166b6d28b7b994d657a5595)]:
-  - @clerk/clerk-react@5.2.0
+  - @appypeeps/clerk-react@5.2.0
   - @clerk/shared@2.2.0
   - @clerk/backend@1.2.0
 
@@ -2263,14 +2263,14 @@
 ### Patch Changes
 
 - Updated dependencies [[`3d790d5ea`](https://github.com/clerk/javascript/commit/3d790d5ea347a51ef16557c015c901a9f277effe)]:
-  - @clerk/clerk-react@5.1.0
+  - @appypeeps/clerk-react@5.1.0
 
 ## 5.0.11
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @clerk/clerk-react@5.0.7
+  - @appypeeps/clerk-react@5.0.7
 
 ## 5.0.10
 
@@ -2279,7 +2279,7 @@
 - Updated dependencies [[`4d3dc00fb`](https://github.com/clerk/javascript/commit/4d3dc00fb444c87e3d27f398cd0c1ce4d176f65b), [`ec84d51e7`](https://github.com/clerk/javascript/commit/ec84d51e705370273ffb82a0d7c94d90ba3de874)]:
   - @clerk/backend@1.1.5
   - @clerk/shared@2.1.1
-  - @clerk/clerk-react@5.0.6
+  - @appypeeps/clerk-react@5.0.6
 
 ## 5.0.9
 
@@ -2287,7 +2287,7 @@
 
 - Updated dependencies [[`b27ca8366`](https://github.com/clerk/javascript/commit/b27ca8366a1d6ec1d7ce4a5be5005f1b1b017c20), [`bcbb2c9ef`](https://github.com/clerk/javascript/commit/bcbb2c9ef42c11b13c1d2f60db4dd88a2d4f04f6)]:
   - @clerk/shared@2.1.0
-  - @clerk/clerk-react@5.0.5
+  - @appypeeps/clerk-react@5.0.5
   - @clerk/backend@1.1.4
 
 ## 5.0.8
@@ -2306,7 +2306,7 @@
 - Pass `devBrowserToken` to `createRedirect()` to ensure methods from `auth()` that trigger redirects correctly pass the dev browser token for URL-based session syncing. ([#3334](https://github.com/clerk/javascript/pull/3334)) by [@BRKalow](https://github.com/BRKalow)
 
 - Updated dependencies [[`39265d909`](https://github.com/clerk/javascript/commit/39265d90941c850fd1b24295b19b904a5f3eaba6), [`4f4375e88`](https://github.com/clerk/javascript/commit/4f4375e88fa2daae4d725c62da5e4cf29302e53c), [`1662aaae9`](https://github.com/clerk/javascript/commit/1662aaae965fcf36b13dba6b148e096ab6a1cd83), [`f70c885f7`](https://github.com/clerk/javascript/commit/f70c885f798f7ff513f6687f87c8a56daf26fa05), [`4ae79af36`](https://github.com/clerk/javascript/commit/4ae79af36552aae1f0284ecc4dfcfc23ef295d26), [`f5804a225`](https://github.com/clerk/javascript/commit/f5804a225e9d67cd315700f0ced0ff17b8b14e53)]:
-  - @clerk/clerk-react@5.0.4
+  - @appypeeps/clerk-react@5.0.4
   - @clerk/backend@1.1.2
   - @clerk/shared@2.0.2
 
@@ -2323,7 +2323,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`e93b5777b`](https://github.com/clerk/javascript/commit/e93b5777b4f8578e6a6f81566e2601ab0e65590a)]:
-  - @clerk/clerk-react@5.0.3
+  - @appypeeps/clerk-react@5.0.3
 
 ## 5.0.4
 
@@ -2332,7 +2332,7 @@
 - Updated dependencies [[`8fbe23857`](https://github.com/clerk/javascript/commit/8fbe23857bc588a4662af78ee33b24123cd8bc2e), [`a78bc447c`](https://github.com/clerk/javascript/commit/a78bc447c1aabaa41bcbaa2a8fe3c48f31275574), [`19cd42434`](https://github.com/clerk/javascript/commit/19cd42434450e568998336bf6d705e475122abbc), [`e79d2e3d3`](https://github.com/clerk/javascript/commit/e79d2e3d3be02eb1cf8b2647ac179cc5d4aa2de2)]:
   - @clerk/backend@1.1.1
   - @clerk/shared@2.0.1
-  - @clerk/clerk-react@5.0.2
+  - @appypeeps/clerk-react@5.0.2
 
 ## 5.0.3
 
@@ -2349,7 +2349,7 @@
 
 - Updated dependencies [[`3c6e5a6f1`](https://github.com/clerk/javascript/commit/3c6e5a6f1dd0ac198e6e48d1b83c6d4846a7f900), [`65503dcb9`](https://github.com/clerk/javascript/commit/65503dcb97acb9538e5c0e3f8199d20ad31c9d7d)]:
   - @clerk/backend@1.0.1
-  - @clerk/clerk-react@5.0.1
+  - @appypeeps/clerk-react@5.0.1
 
 ## 5.0.1
 
@@ -2450,32 +2450,32 @@
     - use `AuthObject` properties from `auth`
   - use `publishableKey` instead of `frontendApi`
   - use `ClerkProviderOptionsWrapper` type instead of `IsomorphicClerkOptions`
-- 8aea39cd6: - Introduce `@clerk/clerk-react/errors` and `@clerk/clerk-react/internal` subpath exports to expose some internal utilities. Eg
+- 8aea39cd6: - Introduce `@appypeeps/clerk-react/errors` and `@appypeeps/clerk-react/internal` subpath exports to expose some internal utilities. Eg
 
   ````typescript
   // Before
-  import { **internal**setErrorThrowerOptions } from '@clerk/clerk-react';
+  import { **internal**setErrorThrowerOptions } from '@appypeeps/clerk-react';
   // After
-  import { setErrorThrowerOptions } from '@clerk/clerk-react/internal';
+  import { setErrorThrowerOptions } from '@appypeeps/clerk-react/internal';
 
       // Before
-      import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@clerk/clerk-react';
+      import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@appypeeps/clerk-react';
       // After
-      import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@clerk/clerk-react/errors';
+      import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@appypeeps/clerk-react/errors';
 
       // Before
-      import { MultisessionAppSupport } from '@clerk/clerk-react';
+      import { MultisessionAppSupport } from '@appypeeps/clerk-react';
       // After
-      import { MultisessionAppSupport } from '@clerk/clerk-react/internal';
+      import { MultisessionAppSupport } from '@appypeeps/clerk-react/internal';
       ```
 
-  - Drop from the `@clerk/clerk-react` and all other clerk-react wrapper packages:
+  - Drop from the `@appypeeps/clerk-react` and all other clerk-react wrapper packages:
     - `__internal__setErrorThrowerOptions` internal utility (moved to /internal subpath)
     - `WithClerkProp` type
     - `MultisessionAppSupport` component (moved to /internal subpath)
     - `EmailLinkErrorCode` enum
   - Drop `StructureContext` and related errors to reduce code complexity since it seems that it was not being used.
-  - Drop `withUser`, `WithUser`, `withClerk` HOFs and `WithClerk`, `withSession`, `WithSession` HOCs from the `@clerk/clerk-react`
+  - Drop `withUser`, `WithUser`, `withClerk` HOFs and `WithClerk`, `withSession`, `WithSession` HOCs from the `@appypeeps/clerk-react`
     to reduce the export surface since it's trivial to implement if needed.
 
   ````
@@ -3047,14 +3047,14 @@
 - Updated dependencies [c2b982749]
   - @clerk/backend@1.0.0
   - @clerk/shared@2.0.0
-  - @clerk/clerk-react@5.0.0
+  - @appypeeps/clerk-react@5.0.0
 
 ## 5.0.0-beta.46
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @clerk/clerk-react@5.0.0-beta.41
+  - @appypeeps/clerk-react@5.0.0-beta.41
 
 ## 5.0.0-beta.45
 
@@ -3065,7 +3065,7 @@
 - Updated dependencies [[`bab2e7e05`](https://github.com/clerk/javascript/commit/bab2e7e0590d0da1fd7db0680e63e8f2eb836b41)]:
   - @clerk/shared@2.0.0-beta.23
   - @clerk/backend@1.0.0-beta.37
-  - @clerk/clerk-react@5.0.0-beta.40
+  - @appypeeps/clerk-react@5.0.0-beta.40
 
 ## 5.0.0-beta.44
 
@@ -3090,7 +3090,7 @@
 - Introduce `debug: true` option for the `clerkMiddleware` helper ([#3189](https://github.com/clerk/javascript/pull/3189)) by [@nikosdouvlis](https://github.com/nikosdouvlis)
 
 - Updated dependencies [[`ff08fe237`](https://github.com/clerk/javascript/commit/ff08fe237fa5a9ded04924b3c5821111836b49b6), [`f98e480b1`](https://github.com/clerk/javascript/commit/f98e480b1a9e41f5370efcd53aa6887af2ad6816), [`142ded732`](https://github.com/clerk/javascript/commit/142ded73265b776789b65404d96b6c91cfe15e98), [`fb794ce7b`](https://github.com/clerk/javascript/commit/fb794ce7b88001b98ad4a628bc2cc39a0c8ccfa5), [`e6fc58ae4`](https://github.com/clerk/javascript/commit/e6fc58ae4df5091eff00ba0d9045ce5ff0fff538)]:
-  - @clerk/clerk-react@5.0.0-beta.39
+  - @appypeeps/clerk-react@5.0.0-beta.39
   - @clerk/backend@1.0.0-beta.36
   - @clerk/shared@2.0.0-beta.22
 
@@ -3100,7 +3100,7 @@
 
 - Updated dependencies [[`7cb1241a9`](https://github.com/clerk/javascript/commit/7cb1241a9929b3d8a0d2157637734d82dd9fd852)]:
   - @clerk/backend@1.0.0-beta.35
-  - @clerk/clerk-react@5.0.0-beta.38
+  - @appypeeps/clerk-react@5.0.0-beta.38
 
 ## 5.0.0-beta.42
 
@@ -3112,14 +3112,14 @@
 
 - Updated dependencies [[`ecb60da48`](https://github.com/clerk/javascript/commit/ecb60da48029b9cb2d17ab9b0a73cb92bc5c924b)]:
   - @clerk/backend@1.0.0-beta.34
-  - @clerk/clerk-react@5.0.0-beta.37
+  - @appypeeps/clerk-react@5.0.0-beta.37
 
 ## 5.0.0-beta.41
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @clerk/clerk-react@5.0.0-beta.36
+  - @appypeeps/clerk-react@5.0.0-beta.36
 
 ## 5.0.0-beta.40
 
@@ -3127,7 +3127,7 @@
 
 - Updated dependencies [[`63dfe8dc9`](https://github.com/clerk/javascript/commit/63dfe8dc92c28213db5c5644782e7d6751fa22a6), [`d22e6164d`](https://github.com/clerk/javascript/commit/d22e6164ddb765542e0e6335421d2ebf484af059)]:
   - @clerk/backend@1.0.0-beta.33
-  - @clerk/clerk-react@5.0.0-beta.35
+  - @appypeeps/clerk-react@5.0.0-beta.35
 
 ## 5.0.0-beta.39
 
@@ -3140,7 +3140,7 @@
 - Updated dependencies [[`fc3ffd880`](https://github.com/clerk/javascript/commit/fc3ffd88064a09ab98877dfba119150390f9296e), [`1fd2eff38`](https://github.com/clerk/javascript/commit/1fd2eff38dc71e45d2ff95a5b6e5a99cca53c6e7), [`987994909`](https://github.com/clerk/javascript/commit/987994909b7c462cc2b785f75afe4d621f5c960d), [`1bea9c200`](https://github.com/clerk/javascript/commit/1bea9c20090abdde962c7da1a859933e1cd51660)]:
   - @clerk/shared@2.0.0-beta.21
   - @clerk/backend@1.0.0-beta.32
-  - @clerk/clerk-react@5.0.0-beta.34
+  - @appypeeps/clerk-react@5.0.0-beta.34
 
 ## 5.0.0-beta.38
 
@@ -3156,7 +3156,7 @@
 - Updated dependencies [[`8350109ab`](https://github.com/clerk/javascript/commit/8350109ab85909e0457199da1db0c9787d94001e)]:
   - @clerk/shared@2.0.0-beta.20
   - @clerk/backend@1.0.0-beta.30
-  - @clerk/clerk-react@5.0.0-beta.33
+  - @appypeeps/clerk-react@5.0.0-beta.33
 
 ## 5.0.0-beta.36
 
@@ -3165,7 +3165,7 @@
 - Adds telemetry event to clerkMiddleware initialization, passes publishableKey to `createClerkClient()` internally. ([#3042](https://github.com/clerk/javascript/pull/3042)) by [@BRKalow](https://github.com/BRKalow)
 
 - Updated dependencies []:
-  - @clerk/clerk-react@5.0.0-beta.32
+  - @appypeeps/clerk-react@5.0.0-beta.32
 
 ## 5.0.0-beta.35
 
@@ -3179,7 +3179,7 @@
 
 - Updated dependencies [[`8c23651b8`](https://github.com/clerk/javascript/commit/8c23651b8c3ff1474057a7d62e3ddba939cb0b64), [`9272006e7`](https://github.com/clerk/javascript/commit/9272006e744fc906cfdee520d2dc6d7db141cc97), [`2671e7aa5`](https://github.com/clerk/javascript/commit/2671e7aa5081eb9ae38b92ee647f2e3fd824741f), [`66b283653`](https://github.com/clerk/javascript/commit/66b28365370bcbcdf4e51da39de58c7f8b1fc1b4)]:
   - @clerk/backend@1.0.0-beta.29
-  - @clerk/clerk-react@5.0.0-beta.31
+  - @appypeeps/clerk-react@5.0.0-beta.31
 
 ## 5.0.0-beta.34
 
@@ -3199,7 +3199,7 @@
 - Using auth().protect inside clerkMiddleware will perform a redirection instead of throwing a not found error when internal navigation in pages router occurs and the user is unauthenticated. ([#2942](https://github.com/clerk/javascript/pull/2942)) by [@panteliselef](https://github.com/panteliselef)
 
 - Updated dependencies [[`c86f73be3`](https://github.com/clerk/javascript/commit/c86f73be382d01ec5f0ff5922ad907f429e63a58)]:
-  - @clerk/clerk-react@5.0.0-beta.30
+  - @appypeeps/clerk-react@5.0.0-beta.30
 
 ## 5.0.0-beta.32
 
@@ -3208,14 +3208,14 @@
 - Updated dependencies [[`8350f73a6`](https://github.com/clerk/javascript/commit/8350f73a67f8980be78e3bd3343e772f5653d718)]:
   - @clerk/shared@2.0.0-beta.19
   - @clerk/backend@1.0.0-beta.27
-  - @clerk/clerk-react@5.0.0-beta.29
+  - @appypeeps/clerk-react@5.0.0-beta.29
 
 ## 5.0.0-beta.31
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @clerk/clerk-react@5.0.0-beta.28
+  - @appypeeps/clerk-react@5.0.0-beta.28
 
 ## 5.0.0-beta.30
 
@@ -3224,7 +3224,7 @@
 - Updated dependencies [[`e5c989a03`](https://github.com/clerk/javascript/commit/e5c989a035fa16413414c213febe16fcdbeef9b1), [`2ec9f6b09`](https://github.com/clerk/javascript/commit/2ec9f6b09f98ae276658d6dc705e16df0573d817)]:
   - @clerk/shared@2.0.0-beta.18
   - @clerk/backend@1.0.0-beta.26
-  - @clerk/clerk-react@5.0.0-beta.27
+  - @appypeeps/clerk-react@5.0.0-beta.27
 
 ## 5.0.0-beta.29
 
@@ -3235,7 +3235,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`18c0d015d`](https://github.com/clerk/javascript/commit/18c0d015d20493e14049fed73a5b6f732372a5cf)]:
-  - @clerk/clerk-react@5.0.0-beta.26
+  - @appypeeps/clerk-react@5.0.0-beta.26
 
 ## 5.0.0-beta.28
 
@@ -3244,7 +3244,7 @@
 - Make useAwaitableNavigate handle navigations between pages reliably ([#2899](https://github.com/clerk/javascript/pull/2899)) by [@nikosdouvlis](https://github.com/nikosdouvlis)
 
 - Updated dependencies []:
-  - @clerk/clerk-react@5.0.0-beta.25
+  - @appypeeps/clerk-react@5.0.0-beta.25
 
 ## 5.0.0-beta.27
 
@@ -3253,7 +3253,7 @@
 - Updated dependencies [[`1834a3ee4`](https://github.com/clerk/javascript/commit/1834a3ee496ea27b9f7ceeb32ec5361f9de8ee30), [`15af02a83`](https://github.com/clerk/javascript/commit/15af02a837b0e87ea83f3a86dfacc149adca1345)]:
   - @clerk/shared@2.0.0-beta.17
   - @clerk/backend@1.0.0-beta.25
-  - @clerk/clerk-react@5.0.0-beta.24
+  - @appypeeps/clerk-react@5.0.0-beta.24
 
 ## 5.0.0-beta.26
 
@@ -3262,7 +3262,7 @@
 - Updated dependencies [[`db18787c4`](https://github.com/clerk/javascript/commit/db18787c4d9fa8ee1306db9b65f3b3f5e2fe2dad)]:
   - @clerk/shared@2.0.0-beta.16
   - @clerk/backend@1.0.0-beta.24
-  - @clerk/clerk-react@5.0.0-beta.23
+  - @appypeeps/clerk-react@5.0.0-beta.23
 
 ## 5.0.0-beta.25
 
@@ -3271,7 +3271,7 @@
 - Updated dependencies [[`6eab66050`](https://github.com/clerk/javascript/commit/6eab66050608a1bc5cb9aca6a234b1fea16106e5)]:
   - @clerk/shared@2.0.0-beta.15
   - @clerk/backend@1.0.0-beta.23
-  - @clerk/clerk-react@5.0.0-beta.22
+  - @appypeeps/clerk-react@5.0.0-beta.22
 
 ## 5.0.0-beta.24
 
@@ -3280,7 +3280,7 @@
 - Updated dependencies [[`12f3c5c55`](https://github.com/clerk/javascript/commit/12f3c5c55580f93a81df27851fbc92ce1312107e)]:
   - @clerk/shared@2.0.0-beta.14
   - @clerk/backend@1.0.0-beta.22
-  - @clerk/clerk-react@5.0.0-beta.21
+  - @appypeeps/clerk-react@5.0.0-beta.21
 
 ## 5.0.0-beta.23
 
@@ -3288,7 +3288,7 @@
 
 - Updated dependencies [[`051833167`](https://github.com/clerk/javascript/commit/0518331675ffb4d6c6830d79a1d61f9e4466773a)]:
   - @clerk/backend@1.0.0-beta.21
-  - @clerk/clerk-react@5.0.0-beta.20
+  - @appypeeps/clerk-react@5.0.0-beta.20
 
 ## 5.0.0-beta.22
 
@@ -3298,7 +3298,7 @@
 
 - Updated dependencies [[`2de442b24`](https://github.com/clerk/javascript/commit/2de442b2465cc5d424b8a0b21aa57c557f3aa2e7)]:
   - @clerk/backend@1.0.0-beta.20
-  - @clerk/clerk-react@5.0.0-beta.19
+  - @appypeeps/clerk-react@5.0.0-beta.19
   - @clerk/shared@2.0.0-beta.13
 
 ## 5.0.0-beta-v5.21
@@ -3338,7 +3338,7 @@
 - Expose resources types ([#2660](https://github.com/clerk/javascript/pull/2660)) by [@panteliselef](https://github.com/panteliselef)
 
 - Updated dependencies [[`6ac9e717a`](https://github.com/clerk/javascript/commit/6ac9e717a7ce8f09c1604f324add5e7e02041c07), [`966b31205`](https://github.com/clerk/javascript/commit/966b312050b572fbbbc07a6f0581cbec21847375), [`a8901be64`](https://github.com/clerk/javascript/commit/a8901be64fe91125a0d38a3c880ffa73168ccf5c), [`7b200af49`](https://github.com/clerk/javascript/commit/7b200af4908839ea661ddf2a76811057b545cafc), [`244de5ea3`](https://github.com/clerk/javascript/commit/244de5ea3a7641727cd85c544bb79fb04f2c0808), [`034c47ccb`](https://github.com/clerk/javascript/commit/034c47ccbef0129b9be9ff8aef683aa039e52602), [`ee57f21ac`](https://github.com/clerk/javascript/commit/ee57f21ac62fc2dd0d9d68b965f35081b538c85e), [`1affbb22a`](https://github.com/clerk/javascript/commit/1affbb22a040e210cfce8f72d52b7961057c02d1), [`8daf8451c`](https://github.com/clerk/javascript/commit/8daf8451cb564bc834dd856174ffc2cdfa932e37), [`7f751c4ef`](https://github.com/clerk/javascript/commit/7f751c4ef2d14410058cf65ea984a93b50c0b87e), [`4fced88ac`](https://github.com/clerk/javascript/commit/4fced88acc66a4837779d8bbca359086cddeec56), [`be991365e`](https://github.com/clerk/javascript/commit/be991365e1c78d0f1dfc59bb33dd533b6fad223a), [`c2b982749`](https://github.com/clerk/javascript/commit/c2b98274970bac5af33c9bb2e84c70ad90225180)]:
-  - @clerk/clerk-react@5.0.0-beta-v5.18
+  - @appypeeps/clerk-react@5.0.0-beta-v5.18
   - @clerk/backend@1.0.0-beta-v5.19
   - @clerk/shared@2.0.0-beta-v5.12
 
@@ -3363,7 +3363,7 @@
 - Updated dependencies [[`8e5c881c4`](https://github.com/clerk/javascript/commit/8e5c881c40d7306c5dbd2e1f1803fbf75127bd71), [`d4ff346dd`](https://github.com/clerk/javascript/commit/d4ff346dd53bb3e1970e80bdc7b188c2dd344f12), [`a6308c67e`](https://github.com/clerk/javascript/commit/a6308c67e329879e001cee56cccd82e60b804422)]:
   - @clerk/backend@1.0.0-beta-v5.18
   - @clerk/shared@2.0.0-beta-v5.11
-  - @clerk/clerk-react@5.0.0-beta-v5.17
+  - @appypeeps/clerk-react@5.0.0-beta-v5.17
 
 ## 5.0.0-alpha-v5.19
 
@@ -3472,7 +3472,7 @@
 
 - Updated dependencies [[`799abc281`](https://github.com/clerk/javascript/commit/799abc281182efb953dd6637f9db7fc61c71a2cd), [`8cc45d2af`](https://github.com/clerk/javascript/commit/8cc45d2af98320ccced3768fb039b86576e424a5), [`b4e79c1b9`](https://github.com/clerk/javascript/commit/b4e79c1b9ab8e14cbfccaf290f0f596da0416e13), [`db2d82901`](https://github.com/clerk/javascript/commit/db2d829013722957332bcf03928685a4771f9a3c)]:
   - @clerk/backend@1.0.0-alpha-v5.15
-  - @clerk/clerk-react@5.0.0-alpha-v5.16
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.16
   - @clerk/shared@2.0.0-alpha-v5.10
 
 ## 5.0.0-alpha-v5.16
@@ -3481,7 +3481,7 @@
 
 - Updated dependencies [[`448e02e93`](https://github.com/clerk/javascript/commit/448e02e93cf2392878d5891009640c52103d99a8), [`e6ecbaa2f`](https://github.com/clerk/javascript/commit/e6ecbaa2ff7add95bf888cb4ce43457b9fde7a13), [`e921af259`](https://github.com/clerk/javascript/commit/e921af259e9bdc8810a830bed54d71cf8eced1f8), [`e9841dd91`](https://github.com/clerk/javascript/commit/e9841dd91897a7ebb468b14e272ce06154795389), [`59f9a7296`](https://github.com/clerk/javascript/commit/59f9a72968fb49add6d9031158c791ac60a161b9)]:
   - @clerk/backend@1.0.0-alpha-v5.14
-  - @clerk/clerk-react@5.0.0-alpha-v5.15
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.15
 
 ## 5.0.0-alpha-v5.15
 
@@ -3494,7 +3494,7 @@
 - Updated dependencies [[`1dc28ab46`](https://github.com/clerk/javascript/commit/1dc28ab46f6930074334be183c637ce7a81bebf7), [`ea4933655`](https://github.com/clerk/javascript/commit/ea4933655863ce315324aa2a3be7d5f263c2b61f), [`38d8b3e8a`](https://github.com/clerk/javascript/commit/38d8b3e8a0387bcf0b9c8d16e3bbfcfe9b643ca2)]:
   - @clerk/shared@2.0.0-alpha-v5.9
   - @clerk/backend@1.0.0-alpha-v5.13
-  - @clerk/clerk-react@5.0.0-alpha-v5.14
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.14
 
 ## 5.0.0-alpha-v5.14
 
@@ -3564,7 +3564,7 @@
 - Updated dependencies [[`7ecd6f6ab`](https://github.com/clerk/javascript/commit/7ecd6f6abb0e5bfb1a57c99cc11860de311c3e82)]:
   - @clerk/shared@2.0.0-alpha-v5.8
   - @clerk/backend@1.0.0-alpha-v5.12
-  - @clerk/clerk-react@5.0.0-alpha-v5.13
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.13
 
 ## 5.0.0-alpha-v5.13
 
@@ -3600,7 +3600,7 @@
 
 - Updated dependencies [[`f4f99f18d`](https://github.com/clerk/javascript/commit/f4f99f18de0be8afaae9f52599deb2814ab235e7), [`cfea3d9c0`](https://github.com/clerk/javascript/commit/cfea3d9c00950eee8d7e942d88bee1a56a5f842b), [`fe2607b6f`](https://github.com/clerk/javascript/commit/fe2607b6fdeed83002db7e4a0c040ac0280e5ff7), [`bad4de1a2`](https://github.com/clerk/javascript/commit/bad4de1a2fd8a3e2643fe26677801166a8305c29), [`2e4a43017`](https://github.com/clerk/javascript/commit/2e4a43017ef33b541949ba90e16bf5311ce8bc60), [`f5fb63cf1`](https://github.com/clerk/javascript/commit/f5fb63cf1dd51cd6cd0dba4d9eef871695ef06c3), [`e7e2a1eae`](https://github.com/clerk/javascript/commit/e7e2a1eae2ed726ab49894dd195185c8f4e70acd)]:
   - @clerk/backend@1.0.0-alpha-v5.11
-  - @clerk/clerk-react@5.0.0-alpha-v5.12
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.12
 
 ## 5.0.0-alpha-v5.12
 
@@ -3733,7 +3733,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`2a67f729d`](https://github.com/clerk/javascript/commit/2a67f729da58b3400df24da634fc4bf786065f25), [`a9fe242be`](https://github.com/clerk/javascript/commit/a9fe242be4dbaaa02c6643fea0688f1fb23f23e7), [`1e98187b4`](https://github.com/clerk/javascript/commit/1e98187b4fba0f872576510d7bccf8b75a2579bd), [`d08ec6d8f`](https://github.com/clerk/javascript/commit/d08ec6d8f52a2bc037c0eb586123a9f7816e4b64), [`5f58a2274`](https://github.com/clerk/javascript/commit/5f58a22746aba94f76bef5dbbc94fa93ea3b0b7e), [`5f58a2274`](https://github.com/clerk/javascript/commit/5f58a22746aba94f76bef5dbbc94fa93ea3b0b7e), [`a9fe242be`](https://github.com/clerk/javascript/commit/a9fe242be4dbaaa02c6643fea0688f1fb23f23e7), [`0ec3a146c`](https://github.com/clerk/javascript/commit/0ec3a146cc4cbe4a80d1f990a440431ae4490183), [`1ad910eb9`](https://github.com/clerk/javascript/commit/1ad910eb92dce056731f29df0caaaad74d08bd7f), [`f58a9949b`](https://github.com/clerk/javascript/commit/f58a9949bc78737ca4e096ed5501b4e578a2d493), [`9b02c1aae`](https://github.com/clerk/javascript/commit/9b02c1aae1cae286ea305c5e216ae93cbbbc0f90)]:
-  - @clerk/clerk-react@5.0.0-alpha-v5.11
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.11
   - @clerk/backend@1.0.0-alpha-v5.10
   - @clerk/shared@2.0.0-alpha-v5.7
 
@@ -3760,37 +3760,37 @@
 
 ### Major Changes
 
-- - Introduce `@clerk/clerk-react/errors` and `@clerk/clerk-react/internal` subpath exports to expose some internal utilities. Eg ([#2328](https://github.com/clerk/javascript/pull/2328)) by [@dimkl](https://github.com/dimkl)
+- - Introduce `@appypeeps/clerk-react/errors` and `@appypeeps/clerk-react/internal` subpath exports to expose some internal utilities. Eg ([#2328](https://github.com/clerk/javascript/pull/2328)) by [@dimkl](https://github.com/dimkl)
 
     ```typescript
     // Before
-    import { __internal__setErrorThrowerOptions } from '@clerk/clerk-react';
+    import { __internal__setErrorThrowerOptions } from '@appypeeps/clerk-react';
     // After
-    import { setErrorThrowerOptions } from '@clerk/clerk-react/internal';
+    import { setErrorThrowerOptions } from '@appypeeps/clerk-react/internal';
 
     // Before
-    import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@clerk/clerk-react';
+    import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@appypeeps/clerk-react';
     // After
     import {
       isClerkAPIResponseError,
       isEmailLinkError,
       isKnownError,
       isMetamaskError,
-    } from '@clerk/clerk-react/errors';
+    } from '@appypeeps/clerk-react/errors';
 
     // Before
-    import { MultisessionAppSupport } from '@clerk/clerk-react';
+    import { MultisessionAppSupport } from '@appypeeps/clerk-react';
     // After
-    import { MultisessionAppSupport } from '@clerk/clerk-react/internal';
+    import { MultisessionAppSupport } from '@appypeeps/clerk-react/internal';
     ```
 
-  - Drop from the `@clerk/clerk-react` and all other clerk-react wrapper packages:
+  - Drop from the `@appypeeps/clerk-react` and all other clerk-react wrapper packages:
     - `__internal__setErrorThrowerOptions` internal utility (moved to /internal subpath)
     - `WithClerkProp` type
     - `MultisessionAppSupport` component (moved to /internal subpath)
     - `EmailLinkErrorCode` enum
   - Drop `StructureContext` and related errors to reduce code complexity since it seems that it was not being used.
-  - Drop `withUser`, `WithUser`, `withClerk` HOFs and `WithClerk`, `withSession`, `WithSession` HOCs from the `@clerk/clerk-react`
+  - Drop `withUser`, `WithUser`, `withClerk` HOFs and `WithClerk`, `withSession`, `WithSession` HOCs from the `@appypeeps/clerk-react`
     to reduce the export surface since it's trivial to implement if needed.
 
 - (Note: This is only relevant if, in the unlikely case, you are using `Clerk` from `@clerk/nextjs` directly. If not, you can safely ignore this change.) ([#2317](https://github.com/clerk/javascript/pull/2317)) by [@tmilewski](https://github.com/tmilewski)
@@ -3845,7 +3845,7 @@
 - Updated dependencies [[`896cb6104`](https://github.com/clerk/javascript/commit/896cb610409f84c0ff7a4f502f0b4ccee1afc157), [`02976d494`](https://github.com/clerk/javascript/commit/02976d49473958b8c3fea38d4e389dc1bee7e8c4), [`8aea39cd6`](https://github.com/clerk/javascript/commit/8aea39cd6907e3a8ac01091aa6df64ebd6a42ed2), [`86d52fb5c`](https://github.com/clerk/javascript/commit/86d52fb5cf68f1dc7adf617605b922134e21268f), [`ab4eb56a5`](https://github.com/clerk/javascript/commit/ab4eb56a5c34baf496ebb8ac412ad6171b9bd79c), [`46040a2f3`](https://github.com/clerk/javascript/commit/46040a2f34d0991072fca490e031c1994b2e2296), [`75ea300bc`](https://github.com/clerk/javascript/commit/75ea300bce16a0ce401a225263bb267ad2a217b8), [`844847e0b`](https://github.com/clerk/javascript/commit/844847e0becf20243fba3c659b2b77a238dd270a)]:
   - @clerk/shared@2.0.0-alpha-v5.6
   - @clerk/backend@1.0.0-alpha-v5.8
-  - @clerk/clerk-react@5.0.0-alpha-v5.10
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.10
 
 ## 5.0.0-alpha-v5.9
 
@@ -3857,7 +3857,7 @@
 
 - Updated dependencies [[`de6519daa`](https://github.com/clerk/javascript/commit/de6519daa84732023bcfd74ad816a2654f457952), [`7bffc47cb`](https://github.com/clerk/javascript/commit/7bffc47cb71a2c3e026df5977c25487bfd5c55d7), [`7af0949ae`](https://github.com/clerk/javascript/commit/7af0949ae7b4072f550dee220f4d41854fe504c6), [`e1f7eae87`](https://github.com/clerk/javascript/commit/e1f7eae87531b483564256f5456a31150caa469e)]:
   - @clerk/backend@1.0.0-alpha-v5.7
-  - @clerk/clerk-react@5.0.0-alpha-v5.9
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.9
 
 ## 5.0.0-alpha-v5.8
 
@@ -3871,7 +3871,7 @@
 
 - Updated dependencies [[`93d05c868`](https://github.com/clerk/javascript/commit/93d05c8680ed213e594a16d4630a65f8eb244b32), [`a6b893d28`](https://github.com/clerk/javascript/commit/a6b893d281b23dc7b4bd7f3733b33e4cf655bc1b), [`2e77cd737`](https://github.com/clerk/javascript/commit/2e77cd737a333de022533d29cb12e73a907694c8), [`d30ea1faa`](https://github.com/clerk/javascript/commit/d30ea1faa45074e09c037530e8ba3ca2dbd50654)]:
   - @clerk/backend@1.0.0-alpha-v5.6
-  - @clerk/clerk-react@5.0.0-alpha-v5.8
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.8
   - @clerk/shared@2.0.0-alpha-v5.5
 
 ## 5.0.0-alpha-v5.7
@@ -3880,7 +3880,7 @@
 
 - Updated dependencies [[`4b8bedc66`](https://github.com/clerk/javascript/commit/4b8bedc66d47dca5c6192148f4b31ae6d49ff733), [`c776f86fb`](https://github.com/clerk/javascript/commit/c776f86fb2a999dcae46fda9abb5005718c354b2), [`6e54b1b59`](https://github.com/clerk/javascript/commit/6e54b1b590ccdbc7002bde151093d78c217de391), [`c9e0f68af`](https://github.com/clerk/javascript/commit/c9e0f68af1a5cf07dc373ff45999c72d3d86f8f9), [`d6a7ea61a`](https://github.com/clerk/javascript/commit/d6a7ea61a8ae64c93877ec117e54fc48b1c86f16)]:
   - @clerk/shared@2.0.0-alpha-v5.4
-  - @clerk/clerk-react@5.0.0-alpha-v5.7
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.7
   - @clerk/backend@1.0.0-alpha-v5.5
 
 ## 5.0.0-alpha-v5.6
@@ -3894,7 +3894,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @clerk/clerk-react@5.0.0-alpha-v5.6
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.6
 
 ## 5.0.0-alpha-v5.5
 
@@ -3902,7 +3902,7 @@
 
 - Updated dependencies [[`03079579d`](https://github.com/clerk/javascript/commit/03079579d2b48a9a6969702814449382098d2cfb), [`12962bc58`](https://github.com/clerk/javascript/commit/12962bc58e2c9caad416ba4e6d52061d00bc2feb)]:
   - @clerk/backend@1.0.0-alpha-v5.4
-  - @clerk/clerk-react@5.0.0-alpha-v5.5
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.5
 
 ## 5.0.0-alpha-v5.4
 
@@ -3916,7 +3916,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`7f6a64f43`](https://github.com/clerk/javascript/commit/7f6a64f4335832c66ff355f6d2f311f33a313d59)]:
-  - @clerk/clerk-react@5.0.0-alpha-v5.4
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.4
 
 ## 5.0.0-alpha-v5.3
 
@@ -3954,7 +3954,7 @@
 - Updated dependencies [[`b3a3dcdf4`](https://github.com/clerk/javascript/commit/b3a3dcdf4a8fa75c0dee4c55ab8fedebd49fdfd4), [`4aaf5103d`](https://github.com/clerk/javascript/commit/4aaf5103d3132f4e1ae76b861fa6ce0aae02ecbe), [`52ff8fe6b`](https://github.com/clerk/javascript/commit/52ff8fe6b6ff88ceb5e1246378b54b0565bede9d), [`4bb57057e`](https://github.com/clerk/javascript/commit/4bb57057e9af20fc433626ed178d97d3ca811362), [`4aaf5103d`](https://github.com/clerk/javascript/commit/4aaf5103d3132f4e1ae76b861fa6ce0aae02ecbe), [`0ce0edc28`](https://github.com/clerk/javascript/commit/0ce0edc283849a88b14b4b0df53b6858ed3a4f80), [`40ac4b645`](https://github.com/clerk/javascript/commit/40ac4b645f449b546dae5b4c0d013c9d9ea6d09c)]:
   - @clerk/backend@1.0.0-alpha-v5.3
   - @clerk/shared@2.0.0-alpha-v5.3
-  - @clerk/clerk-react@5.0.0-alpha-v5.3
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.3
 
 ## 5.0.0-alpha-v5.2
 
@@ -3967,7 +3967,7 @@
 - Updated dependencies [[`c2a090513`](https://github.com/clerk/javascript/commit/c2a0905132684a4a1e8d598b66caddf20062273e)]:
   - @clerk/backend@1.0.0-alpha-v5.2
   - @clerk/shared@2.0.0-alpha-v5.2
-  - @clerk/clerk-react@5.0.0-alpha-v5.2
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.2
 
 ## 5.0.0-alpha-v5.1
 
@@ -4051,7 +4051,7 @@
 - Updated dependencies [[`64d3763ec`](https://github.com/clerk/javascript/commit/64d3763ec73747ad04c4b47017195cf4114e150c), [`deac67c1c`](https://github.com/clerk/javascript/commit/deac67c1c40d6d3ccc3559746c0c31cc29a93b84), [`83e9d0846`](https://github.com/clerk/javascript/commit/83e9d08469e7c2840f06aa7d86831055e23f67a5), [`7f833da9e`](https://github.com/clerk/javascript/commit/7f833da9ebc1b2ec9c65513628c377d0584e5d72), [`492b8a7b1`](https://github.com/clerk/javascript/commit/492b8a7b12f14658a384566012e5807f0a171710), [`2a22aade8`](https://github.com/clerk/javascript/commit/2a22aade8c9bd1f83a9be085983f96fa87903804), [`dd5703013`](https://github.com/clerk/javascript/commit/dd57030133fb8ce98681ff0bcad7e53ee826bb0e), [`9615e6cda`](https://github.com/clerk/javascript/commit/9615e6cda8fb1cbc3c2e464e6e891d56e245fac4), [`cace85374`](https://github.com/clerk/javascript/commit/cace85374cb0bb13578cf63fe1f3e6ee59f7f3c2), [`0d1052ac2`](https://github.com/clerk/javascript/commit/0d1052ac284b909786fd0e4744b02fcf4d1a8be6), [`5471c7e8d`](https://github.com/clerk/javascript/commit/5471c7e8dd0155348748fa90e5ae97093f59efe9), [`477170962`](https://github.com/clerk/javascript/commit/477170962f486fd4e6b0653a64826573f0d8621b), [`e0e79b4fe`](https://github.com/clerk/javascript/commit/e0e79b4fe47f64006718d547c898b9f67fe4d424), [`3c4209068`](https://github.com/clerk/javascript/commit/3c42090688166b74badfdefc7ed8c428601a0ba7), [`a6451aece`](https://github.com/clerk/javascript/commit/a6451aecef0bac578b295b524f1246dede3a7598)]:
   - @clerk/shared@2.0.0-alpha-v5.1
   - @clerk/backend@1.0.0-alpha-v5.1
-  - @clerk/clerk-react@5.0.0-alpha-v5.1
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.1
 
 ## 5.0.0-alpha-v5.0
 
@@ -4096,7 +4096,7 @@
 - Updated dependencies [[`743c4d204`](https://github.com/clerk/javascript/commit/743c4d20423790b554e66923466081c0d3b0d9ed), [`791c49807`](https://github.com/clerk/javascript/commit/791c49807c3c9e19964cbf621c935d237caeecf3), [`a68eb3083`](https://github.com/clerk/javascript/commit/a68eb3083ff68459cd33098e2df190a5ba26c841), [`ef2325dcc`](https://github.com/clerk/javascript/commit/ef2325dcc18729e9ce9ee5823e9a963efa51dbc1), [`8b6b094b9`](https://github.com/clerk/javascript/commit/8b6b094b9c7d09eeae90f8bdfac44d53513aa63d), [`71663c568`](https://github.com/clerk/javascript/commit/71663c568926b1d60b97aa7ccc5298d05b618af2), [`90aa2ea9c`](https://github.com/clerk/javascript/commit/90aa2ea9c4675662cee581298b49bd76ec8f8850), [`a605335e1`](https://github.com/clerk/javascript/commit/a605335e1e6f37d9b02170282974b0e1406e3f98), [`97407d8aa`](https://github.com/clerk/javascript/commit/97407d8aa481007d3262fe7a0772dea901ce0a8c), [`ae3a6683a`](https://github.com/clerk/javascript/commit/ae3a6683aa1a28e5201325463e4211229b641711), [`c22cd5214`](https://github.com/clerk/javascript/commit/c22cd52147492ba25f3c07bdbe6bbc4eb49a5cf0), [`c7e6d00f5`](https://github.com/clerk/javascript/commit/c7e6d00f56e73df4ed87712e74ad9d5bcaca8924), [`797e327e0`](https://github.com/clerk/javascript/commit/797e327e05ce6bd23320555a9e7d6fadbd9d624f), [`97407d8aa`](https://github.com/clerk/javascript/commit/97407d8aa481007d3262fe7a0772dea901ce0a8c), [`7644b7472`](https://github.com/clerk/javascript/commit/7644b74726ba73e615a1256f9ff3fa03b0f8bc30), [`f5d55bb1f`](https://github.com/clerk/javascript/commit/f5d55bb1fc6a87303fb8bf461c3a917ae4da4005), [`6f755addd`](https://github.com/clerk/javascript/commit/6f755addd0886b9ff8b0d5dbe48e37470049acad)]:
   - @clerk/shared@2.0.0-alpha-v5.0
   - @clerk/backend@1.0.0-alpha-v5.0
-  - @clerk/clerk-react@5.0.0-alpha-v5.0
+  - @appypeeps/clerk-react@5.0.0-alpha-v5.0
 
 ## 4.25.7
 
@@ -4114,7 +4114,7 @@
   - @clerk/clerk-sdk-node@4.12.16
   - @clerk/backend@0.31.3
   - @clerk/shared@1.0.0
-  - @clerk/clerk-react@4.27.0
+  - @appypeeps/clerk-react@4.27.0
   - @clerk/types@3.57.0
 
 ## 4.25.6
@@ -4126,7 +4126,7 @@
 - Updated dependencies [[`9ca215702`](https://github.com/clerk/javascript/commit/9ca215702d1b816217d2c06c812f7d653ec2da11)]:
   - @clerk/types@3.56.1
   - @clerk/backend@0.31.2
-  - @clerk/clerk-react@4.26.6
+  - @appypeeps/clerk-react@4.26.6
   - @clerk/clerk-sdk-node@4.12.15
 
 ## 4.25.5
@@ -4139,7 +4139,7 @@
   - @clerk/types@3.56.0
   - @clerk/backend@0.31.1
   - @clerk/shared@0.24.5
-  - @clerk/clerk-react@4.26.5
+  - @appypeeps/clerk-react@4.26.5
   - @clerk/clerk-sdk-node@4.12.14
 
 ## 4.25.4
@@ -4160,7 +4160,7 @@
 
 - Updated dependencies [[`977336f79`](https://github.com/clerk/javascript/commit/977336f793cd4ce5984f98dac3cedf9f5ec363f5), [`997b8e256`](https://github.com/clerk/javascript/commit/997b8e256c8f83d68d0ae4243c7ea5640573d1ae), [`d89c09bb0`](https://github.com/clerk/javascript/commit/d89c09bb0ec9d23ea75ca10f208fe23bb124d87b), [`91e9a55f4`](https://github.com/clerk/javascript/commit/91e9a55f4b9f1a8f8d843a788597026015ddeafd), [`c9b17f5a7`](https://github.com/clerk/javascript/commit/c9b17f5a72cb27786cfc7f1fb42be1233fb10d5c), [`91014880d`](https://github.com/clerk/javascript/commit/91014880df71c2618d0b1e513da4dd19ccd809e3), [`451fc332a`](https://github.com/clerk/javascript/commit/451fc332a06b20482fc1c7345d2f606511144241), [`3848f8dbe`](https://github.com/clerk/javascript/commit/3848f8dbe094226c6062341405a32a9621042fd6), [`7f4d4b942`](https://github.com/clerk/javascript/commit/7f4d4b942e8834462cdc0976b106d9739c345f6b)]:
   - @clerk/shared@0.24.4
-  - @clerk/clerk-react@4.26.4
+  - @appypeeps/clerk-react@4.26.4
   - @clerk/types@3.55.0
   - @clerk/clerk-sdk-node@4.12.13
   - @clerk/backend@0.31.0
@@ -4174,7 +4174,7 @@
 - Retry the implemented changes from [#1767](https://github.com/clerk/javascript/pull/1767) which were reverted in [#1806](https://github.com/clerk/javascript/pull/1806) due to RSC related errors (not all uses components had the `use client` directive). Restore the original PR and add additional `use client` directives to ensure it works correctly. by [@nikosdouvlis](https://github.com/nikosdouvlis)
 
 - Updated dependencies [[`1136c7c15`](https://github.com/clerk/javascript/commit/1136c7c15043ffe917b4918e9e33f55b496cd679), [`1e212c19d`](https://github.com/clerk/javascript/commit/1e212c19d1cbfbcf6bc6718f5aec0a3cb893b96f), [`1136c7c15`](https://github.com/clerk/javascript/commit/1136c7c15043ffe917b4918e9e33f55b496cd679), [`1136c7c15`](https://github.com/clerk/javascript/commit/1136c7c15043ffe917b4918e9e33f55b496cd679), [`1136c7c15`](https://github.com/clerk/javascript/commit/1136c7c15043ffe917b4918e9e33f55b496cd679)]:
-  - @clerk/clerk-react@4.26.3
+  - @appypeeps/clerk-react@4.26.3
   - @clerk/shared@0.24.3
   - @clerk/backend@0.30.3
   - @clerk/clerk-sdk-node@4.12.12
@@ -4188,7 +4188,7 @@
 - Updated dependencies [[`b59b6b75d`](https://github.com/clerk/javascript/commit/b59b6b75dc61bc4d7e61f7cca774f3731a2929b9), [`fed24f1bf`](https://github.com/clerk/javascript/commit/fed24f1bf3e2b8c3f3e3327178f77b57c391c62c), [`164f3aac7`](https://github.com/clerk/javascript/commit/164f3aac7928bc69301846130cc77986569d4e91), [`68259a2bb`](https://github.com/clerk/javascript/commit/68259a2bb8193befdde9101d4ec9bf305881d5e2), [`33e927c59`](https://github.com/clerk/javascript/commit/33e927c59fbf06436ff642ef9f846bd3b467e3e1), [`0636ff779`](https://github.com/clerk/javascript/commit/0636ff7799e126d1438d2738ce0e46c3b277f46a), [`9514618d6`](https://github.com/clerk/javascript/commit/9514618d65cfdde0ff011eabd41a992b61fc8dc1), [`bb2ec9373`](https://github.com/clerk/javascript/commit/bb2ec93738f92c89f008c6a275a986593816c4d3), [`c7c6912f3`](https://github.com/clerk/javascript/commit/c7c6912f34874467bc74104690fe9f95491cc10d), [`71bb1c7b5`](https://github.com/clerk/javascript/commit/71bb1c7b570f7b0bbc377c8104c9abcc1af4cacf), [`e592565e0`](https://github.com/clerk/javascript/commit/e592565e0d7707626587f5e0ae7fb7279c84f050)]:
   - @clerk/types@3.54.0
   - @clerk/backend@0.30.2
-  - @clerk/clerk-react@4.26.2
+  - @appypeeps/clerk-react@4.26.2
   - @clerk/clerk-sdk-node@4.12.11
 
 ## 4.25.1
@@ -4199,7 +4199,7 @@
 
 - Updated dependencies [[`cecf74d79`](https://github.com/clerk/javascript/commit/cecf74d79069662d25f73e4745aa01348d398afb), [`a0b25671c`](https://github.com/clerk/javascript/commit/a0b25671cdee39cd0c2fca832b8c378fd445ec39)]:
   - @clerk/backend@0.30.1
-  - @clerk/clerk-react@4.26.1
+  - @appypeeps/clerk-react@4.26.1
   - @clerk/clerk-sdk-node@4.12.10
 
 ## 4.25.0
@@ -4221,7 +4221,7 @@
   - `withServerSideAuth`
 
 - Updated dependencies [[`5c8754239`](https://github.com/clerk/javascript/commit/5c8754239e9ef13656fb73f30c9c6a6187b9aa81), [`14895e2dd`](https://github.com/clerk/javascript/commit/14895e2dde0fa15b594b1b7d89829d6013f5afc6), [`2f6a6ac99`](https://github.com/clerk/javascript/commit/2f6a6ac9991469bf8532019bb22ff50adecdb434), [`94c36c755`](https://github.com/clerk/javascript/commit/94c36c755b598eb68d22f42eb7f738050f390678), [`7406afe7f`](https://github.com/clerk/javascript/commit/7406afe7f550f702bd91cde9616fd26222833a87)]:
-  - @clerk/clerk-react@4.26.0
+  - @appypeeps/clerk-react@4.26.0
   - @clerk/types@3.53.0
   - @clerk/backend@0.30.0
   - @clerk/clerk-sdk-node@4.12.9
@@ -4231,7 +4231,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`53ccb27cf`](https://github.com/clerk/javascript/commit/53ccb27cfd195af65adde6694572ed523fc66d6d), [`c61ddf5bf`](https://github.com/clerk/javascript/commit/c61ddf5bf2664e38bbaba6572d421adac8a2eff7), [`0366e0b20`](https://github.com/clerk/javascript/commit/0366e0b208e9086896562af94f24cdbd401c702c)]:
-  - @clerk/clerk-react@4.25.2
+  - @appypeeps/clerk-react@4.25.2
   - @clerk/types@3.52.1
   - @clerk/backend@0.29.3
   - @clerk/clerk-sdk-node@4.12.8
@@ -4243,7 +4243,7 @@
 - Updated dependencies [[`40ea407ad`](https://github.com/clerk/javascript/commit/40ea407ad1042fee6871755f30de544200b1f0d8), [`378a903ac`](https://github.com/clerk/javascript/commit/378a903ac4dc12e6ee708de20f0d9a5aa758bd18), [`27b611e47`](https://github.com/clerk/javascript/commit/27b611e47e4f1ad86e8dff42cb02c98bdc6ff6bd), [`4d0d90238`](https://github.com/clerk/javascript/commit/4d0d9023895c13290d5578ece218c24348c540fc)]:
   - @clerk/backend@0.29.2
   - @clerk/clerk-sdk-node@4.12.7
-  - @clerk/clerk-react@4.25.1
+  - @appypeeps/clerk-react@4.25.1
 
 ## 4.24.0
 
@@ -4263,7 +4263,7 @@
 - Updates the default middleware config matcher to be more restrictive in how it detects static files. Paths with `.` in them are now allowed, as long as the `.` is not in the final path segment. ([#1695](https://github.com/clerk/javascript/pull/1695)) by [@BRKalow](https://github.com/BRKalow)
 
 - Updated dependencies [[`e99df0a0d`](https://github.com/clerk/javascript/commit/e99df0a0de8ab91e9de4d32dfab46ad562f510d3), [`4327b91f9`](https://github.com/clerk/javascript/commit/4327b91f9ed65b440afaa5f76a6231aeacd3541a), [`75be1d6b3`](https://github.com/clerk/javascript/commit/75be1d6b3d9bf7b5d71613b3f169a942b1d25e7e), [`01b024c57`](https://github.com/clerk/javascript/commit/01b024c57c80ae00d83801fe90b2992111dc1a68)]:
-  - @clerk/clerk-react@4.25.0
+  - @appypeeps/clerk-react@4.25.0
   - @clerk/types@3.52.0
   - @clerk/clerk-sdk-node@4.12.6
   - @clerk/backend@0.29.1
@@ -4275,7 +4275,7 @@
 - Updated dependencies [[`463ff84f5`](https://github.com/clerk/javascript/commit/463ff84f5bfb7114102ca6cb5a2ea2fce705164c), [`e6a388946`](https://github.com/clerk/javascript/commit/e6a38894640b6999b90ea44ef66acda34debe2c1), [`1426e5eb3`](https://github.com/clerk/javascript/commit/1426e5eb3730bb79e2ec5341fa4347d7fa957739)]:
   - @clerk/types@3.51.0
   - @clerk/backend@0.29.0
-  - @clerk/clerk-react@4.24.2
+  - @appypeeps/clerk-react@4.24.2
   - @clerk/clerk-sdk-node@4.12.5
 
 ## 4.23.4
@@ -4286,7 +4286,7 @@
 
 - Updated dependencies [[`975412ed5`](https://github.com/clerk/javascript/commit/975412ed5307ac81128c87289178bd1e6c2fb1af), [`a102c21d4`](https://github.com/clerk/javascript/commit/a102c21d4762895a80a1ad846700763cc801b3f3)]:
   - @clerk/backend@0.28.1
-  - @clerk/clerk-react@4.24.1
+  - @appypeeps/clerk-react@4.24.1
   - @clerk/clerk-sdk-node@4.12.4
 
 ## 4.23.3
@@ -4299,7 +4299,7 @@
 
 - Updated dependencies [[`96cc1921c`](https://github.com/clerk/javascript/commit/96cc1921cac20442f19510137ee0100df5f8a0f4), [`8d1e7d76d`](https://github.com/clerk/javascript/commit/8d1e7d76de40c0ecb367c6745094dd0a75f764b3), [`435d2cff5`](https://github.com/clerk/javascript/commit/435d2cff5dfc86c58690d3f0d843f567ac4f3c04), [`8873841fc`](https://github.com/clerk/javascript/commit/8873841fcbb96f31aaeb8a12a0ce1d90512986d4), [`0a5f632f8`](https://github.com/clerk/javascript/commit/0a5f632f83bb4dae4cc82718dc86b7df3a125a56), [`34da40a50`](https://github.com/clerk/javascript/commit/34da40a5035b37eb365c6cb273e25c4d3bcf7161), [`3158752c7`](https://github.com/clerk/javascript/commit/3158752c73b9266775f954d3adaf43c66ba8b2e8), [`8538cd0c1`](https://github.com/clerk/javascript/commit/8538cd0c1e2ee2e38bd11079735a2ffc6738f71b), [`a412a5014`](https://github.com/clerk/javascript/commit/a412a501426f5d7a32284fda47efe48a04b5d38e), [`4ea30e883`](https://github.com/clerk/javascript/commit/4ea30e883a4f5c19cdde3424bf02afa99e2bc86d), [`86de584dd`](https://github.com/clerk/javascript/commit/86de584ddf1c22ec99852b983a92386e5542613c), [`e02a1aff2`](https://github.com/clerk/javascript/commit/e02a1aff2d4b1478601a2e7b598d600ab3902169), [`09bfb793e`](https://github.com/clerk/javascript/commit/09bfb793ee54d50eb54ef4e3a5eb385ea2f2fb54), [`b2296d630`](https://github.com/clerk/javascript/commit/b2296d6304e1ca31a35450e0c67a12555c0142f9), [`52ce79108`](https://github.com/clerk/javascript/commit/52ce79108fb5cb4fc84bf4f2df3e3dc748ee4eb3), [`4764e40c7`](https://github.com/clerk/javascript/commit/4764e40c7e858803fc6379dec20fcf687dcaed64), [`1e117beec`](https://github.com/clerk/javascript/commit/1e117beeca53f27d8e9f58f2a724fbc8a7d54021), [`30fcdd51a`](https://github.com/clerk/javascript/commit/30fcdd51a98dea60da36f2b5152ea22405d2c4f2), [`89bc5de04`](https://github.com/clerk/javascript/commit/89bc5de04aafa9832d4d1b5f816af2340acd14d4)]:
   - @clerk/types@3.50.0
-  - @clerk/clerk-react@4.24.0
+  - @appypeeps/clerk-react@4.24.0
   - @clerk/backend@0.28.0
   - @clerk/clerk-sdk-node@4.12.3
 
@@ -4311,7 +4311,7 @@
   - @clerk/backend@0.27.0
   - @clerk/types@3.49.0
   - @clerk/clerk-sdk-node@4.12.2
-  - @clerk/clerk-react@4.23.2
+  - @appypeeps/clerk-react@4.23.2
 
 ## 4.23.1
 
@@ -4332,14 +4332,14 @@
   - @clerk/types@3.48.1
   - @clerk/clerk-sdk-node@4.12.0
   - @clerk/backend@0.26.0
-  - @clerk/clerk-react@4.23.1
+  - @appypeeps/clerk-react@4.23.1
 
 ## 4.22.1
 
 ### Patch Changes
 
 - Updated dependencies [[`2a9d83280`](https://github.com/clerk/javascript/commit/2a9d8328011cb4c3e1a4c6c675cbd5a4edac4c5c)]:
-  - @clerk/clerk-react@4.23.0
+  - @appypeeps/clerk-react@4.23.0
   - @clerk/types@3.48.0
   - @clerk/backend@0.25.1
   - @clerk/clerk-sdk-node@4.11.1
@@ -4360,7 +4360,7 @@
   - @clerk/backend@0.25.0
   - @clerk/types@3.47.0
   - @clerk/clerk-sdk-node@4.11.0
-  - @clerk/clerk-react@4.22.1
+  - @appypeeps/clerk-react@4.22.1
 
 ## 4.21.14
 
@@ -4369,7 +4369,7 @@
 - Updated dependencies [[`2ad7cf390`](https://github.com/clerk/javascript/commit/2ad7cf390ba84b8e767ed6fe136800e38356d79c), [`4eeabbaa3`](https://github.com/clerk/javascript/commit/4eeabbaa36bfd5b277eadd1eaff3d0ed15e4e162), [`f6b77a1a3`](https://github.com/clerk/javascript/commit/f6b77a1a338cddeadb3cc7019171bf9703d7676e), [`f0b044c47`](https://github.com/clerk/javascript/commit/f0b044c475546e96a5995ef16198e60e35e8098f)]:
   - @clerk/backend@0.24.0
   - @clerk/clerk-sdk-node@4.10.15
-  - @clerk/clerk-react@4.22.0
+  - @appypeeps/clerk-react@4.22.0
 
 ## 4.21.13
 
@@ -4377,7 +4377,7 @@
 
 - Updated dependencies [[`3fee736c9`](https://github.com/clerk/javascript/commit/3fee736c993b0a8fd157d716890810d04e632962), [`968d9c265`](https://github.com/clerk/javascript/commit/968d9c2651ce25f6e03c2e6eecd81f7daf876f03), [`ac4e47274`](https://github.com/clerk/javascript/commit/ac4e47274afc2ab3a55a78b388a14bed76600402), [`5957a3da6`](https://github.com/clerk/javascript/commit/5957a3da68cde3386c741812e2bc03b5519d00e0)]:
   - @clerk/backend@0.23.7
-  - @clerk/clerk-react@4.21.1
+  - @appypeeps/clerk-react@4.21.1
   - @clerk/clerk-sdk-node@4.10.14
 
 ## 4.21.12
@@ -4385,7 +4385,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`1e71b60a2`](https://github.com/clerk/javascript/commit/1e71b60a2c6832a5f4f9c75ad4152b82db2b52e1)]:
-  - @clerk/clerk-react@4.21.0
+  - @appypeeps/clerk-react@4.21.0
 
 ## 4.21.11
 
@@ -4396,7 +4396,7 @@
 - Updated dependencies [[`30f8ad18a`](https://github.com/clerk/javascript/commit/30f8ad18a4f85ca2e3fda46e5c180b28bc8fb47c)]:
   - @clerk/types@3.46.1
   - @clerk/backend@0.23.6
-  - @clerk/clerk-react@4.20.6
+  - @appypeeps/clerk-react@4.20.6
   - @clerk/clerk-sdk-node@4.10.13
 
 ## 4.21.10
@@ -4418,7 +4418,7 @@
 - Updated dependencies [[`bfb3af28`](https://github.com/clerk/javascript/commit/bfb3af28eb69d47e31f2b846d1ecc309fd885704)]:
   - @clerk/types@3.46.0
   - @clerk/backend@0.23.5
-  - @clerk/clerk-react@4.20.5
+  - @appypeeps/clerk-react@4.20.5
   - @clerk/clerk-sdk-node@4.10.12
 
 ## 4.21.7
@@ -4429,7 +4429,7 @@
   - @clerk/types@3.45.0
   - @clerk/clerk-sdk-node@4.10.11
   - @clerk/backend@0.23.4
-  - @clerk/clerk-react@4.20.4
+  - @appypeeps/clerk-react@4.20.4
 
 ## 4.21.6
 
@@ -4438,7 +4438,7 @@
 - Updated dependencies [[`17cc14ec`](https://github.com/clerk/javascript/commit/17cc14ec64ed292239ee782662171a4a8cbd9e87)]:
   - @clerk/types@3.44.0
   - @clerk/backend@0.23.3
-  - @clerk/clerk-react@4.20.3
+  - @appypeeps/clerk-react@4.20.3
   - @clerk/clerk-sdk-node@4.10.10
 
 ## 4.21.5
@@ -4455,7 +4455,7 @@
 - Updated dependencies [[`9651658c`](https://github.com/clerk/javascript/commit/9651658c2ab00108ffcb9679cd119488c41ec521), [`4e1bb2bd`](https://github.com/clerk/javascript/commit/4e1bb2bd1f3cc933b1e8422849119e0aa16fdaa6)]:
   - @clerk/types@3.43.0
   - @clerk/backend@0.23.2
-  - @clerk/clerk-react@4.20.2
+  - @appypeeps/clerk-react@4.20.2
   - @clerk/clerk-sdk-node@4.10.8
 
 ## 4.21.3
@@ -4463,7 +4463,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @clerk/clerk-react@4.20.1
+  - @appypeeps/clerk-react@4.20.1
 
 ## 4.21.2
 
@@ -4510,7 +4510,7 @@
   - [#1004](https://github.com/clerk/javascript/pull/1004)
 
 - Updated dependencies [[`7af91bc3`](https://github.com/clerk/javascript/commit/7af91bc3ecc25cba04968b491e1e3c6ec32c18af), [`c42b4ac0`](https://github.com/clerk/javascript/commit/c42b4ac02d7ab7022a06b8f484e057999c6d7963), [`6f3d4305`](https://github.com/clerk/javascript/commit/6f3d43055690db1d69a356503a0a45dc948beaef), [`010484f4`](https://github.com/clerk/javascript/commit/010484f4978b9616e8c2ef50986eda742c4967bd)]:
-  - @clerk/clerk-react@4.20.0
+  - @appypeeps/clerk-react@4.20.0
   - @clerk/types@3.42.0
   - @clerk/backend@0.23.0
   - @clerk/clerk-sdk-node@4.10.5
@@ -4542,12 +4542,12 @@
 
 - Improve debug logging by including `AuthObject.debug()` data when `debug` is `true` in `authMiddleware` by [@nikosdouvlis](https://github.com/nikosdouvlis)
 
-- ESM/CJS support for `@clerk/clerk-react` by [@nikosdouvlis](https://github.com/nikosdouvlis)
+- ESM/CJS support for `@appypeeps/clerk-react` by [@nikosdouvlis](https://github.com/nikosdouvlis)
 
   Changes that should affect users and OS contributors:
 
-  - Better source map support for `@clerk/clerk-react`, `@clerk/shared`. This affects anyone developing in our monorepo or anyone using a debugger with Clerk installed in their app.
-  - Easier node_modules debugging as `@clerk/clerk-react`, `@clerk/shared` and `@clerk/nextjs` are no longer getting bundled as a single-file package. This also improves error logging in nextjs a lot, as nextjs usually logs the line that threw the error - a minified, single-file package, usually consists of a very long single-line module, so logging error in NextJS wasn't ideal.
+  - Better source map support for `@appypeeps/clerk-react`, `@clerk/shared`. This affects anyone developing in our monorepo or anyone using a debugger with Clerk installed in their app.
+  - Easier node_modules debugging as `@appypeeps/clerk-react`, `@clerk/shared` and `@clerk/nextjs` are no longer getting bundled as a single-file package. This also improves error logging in nextjs a lot, as nextjs usually logs the line that threw the error - a minified, single-file package, usually consists of a very long single-line module, so logging error in NextJS wasn't ideal.
   - Headless clerk-js bundle size reduced by ~10kb, normal clerk-ks by ~6kb
   - A new `clerkJSVersion` prop has been added on ClerkProvider allowing to fetch a specific clerk-js version.
 
@@ -4556,7 +4556,7 @@
 - Updated dependencies [[`b66ea0a5`](https://github.com/clerk/javascript/commit/b66ea0a5aea0d6801e03a1426a0db69921b7b0e3), [`b66ea0a5`](https://github.com/clerk/javascript/commit/b66ea0a5aea0d6801e03a1426a0db69921b7b0e3), [`b66ea0a5`](https://github.com/clerk/javascript/commit/b66ea0a5aea0d6801e03a1426a0db69921b7b0e3), [`b66ea0a5`](https://github.com/clerk/javascript/commit/b66ea0a5aea0d6801e03a1426a0db69921b7b0e3), [`b66ea0a5`](https://github.com/clerk/javascript/commit/b66ea0a5aea0d6801e03a1426a0db69921b7b0e3), [`b66ea0a5`](https://github.com/clerk/javascript/commit/b66ea0a5aea0d6801e03a1426a0db69921b7b0e3), [`b66ea0a5`](https://github.com/clerk/javascript/commit/b66ea0a5aea0d6801e03a1426a0db69921b7b0e3), [`b66ea0a5`](https://github.com/clerk/javascript/commit/b66ea0a5aea0d6801e03a1426a0db69921b7b0e3)]:
   - @clerk/backend@0.22.0
   - @clerk/types@3.41.1
-  - @clerk/clerk-react@4.19.0
+  - @appypeeps/clerk-react@4.19.0
   - @clerk/clerk-sdk-node@4.10.4
 
 ## [4.19.0](https://github.com/clerk/javascript/compare/@clerk/nextjs@4.19.0-staging.1...@clerk/nextjs@4.19.0) (2023-05-26)

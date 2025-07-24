@@ -7,7 +7,7 @@ import type {
   DisplayThemeJSON,
   OAuthStrategy,
   PreferredSignInStrategy,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { BaseResource } from './internal';
 

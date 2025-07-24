@@ -1159,8 +1159,8 @@
 - This introducing changes to `useReverification`, the changes include removing the array and returning the fetcher directly and also the dropping the options `throwOnCancel` and `onCancel` in favour of always throwing the cancellation error. ([#5396](https://github.com/clerk/javascript/pull/5396)) by [@octoper](https://github.com/octoper)
 
   ```tsx {{ filename: 'src/components/MyButton.tsx' }}
-  import { useReverification } from '@clerk/clerk-react';
-  import { isReverificationCancelledError } from '@clerk/clerk-react/error';
+  import { useReverification } from '@appypeeps/clerk-react';
+  import { isReverificationCancelledError } from '@appypeeps/clerk-react/error';
 
   type MyData = {
     balance: number;
@@ -1191,8 +1191,8 @@
   to handle re-verification flow. When the handler is passed the default UI our AIO components provide will not be triggered so you will have to create and handle the re-verification process.
 
   ```tsx {{ filename: 'src/components/MyButtonCustom.tsx' }}
-  import { useReverification } from '@clerk/clerk-react';
-  import { isReverificationCancelledError } from '@clerk/clerk-react/error';
+  import { useReverification } from '@appypeeps/clerk-react';
+  import { isReverificationCancelledError } from '@appypeeps/clerk-react/error';
 
   type MyData = {
     balance: number;
@@ -2190,7 +2190,7 @@
 
 ### Patch Changes
 
-- Re-init window.Clerk options when `ClerkProvider` props change in `@clerk/clerk-react` ([#4498](https://github.com/clerk/javascript/pull/4498)) by [@nikosdouvlis](https://github.com/nikosdouvlis)
+- Re-init window.Clerk options when `ClerkProvider` props change in `@appypeeps/clerk-react` ([#4498](https://github.com/clerk/javascript/pull/4498)) by [@nikosdouvlis](https://github.com/nikosdouvlis)
 
 ## 5.31.1
 
@@ -3416,7 +3416,7 @@
   - use `import { Clerk } from '@clerk/clerk-sdk-node';`
   - use `import { Clerk } from '@clerk/clerk-js';`
   - use `import { Clerk } from '@clerk/clerk-js/headless';`
-  - use `import { IsomorphicClerk } from '@clerk/clerk-react'`
+  - use `import { IsomorphicClerk } from '@appypeeps/clerk-react'`
 - 7f6a64f43: - By default, all the components with routing will have the `routing` prop assigned as `'path'` by default when the `path` prop is filled.
   - The `<UserButton />` component will set the default value of the `userProfileMode` prop to `'navigation'` if the `userProfileUrl` prop is provided.
   - The `<OrganizationSwitcher />` component will have the `organizationProfileMode` and `createOrganizationMode` props assigned with `'navigation'` by default if the `organizationProfileUrl` and `createOrganizationUrl` props are filled accordingly.
@@ -3661,7 +3661,7 @@
   - `ClerkPaginatedResponse` : describes pagination related props in response body
   - `ClerkPaginationParams` : describes pagination related props in api client method params
 
-- 2e4a43017: Update `@clerk/clerk-js` and `@clerk/clerk-react` to support the following examples:
+- 2e4a43017: Update `@clerk/clerk-js` and `@appypeeps/clerk-react` to support the following examples:
 
   ```typescript
   Clerk.signOut({ redirectUrl: '/' })
@@ -3791,7 +3791,7 @@
 - 75ea300bc: Add `useAssertWrappedByClerkProvider` to internal code. If you use hooks like `useAuth` outside of the `<ClerkProvider />` context an error will be thrown. For example:
 
   ```shell
-  @clerk/clerk-react: useAuth can only be used within the <ClerkProvider /> component
+  @appypeeps/clerk-react: useAuth can only be used within the <ClerkProvider /> component
   ```
 
 - db3eefe8c: Refactor of internal radio input in forms.
@@ -4599,7 +4599,7 @@
   }
   ```
 
-- Update `@clerk/clerk-js` and `@clerk/clerk-react` to support the following examples: ([#2412](https://github.com/clerk/javascript/pull/2412)) by [@dimkl](https://github.com/dimkl)
+- Update `@clerk/clerk-js` and `@appypeeps/clerk-react` to support the following examples: ([#2412](https://github.com/clerk/javascript/pull/2412)) by [@dimkl](https://github.com/dimkl)
 
   ```typescript
   Clerk.signOut({ redirectUrl: '/' })
@@ -4670,7 +4670,7 @@
 - Add `useAssertWrappedByClerkProvider` to internal code. If you use hooks like `useAuth` outside of the `<ClerkProvider />` context an error will be thrown. For example: ([#2299](https://github.com/clerk/javascript/pull/2299)) by [@tmilewski](https://github.com/tmilewski)
 
   ```shell
-  @clerk/clerk-react: useAuth can only be used within the <ClerkProvider /> component
+  @appypeeps/clerk-react: useAuth can only be used within the <ClerkProvider /> component
   ```
 
 - Updated dependencies [[`896cb6104`](https://github.com/clerk/javascript/commit/896cb610409f84c0ff7a4f502f0b4ccee1afc157), [`69ce3e185`](https://github.com/clerk/javascript/commit/69ce3e185b89283956cb711629bc61703166b1c9), [`ab4eb56a5`](https://github.com/clerk/javascript/commit/ab4eb56a5c34baf496ebb8ac412ad6171b9bd79c), [`46040a2f3`](https://github.com/clerk/javascript/commit/46040a2f34d0991072fca490e031c1994b2e2296), [`75ea300bc`](https://github.com/clerk/javascript/commit/75ea300bce16a0ce401a225263bb267ad2a217b8), [`370b17b12`](https://github.com/clerk/javascript/commit/370b17b123c22aab2915207aad8cbc37c06cfa26), [`844847e0b`](https://github.com/clerk/javascript/commit/844847e0becf20243fba3c659b2b77a238dd270a)]:
@@ -4865,7 +4865,7 @@
   - use `import { Clerk } from '@clerk/clerk-sdk-node';`
   - use `import { Clerk } from '@clerk/clerk-js';`
   - use `import { Clerk } from '@clerk/clerk-js/headless';`
-  - use `import { IsomorphicClerk } from '@clerk/clerk-react'`
+  - use `import { IsomorphicClerk } from '@appypeeps/clerk-react'`
 
 - Drop deprecations. Migration steps: ([#2082](https://github.com/clerk/javascript/pull/2082)) by [@dimkl](https://github.com/dimkl)
 
@@ -5729,12 +5729,12 @@
 
 - Load CF turnstile from FAPI by [@nikosdouvlis](https://github.com/nikosdouvlis)
 
-- ESM/CJS support for `@clerk/clerk-react` by [@nikosdouvlis](https://github.com/nikosdouvlis)
+- ESM/CJS support for `@appypeeps/clerk-react` by [@nikosdouvlis](https://github.com/nikosdouvlis)
 
   Changes that should affect users and OS contributors:
 
-  - Better source map support for `@clerk/clerk-react`, `@clerk/shared`. This affects anyone developing in our monorepo or anyone using a debugger with Clerk installed in their app.
-  - Easier node_modules debugging as `@clerk/clerk-react`, `@clerk/shared` and `@clerk/nextjs` are no longer getting bundled as a single-file package. This also improves error logging in nextjs a lot, as nextjs usually logs the line that threw the error - a minified, single-file package, usually consists of a very long single-line module, so logging error in NextJS wasn't ideal.
+  - Better source map support for `@appypeeps/clerk-react`, `@clerk/shared`. This affects anyone developing in our monorepo or anyone using a debugger with Clerk installed in their app.
+  - Easier node_modules debugging as `@appypeeps/clerk-react`, `@clerk/shared` and `@clerk/nextjs` are no longer getting bundled as a single-file package. This also improves error logging in nextjs a lot, as nextjs usually logs the line that threw the error - a minified, single-file package, usually consists of a very long single-line module, so logging error in NextJS wasn't ideal.
   - Headless clerk-js bundle size reduced by ~10kb, normal clerk-ks by ~6kb
   - A new `clerkJSVersion` prop has been added on ClerkProvider allowing to fetch a specific clerk-js version.
 

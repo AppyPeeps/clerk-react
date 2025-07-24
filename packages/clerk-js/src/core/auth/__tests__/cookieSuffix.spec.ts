@@ -1,13 +1,13 @@
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 
-vi.mock('@clerk/shared/keys', () => {
+vi.mock('@appypeeps/clerk-shared/keys', () => {
   return { getCookieSuffix: vi.fn() };
 });
-vi.mock('@clerk/shared/logger', () => {
+vi.mock('@appypeeps/clerk-shared/logger', () => {
   return { logger: { logOnce: vi.fn() } };
 });
-import { getCookieSuffix as getSharedCookieSuffix } from '@clerk/shared/keys';
-import { logger } from '@clerk/shared/logger';
+import { getCookieSuffix as getSharedCookieSuffix } from '@appypeeps/clerk-shared/keys';
+import { logger } from '@appypeeps/clerk-shared/logger';
 
 import { getCookieSuffix } from '../cookieSuffix';
 

@@ -4,7 +4,7 @@ import type {
   PricingTableProps,
   UserButtonProps,
   WaitlistProps,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import type { ReactNode } from 'react';
 
 import type { AvailableComponentName, AvailableComponentProps } from '../types';

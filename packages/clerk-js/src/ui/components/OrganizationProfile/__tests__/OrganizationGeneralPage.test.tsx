@@ -1,4 +1,8 @@
-import type { ClerkPaginatedResponse, OrganizationDomainResource, OrganizationMembershipResource } from '@clerk/types';
+import type {
+  ClerkPaginatedResponse,
+  OrganizationDomainResource,
+  OrganizationMembershipResource,
+} from '@appypeeps/clerk-types';
 import { describe, it } from '@jest/globals';
 import userEvent from '@testing-library/user-event';
 

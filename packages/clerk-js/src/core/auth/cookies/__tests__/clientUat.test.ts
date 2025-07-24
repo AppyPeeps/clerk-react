@@ -1,13 +1,13 @@
-import { createCookieHandler } from '@clerk/shared/cookie';
-import { addYears } from '@clerk/shared/date';
+import { createCookieHandler } from '@appypeeps/clerk-shared/cookie';
+import { addYears } from '@appypeeps/clerk-shared/date';
 
 import { inCrossOriginIframe } from '../../../../utils';
 import { getCookieDomain } from '../../getCookieDomain';
 import { getSecureAttribute } from '../../getSecureAttribute';
 import { createClientUatCookie } from '../clientUat';
 
-jest.mock('@clerk/shared/cookie');
-jest.mock('@clerk/shared/date');
+jest.mock('@appypeeps/clerk-shared/cookie');
+jest.mock('@appypeeps/clerk-shared/date');
 jest.mock('../../../../utils');
 jest.mock('../../getCookieDomain');
 jest.mock('../../getSecureAttribute');

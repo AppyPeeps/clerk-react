@@ -1,5 +1,5 @@
-import { isClerkAPIResponseError } from '@clerk/shared/error';
-import type { JwtPayload } from '@clerk/types';
+import { isClerkAPIResponseError } from '@appypeeps/clerk-shared/error';
+import type { JwtPayload } from '@appypeeps/clerk-types';
 
 import type { APIKey, IdPOAuthAccessToken, MachineToken } from '../api';
 import { createBackendApiClient } from '../api/factory';
@@ -65,7 +65,7 @@ export type VerifyTokenOptions = Omit<VerifyJwtOptions, 'key'> &
  * 1. If the token is valid, the response contains the verified token.
  *
  * ```ts
- * import { verifyToken } from '@clerk/backend'
+ * import { verifyToken } from '@appypeeps/clerk-backend'
  * import { cookies } from 'next/headers'
  *
  * export async function GET(request: Request) {

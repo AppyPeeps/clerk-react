@@ -1,4 +1,4 @@
-import { useOrganization } from '@clerk/shared/react';
+import { useOrganization } from '@appypeeps/clerk-shared/react';
 import { describe } from '@jest/globals';
 
 import { act, renderHook, waitFor } from '../../../testUtils';

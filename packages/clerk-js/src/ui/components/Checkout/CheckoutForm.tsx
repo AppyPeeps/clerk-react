@@ -1,5 +1,5 @@
-import { __experimental_useCheckout as useCheckout, useOrganization } from '@clerk/shared/react';
-import type { CommerceMoney, CommercePaymentSourceResource, ConfirmCheckoutParams } from '@clerk/types';
+import { __experimental_useCheckout as useCheckout, useOrganization } from '@appypeeps/clerk-shared/react';
+import type { CommerceMoney, CommercePaymentSourceResource, ConfirmCheckoutParams } from '@appypeeps/clerk-types';
 import { useMemo, useState } from 'react';
 
 import { Card } from '@/ui/elements/Card';

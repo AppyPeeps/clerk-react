@@ -1,4 +1,4 @@
-import { useAuth } from '@clerk/astro/react';
+import { useAuth } from '@appypeeps/clerk-astro/react';
 import React from 'react';
 import { type PropsWithChildren } from 'react';
 

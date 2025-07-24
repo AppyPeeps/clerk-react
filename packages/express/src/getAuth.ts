@@ -1,6 +1,6 @@
-import type { AuthenticateRequestOptions, GetAuthFn } from '@clerk/backend/internal';
-import { getAuthObjectForAcceptedToken } from '@clerk/backend/internal';
-import type { PendingSessionOptions } from '@clerk/types';
+import type { AuthenticateRequestOptions, GetAuthFn } from '@appypeeps/clerk-backend/internal';
+import { getAuthObjectForAcceptedToken } from '@appypeeps/clerk-backend/internal';
+import type { PendingSessionOptions } from '@appypeeps/clerk-types';
 import type { Request as ExpressRequest } from 'express';
 
 import { middlewareRequired } from './errors';

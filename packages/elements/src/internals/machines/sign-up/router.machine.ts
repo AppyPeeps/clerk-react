@@ -1,5 +1,5 @@
-import { joinURL } from '@clerk/shared/url';
-import type { SignUpStatus, VerificationStatus } from '@clerk/types';
+import { joinURL } from '@appypeeps/clerk-shared/url';
+import type { SignUpStatus, VerificationStatus } from '@appypeeps/clerk-types';
 import type { NonReducibleUnknown } from 'xstate';
 import { and, assign, enqueueActions, log, not, or, raise, sendTo, setup } from 'xstate';
 

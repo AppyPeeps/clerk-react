@@ -1,5 +1,12 @@
-import { fastDeepMergeAndReplace } from '@clerk/shared/utils';
-import type { Appearance, CaptchaAppearanceOptions, DeepPartial, Elements, Layout, Theme } from '@clerk/types';
+import { fastDeepMergeAndReplace } from '@appypeeps/clerk-shared/utils';
+import type {
+  Appearance,
+  CaptchaAppearanceOptions,
+  DeepPartial,
+  Elements,
+  Layout,
+  Theme,
+} from '@appypeeps/clerk-types';
 
 import { createInternalTheme, defaultInternalTheme } from '../foundations';
 import { polishedAppearance } from '../polishedAppearance';

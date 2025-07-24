@@ -6,7 +6,7 @@ import type {
   SignedInSessionResource,
   SignInResource,
   SignUpResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { unixEpochToDate } from '../../utils/date';
 import { SessionTokenCache } from '../tokenCache';

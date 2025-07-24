@@ -1,4 +1,4 @@
-import { auth } from '@clerk/nextjs/server';
+import { auth } from '@appypeeps/clerk-nextjs/server';
 
 export async function GET() {
   const { userId } = await auth();

@@ -71,7 +71,7 @@ export type OAuthProvider =
   | CustomOauthProvider;
 
 /**
- * @deprecated Use `import { OAUTH_PROVIDERS } from "@clerk/shared/oauth"` instead.
+ * @deprecated Use `import { OAUTH_PROVIDERS } from "@appypeeps/clerk-shared/oauth"` instead.
  *
  * @hidden
  */

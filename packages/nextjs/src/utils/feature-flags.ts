@@ -1,4 +1,4 @@
-import { isDevelopmentEnvironment } from '@clerk/shared/utils';
+import { isDevelopmentEnvironment } from '@appypeeps/clerk-shared/utils';
 
 import { KEYLESS_DISABLED } from '../server/constants';
 import { isNextWithUnstableServerActions } from './sdk-versions';

@@ -1,12 +1,12 @@
-import { deriveState } from '@clerk/shared/deriveState';
+import { deriveState } from '@appypeeps/clerk-shared/deriveState';
 import {
   __experimental_CheckoutProvider as CheckoutProvider,
   ClientContext,
   OrganizationProvider,
   SessionContext,
   UserContext,
-} from '@clerk/shared/react';
-import type { ClientResource, InitialState, Resources } from '@clerk/types';
+} from '@appypeeps/clerk-shared/react';
+import type { ClientResource, InitialState, Resources } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { IsomorphicClerk } from '../isomorphicClerk';

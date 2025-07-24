@@ -911,7 +911,7 @@
 
 ### Patch Changes
 
-- Re-export `isClerkRuntimeError` from `@clerk/clerk-react/errors`. ([#4656](https://github.com/clerk/javascript/pull/4656)) by [@panteliselef](https://github.com/panteliselef)
+- Re-export `isClerkRuntimeError` from `@appypeeps/clerk-react/errors`. ([#4656](https://github.com/clerk/javascript/pull/4656)) by [@panteliselef](https://github.com/panteliselef)
 
 - Add deprecation notices for the following components: ([#4631](https://github.com/clerk/javascript/pull/4631)) by [@alexcarpenter](https://github.com/alexcarpenter)
 
@@ -1662,7 +1662,7 @@
 
 ### Patch Changes
 
-- Rename local `eslint-config-custom` package to `@clerk/eslint-config-custom` to avoid conflicts with previously published package. Removes `eslint-config-custom` from `@clerk/clerk-react`'s dependencies, as it should only be a development dependency. ([#3307](https://github.com/clerk/javascript/pull/3307)) by [@BRKalow](https://github.com/BRKalow)
+- Rename local `eslint-config-custom` package to `@clerk/eslint-config-custom` to avoid conflicts with previously published package. Removes `eslint-config-custom` from `@appypeeps/clerk-react`'s dependencies, as it should only be a development dependency. ([#3307](https://github.com/clerk/javascript/pull/3307)) by [@BRKalow](https://github.com/BRKalow)
 
 - The following are all internal changes and not relevant to any end-user: ([#3341](https://github.com/clerk/javascript/pull/3341)) by [@LauraBeatris](https://github.com/LauraBeatris)
 
@@ -1699,14 +1699,14 @@
 
 ### Major Changes
 
-- 2a67f729d: Replace the `signOutCallback` prop on the `<SignOutButton />` with `redirectUrl`. This aligns the API surface with other UI components provided by `@clerk/clerk-react`.
+- 2a67f729d: Replace the `signOutCallback` prop on the `<SignOutButton />` with `redirectUrl`. This aligns the API surface with other UI components provided by `@appypeeps/clerk-react`.
 
   If you previously used the `signOutCallback` prop to navigate to another page, you can migrate as shown below.
 
   Before:
 
   ```jsx
-  import { SignOutButton } from '@clerk/clerk-react';
+  import { SignOutButton } from '@appypeeps/clerk-react';
 
   export const Signout = () => {
     return (
@@ -1724,7 +1724,7 @@
   After:
 
   ```jsx
-  import { SignOutButton } from '@clerk/clerk-react';
+  import { SignOutButton } from '@appypeeps/clerk-react';
 
   export const Signout = () => {
     return (
@@ -1742,7 +1742,7 @@
   - use `import { Clerk } from '@clerk/clerk-sdk-node';`
   - use `import { Clerk } from '@clerk/clerk-js';`
   - use `import { Clerk } from '@clerk/clerk-js/headless';`
-  - use `import { IsomorphicClerk } from '@clerk/clerk-react'`
+  - use `import { IsomorphicClerk } from '@appypeeps/clerk-react'`
 - 83e9d0846: Drop deprecations. Migration steps:
   - use `EmailLinkError` instead of `MagicLinkError`
   - use `isEmailLinkError` instead of `isMagicLinkError`
@@ -1814,32 +1814,32 @@
     - use `AuthObject` properties from `auth`
   - use `publishableKey` instead of `frontendApi`
   - use `ClerkProviderOptionsWrapper` type instead of `IsomorphicClerkOptions`
-- 8aea39cd6: - Introduce `@clerk/clerk-react/errors` and `@clerk/clerk-react/internal` subpath exports to expose some internal utilities. Eg
+- 8aea39cd6: - Introduce `@appypeeps/clerk-react/errors` and `@appypeeps/clerk-react/internal` subpath exports to expose some internal utilities. Eg
 
   ````typescript
   // Before
-  import { **internal**setErrorThrowerOptions } from '@clerk/clerk-react';
+  import { **internal**setErrorThrowerOptions } from '@appypeeps/clerk-react';
   // After
-  import { setErrorThrowerOptions } from '@clerk/clerk-react/internal';
+  import { setErrorThrowerOptions } from '@appypeeps/clerk-react/internal';
 
       // Before
-      import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@clerk/clerk-react';
+      import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@appypeeps/clerk-react';
       // After
-      import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@clerk/clerk-react/errors';
+      import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@appypeeps/clerk-react/errors';
 
       // Before
-      import { MultisessionAppSupport } from '@clerk/clerk-react';
+      import { MultisessionAppSupport } from '@appypeeps/clerk-react';
       // After
-      import { MultisessionAppSupport } from '@clerk/clerk-react/internal';
+      import { MultisessionAppSupport } from '@appypeeps/clerk-react/internal';
       ```
 
-  - Drop from the `@clerk/clerk-react` and all other clerk-react wrapper packages:
+  - Drop from the `@appypeeps/clerk-react` and all other clerk-react wrapper packages:
     - `__internal__setErrorThrowerOptions` internal utility (moved to /internal subpath)
     - `WithClerkProp` type
     - `MultisessionAppSupport` component (moved to /internal subpath)
     - `EmailLinkErrorCode` enum
   - Drop `StructureContext` and related errors to reduce code complexity since it seems that it was not being used.
-  - Drop `withUser`, `WithUser`, `withClerk` HOFs and `WithClerk`, `withSession`, `WithSession` HOCs from the `@clerk/clerk-react`
+  - Drop `withUser`, `WithUser`, `withClerk` HOFs and `WithClerk`, `withSession`, `WithSession` HOCs from the `@appypeeps/clerk-react`
     to reduce the export surface since it's trivial to implement if needed.
 
   ````
@@ -1891,7 +1891,7 @@
 - ff08fe237: Introduce experimental support for Google One Tap
   - React Component `<__experimental_GoogleOneTap/>`
   - JS `clerk.__experimental_mountGoogleOneTap(node,props)`
-- c9e0f68af: Fix `@clerk/clerk-react` bundle output to resolve issues with vite / rollup ESM module imports.
+- c9e0f68af: Fix `@appypeeps/clerk-react` bundle output to resolve issues with vite / rollup ESM module imports.
   We have also used the `bundle` output to export a single index.ts and dropped the unnecessary
   published files / folders (eg `__tests__`).
 - fe2607b6f: Remove MembershipRole. The type `MembershipRole` would always include the old role keys `admin`, `basic_member`, `guest_member`.
@@ -1923,7 +1923,7 @@
   - Drop `node-fetch` dependency from `@clerk/backend`
   - Drop duplicate test in `@clerk/backend`
 
-- 2e4a43017: Update `@clerk/clerk-js` and `@clerk/clerk-react` to support the following examples:
+- 2e4a43017: Update `@clerk/clerk-js` and `@appypeeps/clerk-react` to support the following examples:
 
   ```typescript
   Clerk.signOut({ redirectUrl: '/' })
@@ -1982,7 +1982,7 @@
 - 75ea300bc: Add `useAssertWrappedByClerkProvider` to internal code. If you use hooks like `useAuth` outside of the `<ClerkProvider />` context an error will be thrown. For example:
 
   ```shell
-  @clerk/clerk-react: useAuth can only be used within the <ClerkProvider /> component
+  @appypeeps/clerk-react: useAuth can only be used within the <ClerkProvider /> component
   ```
 
 - e9841dd91: Fixes error thrown for missing path & routing props when path was passed from context.
@@ -2407,7 +2407,7 @@
   }
   ```
 
-- Update `@clerk/clerk-js` and `@clerk/clerk-react` to support the following examples: ([#2412](https://github.com/clerk/javascript/pull/2412)) by [@dimkl](https://github.com/dimkl)
+- Update `@clerk/clerk-js` and `@appypeeps/clerk-react` to support the following examples: ([#2412](https://github.com/clerk/javascript/pull/2412)) by [@dimkl](https://github.com/dimkl)
 
   ```typescript
   Clerk.signOut({ redirectUrl: '/' })
@@ -2429,14 +2429,14 @@
 
 ### Major Changes
 
-- Replace the `signOutCallback` prop on the `<SignOutButton />` with `redirectUrl`. This aligns the API surface with other UI components provided by `@clerk/clerk-react`. ([#2348](https://github.com/clerk/javascript/pull/2348)) by [@LekoArts](https://github.com/LekoArts)
+- Replace the `signOutCallback` prop on the `<SignOutButton />` with `redirectUrl`. This aligns the API surface with other UI components provided by `@appypeeps/clerk-react`. ([#2348](https://github.com/clerk/javascript/pull/2348)) by [@LekoArts](https://github.com/LekoArts)
 
   If you previously used the `signOutCallback` prop to navigate to another page, you can migrate as shown below.
 
   Before:
 
   ```jsx
-  import { SignOutButton } from '@clerk/clerk-react';
+  import { SignOutButton } from '@appypeeps/clerk-react';
 
   export const Signout = () => {
     return (
@@ -2454,7 +2454,7 @@
   After:
 
   ```jsx
-  import { SignOutButton } from '@clerk/clerk-react';
+  import { SignOutButton } from '@appypeeps/clerk-react';
 
   export const Signout = () => {
     return (
@@ -2479,37 +2479,37 @@
 
 ### Major Changes
 
-- - Introduce `@clerk/clerk-react/errors` and `@clerk/clerk-react/internal` subpath exports to expose some internal utilities. Eg ([#2328](https://github.com/clerk/javascript/pull/2328)) by [@dimkl](https://github.com/dimkl)
+- - Introduce `@appypeeps/clerk-react/errors` and `@appypeeps/clerk-react/internal` subpath exports to expose some internal utilities. Eg ([#2328](https://github.com/clerk/javascript/pull/2328)) by [@dimkl](https://github.com/dimkl)
 
     ```typescript
     // Before
-    import { __internal__setErrorThrowerOptions } from '@clerk/clerk-react';
+    import { __internal__setErrorThrowerOptions } from '@appypeeps/clerk-react';
     // After
-    import { setErrorThrowerOptions } from '@clerk/clerk-react/internal';
+    import { setErrorThrowerOptions } from '@appypeeps/clerk-react/internal';
 
     // Before
-    import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@clerk/clerk-react';
+    import { isClerkAPIResponseError, isEmailLinkError, isKnownError, isMetamaskError } from '@appypeeps/clerk-react';
     // After
     import {
       isClerkAPIResponseError,
       isEmailLinkError,
       isKnownError,
       isMetamaskError,
-    } from '@clerk/clerk-react/errors';
+    } from '@appypeeps/clerk-react/errors';
 
     // Before
-    import { MultisessionAppSupport } from '@clerk/clerk-react';
+    import { MultisessionAppSupport } from '@appypeeps/clerk-react';
     // After
-    import { MultisessionAppSupport } from '@clerk/clerk-react/internal';
+    import { MultisessionAppSupport } from '@appypeeps/clerk-react/internal';
     ```
 
-  - Drop from the `@clerk/clerk-react` and all other clerk-react wrapper packages:
+  - Drop from the `@appypeeps/clerk-react` and all other clerk-react wrapper packages:
     - `__internal__setErrorThrowerOptions` internal utility (moved to /internal subpath)
     - `WithClerkProp` type
     - `MultisessionAppSupport` component (moved to /internal subpath)
     - `EmailLinkErrorCode` enum
   - Drop `StructureContext` and related errors to reduce code complexity since it seems that it was not being used.
-  - Drop `withUser`, `WithUser`, `withClerk` HOFs and `WithClerk`, `withSession`, `WithSession` HOCs from the `@clerk/clerk-react`
+  - Drop `withUser`, `WithUser`, `withClerk` HOFs and `WithClerk`, `withSession`, `WithSession` HOCs from the `@appypeeps/clerk-react`
     to reduce the export surface since it's trivial to implement if needed.
 
 - Drop `redirectToHome` redirect method in favour of `redirectToAfterSignUp` or `redirectToAfterSignIn`. ([#2251](https://github.com/clerk/javascript/pull/2251)) by [@octoper](https://github.com/octoper)
@@ -2546,7 +2546,7 @@
 - Add `useAssertWrappedByClerkProvider` to internal code. If you use hooks like `useAuth` outside of the `<ClerkProvider />` context an error will be thrown. For example: ([#2299](https://github.com/clerk/javascript/pull/2299)) by [@tmilewski](https://github.com/tmilewski)
 
   ```shell
-  @clerk/clerk-react: useAuth can only be used within the <ClerkProvider /> component
+  @appypeeps/clerk-react: useAuth can only be used within the <ClerkProvider /> component
   ```
 
 - Updated dependencies [[`896cb6104`](https://github.com/clerk/javascript/commit/896cb610409f84c0ff7a4f502f0b4ccee1afc157), [`69ce3e185`](https://github.com/clerk/javascript/commit/69ce3e185b89283956cb711629bc61703166b1c9), [`ab4eb56a5`](https://github.com/clerk/javascript/commit/ab4eb56a5c34baf496ebb8ac412ad6171b9bd79c), [`46040a2f3`](https://github.com/clerk/javascript/commit/46040a2f34d0991072fca490e031c1994b2e2296), [`75ea300bc`](https://github.com/clerk/javascript/commit/75ea300bce16a0ce401a225263bb267ad2a217b8), [`844847e0b`](https://github.com/clerk/javascript/commit/844847e0becf20243fba3c659b2b77a238dd270a)]:
@@ -2578,7 +2578,7 @@
 
 ### Minor Changes
 
-- Fix `@clerk/clerk-react` bundle output to resolve issues with vite / rollup ESM module imports. ([#2216](https://github.com/clerk/javascript/pull/2216)) by [@dimkl](https://github.com/dimkl)
+- Fix `@appypeeps/clerk-react` bundle output to resolve issues with vite / rollup ESM module imports. ([#2216](https://github.com/clerk/javascript/pull/2216)) by [@dimkl](https://github.com/dimkl)
 
   We have also used the `bundle` output to export a single index.ts and dropped the unnecessary
   published files / folders (eg `__tests__`).
@@ -2679,7 +2679,7 @@
   - use `import { Clerk } from '@clerk/clerk-sdk-node';`
   - use `import { Clerk } from '@clerk/clerk-js';`
   - use `import { Clerk } from '@clerk/clerk-js/headless';`
-  - use `import { IsomorphicClerk } from '@clerk/clerk-react'`
+  - use `import { IsomorphicClerk } from '@appypeeps/clerk-react'`
 
 - Drop deprecations. Migration steps: ([#2102](https://github.com/clerk/javascript/pull/2102)) by [@dimkl](https://github.com/dimkl)
 
@@ -2940,7 +2940,7 @@
 
 ### Patch Changes
 
-- Apply deprecation warnings for `@clerk/clerk-react`: ([#1788](https://github.com/clerk/javascript/pull/1788)) by [@dimkl](https://github.com/dimkl)
+- Apply deprecation warnings for `@appypeeps/clerk-react`: ([#1788](https://github.com/clerk/javascript/pull/1788)) by [@dimkl](https://github.com/dimkl)
 
   - `setSession`
 
@@ -3123,12 +3123,12 @@
 
 ### Minor Changes
 
-- ESM/CJS support for `@clerk/clerk-react` by [@nikosdouvlis](https://github.com/nikosdouvlis)
+- ESM/CJS support for `@appypeeps/clerk-react` by [@nikosdouvlis](https://github.com/nikosdouvlis)
 
   Changes that should affect users and OS contributors:
 
-  - Better source map support for `@clerk/clerk-react`, `@clerk/shared`. This affects anyone developing in our monorepo or anyone using a debugger with Clerk installed in their app.
-  - Easier node_modules debugging as `@clerk/clerk-react`, `@clerk/shared` and `@clerk/nextjs` are no longer getting bundled as a single-file package. This also improves error logging in nextjs a lot, as nextjs usually logs the line that threw the error - a minified, single-file package, usually consists of a very long single-line module, so logging error in NextJS wasn't ideal.
+  - Better source map support for `@appypeeps/clerk-react`, `@clerk/shared`. This affects anyone developing in our monorepo or anyone using a debugger with Clerk installed in their app.
+  - Easier node_modules debugging as `@appypeeps/clerk-react`, `@clerk/shared` and `@clerk/nextjs` are no longer getting bundled as a single-file package. This also improves error logging in nextjs a lot, as nextjs usually logs the line that threw the error - a minified, single-file package, usually consists of a very long single-line module, so logging error in NextJS wasn't ideal.
   - Headless clerk-js bundle size reduced by ~10kb, normal clerk-ks by ~6kb
   - A new `clerkJSVersion` prop has been added on ClerkProvider allowing to fetch a specific clerk-js version.
 
@@ -3138,461 +3138,461 @@
   - @clerk/types@3.41.1
   - @clerk/shared@0.18.0
 
-## [4.18.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.18.0-staging.1...@clerk/clerk-react@4.18.0) (2023-06-03)
+## [4.18.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.18.0-staging.1...@appypeeps/clerk-react@4.18.0) (2023-06-03)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.17.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.17.0-staging.0...@clerk/clerk-react@4.17.0) (2023-05-26)
+## [4.17.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.17.0-staging.0...@appypeeps/clerk-react@4.17.0) (2023-05-26)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.16.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.16.3-staging.2...@clerk/clerk-react@4.16.3) (2023-05-23)
+### [4.16.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.16.3-staging.2...@appypeeps/clerk-react@4.16.3) (2023-05-23)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.16.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.16.2-staging.0...@clerk/clerk-react@4.16.2) (2023-05-18)
+### [4.16.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.16.2-staging.0...@appypeeps/clerk-react@4.16.2) (2023-05-18)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.16.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.16.1-staging.1...@clerk/clerk-react@4.16.1) (2023-05-17)
+### [4.16.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.16.1-staging.1...@appypeeps/clerk-react@4.16.1) (2023-05-17)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.16.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.16.0-staging.2...@clerk/clerk-react@4.16.0) (2023-05-15)
+## [4.16.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.16.0-staging.2...@appypeeps/clerk-react@4.16.0) (2023-05-15)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.15.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.15.4-staging.5...@clerk/clerk-react@4.15.4) (2023-05-04)
+### [4.15.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.15.4-staging.5...@appypeeps/clerk-react@4.15.4) (2023-05-04)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.15.4-staging.5](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.15.4-staging.4...@clerk/clerk-react@4.15.4-staging.5) (2023-05-04)
+### [4.15.4-staging.5](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.15.4-staging.4...@appypeeps/clerk-react@4.15.4-staging.5) (2023-05-04)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.15.4-staging.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.15.4-staging.2...@clerk/clerk-react@4.15.4-staging.3) (2023-05-02)
+### [4.15.4-staging.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.15.4-staging.2...@appypeeps/clerk-react@4.15.4-staging.3) (2023-05-02)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.15.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.15.3-staging.0...@clerk/clerk-react@4.15.3) (2023-04-19)
+### [4.15.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.15.3-staging.0...@appypeeps/clerk-react@4.15.3) (2023-04-19)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.15.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.15.1...@clerk/clerk-react@4.15.2) (2023-04-19)
+### [4.15.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.15.1...@appypeeps/clerk-react@4.15.2) (2023-04-19)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.15.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.15.1-staging.0...@clerk/clerk-react@4.15.1) (2023-04-12)
+### [4.15.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.15.1-staging.0...@appypeeps/clerk-react@4.15.1) (2023-04-12)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.15.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.15.0-staging.0...@clerk/clerk-react@4.15.0) (2023-04-11)
+## [4.15.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.15.0-staging.0...@appypeeps/clerk-react@4.15.0) (2023-04-11)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.14.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.14.2-staging.0...@clerk/clerk-react@4.14.2) (2023-04-06)
+### [4.14.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.14.2-staging.0...@appypeeps/clerk-react@4.14.2) (2023-04-06)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.14.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.14.1-staging.3...@clerk/clerk-react@4.14.1) (2023-03-31)
+### [4.14.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.14.1-staging.3...@appypeeps/clerk-react@4.14.1) (2023-03-31)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.14.1-staging.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.14.1-staging.2...@clerk/clerk-react@4.14.1-staging.3) (2023-03-31)
+### [4.14.1-staging.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.14.1-staging.2...@appypeeps/clerk-react@4.14.1-staging.3) (2023-03-31)
 
 ### Bug Fixes
 
 - **clerk-react:** Check for window in isomorphicClerk ([fe82852](https://github.com/clerk/javascript/commit/fe828523c2bbdc2f3fc35ad5e30aea52b5438922))
 
-## [4.14.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.14.0-staging.1...@clerk/clerk-react@4.14.0) (2023-03-29)
+## [4.14.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.14.0-staging.1...@appypeeps/clerk-react@4.14.0) (2023-03-29)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.12.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.12.4-staging.2...@clerk/clerk-react@4.12.4) (2023-03-10)
+### [4.12.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.12.4-staging.2...@appypeeps/clerk-react@4.12.4) (2023-03-10)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.12.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.12.3-staging.0...@clerk/clerk-react@4.12.3) (2023-03-09)
+### [4.12.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.12.3-staging.0...@appypeeps/clerk-react@4.12.3) (2023-03-09)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.12.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.12.2-staging.0...@clerk/clerk-react@4.12.2) (2023-03-07)
+### [4.12.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.12.2-staging.0...@appypeeps/clerk-react@4.12.2) (2023-03-07)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.12.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.12.1-staging.1...@clerk/clerk-react@4.12.1) (2023-03-03)
+### [4.12.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.12.1-staging.1...@appypeeps/clerk-react@4.12.1) (2023-03-03)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.12.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.12.0-staging.0...@clerk/clerk-react@4.12.0) (2023-03-01)
+## [4.12.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.12.0-staging.0...@appypeeps/clerk-react@4.12.0) (2023-03-01)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.11.6](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.11.6-staging.0...@clerk/clerk-react@4.11.6) (2023-02-25)
+### [4.11.6](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.11.6-staging.0...@appypeeps/clerk-react@4.11.6) (2023-02-25)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.11.5](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.11.5-staging.3...@clerk/clerk-react@4.11.5) (2023-02-24)
+### [4.11.5](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.11.5-staging.3...@appypeeps/clerk-react@4.11.5) (2023-02-24)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.11.5-staging.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.11.5-staging.1...@clerk/clerk-react@4.11.5-staging.2) (2023-02-22)
+### [4.11.5-staging.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.11.5-staging.1...@appypeeps/clerk-react@4.11.5-staging.2) (2023-02-22)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.11.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.11.4-staging.0...@clerk/clerk-react@4.11.4) (2023-02-17)
+### [4.11.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.11.4-staging.0...@appypeeps/clerk-react@4.11.4) (2023-02-17)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.11.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.11.3-staging.2...@clerk/clerk-react@4.11.3) (2023-02-15)
+### [4.11.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.11.3-staging.2...@appypeeps/clerk-react@4.11.3) (2023-02-15)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.11.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.11.2-staging.1...@clerk/clerk-react@4.11.2) (2023-02-10)
+### [4.11.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.11.2-staging.1...@appypeeps/clerk-react@4.11.2) (2023-02-10)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.11.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.11.1-staging.0...@clerk/clerk-react@4.11.1) (2023-02-07)
+### [4.11.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.11.1-staging.0...@appypeeps/clerk-react@4.11.1) (2023-02-07)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.11.1-staging.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.11.0-staging.1...@clerk/clerk-react@4.11.1-staging.0) (2023-02-07)
+### [4.11.1-staging.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.11.0-staging.1...@appypeeps/clerk-react@4.11.1-staging.0) (2023-02-07)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.11.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.11.0-staging.1...@clerk/clerk-react@4.11.0) (2023-02-07)
+## [4.11.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.11.0-staging.1...@appypeeps/clerk-react@4.11.0) (2023-02-07)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.10.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.10.0-staging.0...@clerk/clerk-react@4.10.0) (2023-02-01)
+## [4.10.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.10.0-staging.0...@appypeeps/clerk-react@4.10.0) (2023-02-01)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.9.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.9.0-staging.1...@clerk/clerk-react@4.9.0) (2023-01-27)
+## [4.9.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.9.0-staging.1...@appypeeps/clerk-react@4.9.0) (2023-01-27)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.8.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.8.4-staging.1...@clerk/clerk-react@4.8.4) (2023-01-24)
+### [4.8.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.8.4-staging.1...@appypeeps/clerk-react@4.8.4) (2023-01-24)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.8.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.8.2...@clerk/clerk-react@4.8.3) (2023-01-20)
+### [4.8.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.8.2...@appypeeps/clerk-react@4.8.3) (2023-01-20)
 
 ### Bug Fixes
 
 - **nextjs,types:** Make frontendApi or publishableKey mutually exclusive but optional ([953c276](https://github.com/clerk/javascript/commit/953c27622ba24054172d6f4178bd5af50f73fa36))
 
-### [4.8.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.8.1...@clerk/clerk-react@4.8.2) (2023-01-19)
+### [4.8.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.8.1...@appypeeps/clerk-react@4.8.2) (2023-01-19)
 
 ### Bug Fixes
 
 - **clerk-react:** Do not throw missing key error if a Clerk instance is used ([a300016](https://github.com/clerk/javascript/commit/a3000164483e7ed947d448f7593e0ce4dd110db3))
 - **clerk-react:** Do not throw missing key error in isomorphicClerk.load ([8b3b763](https://github.com/clerk/javascript/commit/8b3b763ed67d3af101573627fc7b00fb0a526b9b))
 
-### [4.8.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.8.0...@clerk/clerk-react@4.8.1) (2023-01-17)
+### [4.8.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.8.0...@appypeeps/clerk-react@4.8.1) (2023-01-17)
 
 ### Bug Fixes
 
 - **clerk-react:** Add data-clerk-publishable-key attribute only when PK is available ([8d44f54](https://github.com/clerk/javascript/commit/8d44f54434754e2c31b4a77b58a28ae969ce5a09))
 
-## [4.8.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.8.0-staging.4...@clerk/clerk-react@4.8.0) (2023-01-17)
+## [4.8.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.8.0-staging.4...@appypeeps/clerk-react@4.8.0) (2023-01-17)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.7.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.7.0-staging.1...@clerk/clerk-react@4.7.0) (2022-12-19)
+## [4.7.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.7.0-staging.1...@appypeeps/clerk-react@4.7.0) (2022-12-19)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.6.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.6.4-staging.0...@clerk/clerk-react@4.6.4) (2022-12-13)
+### [4.6.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.6.4-staging.0...@appypeeps/clerk-react@4.6.4) (2022-12-13)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.6.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.6.2...@clerk/clerk-react@4.6.3) (2022-12-12)
+### [4.6.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.6.2...@appypeeps/clerk-react@4.6.3) (2022-12-12)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.6.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.6.2-staging.1...@clerk/clerk-react@4.6.2) (2022-12-09)
+### [4.6.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.6.2-staging.1...@appypeeps/clerk-react@4.6.2) (2022-12-09)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.6.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.6.0...@clerk/clerk-react@4.6.1) (2022-12-08)
+### [4.6.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.6.0...@appypeeps/clerk-react@4.6.1) (2022-12-08)
 
 ### Reverts
 
 - Revert "feat(clerk-js,types): Terse paths parameters (#572)" (#603) ([d535eac](https://github.com/clerk/javascript/commit/d535eace3d7733ce3b848bb05f1b0c02e5faf15d)), closes [#572](https://github.com/clerk/javascript/issues/572) [#603](https://github.com/clerk/javascript/issues/603)
 
-## [4.6.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.6.0-staging.0...@clerk/clerk-react@4.6.0) (2022-12-08)
+## [4.6.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.6.0-staging.0...@appypeeps/clerk-react@4.6.0) (2022-12-08)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.5.5](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.5.5-staging.0...@clerk/clerk-react@4.5.5) (2022-12-02)
+### [4.5.5](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.5.5-staging.0...@appypeeps/clerk-react@4.5.5) (2022-12-02)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.5.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.5.4-staging.5...@clerk/clerk-react@4.5.4) (2022-11-30)
+### [4.5.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.5.4-staging.5...@appypeeps/clerk-react@4.5.4) (2022-11-30)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.5.4-staging.5](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.5.4-staging.4...@clerk/clerk-react@4.5.4-staging.5) (2022-11-29)
+### [4.5.4-staging.5](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.5.4-staging.4...@appypeeps/clerk-react@4.5.4-staging.5) (2022-11-29)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.5.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.5.3-staging.0...@clerk/clerk-react@4.5.3) (2022-11-25)
+### [4.5.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.5.3-staging.0...@appypeeps/clerk-react@4.5.3) (2022-11-25)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.5.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.5.2-staging.0...@clerk/clerk-react@4.5.2) (2022-11-25)
+### [4.5.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.5.2-staging.0...@appypeeps/clerk-react@4.5.2) (2022-11-25)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.5.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.5.0...@clerk/clerk-react@4.5.1) (2022-11-23)
+### [4.5.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.5.0...@appypeeps/clerk-react@4.5.1) (2022-11-23)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.5.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.5.0-staging.3...@clerk/clerk-react@4.5.0) (2022-11-22)
+## [4.5.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.5.0-staging.3...@appypeeps/clerk-react@4.5.0) (2022-11-22)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.5.0-staging.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.5.0-staging.2...@clerk/clerk-react@4.5.0-staging.3) (2022-11-21)
+## [4.5.0-staging.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.5.0-staging.2...@appypeeps/clerk-react@4.5.0-staging.3) (2022-11-21)
 
 ### Bug Fixes
 
 - **clerk-react:** Add HeadlessBrowserClerk ([4236147](https://github.com/clerk/javascript/commit/4236147201b32e3f1d60ebbe2c36de8e89e5e2f6))
 
-## [4.5.0-staging.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.5.0-staging.1...@clerk/clerk-react@4.5.0-staging.2) (2022-11-21)
+## [4.5.0-staging.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.5.0-staging.1...@appypeeps/clerk-react@4.5.0-staging.2) (2022-11-21)
 
 ### Features
 
 - **clerk-js:** Improve DX for headless import ([8d64310](https://github.com/clerk/javascript/commit/8d64310ab23c6e21f8a687e503521245acad8211))
 
-### [4.4.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.4.3-staging.1...@clerk/clerk-react@4.4.3) (2022-11-18)
+### [4.4.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.4.3-staging.1...@appypeeps/clerk-react@4.4.3) (2022-11-18)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.4.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.4.2-staging.3...@clerk/clerk-react@4.4.2) (2022-11-15)
+### [4.4.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.4.2-staging.3...@appypeeps/clerk-react@4.4.2) (2022-11-15)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.4.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.4.1-staging.1...@clerk/clerk-react@4.4.1) (2022-11-10)
+### [4.4.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.4.1-staging.1...@appypeeps/clerk-react@4.4.1) (2022-11-10)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.4.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.4.0-staging.1...@clerk/clerk-react@4.4.0) (2022-11-05)
+## [4.4.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.4.0-staging.1...@appypeeps/clerk-react@4.4.0) (2022-11-05)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.3.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.3.3-staging.7...@clerk/clerk-react@4.3.3) (2022-11-03)
+### [4.3.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.3.3-staging.7...@appypeeps/clerk-react@4.3.3) (2022-11-03)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.3.3-staging.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.3.3-staging.3...@clerk/clerk-react@4.3.3-staging.4) (2022-11-02)
+### [4.3.3-staging.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.3.3-staging.3...@appypeeps/clerk-react@4.3.3-staging.4) (2022-11-02)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.3.3-staging.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.3.3-staging.1...@clerk/clerk-react@4.3.3-staging.3) (2022-11-02)
+### [4.3.3-staging.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.3.3-staging.1...@appypeeps/clerk-react@4.3.3-staging.3) (2022-11-02)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.3.3-staging.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.3.3-staging.1...@clerk/clerk-react@4.3.3-staging.2) (2022-11-02)
+### [4.3.3-staging.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.3.3-staging.1...@appypeeps/clerk-react@4.3.3-staging.2) (2022-11-02)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.3.3-staging.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.3.2...@clerk/clerk-react@4.3.3-staging.1) (2022-11-02)
+### [4.3.3-staging.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.3.2...@appypeeps/clerk-react@4.3.3-staging.1) (2022-11-02)
 
 ### Bug Fixes
 
 - **clerk-react:** Add frontendAPI on window as a fallback ([06f8b37](https://github.com/clerk/javascript/commit/06f8b3755cda83455e301591badaf16e1d59dd33))
 
-### [4.3.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.3.2-staging.0...@clerk/clerk-react@4.3.2) (2022-10-24)
+### [4.3.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.3.2-staging.0...@appypeeps/clerk-react@4.3.2) (2022-10-24)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.3.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.3.0...@clerk/clerk-react@4.3.1) (2022-10-14)
+### [4.3.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.3.0...@appypeeps/clerk-react@4.3.1) (2022-10-14)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.3.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.3.0-staging.2...@clerk/clerk-react@4.3.0) (2022-10-14)
+## [4.3.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.3.0-staging.2...@appypeeps/clerk-react@4.3.0) (2022-10-14)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.3.0-staging.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.2.6...@clerk/clerk-react@4.3.0-staging.1) (2022-10-13)
+## [4.3.0-staging.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.2.6...@appypeeps/clerk-react@4.3.0-staging.1) (2022-10-13)
 
 ### Features
 
 - **clerk-js,clerk-react,types:** Wire up `OrganizationSwitcher` and `OrganizationProfile` ([1e34e69](https://github.com/clerk/javascript/commit/1e34e6986ee49aeb9ca9f72cdc5d799d6611b53f))
 
-### [4.2.6](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.2.6-staging.0...@clerk/clerk-react@4.2.6) (2022-10-07)
+### [4.2.6](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.2.6-staging.0...@appypeeps/clerk-react@4.2.6) (2022-10-07)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.2.5](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.2.5-staging.0...@clerk/clerk-react@4.2.5) (2022-10-05)
+### [4.2.5](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.2.5-staging.0...@appypeeps/clerk-react@4.2.5) (2022-10-05)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.2.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.2.4-staging.3...@clerk/clerk-react@4.2.4) (2022-10-03)
+### [4.2.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.2.4-staging.3...@appypeeps/clerk-react@4.2.4) (2022-10-03)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.2.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.2.3-staging.4...@clerk/clerk-react@4.2.3) (2022-09-29)
+### [4.2.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.2.3-staging.4...@appypeeps/clerk-react@4.2.3) (2022-09-29)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.2.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.2.1...@clerk/clerk-react@4.2.2) (2022-09-25)
+### [4.2.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.2.1...@appypeeps/clerk-react@4.2.2) (2022-09-25)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.2.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.2.1-staging.2...@clerk/clerk-react@4.2.1) (2022-09-24)
+### [4.2.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.2.1-staging.2...@appypeeps/clerk-react@4.2.1) (2022-09-24)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.2.1-staging.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.2.1-staging.0...@clerk/clerk-react@4.2.1-staging.1) (2022-09-24)
+### [4.2.1-staging.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.2.1-staging.0...@appypeeps/clerk-react@4.2.1-staging.1) (2022-09-24)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.2.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.2.0-staging.0...@clerk/clerk-react@4.2.0) (2022-09-22)
+## [4.2.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.2.0-staging.0...@appypeeps/clerk-react@4.2.0) (2022-09-22)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.1.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.1.0-staging.4...@clerk/clerk-react@4.1.1) (2022-09-19)
+### [4.1.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.1.0-staging.4...@appypeeps/clerk-react@4.1.1) (2022-09-19)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.1.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.1.0-staging.4...@clerk/clerk-react@4.1.0) (2022-09-16)
+## [4.1.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.1.0-staging.4...@appypeeps/clerk-react@4.1.0) (2022-09-16)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.0.10](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.0.10-staging.0...@clerk/clerk-react@4.0.10) (2022-09-07)
+### [4.0.10](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.0.10-staging.0...@appypeeps/clerk-react@4.0.10) (2022-09-07)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.0.9](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.0.9-staging.0...@clerk/clerk-react@4.0.9) (2022-09-07)
+### [4.0.9](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.0.9-staging.0...@appypeeps/clerk-react@4.0.9) (2022-09-07)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.0.8](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.0.8-staging.0...@clerk/clerk-react@4.0.8) (2022-08-29)
+### [4.0.8](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.0.8-staging.0...@appypeeps/clerk-react@4.0.8) (2022-08-29)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.0.7](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.0.7-staging.2...@clerk/clerk-react@4.0.7) (2022-08-29)
+### [4.0.7](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.0.7-staging.2...@appypeeps/clerk-react@4.0.7) (2022-08-29)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.0.6](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.0.6-staging.0...@clerk/clerk-react@4.0.6) (2022-08-24)
+### [4.0.6](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.0.6-staging.0...@appypeeps/clerk-react@4.0.6) (2022-08-24)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.0.5](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.0.4...@clerk/clerk-react@4.0.5) (2022-08-18)
+### [4.0.5](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.0.4...@appypeeps/clerk-react@4.0.5) (2022-08-18)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.0.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.0.4-staging.0...@clerk/clerk-react@4.0.4) (2022-08-18)
+### [4.0.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.0.4-staging.0...@appypeeps/clerk-react@4.0.4) (2022-08-18)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.0.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.0.2...@clerk/clerk-react@4.0.3) (2022-08-16)
+### [4.0.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.0.2...@appypeeps/clerk-react@4.0.3) (2022-08-16)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.0.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.0.2-staging.0...@clerk/clerk-react@4.0.2) (2022-08-09)
+### [4.0.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.0.2-staging.0...@appypeeps/clerk-react@4.0.2) (2022-08-09)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [4.0.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.0.0...@clerk/clerk-react@4.0.1) (2022-08-07)
+### [4.0.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.0.0...@appypeeps/clerk-react@4.0.1) (2022-08-07)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [4.0.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@4.0.0-staging.1...@clerk/clerk-react@4.0.0) (2022-08-05)
+## [4.0.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@4.0.0-staging.1...@appypeeps/clerk-react@4.0.0) (2022-08-05)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.5.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.5.0...@clerk/clerk-react@3.5.1) (2022-08-04)
+### [3.5.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.5.0...@appypeeps/clerk-react@3.5.1) (2022-08-04)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [3.5.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.4.5...@clerk/clerk-react@3.5.0) (2022-07-13)
+## [3.5.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.4.5...@appypeeps/clerk-react@3.5.0) (2022-07-13)
 
 ### Features
 
 - **nextjs:** Add req.organization access on gssp ([d064448](https://github.com/clerk/javascript/commit/d0644489a71e06df0e751c615b0d03d77967aab2))
 - **types,clerk-react,nextjs:** Add loadOrg option for Next.js withServerSideAuth middleware ([0889bde](https://github.com/clerk/javascript/commit/0889bde9bc7f9e1a5d4c1e706c49212e1f7b36f4))
 
-### [3.4.5](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.4.5-staging.0...@clerk/clerk-react@3.4.5) (2022-07-11)
+### [3.4.5](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.4.5-staging.0...@appypeeps/clerk-react@3.4.5) (2022-07-11)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.4.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.4.3...@clerk/clerk-react@3.4.4) (2022-07-07)
+### [3.4.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.4.3...@appypeeps/clerk-react@3.4.4) (2022-07-07)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.4.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.4.2...@clerk/clerk-react@3.4.3) (2022-07-06)
+### [3.4.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.4.2...@appypeeps/clerk-react@3.4.3) (2022-07-06)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.4.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.4.1...@clerk/clerk-react@3.4.2) (2022-07-01)
+### [3.4.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.4.1...@appypeeps/clerk-react@3.4.2) (2022-07-01)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.4.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.4.0...@clerk/clerk-react@3.4.1) (2022-06-24)
+### [3.4.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.4.0...@appypeeps/clerk-react@3.4.1) (2022-06-24)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [3.4.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.4.0-staging.0...@clerk/clerk-react@3.4.0) (2022-06-16)
+## [3.4.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.4.0-staging.0...@appypeeps/clerk-react@3.4.0) (2022-06-16)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [3.3.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.3.0-staging.4...@clerk/clerk-react@3.3.0) (2022-06-06)
+## [3.3.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.3.0-staging.4...@appypeeps/clerk-react@3.3.0) (2022-06-06)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [3.3.0-staging.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.3.0-staging.3...@clerk/clerk-react@3.3.0-staging.4) (2022-06-03)
+## [3.3.0-staging.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.3.0-staging.3...@appypeeps/clerk-react@3.3.0-staging.4) (2022-06-03)
 
 ### Bug Fixes
 
 - **clerk-react:** Correct annotations in isomorphicClerk for setSession ([56abc04](https://github.com/clerk/javascript/commit/56abc04e82ed4adf9f1c366620e08526d52da0f5))
 
-## [3.3.0-staging.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.3.0-staging.2...@clerk/clerk-react@3.3.0-staging.3) (2022-06-03)
+## [3.3.0-staging.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.3.0-staging.2...@appypeeps/clerk-react@3.3.0-staging.3) (2022-06-03)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [3.3.0-staging.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.3.0-staging.1...@clerk/clerk-react@3.3.0-staging.2) (2022-06-02)
+## [3.3.0-staging.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.3.0-staging.1...@appypeeps/clerk-react@3.3.0-staging.2) (2022-06-02)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [3.3.0-staging.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.3.0-staging.0...@clerk/clerk-react@3.3.0-staging.1) (2022-06-01)
+## [3.3.0-staging.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.3.0-staging.0...@appypeeps/clerk-react@3.3.0-staging.1) (2022-06-01)
 
 ### Bug Fixes
 
 - **clerk-js:** Emit changes in organization to listeners ([798ee62](https://github.com/clerk/javascript/commit/798ee622e7961d3aa7f8842184f5fadbcfed517f))
 
-### [3.2.18](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.18-staging.1...@clerk/clerk-react@3.2.18) (2022-05-20)
+### [3.2.18](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.18-staging.1...@appypeeps/clerk-react@3.2.18) (2022-05-20)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.18-staging.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.17...@clerk/clerk-react@3.2.18-staging.1) (2022-05-18)
+### [3.2.18-staging.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.17...@appypeeps/clerk-react@3.2.18-staging.1) (2022-05-18)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.18-staging.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.17...@clerk/clerk-react@3.2.18-staging.0) (2022-05-17)
+### [3.2.18-staging.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.17...@appypeeps/clerk-react@3.2.18-staging.0) (2022-05-17)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.17](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.14...@clerk/clerk-react@3.2.17) (2022-05-13)
+### [3.2.17](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.14...@appypeeps/clerk-react@3.2.17) (2022-05-13)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.16](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.14...@clerk/clerk-react@3.2.16) (2022-05-12)
+### [3.2.16](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.14...@appypeeps/clerk-react@3.2.16) (2022-05-12)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.15](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.14...@clerk/clerk-react@3.2.15) (2022-05-12)
+### [3.2.15](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.14...@appypeeps/clerk-react@3.2.15) (2022-05-12)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.14](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.14-staging.0...@clerk/clerk-react@3.2.14) (2022-05-11)
+### [3.2.14](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.14-staging.0...@appypeeps/clerk-react@3.2.14) (2022-05-11)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.13](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.12...@clerk/clerk-react@3.2.13) (2022-05-06)
+### [3.2.13](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.12...@appypeeps/clerk-react@3.2.13) (2022-05-06)
 
 ### Bug Fixes
 
@@ -3600,7 +3600,7 @@
 - **clerk-react:** Make isomorphicClerk loading idempotent ([91b6217](https://github.com/clerk/javascript/commit/91b62175cadd82b38747cc6d7a0216f42c89b5fe))
 - **clerk-react:** Pass initialState directly to ClerkContextProvider ([9e55b7c](https://github.com/clerk/javascript/commit/9e55b7c2cafdcbcf6d8c210e668a22e07580cdb6))
 
-### [3.2.13-staging.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.12...@clerk/clerk-react@3.2.13-staging.0) (2022-05-05)
+### [3.2.13-staging.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.12...@appypeeps/clerk-react@3.2.13-staging.0) (2022-05-05)
 
 ### Bug Fixes
 
@@ -3608,169 +3608,169 @@
 - **clerk-react:** Make isomorphicClerk loading idempotent ([221919c](https://github.com/clerk/javascript/commit/221919ceab5ad1631073f8ba7564c869ebf7a890))
 - **clerk-react:** Pass initialState directly to ClerkContextProvider ([cb777d4](https://github.com/clerk/javascript/commit/cb777d4651710fda248036fdc5398e0dac7aa337))
 
-### [3.2.12](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.12-staging.0...@clerk/clerk-react@3.2.12) (2022-05-05)
+### [3.2.12](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.12-staging.0...@appypeeps/clerk-react@3.2.12) (2022-05-05)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.11](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.11-staging.0...@clerk/clerk-react@3.2.11) (2022-04-28)
+### [3.2.11](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.11-staging.0...@appypeeps/clerk-react@3.2.11) (2022-04-28)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.10](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.9...@clerk/clerk-react@3.2.10) (2022-04-27)
+### [3.2.10](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.9...@appypeeps/clerk-react@3.2.10) (2022-04-27)
 
 ### Bug Fixes
 
 - **clerk-react:** Define global in window if not defined ([48da3ac](https://github.com/clerk/javascript/commit/48da3ac087406a97380f28c4c9e1057e04eb106f))
 
-### [3.2.9](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.8...@clerk/clerk-react@3.2.9) (2022-04-27)
+### [3.2.9](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.8...@appypeeps/clerk-react@3.2.9) (2022-04-27)
 
 ### Bug Fixes
 
 - **clerk-react:** Type updates for React 18 ([6d5c0bf](https://github.com/clerk/javascript/commit/6d5c0bf33e17885cacd97320c385cf06ca4f5adf))
 
-### [3.2.8](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.8-staging.1...@clerk/clerk-react@3.2.8) (2022-04-19)
+### [3.2.8](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.8-staging.1...@appypeeps/clerk-react@3.2.8) (2022-04-19)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.8-staging.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.8-staging.0...@clerk/clerk-react@3.2.8-staging.1) (2022-04-19)
+### [3.2.8-staging.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.8-staging.0...@appypeeps/clerk-react@3.2.8-staging.1) (2022-04-19)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.7](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.7-alpha.0...@clerk/clerk-react@3.2.7) (2022-04-18)
+### [3.2.7](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.7-alpha.0...@appypeeps/clerk-react@3.2.7) (2022-04-18)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.7-alpha.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.6...@clerk/clerk-react@3.2.7-alpha.0) (2022-04-15)
+### [3.2.7-alpha.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.6...@appypeeps/clerk-react@3.2.7-alpha.0) (2022-04-15)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.6](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.5...@clerk/clerk-react@3.2.6) (2022-04-15)
+### [3.2.6](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.5...@appypeeps/clerk-react@3.2.6) (2022-04-15)
 
 ### Bug Fixes
 
 - **clerk-react:** Explicitly type children for React.FC components ([#199](https://github.com/clerk/javascript/issues/199)) ([9fb2ce4](https://github.com/clerk/javascript/commit/9fb2ce46e1e7f60fd31deae43fd1afaf5a1abc62))
 
-### [3.2.5](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.5-staging.0...@clerk/clerk-react@3.2.5) (2022-04-15)
+### [3.2.5](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.5-staging.0...@appypeeps/clerk-react@3.2.5) (2022-04-15)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.4-staging.0...@clerk/clerk-react@3.2.4) (2022-04-13)
+### [3.2.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.4-staging.0...@appypeeps/clerk-react@3.2.4) (2022-04-13)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.2...@clerk/clerk-react@3.2.3) (2022-04-07)
+### [3.2.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.2...@appypeeps/clerk-react@3.2.3) (2022-04-07)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.2-staging.0...@clerk/clerk-react@3.2.2) (2022-04-04)
+### [3.2.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.2-staging.0...@appypeeps/clerk-react@3.2.2) (2022-04-04)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.2.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.1-staging.0...@clerk/clerk-react@3.2.1) (2022-03-28)
+### [3.2.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.1-staging.0...@appypeeps/clerk-react@3.2.1) (2022-03-28)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [3.2.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.2.0-alpha.0...@clerk/clerk-react@3.2.0) (2022-03-24)
+## [3.2.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.2.0-alpha.0...@appypeeps/clerk-react@3.2.0) (2022-03-24)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [3.2.0-staging.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.1.2-staging.0...@clerk/clerk-react@3.2.0-staging.0) (2022-03-24)
+## [3.2.0-staging.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.1.2-staging.0...@appypeeps/clerk-react@3.2.0-staging.0) (2022-03-24)
 
 ### Features
 
 - **types,clerk-js,backend-core,clerk-react:** Replace thrown error with null return in getToken ([d972f93](https://github.com/clerk/javascript/commit/d972f93684a39abf3619c335cc012b61d5187100))
 
-### [3.1.1-alpha.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.1.1-staging.0...@clerk/clerk-react@3.1.1-alpha.0) (2022-03-23)
+### [3.1.1-alpha.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.1.1-staging.0...@appypeeps/clerk-react@3.1.1-alpha.0) (2022-03-23)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [3.1.0-alpha.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.1.0-alpha.1...@clerk/clerk-react@3.1.0-alpha.2) (2022-03-23)
+## [3.1.0-alpha.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.1.0-alpha.1...@appypeeps/clerk-react@3.1.0-alpha.2) (2022-03-23)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-## [3.1.0-alpha.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.0.1-alpha.3...@clerk/clerk-react@3.1.0-alpha.1) (2022-03-23)
+## [3.1.0-alpha.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.0.1-alpha.3...@appypeeps/clerk-react@3.1.0-alpha.1) (2022-03-23)
 
 ### Features
 
 - **clerk-js,types:** Rename UserButton params to afterSignOutUrl, afterMultiSessionSingleSignOutUrl ([c4cb76a](https://github.com/clerk/javascript/commit/c4cb76a1133fd2308b217cacaffb086b175f6347))
 
-## [3.1.0-alpha.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.0.1-alpha.3...@clerk/clerk-react@3.1.0-alpha.0) (2022-03-22)
+## [3.1.0-alpha.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.0.1-alpha.3...@appypeeps/clerk-react@3.1.0-alpha.0) (2022-03-22)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.0.1-alpha.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.0.1-alpha.2...@clerk/clerk-react@3.0.1-alpha.3) (2022-03-22)
+### [3.0.1-alpha.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.0.1-alpha.2...@appypeeps/clerk-react@3.0.1-alpha.3) (2022-03-22)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [3.0.1-alpha.2](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.0.1-staging.0...@clerk/clerk-react@3.0.1-alpha.2) (2022-03-22)
-
-### Bug Fixes
-
-- **clerk-js,clerk-react:** Move error to getToken ([d5f6b26](https://github.com/clerk/javascript/commit/d5f6b264cf58ce40c68de298b4c7c564d472001f))
-- **edge:** Align react getToken ([37a03de](https://github.com/clerk/javascript/commit/37a03de81148294909719d4476b0a2ac3642813c))
-
-### [3.0.1-alpha.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.0.1-staging.0...@clerk/clerk-react@3.0.1-alpha.1) (2022-03-20)
+### [3.0.1-alpha.2](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.0.1-staging.0...@appypeeps/clerk-react@3.0.1-alpha.2) (2022-03-22)
 
 ### Bug Fixes
 
 - **clerk-js,clerk-react:** Move error to getToken ([d5f6b26](https://github.com/clerk/javascript/commit/d5f6b264cf58ce40c68de298b4c7c564d472001f))
 - **edge:** Align react getToken ([37a03de](https://github.com/clerk/javascript/commit/37a03de81148294909719d4476b0a2ac3642813c))
 
-### [3.0.1-alpha.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@3.0.1-staging.0...@clerk/clerk-react@3.0.1-alpha.0) (2022-03-19)
+### [3.0.1-alpha.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.0.1-staging.0...@appypeeps/clerk-react@3.0.1-alpha.1) (2022-03-20)
+
+### Bug Fixes
+
+- **clerk-js,clerk-react:** Move error to getToken ([d5f6b26](https://github.com/clerk/javascript/commit/d5f6b264cf58ce40c68de298b4c7c564d472001f))
+- **edge:** Align react getToken ([37a03de](https://github.com/clerk/javascript/commit/37a03de81148294909719d4476b0a2ac3642813c))
+
+### [3.0.1-alpha.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@3.0.1-staging.0...@appypeeps/clerk-react@3.0.1-alpha.0) (2022-03-19)
 
 ### Bug Fixes
 
 - **clerk-js,clerk-react:** Move error to getToken ([84d21ce](https://github.com/clerk/javascript/commit/84d21ceac26843a1caa9d9d58f9c10ea2da6395e))
 - **edge:** Align react getToken ([37a03de](https://github.com/clerk/javascript/commit/37a03de81148294909719d4476b0a2ac3642813c))
 
-## [3.0.0-alpha.10](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.12.3...@clerk/clerk-react@3.0.0-alpha.10) (2022-03-11)
+## [3.0.0-alpha.10](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.12.3...@appypeeps/clerk-react@3.0.0-alpha.10) (2022-03-11)
 
 ### Features
 
 - **clerk-react:** Add isLoaded to `useOrganizations` hook ([#92](https://github.com/clerk/javascript/issues/92)) ([a316c7a](https://github.com/clerk/javascript/commit/a316c7a9d66f356639038ce89b5853625e44d4b7))
 - **clerk-remix:** Mark clerk-remix as side-effect free to fix Remix bundling ([c57a902](https://github.com/clerk/javascript/commit/c57a9024674a61aa3f2b7e359935e42fc034ffdd))
 
-## [3.0.0-alpha.9](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.11.4...@clerk/clerk-react@3.0.0-alpha.9) (2022-02-28)
+## [3.0.0-alpha.9](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.11.4...@appypeeps/clerk-react@3.0.0-alpha.9) (2022-02-28)
 
 ### Features
 
 - **clerk-remix:** Mark clerk-remix as side-effect free to fix Remix bundling ([c57a902](https://github.com/clerk/javascript/commit/c57a9024674a61aa3f2b7e359935e42fc034ffdd))
 
-## [3.0.0-alpha.8](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.11.4...@clerk/clerk-react@3.0.0-alpha.8) (2022-02-25)
+## [3.0.0-alpha.8](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.11.4...@appypeeps/clerk-react@3.0.0-alpha.8) (2022-02-25)
 
 ### Features
 
 - **clerk-remix:** Mark clerk-remix as side-effect free to fix Remix bundling ([287a438](https://github.com/clerk/javascript/commit/287a4381d7ebefdf8704e2e29a75ac93f57794c8))
 
-## [3.0.0-alpha.7](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.11.1...@clerk/clerk-react@3.0.0-alpha.7) (2022-02-18)
+## [3.0.0-alpha.7](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.11.1...@appypeeps/clerk-react@3.0.0-alpha.7) (2022-02-18)
 
 ### Features
 
 - **clerk-remix:** Mark clerk-remix as side-effect free to fix Remix bundling ([0d22857](https://github.com/clerk/javascript/commit/0d22857197e5d1d2edc4d4df55916009f404dbdd))
 
-### [2.12.6](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.12.6-staging.1...@clerk/clerk-react@2.12.6) (2022-03-17)
+### [2.12.6](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.12.6-staging.1...@appypeeps/clerk-react@2.12.6) (2022-03-17)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [2.12.6-staging.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.12.6-staging.0...@clerk/clerk-react@2.12.6-staging.1) (2022-03-17)
+### [2.12.6-staging.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.12.6-staging.0...@appypeeps/clerk-react@2.12.6-staging.1) (2022-03-17)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [2.12.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.12.3...@clerk/clerk-react@2.12.4) (2022-03-11)
+### [2.12.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.12.3...@appypeeps/clerk-react@2.12.4) (2022-03-11)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [2.12.3](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.12.3-staging.0...@clerk/clerk-react@2.12.3) (2022-03-09)
+### [2.12.3](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.12.3-staging.0...@appypeeps/clerk-react@2.12.3) (2022-03-09)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [2.12.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.12.0...@clerk/clerk-react@2.12.1) (2022-03-04)
+### [2.12.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.12.0...@appypeeps/clerk-react@2.12.1) (2022-03-04)
 
 ### Bug Fixes
 
 - **clerk-react,clerk-js,types:** Crate of API feedback fixes ([721ce72](https://github.com/clerk/javascript/commit/721ce7228c37b012891b2bec8caf290239164d05))
 
-## [2.12.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.11.7...@clerk/clerk-react@2.12.0) (2022-03-04)
+## [2.12.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.11.7...@appypeeps/clerk-react@2.12.0) (2022-03-04)
 
 ### Features
 
@@ -3778,37 +3778,37 @@
 - **clerk-js:** Add useOrganization hook ([480c422](https://github.com/clerk/javascript/commit/480c422774472fc712afdfe6ded2677b458d3ef0))
 - **clerk-react,clerk-js:** Add useOrganization hook using \_\_unstable attribute ([1635132](https://github.com/clerk/javascript/commit/16351321a99945d167cbf6e6ca0efdbbbf7efe5a))
 
-### [2.11.7](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.11.6...@clerk/clerk-react@2.11.7) (2022-03-03)
+### [2.11.7](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.11.6...@appypeeps/clerk-react@2.11.7) (2022-03-03)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [2.11.6](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.11.5...@clerk/clerk-react@2.11.6) (2022-03-02)
+### [2.11.6](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.11.5...@appypeeps/clerk-react@2.11.6) (2022-03-02)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [2.11.5](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.11.4...@clerk/clerk-react@2.11.5) (2022-03-01)
+### [2.11.5](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.11.4...@appypeeps/clerk-react@2.11.5) (2022-03-01)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [2.11.4](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.11.4-staging.0...@clerk/clerk-react@2.11.4) (2022-02-24)
+### [2.11.4](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.11.4-staging.0...@appypeeps/clerk-react@2.11.4) (2022-02-24)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [2.11.4-staging.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.11.3-staging.0...@clerk/clerk-react@2.11.4-staging.0) (2022-02-24)
+### [2.11.4-staging.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.11.3-staging.0...@appypeeps/clerk-react@2.11.4-staging.0) (2022-02-24)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [2.11.3-staging.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.11.2-staging.0...@clerk/clerk-react@2.11.3-staging.0) (2022-02-17)
+### [2.11.3-staging.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.11.2-staging.0...@appypeeps/clerk-react@2.11.3-staging.0) (2022-02-17)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [2.11.2-staging.0](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.11.1...@clerk/clerk-react@2.11.2-staging.0) (2022-02-15)
+### [2.11.2-staging.0](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.11.1...@appypeeps/clerk-react@2.11.2-staging.0) (2022-02-15)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
-### [2.11.1](https://github.com/clerk/javascript/compare/@clerk/clerk-react@2.11.1-staging.0...@clerk/clerk-react@2.11.1) (2022-02-14)
+### [2.11.1](https://github.com/clerk/javascript/compare/@appypeeps/clerk-react@2.11.1-staging.0...@appypeeps/clerk-react@2.11.1) (2022-02-14)
 
-**Note:** Version bump only for package @clerk/clerk-react
+**Note:** Version bump only for package @appypeeps/clerk-react
 
 ### 2.11.1-staging.0 (2022-02-11)
 

@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/upgrade",
-  "version": "1.2.4",
+  "name": "@appypeeps/clerk-upgrade",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/clerk/javascript.git",
@@ -58,6 +58,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

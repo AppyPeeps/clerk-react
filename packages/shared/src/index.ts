@@ -5,7 +5,7 @@
  * The following folders are also not exported on purpose:
  * - react
  *
- * People should always use @clerk/shared/<name> instead
+ * People should always use @appypeeps/clerk-shared/<name> instead
  */
 
 export * from './utils';

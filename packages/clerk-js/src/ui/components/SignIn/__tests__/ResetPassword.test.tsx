@@ -1,4 +1,4 @@
-import type { SignInResource } from '@clerk/types';
+import type { SignInResource } from '@appypeeps/clerk-types';
 import { describe, it } from '@jest/globals';
 
 import { fireEvent, render, screen, waitFor } from '../../../../testUtils';

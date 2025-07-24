@@ -1,6 +1,6 @@
-import type { SignedInAuthObject, SignedOutAuthObject } from '@clerk/backend/internal';
-import { makeAuthObjectSerializable, stripPrivateDataFromObject } from '@clerk/backend/internal';
-import type { InitialState } from '@clerk/types';
+import type { SignedInAuthObject, SignedOutAuthObject } from '@appypeeps/clerk-backend/internal';
+import { makeAuthObjectSerializable, stripPrivateDataFromObject } from '@appypeeps/clerk-backend/internal';
+import type { InitialState } from '@appypeeps/clerk-types';
 import type { H3Event } from 'h3';
 import { getRequestHeaders, getRequestProtocol } from 'h3';
 

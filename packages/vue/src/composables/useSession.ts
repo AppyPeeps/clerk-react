@@ -1,4 +1,4 @@
-import type { PendingSessionOptions, UseSessionReturn } from '@clerk/types';
+import type { PendingSessionOptions, UseSessionReturn } from '@appypeeps/clerk-types';
 import { computed } from 'vue';
 
 import type { ToComputedRefs } from '../utils';
@@ -13,7 +13,7 @@ type UseSession = (options?: PendingSessionOptions) => ToComputedRefs<UseSession
  *
  * @example
  * <script setup>
- * import { useSession } from '@clerk/vue'
+ * import { useSession } from '@appypeeps/clerk-vue'
  *
  * const { isLoaded, session, isSignedIn } = useSession()
  * </script>

@@ -1,5 +1,5 @@
-import { isCaptchaError, isClerkAPIResponseError } from '@clerk/shared/error';
-import { Poller } from '@clerk/shared/poller';
+import { isCaptchaError, isClerkAPIResponseError } from '@appypeeps/clerk-shared/error';
+import { Poller } from '@appypeeps/clerk-shared/poller';
 import type {
   AttemptEmailAddressVerificationParams,
   AttemptPhoneNumberVerificationParams,
@@ -24,7 +24,7 @@ import type {
   SignUpUpdateParams,
   StartEmailLinkFlowParams,
   Web3Provider,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import {
   generateSignatureWithCoinbaseWallet,

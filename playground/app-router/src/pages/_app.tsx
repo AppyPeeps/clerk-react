@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app';
 
-import { ClerkProvider } from '@clerk/nextjs';
+import { ClerkProvider } from '@appypeeps/clerk-nextjs';
 import React from 'react';
 import { Links } from '@/common/Links';
 

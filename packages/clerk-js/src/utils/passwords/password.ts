@@ -1,5 +1,5 @@
-import { noop } from '@clerk/shared/utils';
-import type { PasswordSettingsData, PasswordValidation, ValidatePasswordCallbacks } from '@clerk/types';
+import { noop } from '@appypeeps/clerk-shared/utils';
+import type { PasswordSettingsData, PasswordValidation, ValidatePasswordCallbacks } from '@appypeeps/clerk-types';
 
 import { loadZxcvbn } from '../zxcvbn';
 import { createValidateComplexity } from './complexity';

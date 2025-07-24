@@ -1,5 +1,5 @@
-import { getNonUndefinedValues } from '@clerk/shared/underscore';
-import type { ClerkPaginationParams } from '@clerk/types';
+import { getNonUndefinedValues } from '@appypeeps/clerk-shared/underscore';
+import type { ClerkPaginationParams } from '@appypeeps/clerk-types';
 
 export function convertPageToOffsetSearchParams<T>(pageParams: ClerkPaginationParams<T> | undefined) {
   const { pageSize, initialPage, ...restParams } = pageParams || ({} as ClerkPaginationParams);

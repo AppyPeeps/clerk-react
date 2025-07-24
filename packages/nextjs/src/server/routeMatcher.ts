@@ -1,5 +1,5 @@
-import { createPathMatcher, type WithPathPatternWildcard } from '@clerk/shared/pathMatcher';
-import type { Autocomplete } from '@clerk/types';
+import { createPathMatcher, type WithPathPatternWildcard } from '@appypeeps/clerk-shared/pathMatcher';
+import type { Autocomplete } from '@appypeeps/clerk-types';
 import type Link from 'next/link';
 import type { NextRequest } from 'next/server';
 

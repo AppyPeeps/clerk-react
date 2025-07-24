@@ -1,5 +1,5 @@
-import type { ClerkClient } from '@clerk/backend';
-import type { SignedInAuthObject, SignedOutAuthObject } from '@clerk/backend/internal';
+import type { ClerkClient } from '@appypeeps/clerk-backend';
+import type { SignedInAuthObject, SignedOutAuthObject } from '@appypeeps/clerk-backend/internal';
 
 import type { ClerkTool } from './clerk-tool';
 

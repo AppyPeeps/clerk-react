@@ -1,4 +1,4 @@
-import { constants } from '@clerk/backend/internal';
+import { constants } from '@appypeeps/clerk-backend/internal';
 import type { NextRequest } from 'next/server';
 
 import type { RequestLike } from './types';

@@ -1,4 +1,4 @@
-import type { AuthenticatedMachineObject } from '@clerk/backend/internal';
+import type { AuthenticatedMachineObject } from '@appypeeps/clerk-backend/internal';
 
 import { getAuth } from '../getAuth';
 import { mockRequest, mockRequestWithAuth } from './helpers';

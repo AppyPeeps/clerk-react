@@ -1,5 +1,5 @@
-import { without } from '@clerk/shared/object';
-import { isDeeplyEqual } from '@clerk/shared/react';
+import { without } from '@appypeeps/clerk-shared/object';
+import { isDeeplyEqual } from '@appypeeps/clerk-shared/react';
 import type { PropsWithChildren } from 'react';
 import React from 'react';
 

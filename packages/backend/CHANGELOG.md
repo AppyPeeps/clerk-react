@@ -1972,7 +1972,7 @@
   - use `import { Clerk } from '@clerk/clerk-sdk-node';`
   - use `import { Clerk } from '@clerk/clerk-js';`
   - use `import { Clerk } from '@clerk/clerk-js/headless';`
-  - use `import { IsomorphicClerk } from '@clerk/clerk-react'`
+  - use `import { IsomorphicClerk } from '@appypeeps/clerk-react'`
 - 244de5ea3: Make all listing API requests to return consistent `{ data: Resource[], totalCount: number }`.
 
   Support pagination request params `{ limit, offset }` to:
@@ -3344,7 +3344,7 @@
   - use `import { Clerk } from '@clerk/clerk-sdk-node';`
   - use `import { Clerk } from '@clerk/clerk-js';`
   - use `import { Clerk } from '@clerk/clerk-js/headless';`
-  - use `import { IsomorphicClerk } from '@clerk/clerk-react'`
+  - use `import { IsomorphicClerk } from '@appypeeps/clerk-react'`
 
 - Change the response payload of Backend API requests to return `{ data, errors }` instead of return the data and throwing on error response. ([#2126](https://github.com/clerk/javascript/pull/2126)) by [@dimkl](https://github.com/dimkl)
 

@@ -1,10 +1,10 @@
-import { ClerkWebAuthnError } from '@clerk/shared/error';
-import { Poller } from '@clerk/shared/poller';
-import { deepCamelToSnake, deepSnakeToCamel } from '@clerk/shared/underscore';
+import { ClerkWebAuthnError } from '@appypeeps/clerk-shared/error';
+import { Poller } from '@appypeeps/clerk-shared/poller';
+import { deepCamelToSnake, deepSnakeToCamel } from '@appypeeps/clerk-shared/underscore';
 import {
   isWebAuthnAutofillSupported as isWebAuthnAutofillSupportedOnWindow,
   isWebAuthnSupported as isWebAuthnSupportedOnWindow,
-} from '@clerk/shared/webauthn';
+} from '@appypeeps/clerk-shared/webauthn';
 import type {
   AttemptFirstFactorParams,
   AttemptSecondFactorParams,
@@ -38,7 +38,7 @@ import type {
   Web3Provider,
   Web3SignatureConfig,
   Web3SignatureFactor,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import {
   generateSignatureWithCoinbaseWallet,

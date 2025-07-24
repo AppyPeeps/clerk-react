@@ -1,4 +1,4 @@
-import type { ClerkOptions } from '@clerk/backend';
+import type { ClerkOptions } from '@appypeeps/clerk-backend';
 
 export const ALLOWED_HOOKS = ['onRequest', 'preHandler'] as const;
 

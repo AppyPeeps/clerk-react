@@ -9,7 +9,7 @@ import type {
   OrganizationMembershipResource,
   OrganizationResource,
   PublicUserData,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import { jest } from '@jest/globals';
 
 type FakeMemberParams = {

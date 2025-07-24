@@ -1,5 +1,5 @@
-import { useOrganization, useOrganizationList } from '@clerk/shared/react';
-import type { CreateOrganizationParams, OrganizationResource } from '@clerk/types';
+import { useOrganization, useOrganizationList } from '@appypeeps/clerk-shared/react';
+import type { CreateOrganizationParams, OrganizationResource } from '@appypeeps/clerk-types';
 import React, { useContext } from 'react';
 
 import { SessionTasksContext } from '@/ui/contexts/components/SessionTasks';

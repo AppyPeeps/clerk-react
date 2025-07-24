@@ -1,4 +1,4 @@
-import { useOrganizationList, useUser } from '@clerk/shared/react';
+import { useOrganizationList, useUser } from '@appypeeps/clerk-shared/react';
 import { useState } from 'react';
 
 import { Action, Actions } from '@/ui/elements/Actions';

@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/backend",
-  "version": "2.5.1",
+  "name": "@appypeeps/clerk-backend",
+  "version": "0.0.1",
   "description": "Clerk Backend SDK - REST Client for Backend API & JWT verification utilities",
   "homepage": "https://clerk.com/",
   "bugs": {
@@ -107,8 +107,8 @@
     "test:watch:node": "vitest watch --environment node"
   },
   "dependencies": {
-    "@clerk/shared": "workspace:^",
-    "@clerk/types": "workspace:^",
+    "@appypeeps/clerk-shared": "workspace:^",
+    "@appypeeps/clerk-types": "workspace:^",
     "cookie": "1.0.2",
     "snakecase-keys": "9.0.2",
     "standardwebhooks": "^1.0.0",
@@ -124,6 +124,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

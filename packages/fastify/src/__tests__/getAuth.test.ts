@@ -1,4 +1,4 @@
-import type { AuthenticatedMachineObject } from '@clerk/backend/internal';
+import type { AuthenticatedMachineObject } from '@appypeeps/clerk-backend/internal';
 import type { FastifyRequest } from 'fastify';
 
 import { getAuth } from '../getAuth';

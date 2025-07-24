@@ -1,4 +1,4 @@
-import { useReverification } from '@clerk/shared/react';
+import { useReverification } from '@appypeeps/clerk-shared/react';
 
 import { localizationKeys, Text } from '../customizables';
 import { useCardState, withCardStateProvider } from '../elements/contexts';

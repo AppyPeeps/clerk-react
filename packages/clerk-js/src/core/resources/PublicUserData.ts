@@ -1,4 +1,8 @@
-import type { PublicUserData as IPublicUserData, PublicUserDataJSON, PublicUserDataJSONSnapshot } from '@clerk/types';
+import type {
+  PublicUserData as IPublicUserData,
+  PublicUserDataJSON,
+  PublicUserDataJSONSnapshot,
+} from '@appypeeps/clerk-types';
 
 export class PublicUserData implements IPublicUserData {
   firstName!: string | null;

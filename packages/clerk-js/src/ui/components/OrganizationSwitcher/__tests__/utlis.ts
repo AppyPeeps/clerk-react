@@ -5,7 +5,7 @@ import type {
   OrganizationSuggestionResource,
   OrganizationSuggestionStatus,
   UserOrganizationInvitationResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 import { jest } from '@jest/globals';
 
 import type { FakeOrganizationParams } from '../../CreateOrganization/__tests__/CreateOrganization.test';

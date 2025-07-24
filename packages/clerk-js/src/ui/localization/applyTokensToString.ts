@@ -1,4 +1,4 @@
-import { useClerk } from '@clerk/shared/react';
+import { useClerk } from '@appypeeps/clerk-shared/react';
 
 import { useEnvironment } from '../contexts';
 import { MODIFIERS } from './localizationModifiers';

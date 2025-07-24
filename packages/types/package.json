@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/types",
-  "version": "4.69.0",
+  "name": "@appypeeps/clerk-types",
+  "version": "0.0.1",
   "description": "Typings for Clerk libraries.",
   "keywords": [
     "clerk",
@@ -46,6 +46,7 @@
     "node": ">=18.17.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

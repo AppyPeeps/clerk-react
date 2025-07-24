@@ -33,7 +33,7 @@ test.describe('next build - provider as client component @nextjs', () => {
       .addFile(
         'src/app/provider.tsx',
         () => `'use client'
-import { ClerkProvider } from "@clerk/nextjs"
+import { ClerkProvider } from "@appypeeps/clerk-nextjs"
 
 export function Provider({ children }: { children: any }) {
   return (
@@ -111,7 +111,7 @@ test.describe('next build - dynamic options @nextjs', () => {
         'src/app/(dynamic)/layout.tsx',
         () => `import '../globals.css';
 import { Inter } from 'next/font/google';
-import { ClerkProvider } from '@clerk/nextjs';
+import { ClerkProvider } from '@appypeeps/clerk-nextjs';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -139,7 +139,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       )
       .addFile(
         'src/app/nested-provider/page.tsx',
-        () => `import { ClerkProvider } from '@clerk/nextjs';
+        () => `import { ClerkProvider } from '@appypeeps/clerk-nextjs';
       import { ClientComponent } from './client';
 
       export default function Page() {
@@ -155,7 +155,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         'src/app/nested-provider/client.tsx',
         () => `'use client';
 
-      import { useAuth } from '@clerk/nextjs';
+      import { useAuth } from '@appypeeps/clerk-nextjs';
 
       export function ClientComponent() {
         useAuth();

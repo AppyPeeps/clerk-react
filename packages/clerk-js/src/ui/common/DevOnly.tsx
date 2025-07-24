@@ -1,4 +1,4 @@
-import { useClerk } from '@clerk/shared/react/index';
+import { useClerk } from '@appypeeps/clerk-shared/react/index';
 import type { PropsWithChildren } from 'react';
 
 export const DevOnly = ({ children }: PropsWithChildren) => {

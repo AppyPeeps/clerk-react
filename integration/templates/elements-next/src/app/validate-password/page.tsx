@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import * as Clerk from '@clerk/elements/common';
-import * as SignIn from '@clerk/elements/sign-in';
+import * as Clerk from '@appypeeps/clerk-elements/common';
+import * as SignIn from '@appypeeps/clerk-elements/sign-in';
 
 export default function ValitePassword() {
   const [hidden, setHidden] = React.useState(true);

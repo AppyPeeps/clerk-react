@@ -1,4 +1,4 @@
-import type { UserResource } from '@clerk/types';
+import type { UserResource } from '@appypeeps/clerk-types';
 
 import { getFullName, getInitials } from '../../utils/user';
 import type { PropsOfComponent } from '../styledSystem';

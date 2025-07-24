@@ -8,21 +8,21 @@
  * Scenario:
  * 1. We release clerk-js@1.0.0 containing: clerk.browser.js, chunkA-1.0.0.js, chunkB-1.0.0.js
  * 2. A user opens an app using Clerk
- * 3. The browser downloads and caches `/npm/@clerk/clerk-js@latest/dist/clerk.browser.js`
- * 4. chunkA is needed so the browser downloads and caches `/npm/@clerk/clerk-js@latest/dist/chunkA-1.0.0.js`
+ * 3. The browser downloads and caches `/npm/@appypeeps/clerk-js@latest/dist/clerk.browser.js`
+ * 4. chunkA is needed so the browser downloads and caches `/npm/@appypeeps/clerk-js@latest/dist/chunkA-1.0.0.js`
  * 5. Meanwhile, we release clerk-js@1.2.0 containing: clerk.browser.js, chunkA-1.2.0.js, chunkB-1.2.0.js
- *    On our CDN, @clerk/clerk-js@latest now points to the new version
+ *    On our CDN, @appypeeps/clerk-js@latest now points to the new version
  * 6. A user opens the app again
- * 7. The browser loads `/npm/@clerk/clerk-js@latest/dist/clerk.browser.js` FROM CACHE (v1.0.0 file)
- * 8. chunkA is needed so the browser loads `/npm/@clerk/clerk-js@latest/dist/chunkA-1.0.0.js` FROM CACHE (v1.0.0 file)
+ * 7. The browser loads `/npm/@appypeeps/clerk-js@latest/dist/clerk.browser.js` FROM CACHE (v1.0.0 file)
+ * 8. chunkA is needed so the browser loads `/npm/@appypeeps/clerk-js@latest/dist/chunkA-1.0.0.js` FROM CACHE (v1.0.0 file)
  * 9. chunkB is needed for the first time. The cached v1.0.0 clerk.browser.js will try to load (request)
- *    `/npm/@clerk/clerk-js@latest/dist/chunkA-1.0.0.js` but because clerk-js@latest now resolves to v1.2.0,
+ *    `/npm/@appypeeps/clerk-js@latest/dist/chunkA-1.0.0.js` but because clerk-js@latest now resolves to v1.2.0,
  *    the v1.0.0 file will not be found and the app will crash
  *
  *  Solution:
  *  A given clerk.browser.js file will only load its corresponding chunks using a fixed version. Example:
- *  - clerk.browser.js loads from https://pk.accounts.dev/npm/@clerk/clerk-js@canary/dist/clerk.browser.js
- *  - all other chunks need to be loaded from https://pk.accounts.dev/npm/@clerk/clerk-js@__PKG_VERSION__/dist/
+ *  - clerk.browser.js loads from https://pk.accounts.dev/npm/@appypeeps/clerk-js@canary/dist/clerk.browser.js
+ *  - all other chunks need to be loaded from https://pk.accounts.dev/npm/@appypeeps/clerk-js@__PKG_VERSION__/dist/
  */
 if (!__DEV__) {
   const CLERKJS_NPM_PATH_REGEX = /(^.*\/@clerk\/clerk-js@)(.+?)(\/dist.*)/;

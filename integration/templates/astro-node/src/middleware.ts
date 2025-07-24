@@ -1,4 +1,4 @@
-import { clerkMiddleware, createRouteMatcher } from '@clerk/astro/server';
+import { clerkMiddleware, createRouteMatcher } from '@appypeeps/clerk-astro/server';
 
 const unautorized = () =>
   new Response(JSON.stringify({ error: 'unathorized access' }), {

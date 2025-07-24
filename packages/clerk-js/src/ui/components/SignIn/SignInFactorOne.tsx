@@ -1,4 +1,4 @@
-import type { SignInFactor } from '@clerk/types';
+import type { SignInFactor } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { useCardState, withCardStateProvider } from '@/ui/elements/contexts';

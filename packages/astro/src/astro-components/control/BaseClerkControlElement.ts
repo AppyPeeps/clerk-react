@@ -1,4 +1,4 @@
-import { $authStore, $isLoadedStore } from '@clerk/astro/client';
+import { $authStore, $isLoadedStore } from '@appypeeps/clerk-astro/client';
 
 export type AuthState = ReturnType<typeof $authStore.get>;
 

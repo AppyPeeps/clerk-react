@@ -1,5 +1,5 @@
-import type { AuthenticateRequestOptions, GetAuthFn } from '@clerk/backend/internal';
-import { getAuthObjectForAcceptedToken } from '@clerk/backend/internal';
+import type { AuthenticateRequestOptions, GetAuthFn } from '@appypeeps/clerk-backend/internal';
+import { getAuthObjectForAcceptedToken } from '@appypeeps/clerk-backend/internal';
 
 import { errorThrower } from '../utils';
 import { noFetchFnCtxPassedInGetAuth } from '../utils/errors';

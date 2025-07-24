@@ -1,4 +1,4 @@
-import type { TOTPFactor } from '@clerk/types';
+import type { TOTPFactor } from '@appypeeps/clerk-types';
 
 import { Flow, localizationKeys } from '../../customizables';
 import type { SignInFactorTwoCodeCard } from './SignInFactorTwoCodeForm';

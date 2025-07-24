@@ -1,4 +1,4 @@
-import { createCookieHandler } from '@clerk/shared/cookie';
+import { createCookieHandler } from '@appypeeps/clerk-shared/cookie';
 
 /**
  * Determines the eTLD+1 domain, which is where we want the cookies to be set.

@@ -1,13 +1,18 @@
-import type { AuthObject, InvalidTokenAuthObject, MachineAuthObject, SessionAuthObject } from '@clerk/backend';
+import type {
+  AuthObject,
+  InvalidTokenAuthObject,
+  MachineAuthObject,
+  SessionAuthObject,
+} from '@appypeeps/clerk-backend';
 import type {
   AuthenticateRequestOptions,
   InferAuthObjectFromToken,
   InferAuthObjectFromTokenArray,
   RedirectFun,
   SessionTokenType,
-} from '@clerk/backend/internal';
-import { constants, createClerkRequest, createRedirect, TokenType } from '@clerk/backend/internal';
-import type { PendingSessionOptions } from '@clerk/types';
+} from '@appypeeps/clerk-backend/internal';
+import { constants, createClerkRequest, createRedirect, TokenType } from '@appypeeps/clerk-backend/internal';
+import type { PendingSessionOptions } from '@appypeeps/clerk-types';
 import { notFound, redirect } from 'next/navigation';
 
 import { PUBLISHABLE_KEY, SIGN_IN_URL, SIGN_UP_URL } from '../../server/constants';

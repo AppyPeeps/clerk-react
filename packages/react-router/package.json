@@ -1,6 +1,6 @@
 {
-  "name": "@clerk/react-router",
-  "version": "1.8.5",
+  "name": "@appypeeps/clerk-react-router",
+  "version": "0.0.1",
   "description": "Clerk SDK for React Router",
   "keywords": [
     "clerk",
@@ -80,10 +80,10 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@clerk/backend": "workspace:^",
-    "@clerk/clerk-react": "workspace:^",
-    "@clerk/shared": "workspace:^",
-    "@clerk/types": "workspace:^",
+    "@appypeeps/clerk-backend": "workspace:^",
+    "@appypeeps/clerk-react": "workspace:^",
+    "@appypeeps/clerk-shared": "workspace:^",
+    "@appypeeps/clerk-types": "workspace:^",
     "cookie": "0.7.2",
     "tslib": "catalog:repo"
   },
@@ -101,6 +101,7 @@
     "node": ">=20.0.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }

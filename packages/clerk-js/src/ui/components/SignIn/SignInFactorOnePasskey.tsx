@@ -1,4 +1,4 @@
-import type { ResetPasswordCodeFactor } from '@clerk/types';
+import type { ResetPasswordCodeFactor } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { Card } from '@/ui/elements/Card';

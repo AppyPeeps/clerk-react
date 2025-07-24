@@ -1,4 +1,4 @@
-import type { SignOutOptions } from '@clerk/types';
+import type { SignOutOptions } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import type { WithClerkProp } from '../types';

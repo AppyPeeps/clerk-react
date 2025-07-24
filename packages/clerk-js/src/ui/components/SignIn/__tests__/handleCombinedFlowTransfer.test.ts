@@ -1,4 +1,4 @@
-import type { LoadedClerk, SignUpResource } from '@clerk/types';
+import type { LoadedClerk, SignUpResource } from '@appypeeps/clerk-types';
 
 import { handleCombinedFlowTransfer, hasOptionalFields } from '../handleCombinedFlowTransfer';
 

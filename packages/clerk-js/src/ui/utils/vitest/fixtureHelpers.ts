@@ -15,7 +15,7 @@ import type {
   UserJSON,
   UserSettingsJSON,
   VerificationJSON,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { SIGN_UP_MODES } from '../../../core/constants';
 import type { OrgParams } from '../../../core/vitest/fixtures';

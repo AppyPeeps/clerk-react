@@ -1,4 +1,4 @@
-import { decorateObjectWithResources } from '@clerk/backend/internal';
+import { decorateObjectWithResources } from '@appypeeps/clerk-backend/internal';
 import type { LoaderFunctionArgs } from 'react-router';
 
 import { invalidRootLoaderCallbackReturn } from '../utils/errors';

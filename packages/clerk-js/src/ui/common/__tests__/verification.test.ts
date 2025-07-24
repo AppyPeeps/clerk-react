@@ -1,4 +1,4 @@
-import { ClerkAPIResponseError } from '@clerk/shared/error';
+import { ClerkAPIResponseError } from '@appypeeps/clerk-shared/error';
 
 import { isVerificationExpiredError, VerificationErrorMessage, verificationErrorMessage } from '../verification';
 

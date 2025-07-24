@@ -11,7 +11,7 @@ export const middlewareRequired = (fnName: string) =>
 Example:
 
 import express from 'express';
-import { clerkMiddleware } from '@clerk/express';
+import { clerkMiddleware } from '@appypeeps/clerk-express';
 
 const app = express();
 app.use(clerkMiddleware());

@@ -1,4 +1,4 @@
-import type { VerificationJSON } from '@clerk/types';
+import type { VerificationJSON } from '@appypeeps/clerk-types';
 
 import { EmailAddress, PhoneNumber } from '../../../../core/resources';
 import { sortIdentificationBasedOnVerification } from '../utils';

@@ -1,4 +1,4 @@
-import { ClerkWebAuthnError } from '@clerk/shared/error';
+import { ClerkWebAuthnError } from '@appypeeps/clerk-shared/error';
 import { Buffer } from 'buffer';
 export { ClerkWebAuthnError };
 

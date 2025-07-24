@@ -9,7 +9,7 @@ export {
   useSignUp,
   useUser,
   useReverification,
-} from '@clerk/clerk-react';
+} from '@appypeeps/clerk-react';
 
 export * from './useSSO';
 export * from './useOAuth';

@@ -6,7 +6,7 @@ import type {
   OrganizationSettingsJSON,
   UserJSON,
   UserSettingsJSON,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { containsAllOfType } from '../containsAllOf';
 

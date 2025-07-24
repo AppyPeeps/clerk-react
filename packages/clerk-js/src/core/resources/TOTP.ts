@@ -1,4 +1,4 @@
-import type { TOTPJSON, TOTPResource } from '@clerk/types';
+import type { TOTPJSON, TOTPResource } from '@appypeeps/clerk-types';
 
 import { unixEpochToDate } from '../../utils/date';
 import { BaseResource } from './internal';

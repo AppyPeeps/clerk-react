@@ -6,7 +6,7 @@ import { HashRouter, Route, Switch } from '../../router';
 
 const mockNavigate = vi.fn();
 
-vi.mock('@clerk/shared/react', () => ({
+vi.mock('@appypeeps/clerk-shared/react', () => ({
   useClerk: () => ({
     navigate: vi.fn(to => {
       mockNavigate(to);

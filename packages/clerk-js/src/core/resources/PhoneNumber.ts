@@ -6,7 +6,7 @@ import type {
   PhoneNumberResource,
   SetReservedForSecondFactorParams,
   VerificationResource,
-} from '@clerk/types';
+} from '@appypeeps/clerk-types';
 
 import { BaseResource, IdentificationLink, Verification } from './internal';
 

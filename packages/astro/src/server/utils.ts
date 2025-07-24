@@ -1,4 +1,4 @@
-import { constants } from '@clerk/backend/internal';
+import { constants } from '@appypeeps/clerk-backend/internal';
 
 export function getAuthKeyFromRequest(req: Request, key: keyof typeof constants.Attributes): string | null | undefined {
   return getHeader(req, constants.Headers[key]);

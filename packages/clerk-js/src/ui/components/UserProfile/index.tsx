@@ -1,4 +1,4 @@
-import type { UserProfileModalProps, UserProfileProps } from '@clerk/types';
+import type { UserProfileModalProps, UserProfileProps } from '@appypeeps/clerk-types';
 import React from 'react';
 
 import { withCardStateProvider } from '@/ui/elements/contexts';
